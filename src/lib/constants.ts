@@ -22,7 +22,9 @@ export const CONTACT_INFO: ContactInfo = {
   hoursWeekday: "Lunes a Sábado: 9:00 AM - 9:00 PM",
   hoursWeekend: "Domingo: 9:00 AM - 7:00 PM",
   googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Clinica+Hispana+Corazon+y+Vida&query_place_id=ChIJQz95O_OjQIYRFSccibEMRQ8",
-  googleMapsEmbed: `https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_KEY}&q=place_id:ChIJQz95O_OjQIYRFSccibEMRQ8&zoom=17`,
+  // Embed SIN API key (output=embed): no depende de Maps Embed API ni de
+  // restricción de referrer, así que no devuelve 403 en local ni en producción.
+  googleMapsEmbed: "https://www.google.com/maps?q=Clinica+Hispana+Corazon+y+Vida,+918+W+Southmore+Ave+Suite+180,+Pasadena,+TX+77502&output=embed",
   googleReviewUrl: "https://search.google.com/local/writereview?placeid=ChIJQz95O_OjQIYRFSccibEMRQ8",
   placeId: "ChIJQz95O_OjQIYRFSccibEMRQ8",
   coordinates: {
