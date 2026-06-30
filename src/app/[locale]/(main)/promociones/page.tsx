@@ -151,7 +151,7 @@ export default async function PromotionsPage({ params }: Props) {
             promotions={promotions}
             labels={labels}
             contact={contact}
-            formHref="#lead-form"
+            formHref="#formulario"
           />
 
           {/* FAQ */}
@@ -178,7 +178,7 @@ export default async function PromotionsPage({ params }: Props) {
         </div>
 
         {/* Lead form */}
-        <section id="lead-form" className="py-16 md:py-24 bg-red-warm">
+        <section id="formulario" className="py-16 md:py-24 bg-red-warm">
           <div className="container mx-auto px-4">
             <div className="mx-auto mb-10 max-w-2xl text-center">
               <h2 className="mb-4 font-heading text-2xl font-bold text-slate-dark md:text-3xl">

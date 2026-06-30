@@ -210,6 +210,13 @@
       "cholesterol": "Colesterol Alto",
       "thyroid": "Tiroides"
     },
+    "featuresTitle": "¿Por qué tratarte con nosotros?",
+    "features": {
+      "lab": "Laboratorio con resultados el mismo día",
+      "followup": "Seguimiento médico continuo",
+      "spanish": "Atención 100% en español",
+      "walkin": "Sin cita previa necesaria"
+    },
     "ctaSchedule": "Agendar Consulta",
     "ctaCall": "Llamar Ahora",
     "learnMore": "Más información sobre este servicio"

@@ -210,6 +210,13 @@
       "cholesterol": "High Cholesterol",
       "thyroid": "Thyroid"
     },
+    "featuresTitle": "Why manage it with us?",
+    "features": {
+      "lab": "Same-day lab results",
+      "followup": "Continuous medical follow-up",
+      "spanish": "100% Spanish-speaking care",
+      "walkin": "No appointment needed"
+    },
     "ctaSchedule": "Schedule Appointment",
     "ctaCall": "Call Now",
     "learnMore": "Learn more about this service"

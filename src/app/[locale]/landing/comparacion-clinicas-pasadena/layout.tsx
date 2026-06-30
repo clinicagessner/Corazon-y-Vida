@@ -17,13 +17,13 @@ export default async function ConquestingLandingLayout({ children, params }: Pro
   return (
     <>
       <a
-        href="#main-content"
+        href="#contenido-principal"
         className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-primary-foreground focus:rounded-md"
       >
         {t("skipToContent")}
       </a>
       <Header phoneOverride={CONQUESTING_PHONE} />
-      <main id="main-content" className="flex-1">
+      <main id="contenido-principal" className="flex-1">
         {children}
       </main>
       <Footer phoneOverride={CONQUESTING_PHONE} />

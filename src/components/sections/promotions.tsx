@@ -59,7 +59,7 @@ export async function Promotions() {
           promotions={promotions}
           labels={labels}
           contact={contact}
-          formHref="#contact"
+          formHref="#contacto"
         />
 
         {/* View all */}

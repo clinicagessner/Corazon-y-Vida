@@ -1277,8 +1277,8 @@ export const NAV_ITEMS = [
   { label: "nav.services", href: "/services" },
   // PENDIENTE: re-activar cuando el usuario provea sus promociones.
   // { label: "nav.promotions", href: "/promociones" },
-  { label: "nav.chronicCare", href: "/#chronic-care" },
+  { label: "nav.chronicCare", href: "/#enfermedades-cronicas" },
   { label: "nav.blog", href: "/blog" },
-  { label: "nav.contact", href: "/#contact" },
+  { label: "nav.contact", href: "/#contacto" },
 ];
 
