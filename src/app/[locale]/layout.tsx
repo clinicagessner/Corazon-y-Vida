@@ -139,8 +139,16 @@ export default async function LocaleLayout({ children, params }: Props) {
         <meta name="theme-color" content="#E11649" />
         {/* Preconnect to external domains for faster loading */}
         <link rel="preconnect" href="https://connect.facebook.net" />
+        <link rel="preconnect" href="https://cdn.callrail.com" />
         <link rel="preconnect" href="https://maps.googleapis.com" />
         <link rel="preconnect" href="https://lh3.googleusercontent.com" />
+        <link rel="dns-prefetch" href="https://cdn.callrail.com" />
+        {/* CallRail - Call Tracking */}
+        <script
+          type="text/javascript"
+          src="//cdn.callrail.com/companies/466775339/5eb54ce6b242c3e2876d/12/swap.js"
+          async
+        />
         {/* Meta Pixel noscript fallback */}
         <noscript>
           <img
@@ -151,10 +159,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             alt=""
           />
         </noscript>
-        {/*
-          PENDIENTE: GA4 (G-XXXXXXXXXX) y CallRail (company/key) de la nueva clínica.
-          NO reutilizar los del proyecto de referencia. Añadirlos aquí cuando existan.
-        */}
+        {/* PENDIENTE: GA4 (G-XXXXXXXXXX) de la nueva clínica cuando exista. */}
       </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
