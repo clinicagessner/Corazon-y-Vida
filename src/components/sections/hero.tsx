@@ -1,7 +1,8 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
-import { Phone, MapPin, Clock, Star, CheckCircle, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, Clock, CheckCircle, ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
+import { StarRating } from "@/components/ui/star-rating";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
@@ -9,13 +10,14 @@ export async function Hero() {
   const t = await getTranslations("hero");
   const googleData = await getGooglePlaceData();
   const totalReviews = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+  const averageRating = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
 
   return (
     <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image - Explicit dimensions for faster LCP */}
       <Image
         src="/images/hero-bg.webp"
-        alt="Clínica médica hispana en Houston TX - Doctor atendiendo paciente con atención profesional 100% en español"
+        alt="Clínica médica hispana en Pasadena TX - Doctor atendiendo paciente con atención profesional 100% en español"
         width={1920}
         height={1080}
         priority
@@ -34,12 +36,8 @@ export async function Hero() {
 
           {/* Google Rating Badge */}
           <div className="animate-hero-title inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-5 py-2.5 mb-6">
-            <div className="flex items-center gap-0.5">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="size-5 text-yellow-400" weight="fill" />
-              ))}
-            </div>
-            <span className="text-white font-medium text-sm">{totalReviews}{t("googleReviews")}</span>
+            <StarRating rating={averageRating} starClassName="size-5" fillColorClassName="text-yellow-400" emptyColorClassName="text-white/40" />
+            <span className="text-white font-medium text-sm">{averageRating} · {totalReviews}{t("googleReviews")}</span>
           </div>
 
           {/* Title */}

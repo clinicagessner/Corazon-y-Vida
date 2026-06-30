@@ -16,6 +16,7 @@ import {
   ArrowRight,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
+import { StarRating } from "@/components/ui/star-rating";
 import {
   Accordion,
   AccordionContent,
@@ -262,11 +263,7 @@ export default async function LandingComparacionClinicasPasadena({ params }: Pro
         <div className="container relative z-10 mx-auto px-4 pt-28 md:pt-32 pb-16">
           <div className="max-w-3xl mx-auto text-center">
             <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border border-white/30 rounded-full px-5 py-2.5 mb-6">
-              <div className="flex items-center gap-0.5">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="size-5 text-yellow-400" weight="fill" />
-                ))}
-              </div>
+              <StarRating rating={averageRating} starClassName="size-5" fillColorClassName="text-yellow-400" emptyColorClassName="text-white/40" />
               <span className="text-white font-medium text-sm">
                 {t.badgeReviews(averageRating, totalReviews)}
               </span>

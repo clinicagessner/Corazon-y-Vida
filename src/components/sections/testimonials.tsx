@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
-import { Star, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
+import { GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { TestimonialsCarousel } from "@/components/sections/testimonials-carousel";
+import { StarRating } from "@/components/ui/star-rating";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData, type GoogleReview } from "@/lib/google-places";
@@ -75,11 +76,7 @@ export async function Testimonials() {
           {/* Google Stats */}
           <div className="inline-flex items-center gap-4 bg-white px-6 py-3 rounded-full shadow-sm border border-slate-100">
             <GoogleLogo className="size-6 text-slate-dark" weight="bold" />
-            <div className="flex items-center gap-1">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} className="size-4 text-yellow-500" weight="fill" />
-              ))}
-            </div>
+            <StarRating rating={averageRating} starClassName="size-4" fillColorClassName="text-yellow-500" />
             <span className="font-bold text-slate-dark">{averageRating}</span>
             <span className="text-muted-foreground text-sm">({totalReviews}+ {t("reviews")})</span>
           </div>
