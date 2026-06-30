@@ -20,8 +20,10 @@ export async function sendContactEmail(data: ContactFormData) {
     SERVICES.find((s) => s.id === servicio)?.title || servicio;
 
   try {
+    // Dominio raíz (sin www) para que coincida con el dominio verificado en Resend.
+    const senderDomain = new URL(SITE_CONFIG.baseUrl).hostname.replace(/^www\./, "");
     await resend.emails.send({
-      from: `Formulario Web <noreply@${new URL(SITE_CONFIG.baseUrl).hostname}>`,
+      from: `Formulario Web <noreply@${senderDomain}>`,
       to: [CONTACT_INFO.email],
       replyTo: email || undefined,
       subject: `Nuevo contacto: ${nombre} - ${serviceName}`,
