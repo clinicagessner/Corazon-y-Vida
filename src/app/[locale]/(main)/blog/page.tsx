@@ -6,7 +6,7 @@ import { SITE_CONFIG } from "@/lib/constants";
 import { getBlogPosts, getFeaturedPost } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { CalendarDots, Clock, ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { CalendarDots, Clock, ArrowRight, Newspaper } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdCollectionPage } from "@/components/seo/json-ld";
 
 type Props = {
@@ -62,43 +62,71 @@ export default async function BlogPage({ params }: Props) {
         description={t("metaDescription")}
         url={`${SITE_CONFIG.baseUrl}${localePath}/blog`}
       />
-      <section className="pt-28 pb-16 md:pt-32 md:pb-24 bg-linear-to-b from-red-light/30 to-background">
-        <div className="container mx-auto px-4">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-4">
-            {t("title")}
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            {t("subtitle")}
-          </p>
+      {/* Header with background image */}
+      <section className="relative overflow-hidden pt-32 pb-16 md:pt-44 md:pb-24">
+        {/* Background image */}
+        <Image
+          src="/images/hero-bg.webp"
+          alt=""
+          fill
+          priority
+          className="object-cover object-center"
+          sizes="100vw"
+        />
+        {/* Brand overlay for legibility */}
+        <div aria-hidden className="absolute inset-0 bg-linear-to-br from-red-dark/85 via-slate-dark/80 to-blue-dark/85" />
+        <div aria-hidden className="absolute inset-0 bg-slate-dark/30" />
+        <div className="container relative z-10 mx-auto px-4">
+          <div className="mx-auto max-w-3xl text-center text-white">
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-4 py-1.5 text-sm font-semibold text-white shadow-sm backdrop-blur-sm">
+              <Newspaper className="size-4" weight="fill" />
+              {t("eyebrow")}
+            </span>
+            <h1 className="mt-6 text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white drop-shadow-sm">
+              {t("title")}
+            </h1>
+            <p className="mt-5 text-lg md:text-xl text-white/90 leading-relaxed">
+              {t("subtitle")}
+            </p>
+            <div aria-hidden className="mt-8 flex items-center justify-center gap-2">
+              <span className="h-1 w-10 rounded-full bg-white/40" />
+              <span className="size-1.5 rounded-full bg-white" />
+              <span className="h-1 w-10 rounded-full bg-white/40" />
+            </div>
+          </div>
         </div>
+      </section>
+
+      {/* Content */}
+      <section className="pb-16 md:pb-24">
+        <div className="container mx-auto px-4">
 
         {/* Featured Post */}
         {featuredPost && (
           <div className="mb-16">
             <Link href={getLocalizedHref(`/blog/${featuredPost.slug}`)} className="block group">
-              <Card className="overflow-hidden border-0 shadow-lg hover:shadow-xl transition-shadow">
+              <Card className="overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-shadow rounded-3xl">
                 <div className="grid md:grid-cols-2 gap-0">
-                  <div className="relative aspect-video md:aspect-auto md:min-h-[400px]">
+                  <div className="relative aspect-video md:aspect-auto md:min-h-[420px] overflow-hidden">
                     <Image
                       src={featuredPost.image || "/images/blog/default.webp"}
                       alt={`${featuredPost.title} - Blog de salud Clínica Hispana Corazón y Vida Pasadena`}
                       fill
-                      className="object-cover"
+                      className="object-cover transition-transform duration-700 group-hover:scale-105"
                       priority
                     />
-                    <Badge className="absolute top-4 left-4 bg-red-primary">
-                      {t("featured")}
+                    <div aria-hidden className="absolute inset-0 bg-linear-to-t from-black/20 to-transparent md:bg-linear-to-r" />
+                    <Badge className="absolute top-4 left-4 bg-red-primary shadow-md">
+                      ★ {t("featured")}
                     </Badge>
                   </div>
                   <CardContent className="flex flex-col justify-center p-6 md:p-10">
                     {featuredPost.category && (
-                      <Badge variant="outline" className="w-fit mb-4">
+                      <Badge variant="outline" className="w-fit mb-4 border-red-primary/30 text-red-primary">
                         {featuredPost.category}
                       </Badge>
                     )}
-                    <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 group-hover:text-red-primary transition-colors">
+                    <h2 className="text-2xl md:text-3xl font-bold text-slate-dark mb-4 group-hover:text-red-primary transition-colors">
                       {featuredPost.title}
                     </h2>
                     <p className="text-muted-foreground mb-6">
@@ -136,22 +164,22 @@ export default async function BlogPage({ params }: Props) {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {regularPosts.map((post) => (
               <Link key={post.slug} href={getLocalizedHref(`/blog/${post.slug}`)} className="group">
-                <Card className="h-full overflow-hidden border-0 shadow-md hover:shadow-lg transition-shadow">
-                  <div className="relative aspect-video">
+                <Card className="h-full overflow-hidden border-0 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 rounded-2xl">
+                  <div className="relative aspect-video overflow-hidden">
                     <Image
                       src={post.image || "/images/blog/default.webp"}
                       alt={`${post.title} - Blog de salud Clínica Hispana Corazón y Vida Pasadena`}
                       fill
-                      className="object-cover"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
-                  </div>
-                  <CardHeader className="pb-2">
                     {post.category && (
-                      <Badge variant="outline" className="w-fit mb-2">
+                      <Badge className="absolute top-3 left-3 bg-white/90 text-red-primary shadow-sm backdrop-blur-sm hover:bg-white">
                         {post.category}
                       </Badge>
                     )}
-                    <h3 className="text-xl font-bold text-primary group-hover:text-red-primary transition-colors line-clamp-2">
+                  </div>
+                  <CardHeader className="pb-2">
+                    <h3 className="text-xl font-bold text-slate-dark group-hover:text-red-primary transition-colors line-clamp-2">
                       {post.title}
                     </h3>
                   </CardHeader>
