@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useLocale } from "next-intl";
 import { useTranslations } from "next-intl";
@@ -18,13 +19,14 @@ import { Badge } from "@/components/ui/badge";
 import { CONTACT_INFO } from "@/lib/constants";
 
 const conditions = [
-  { icon: Drop, titleKey: "diabetes" },
-  { icon: Heartbeat, titleKey: "hypertension" },
-  { icon: TestTube, titleKey: "cholesterol" },
-  { icon: Heart, titleKey: "thyroid" },
-];
+  { icon: Drop, key: "diabetes" },
+  { icon: Heartbeat, key: "hypertension" },
+  { icon: TestTube, key: "cholesterol" },
+  { icon: Heart, key: "thyroid" },
+] as const;
 
 const featureKeys = ["lab", "followup", "spanish", "walkin"] as const;
+const includeKeys = ["evaluation", "monitoring", "medication", "nutrition", "education"] as const;
 
 export function ChronicCare() {
   const t = useTranslations("chronicCare");
@@ -59,18 +61,41 @@ export function ChronicCare() {
           </p>
         </div>
 
-        {/* Two-card layout */}
-        <div className="mt-12 grid gap-6 lg:grid-cols-5">
-          {/* Conditions card */}
-          <div className="animate-on-scroll fade-up lg:col-span-3 rounded-3xl border border-slate-100 bg-white p-6 md:p-8 shadow-lg">
+        {/* Image + conditions */}
+        <div className="mt-12 grid items-stretch gap-6 lg:grid-cols-5">
+          {/* Image */}
+          <div className="animate-on-scroll fade-up relative min-h-[340px] overflow-hidden rounded-3xl shadow-lg lg:col-span-2">
+            <Image
+              src="/images/services/condiciones-cronicas.webp"
+              alt="Enfermera hispana atendiendo a pacientes con diabetes e hipertensión en Clínica Hispana Corazón y Vida, Pasadena TX"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 40vw"
+            />
+            <div aria-hidden className="absolute inset-0 bg-linear-to-t from-slate-900/85 via-slate-900/15 to-transparent" />
+            <span className="absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full bg-white/95 px-3 py-1.5 text-xs font-semibold text-red-primary shadow-sm backdrop-blur-sm">
+              <Heart className="size-3.5" weight="fill" />
+              {t("imageBadge")}
+            </span>
+            <div className="absolute inset-x-4 bottom-4 flex items-center gap-3 rounded-2xl border border-white/20 bg-white/10 p-3 backdrop-blur-md">
+              <Heartbeat className="size-8 shrink-0 text-red-light" weight="duotone" />
+              <div>
+                <p className="font-heading text-sm font-bold text-white">{t("motto")}</p>
+                <p className="text-xs text-white/80">{t("imageCaption")}</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Conditions */}
+          <div className="animate-on-scroll fade-up stagger-1 rounded-3xl border border-slate-100 bg-white p-6 shadow-lg md:p-8 lg:col-span-3">
             <h3 className="mb-6 font-heading text-xl font-bold text-slate-dark">
               {t("conditionsTitle")}
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div className="grid gap-4 sm:grid-cols-2">
               {conditions.map((condition, idx) => (
                 <div
-                  key={condition.titleKey}
-                  className="group flex items-center gap-4 rounded-2xl border border-slate-100 bg-slate-50/60 p-4 transition-colors hover:border-red-primary/30 hover:bg-red-bg/40"
+                  key={condition.key}
+                  className="group flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/60 p-4 transition-colors hover:border-red-primary/30 hover:bg-red-bg/40"
                 >
                   <div
                     className={`flex size-12 shrink-0 items-center justify-center rounded-xl ${
@@ -81,28 +106,52 @@ export function ChronicCare() {
                   >
                     <condition.icon className="size-6" weight="duotone" />
                   </div>
-                  <span className="font-semibold text-slate-dark">
-                    {t(`conditions.${condition.titleKey}`)}
-                  </span>
+                  <div>
+                    <span className="block font-semibold text-slate-dark">
+                      {t(`conditions.${condition.key}`)}
+                    </span>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      {t(`conditionDesc.${condition.key}`)}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>
           </div>
+        </div>
 
-          {/* Features + CTA card */}
-          <div className="animate-on-scroll fade-up stagger-1 lg:col-span-2 flex flex-col rounded-3xl bg-slate-dark p-6 md:p-8 text-white shadow-lg">
-            <h3 className="mb-6 font-heading text-xl font-bold">
-              {t("featuresTitle")}
-            </h3>
-            <ul className="flex-1 space-y-4">
-              {featureKeys.map((key) => (
-                <li key={key} className="flex items-start gap-3">
-                  <CheckCircle className="mt-0.5 size-5 shrink-0 text-red-light" weight="fill" />
-                  <span className="text-sm text-white/90">{t(`features.${key}`)}</span>
-                </li>
-              ))}
-            </ul>
-            <div className="mt-8 flex flex-col gap-3">
+        {/* Includes + CTA band */}
+        <div className="animate-on-scroll fade-up mt-6 overflow-hidden rounded-3xl bg-slate-dark text-white shadow-lg">
+          <div className="grid gap-8 p-6 md:p-10 lg:grid-cols-2 lg:items-center">
+            {/* Includes checklist */}
+            <div>
+              <h3 className="mb-6 font-heading text-2xl font-bold">
+                {t("includesTitle")}
+              </h3>
+              <ul className="space-y-3">
+                {includeKeys.map((key) => (
+                  <li key={key} className="flex items-start gap-3">
+                    <CheckCircle className="mt-0.5 size-5 shrink-0 text-red-light" weight="fill" />
+                    <span className="text-white/90">{t(`includes.${key}`)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Benefits + CTAs */}
+            <div className="flex flex-col gap-4">
+              <div className="grid grid-cols-2 gap-2">
+                {featureKeys.map((key) => (
+                  <div
+                    key={key}
+                    className="flex items-center gap-2 rounded-xl border border-white/10 bg-white/10 px-3 py-2"
+                  >
+                    <CheckCircle className="size-4 shrink-0 text-red-light" weight="fill" />
+                    <span className="text-xs text-white/90">{t(`features.${key}`)}</span>
+                  </div>
+                ))}
+              </div>
+
               <Button
                 asChild
                 size="lg"
@@ -121,19 +170,15 @@ export function ChronicCare() {
                 <Phone className="size-5" weight="bold" />
                 {t("ctaCall")}
               </a>
+              <Link
+                href={getLocalizedHref("/services/condiciones-cronicas")}
+                className="inline-flex items-center justify-center gap-1 text-sm text-white/70 underline-offset-4 transition-colors hover:text-white hover:underline"
+              >
+                {t("learnMore")}
+                <ArrowRight className="size-4" weight="bold" />
+              </Link>
             </div>
           </div>
-        </div>
-
-        {/* Learn more */}
-        <div className="mt-8 text-center">
-          <Link
-            href={getLocalizedHref("/services/condiciones-cronicas")}
-            className="inline-flex items-center gap-1 font-medium text-red-primary underline-offset-4 transition-colors hover:text-red-dark hover:underline"
-          >
-            {t("learnMore")}
-            <ArrowRight className="size-4" weight="bold" />
-          </Link>
         </div>
       </div>
     </section>

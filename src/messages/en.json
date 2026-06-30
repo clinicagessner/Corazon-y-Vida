@@ -217,6 +217,23 @@
       "spanish": "100% Spanish-speaking care",
       "walkin": "No appointment needed"
     },
+    "conditionDesc": {
+      "diabetes": "Glucose and A1c control with a plan tailored to you.",
+      "hypertension": "Blood pressure monitoring and treatment adjustment.",
+      "cholesterol": "Lipid panel and management of cholesterol and triglycerides.",
+      "thyroid": "Thyroid tests (TSH) and treatment follow-up."
+    },
+    "imageBadge": "Personalized care plan",
+    "motto": "Prevention is protection",
+    "imageCaption": "We monitor glucose, blood pressure, cholesterol and thyroid",
+    "includesTitle": "What does your care plan include?",
+    "includes": {
+      "evaluation": "Initial evaluation and lab work",
+      "monitoring": "Monitoring of glucose, blood pressure and cholesterol",
+      "medication": "Medication adjustment as you progress",
+      "nutrition": "Nutrition and healthy-habits plan",
+      "education": "Education about your condition, in your language"
+    },
     "ctaSchedule": "Schedule Appointment",
     "ctaCall": "Call Now",
     "learnMore": "Learn more about this service"

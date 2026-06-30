@@ -217,6 +217,23 @@
       "spanish": "Atención 100% en español",
       "walkin": "Sin cita previa necesaria"
     },
+    "conditionDesc": {
+      "diabetes": "Control de glucosa y A1c con un plan a tu medida.",
+      "hypertension": "Monitoreo de la presión arterial y ajuste del tratamiento.",
+      "cholesterol": "Perfil de lípidos y manejo de colesterol y triglicéridos.",
+      "thyroid": "Pruebas de tiroides (TSH) y seguimiento del tratamiento."
+    },
+    "imageBadge": "Plan de control personalizado",
+    "motto": "Prevenir es proteger",
+    "imageCaption": "Monitoreamos glucosa, presión, colesterol y tiroides",
+    "includesTitle": "¿Qué incluye tu plan de control?",
+    "includes": {
+      "evaluation": "Evaluación inicial y exámenes de laboratorio",
+      "monitoring": "Monitoreo de glucosa, presión y colesterol",
+      "medication": "Ajuste de medicamentos según tu evolución",
+      "nutrition": "Plan de alimentación y hábitos saludables",
+      "education": "Educación sobre tu condición, en tu idioma"
+    },
     "ctaSchedule": "Agendar Consulta",
     "ctaCall": "Llamar Ahora",
     "learnMore": "Más información sobre este servicio"
