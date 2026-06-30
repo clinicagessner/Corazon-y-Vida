@@ -1218,9 +1218,187 @@ export const SERVICES: Service[] = [
   }
 ];
 
-// PENDIENTE: el usuario proveerá sus propios flyers + datos de promociones.
-// No reutilizar precios/flyers del proyecto de referencia. Mantener la estructura del tipo Promotion.
-export const PROMOTIONS: Promotion[] = [];
+export const PROMOTIONS: Promotion[] = [
+  {
+    slug: "control-ginecologico",
+    title: "Control Ginecológico",
+    titleEn: "Gynecological Care",
+    price: null,
+    blurb:
+      "Acompañamos cada etapa de tu vida con atención ginecológica especializada, cercana y respetuosa, 100% en español.",
+    blurbEn:
+      "We support every stage of your life with specialized, caring and respectful gynecological care, 100% in Spanish.",
+    includes: ["Balance hormonal", "Consulta ginecológica", "Fertilidad y anticoncepción", "Ultrasonido y Papanicolau"],
+    includesEn: ["Hormone balance", "Gynecological consultation", "Fertility and contraception", "Ultrasound and Pap smear"],
+    image: "/images/promotions/control-ginecologico.webp",
+    alt: "Promoción de control ginecológico en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Gynecological Care promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    highlighted: true,
+    order: 1,
+  },
+  {
+    slug: "diabetes-hipertension",
+    title: "Diabetes e Hipertensión",
+    titleEn: "Diabetes & Hypertension",
+    price: null,
+    blurb:
+      "El cansancio excesivo no es normal: podría ser tu presión o tu azúcar. Ven por un perfil de laboratorio hoy mismo, sin cita previa.",
+    blurbEn:
+      "Excessive fatigue isn't normal — it could be your blood pressure or blood sugar. Come in for a lab panel today, no appointment needed.",
+    includes: ["Perfil de laboratorio", "Chequeo de presión y azúcar", "Consultas en español", "Precios accesibles"],
+    includesEn: ["Lab panel", "Blood pressure and sugar check", "Care in Spanish", "Affordable pricing"],
+    image: "/images/promotions/diabetes-hipertension.webp",
+    alt: "Promoción de diabetes e hipertensión en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Diabetes & Hypertension promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    highlighted: true,
+    order: 2,
+  },
+  {
+    slug: "menopausia-salud-reproductiva",
+    title: "Menopausia y Salud Reproductiva",
+    titleEn: "Menopause & Reproductive Health",
+    price: null,
+    blurb:
+      "Entendemos los cambios de tu cuerpo y te ofrecemos un espacio de confianza para hablar de tus síntomas, 100% en español.",
+    blurbEn:
+      "We understand the changes in your body and offer a trusted space to talk about your symptoms, 100% in Spanish.",
+    includes: ["Evaluación de síntomas", "Espacio de confianza y privacidad", "Consultas 100% en español", "Precios accesibles"],
+    includesEn: ["Symptom evaluation", "Private, trusted space", "100% Spanish-speaking care", "Affordable pricing"],
+    image: "/images/promotions/menopausia-salud-reproductiva.webp",
+    alt: "Promoción de menopausia y salud reproductiva en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Menopause & Reproductive Health promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 3,
+  },
+  {
+    slug: "atencion-sin-seguro",
+    title: "Atención Médica Sin Seguro",
+    titleEn: "Medical Care Without Insurance",
+    price: null,
+    blurb:
+      "¿Crees que sin seguro no puedes ir al médico? Te atendemos con un modelo de pago directo, transparente y sin facturas sorpresa.",
+    blurbEn:
+      "Think you can't see a doctor without insurance? We care for you with a transparent direct-pay model and no surprise bills.",
+    includes: ["Consultas 100% en español", "Pago directo y transparente", "Sin facturas sorpresa", "Precios accesibles"],
+    includesEn: ["100% Spanish-speaking care", "Transparent direct pay", "No surprise bills", "Affordable pricing"],
+    image: "/images/promotions/atencion-sin-seguro.webp",
+    alt: "Promoción de atención médica sin seguro en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Medical Care Without Insurance promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 4,
+  },
+  {
+    slug: "control-ginecologico-prenatal",
+    title: "Control Ginecológico y Prenatal",
+    titleEn: "Gynecological & Prenatal Care",
+    price: null,
+    blurb:
+      "¿Cuánto hace que no te haces un chequeo general? Te sentirás como en casa, hablando tu mismo idioma y con precios accesibles.",
+    blurbEn:
+      "How long since your last checkup? You'll feel at home, in your own language and with affordable prices.",
+    includes: ["Consulta ginecológica", "Control prenatal", "Papanicolau", "Planificación familiar"],
+    includesEn: ["Gynecological consultation", "Prenatal care", "Pap smear", "Family planning"],
+    image: "/images/promotions/control-ginecologico-prenatal.webp",
+    alt: "Promoción de control ginecológico y prenatal en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Gynecological & Prenatal Care promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 5,
+  },
+  {
+    slug: "diabetes-hipertension-sintomas",
+    title: "Diabetes e Hipertensión: Detección a Tiempo",
+    titleEn: "Diabetes & Hypertension: Early Detection",
+    price: null,
+    blurb:
+      "Sed excesiva, fatiga, visión borrosa, mareos o dolor de cabeza pueden ser señales de alerta. Ven por un perfil de laboratorio hoy mismo.",
+    blurbEn:
+      "Excessive thirst, fatigue, blurred vision, dizziness or headaches can be warning signs. Come in for a lab panel today.",
+    includes: ["Perfil de laboratorio", "Detección de diabetes e hipertensión", "Consultas en español", "Precios accesibles"],
+    includesEn: ["Lab panel", "Diabetes and hypertension screening", "Care in Spanish", "Affordable pricing"],
+    image: "/images/promotions/diabetes-hipertension-sintomas.webp",
+    alt: "Promoción de diabetes e hipertensión: detección a tiempo en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Diabetes & Hypertension: Early Detection promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 6,
+  },
+  {
+    slug: "prevencion-cancer-prostata",
+    title: "Prevención del Cáncer de Próstata",
+    titleEn: "Prostate Cancer Prevention",
+    price: null,
+    blurb:
+      "La prevención es la mejor defensa. La detección temprana del cáncer de próstata puede salvar tu vida. Hazte el chequeo.",
+    blurbEn:
+      "Prevention is the best defense. Early detection of prostate cancer can save your life. Get your checkup.",
+    includes: ["Chequeo de próstata", "Detección temprana", "Consultas en español", "Precios accesibles"],
+    includesEn: ["Prostate checkup", "Early detection", "Care in Spanish", "Affordable pricing"],
+    image: "/images/promotions/prevencion-cancer-prostata.webp",
+    alt: "Promoción de prevención del cáncer de próstata en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Prostate Cancer Prevention promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 7,
+  },
+  {
+    slug: "menopausia-info",
+    title: "Menopausia: Hablemos del Tema",
+    titleEn: "Menopause: Let's Talk",
+    price: null,
+    blurb:
+      "La menopausia no es un tabú: es una etapa natural, normalmente entre los 45 y 55 años. Hablemos abiertamente y cuida tu salud en español.",
+    blurbEn:
+      "Menopause isn't taboo — it's a natural stage, usually between ages 45 and 55. Let's talk openly and care for your health in Spanish.",
+    includes: ["Orientación sobre la menopausia", "Evaluación de síntomas", "Consultas 100% en español", "Precios accesibles"],
+    includesEn: ["Menopause guidance", "Symptom evaluation", "100% Spanish-speaking care", "Affordable pricing"],
+    image: "/images/promotions/menopausia-info.webp",
+    alt: "Promoción de menopausia: hablemos del tema en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Menopause: Let's Talk promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 8,
+  },
+  {
+    slug: "salud-hombre-energia-nutricion",
+    title: "Salud del Hombre: Energía y Nutrición",
+    titleEn: "Men's Health: Energy & Nutrition",
+    price: null,
+    blurb:
+      "El cansancio excesivo no es normal y tu familia te necesita sano. Chequea tu presión y azúcar con un perfil de laboratorio, sin cita previa.",
+    blurbEn:
+      "Excessive fatigue isn't normal and your family needs you healthy. Check your blood pressure and sugar with a lab panel, no appointment needed.",
+    includes: ["No necesitas cita previa", "Perfil de laboratorio", "Chequeo de presión y azúcar", "Consultas en español"],
+    includesEn: ["No appointment needed", "Lab panel", "Blood pressure and sugar check", "Care in Spanish"],
+    image: "/images/promotions/salud-hombre-energia-nutricion.webp",
+    alt: "Promoción de salud del hombre: energía y nutrición en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Men's Health: Energy & Nutrition promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 9,
+  },
+  {
+    slug: "salud-reproductiva-mujer",
+    title: "Salud Reproductiva de la Mujer",
+    titleEn: "Women's Reproductive Health",
+    price: null,
+    blurb:
+      "Entendemos los cambios de tu cuerpo y ofrecemos un espacio de confianza para hablar de tus metas reproductivas. No postergues tu sueño de ser mamá.",
+    blurbEn:
+      "We understand the changes in your body and offer a trusted space to talk about your reproductive goals. Don't put off your dream of becoming a mom.",
+    includes: ["No necesitas cita previa", "Perfil de laboratorio", "Chequeo de órganos reproductores", "Consultas en español"],
+    includesEn: ["No appointment needed", "Lab panel", "Reproductive organ checkup", "Care in Spanish"],
+    image: "/images/promotions/salud-reproductiva-mujer.webp",
+    alt: "Promoción de salud reproductiva de la mujer en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Women's Reproductive Health promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    order: 10,
+  },
+  {
+    slug: "salud-masculina",
+    title: "Salud Masculina",
+    titleEn: "Men's Health",
+    price: null,
+    blurb:
+      "Un chequeo a tiempo es señal de fortaleza. Después de los 40, un examen anual puede salvarte la vida. Te atendemos rápido y con calidad, en español.",
+    blurbEn:
+      "A timely checkup is a sign of strength. After 40, an annual exam can save your life. We see you quickly and with quality, in Spanish.",
+    includes: ["Examen anual del hombre", "Atención rápida sin seguro", "Consultas 100% en español", "Precios accesibles"],
+    includesEn: ["Annual men's exam", "Fast care, no insurance", "100% Spanish-speaking care", "Affordable pricing"],
+    image: "/images/promotions/salud-masculina.webp",
+    alt: "Promoción de salud masculina en Clínica Hispana Corazón y Vida, Pasadena TX",
+    altEn: "Men's Health promotion at Clínica Hispana Corazón y Vida, Pasadena TX",
+    highlighted: true,
+    order: 11,
+  },
+];
 
 export const FAQ_ITEMS: FAQItem[] = [
   {
@@ -1277,8 +1455,7 @@ export const FAQ_ITEMS: FAQItem[] = [
 
 export const NAV_ITEMS = [
   { label: "nav.services", href: "/services" },
-  // PENDIENTE: re-activar cuando el usuario provea sus promociones.
-  // { label: "nav.promotions", href: "/promociones" },
+  { label: "nav.promotions", href: "/promociones" },
   { label: "nav.chronicCare", href: "/#enfermedades-cronicas" },
   { label: "nav.blog", href: "/blog" },
   { label: "nav.contact", href: "/#contacto" },
