@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowLeft, Star } from "@phosphor-icons/react/dist/ssr";
+import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { Link } from "@/i18n/routing";
 import { ContactForm } from "@/components/forms/contact-form";
+import { StarRating } from "@/components/ui/star-rating";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
 import {
   JsonLdBreadcrumb,
@@ -108,44 +110,51 @@ export default async function PromotionsPage({ params }: Props) {
       <JsonLdFAQ questions={faqs} />
 
       <main className="min-h-screen bg-background">
-        <div className="container mx-auto px-4 pt-28 pb-16 md:pt-32 md:pb-24">
-          {/* Back to home */}
-          <Link
-            href="/"
-            className="mb-8 inline-flex items-center gap-2 text-sm font-medium text-slate-primary transition-colors hover:text-red-primary"
-          >
-            <ArrowLeft className="size-4" weight="bold" />
-            {t("backToHome")}
-          </Link>
+        {/* Hero with background image */}
+        <section className="relative overflow-hidden pt-28 pb-14 md:pt-40 md:pb-20">
+          <Image
+            src="/images/hero-bg.webp"
+            alt=""
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+          <div aria-hidden className="absolute inset-0 bg-linear-to-br from-red-dark/85 via-slate-dark/80 to-blue-dark/85" />
+          <div aria-hidden className="absolute inset-0 bg-slate-dark/30" />
+          <div className="container relative z-10 mx-auto px-4">
+            {/* Back to home */}
+            <Link
+              href="/"
+              className="mb-8 inline-flex items-center gap-2 text-sm font-medium text-white/80 transition-colors hover:text-white"
+            >
+              <ArrowLeft className="size-4" weight="bold" />
+              {t("backToHome")}
+            </Link>
 
-          {/* Compact header */}
-          <div className="mx-auto mb-12 max-w-2xl text-center md:mb-16">
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-red-primary">
-              {t("pageEyebrow")}
-            </p>
-            <h1 className="mb-4 font-heading text-3xl font-bold text-slate-dark md:text-4xl lg:text-5xl">
-              {t("pageTitle")}
-            </h1>
-            <p className="mb-6 text-lg text-muted-foreground">{t("pageSubtitle")}</p>
+            <div className="mx-auto max-w-2xl text-center text-white">
+              <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/90">
+                {t("pageEyebrow")}
+              </p>
+              <h1 className="mb-4 font-heading text-3xl font-bold text-white drop-shadow-sm md:text-4xl lg:text-5xl">
+                {t("pageTitle")}
+              </h1>
+              <p className="mb-6 text-lg text-white/90">{t("pageSubtitle")}</p>
 
-            {/* Live reviews badge */}
-            <div className="inline-flex items-center gap-2 rounded-full border border-slate-100 bg-white px-4 py-2 shadow-sm">
-              <span className="flex items-center gap-0.5">
-                {[...Array(5)].map((_, i) => (
-                  <Star
-                    key={i}
-                    className={i < Math.round(rating) ? "size-4 text-yellow-500" : "size-4 text-slate-200"}
-                    weight="fill"
-                  />
-                ))}
-              </span>
-              <span className="text-sm font-medium text-slate-dark">
-                {rating.toFixed(1)} · {totalReviews}
-                {t("reviewsSuffix")}
-              </span>
+              {/* Live reviews badge */}
+              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/15 px-4 py-2 shadow-sm backdrop-blur-sm">
+                <StarRating rating={rating} starClassName="size-4" fillColorClassName="text-yellow-400" emptyColorClassName="text-white/30" />
+                <span className="text-sm font-medium text-white">
+                  {rating.toFixed(1)} · {totalReviews}
+                  {t("reviewsSuffix")}
+                </span>
+              </div>
             </div>
           </div>
+        </section>
 
+        {/* Content */}
+        <div className="container mx-auto px-4 pb-16 pt-12 md:pb-24 md:pt-16">
           {/* Grid */}
           <PromotionsGrid
             promotions={promotions}
