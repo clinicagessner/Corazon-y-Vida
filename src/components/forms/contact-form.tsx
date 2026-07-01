@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { CircleNotch, CheckCircle, XCircle } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -16,11 +16,17 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { contactFormSchema, type ContactFormData, serviceOptions } from "@/lib/validations";
+import {
+  contactFormSchema,
+  contactFormSchemaEn,
+  type ContactFormData,
+  serviceOptions,
+} from "@/lib/validations";
 import { sendContactEmail } from "@/app/actions/send-contact-email";
 
 export function ContactForm() {
   const t = useTranslations("contact.form");
+  const locale = useLocale();
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   const {
@@ -30,7 +36,7 @@ export function ContactForm() {
     reset,
     formState: { errors },
   } = useForm<ContactFormData>({
-    resolver: zodResolver(contactFormSchema),
+    resolver: zodResolver(locale === "en" ? contactFormSchemaEn : contactFormSchema),
     defaultValues: {
       nombre: "",
       telefono: "",
@@ -88,6 +94,8 @@ export function ContactForm() {
         <Input
           id="telefono"
           type="tel"
+          inputMode="numeric"
+          maxLength={10}
           {...register("telefono")}
           placeholder={t("phonePlaceholder")}
           aria-invalid={!!errors.telefono}
@@ -103,7 +111,9 @@ export function ContactForm() {
 
       {/* Email */}
       <div className="space-y-2">
-        <Label htmlFor="email">{t("email")}</Label>
+        <Label htmlFor="email">
+          {t("email")} <span className="text-destructive">*</span>
+        </Label>
         <Input
           id="email"
           type="email"
@@ -122,7 +132,7 @@ export function ContactForm() {
         <Label htmlFor="servicio">
           {t("service")} <span className="text-destructive">*</span>
         </Label>
-        <Select onValueChange={(value: string) => setValue("servicio", value)}>
+        <Select onValueChange={(value: string) => setValue("servicio", value, { shouldValidate: true })}>
           <SelectTrigger
             id="servicio"
             aria-invalid={!!errors.servicio}

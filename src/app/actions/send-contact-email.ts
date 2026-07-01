@@ -26,7 +26,7 @@ export async function sendContactEmail(data: ContactFormData) {
       from: `Formulario Web <noreply@${senderDomain}>`,
       to: [CONTACT_INFO.email],
       replyTo: email || undefined,
-      subject: `Nuevo contacto: ${nombre} - ${serviceName}`,
+      subject: `Nuevo paciente desde el sitio web: ${nombre} - ${serviceName}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -37,8 +37,8 @@ export async function sendContactEmail(data: ContactFormData) {
           </head>
           <body style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #1E293B; max-width: 600px; margin: 0 auto; padding: 20px;">
             <div style="background: linear-gradient(135deg, #1E3A5F 0%, #2563EB 100%); padding: 30px; border-radius: 12px 12px 0 0;">
-              <h1 style="color: white; margin: 0; font-size: 24px;">Nuevo Mensaje de Contacto</h1>
-              <p style="color: rgba(255,255,255,0.8); margin: 10px 0 0 0;">Recibido desde el formulario web</p>
+              <h1 style="color: white; margin: 0; font-size: 24px;">Nuevo Paciente desde el Sitio Web</h1>
+              <p style="color: rgba(255,255,255,0.8); margin: 10px 0 0 0;">Solicitud recibida desde el formulario de la página web</p>
             </div>
 
             <div style="background: #F8FAFC; padding: 30px; border: 1px solid #E2E8F0; border-top: none;">
