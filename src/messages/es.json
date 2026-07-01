@@ -40,6 +40,7 @@
   },
   "services": {
     "title": "Servicios de Nuestra Clínica Hispana en Pasadena",
+    "eyebrow": "Atención médica en español",
     "subtitle": "Atención médica integral para toda la familia hispana de Pasadena",
     "servicesAvailable": "servicios disponibles",
     "filterAll": "Todos",

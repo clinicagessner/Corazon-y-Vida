@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
-import { ArrowLeft } from "@phosphor-icons/react/dist/ssr";
-import { Link } from "@/i18n/routing";
+import { Tag } from "@phosphor-icons/react/dist/ssr";
 import { ContactForm } from "@/components/forms/contact-form";
 import { StarRating } from "@/components/ui/star-rating";
+import { PageHero } from "@/components/layout/page-hero";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
 import {
   JsonLdBreadcrumb,
@@ -110,48 +109,21 @@ export default async function PromotionsPage({ params }: Props) {
       <JsonLdFAQ questions={faqs} />
 
       <main className="min-h-screen bg-background">
-        {/* Hero with background image */}
-        <section className="relative overflow-hidden pt-28 pb-14 md:pt-40 md:pb-20">
-          <Image
-            src="/images/hero-bg.webp"
-            alt=""
-            fill
-            priority
-            className="object-cover object-center"
-            sizes="100vw"
-          />
-          <div aria-hidden className="absolute inset-0 bg-linear-to-br from-red-dark/85 via-slate-dark/80 to-blue-dark/85" />
-          <div aria-hidden className="absolute inset-0 bg-slate-dark/30" />
-          <div className="container relative z-10 mx-auto px-4">
-            {/* Back to home */}
-            <Link
-              href="/"
-              className="mb-8 inline-flex items-center gap-2 text-sm font-medium text-white/80 transition-colors hover:text-white"
-            >
-              <ArrowLeft className="size-4" weight="bold" />
-              {t("backToHome")}
-            </Link>
-
-            <div className="mx-auto max-w-2xl text-center text-white">
-              <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-white/90">
-                {t("pageEyebrow")}
-              </p>
-              <h1 className="mb-4 font-heading text-3xl font-bold text-white drop-shadow-sm md:text-4xl lg:text-5xl">
-                {t("pageTitle")}
-              </h1>
-              <p className="mb-6 text-lg text-white/90">{t("pageSubtitle")}</p>
-
-              {/* Live reviews badge */}
-              <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/15 px-4 py-2 shadow-sm backdrop-blur-sm">
-                <StarRating rating={rating} starClassName="size-4" fillColorClassName="text-yellow-400" emptyColorClassName="text-white/30" />
-                <span className="text-sm font-medium text-white">
-                  {rating.toFixed(1)} · {totalReviews}
-                  {t("reviewsSuffix")}
-                </span>
-              </div>
-            </div>
+        {/* Hero Header */}
+        <PageHero
+          icon={Tag}
+          eyebrow={t("pageEyebrow")}
+          title={t("pageTitle")}
+          subtitle={t("pageSubtitle")}
+        >
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/15 px-4 py-2 shadow-sm backdrop-blur-sm">
+            <StarRating rating={rating} starClassName="size-4" fillColorClassName="text-yellow-400" emptyColorClassName="text-white/30" />
+            <span className="text-sm font-medium text-white">
+              {rating.toFixed(1)} · {totalReviews}
+              {t("reviewsSuffix")}
+            </span>
           </div>
-        </section>
+        </PageHero>
 
         {/* Content */}
         <div className="container mx-auto px-4 pb-16 pt-12 md:pb-24 md:pt-16">

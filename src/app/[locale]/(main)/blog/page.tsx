@@ -7,6 +7,7 @@ import { getBlogPosts, getFeaturedPost } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { CalendarDots, Clock, ArrowRight, Newspaper } from "@phosphor-icons/react/dist/ssr";
+import { PageHero } from "@/components/layout/page-hero";
 import { JsonLdCollectionPage } from "@/components/seo/json-ld";
 
 type Props = {
@@ -62,40 +63,13 @@ export default async function BlogPage({ params }: Props) {
         description={t("metaDescription")}
         url={`${SITE_CONFIG.baseUrl}${localePath}/blog`}
       />
-      {/* Header with background image */}
-      <section className="relative overflow-hidden pt-32 pb-16 md:pt-44 md:pb-24">
-        {/* Background image */}
-        <Image
-          src="/images/hero-bg.webp"
-          alt=""
-          fill
-          priority
-          className="object-cover object-center"
-          sizes="100vw"
-        />
-        {/* Brand overlay for legibility */}
-        <div aria-hidden className="absolute inset-0 bg-linear-to-br from-red-dark/85 via-slate-dark/80 to-blue-dark/85" />
-        <div aria-hidden className="absolute inset-0 bg-slate-dark/30" />
-        <div className="container relative z-10 mx-auto px-4">
-          <div className="mx-auto max-w-3xl text-center text-white">
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/15 px-4 py-1.5 text-sm font-semibold text-white shadow-sm backdrop-blur-sm">
-              <Newspaper className="size-4" weight="fill" />
-              {t("eyebrow")}
-            </span>
-            <h1 className="mt-6 text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white drop-shadow-sm">
-              {t("title")}
-            </h1>
-            <p className="mt-5 text-lg md:text-xl text-white/90 leading-relaxed">
-              {t("subtitle")}
-            </p>
-            <div aria-hidden className="mt-8 flex items-center justify-center gap-2">
-              <span className="h-1 w-10 rounded-full bg-white/40" />
-              <span className="size-1.5 rounded-full bg-white" />
-              <span className="h-1 w-10 rounded-full bg-white/40" />
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Header */}
+      <PageHero
+        icon={Newspaper}
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        subtitle={t("subtitle")}
+      />
 
       {/* Content */}
       <section className="pb-16 md:pb-24">

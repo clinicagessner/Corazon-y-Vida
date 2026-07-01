@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Stethoscope } from "@phosphor-icons/react/dist/ssr";
 import { ServicesFilter } from "@/components/services/services-filter";
+import { PageHero } from "@/components/layout/page-hero";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
 import { JsonLdCollectionPage } from "@/components/seo/json-ld";
@@ -81,21 +83,12 @@ export default async function ServicesPage({ params }: Props) {
       />
       <main className="min-h-screen bg-background">
         {/* Hero Header */}
-        <section className="relative pt-28 pb-12 md:pt-32 md:pb-16 overflow-hidden">
-          <div className="absolute inset-0 bg-linear-to-br from-red-primary via-red-dark to-slate-900" />
-          <div className="absolute inset-0 bg-[url('/images/clinic-interior.webp')] bg-cover bg-center opacity-10" />
-
-          <div className="container relative z-10 mx-auto px-4">
-            <div className="text-center max-w-3xl mx-auto">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-4 drop-shadow-lg">
-                {t("title")}
-              </h1>
-              <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
-                {t("subtitle")}
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          icon={Stethoscope}
+          eyebrow={t("eyebrow")}
+          title={t("title")}
+          subtitle={t("subtitle")}
+        />
 
         {/* Services with Filter */}
         <ServicesFilter services={sortedServices} categories={categories} />
