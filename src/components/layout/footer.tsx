@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
+import { StarRating } from "@/components/ui/star-rating";
 import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
 
@@ -202,13 +203,12 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
                 <GoogleLogo className="size-5 text-red-primary" weight="fill" />
                 <span className="text-sm font-medium">Google Reviews</span>
               </div>
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <svg key={i} className="size-4 text-yellow-400 fill-current" viewBox="0 0 20 20">
-                    <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z" />
-                  </svg>
-                ))}
-              </div>
+              <StarRating
+                rating={rating}
+                starClassName="size-4"
+                fillColorClassName="text-yellow-400"
+                emptyColorClassName="text-white/20"
+              />
               <p className="text-xs text-white/60 mt-1">{t("footer.stars", { rating, reviews })}</p>
             </div>
           </div>
