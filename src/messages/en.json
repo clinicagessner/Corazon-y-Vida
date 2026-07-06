@@ -64,6 +64,7 @@
     "categoryDefault": "Medical Service"
   },
   "testimonials": {
+    "eyebrow": "Real reviews",
     "title": "Patient Reviews in Pasadena",
     "subtitle": "Real testimonials from Google Reviews of our hispanic clinic",
     "leaveReview": "Leave a Review",
@@ -72,6 +73,7 @@
     "reviews": "reviews"
   },
   "contact": {
+    "eyebrow": "Get in touch",
     "title": "Contact Us",
     "subtitle": "We're here to help you",
     "form": {
@@ -101,6 +103,7 @@
     }
   },
   "faq": {
+    "eyebrow": "Before your visit",
     "title": "Frequently Asked Questions about Our Hispanic Clinic",
     "subtitle": "Answers to common questions about our medical services in Pasadena",
     "q1": "Do I need an appointment?",
@@ -125,6 +128,7 @@
     "a10": "Yes, we have ample free parking in front of the clinic. Our facilities are also accessible for people with disabilities, including ramps and adapted restrooms."
   },
   "location": {
+    "eyebrow": "Visit us",
     "title": "Our Clinic Location in Pasadena",
     "subtitle": "Visit us at 918 W Southmore Ave Suite 180, Pasadena TX 77502",
     "howToGetHere": "How to Get Here",

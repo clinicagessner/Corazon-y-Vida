@@ -1,6 +1,7 @@
 import { getLocale, getTranslations } from "next-intl/server";
-import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { ArrowRight, Tag } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
+import { SectionHeader } from "@/components/layout/section-header";
 import { Link } from "@/i18n/routing";
 import { PromotionsCarousel } from "@/components/promotions/promotions-carousel";
 import { getLocalizedPromotions } from "@/lib/promotions";
@@ -42,18 +43,15 @@ export async function Promotions() {
   };
 
   return (
-    <section id="promociones" className="py-16 md:py-24 bg-red-bg">
+    <section id="promociones" className="py-20 md:py-28 bg-red-bg">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="animate-on-scroll fade-up mx-auto mb-12 max-w-2xl text-center md:mb-16">
-          <p className="mb-3 text-sm font-semibold uppercase tracking-wide text-red-primary">
-            {t("eyebrow")}
-          </p>
-          <h2 className="mb-4 font-heading text-3xl font-bold text-slate-dark md:text-4xl lg:text-5xl">
-            {t("title")}
-          </h2>
-          <p className="text-lg text-muted-foreground">{t("subtitle")}</p>
-        </div>
+        <SectionHeader
+          icon={Tag}
+          eyebrow={t("eyebrow")}
+          title={t("title")}
+          subtitle={t("subtitle")}
+        />
 
         <PromotionsCarousel
           promotions={promotions}

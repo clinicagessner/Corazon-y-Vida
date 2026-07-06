@@ -15,7 +15,7 @@ import {
   ArrowRight,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { SectionHeader } from "@/components/layout/section-header";
 import { CONTACT_INFO } from "@/lib/constants";
 
 const conditions = [
@@ -48,18 +48,12 @@ export function ChronicCare() {
 
       <div className="container relative mx-auto px-4">
         {/* Header */}
-        <div className="animate-on-scroll fade-up mx-auto max-w-3xl text-center">
-          <Badge className="bg-red-primary hover:bg-red-dark text-white px-5 py-2 shadow-sm">
-            <Heart className="size-4 mr-2" weight="fill" />
-            {t("badge")}
-          </Badge>
-          <h2 className="mt-6 font-heading text-3xl md:text-4xl lg:text-5xl font-bold text-slate-dark">
-            {t("title")}
-          </h2>
-          <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
-            {t("subtitle")}
-          </p>
-        </div>
+        <SectionHeader
+          icon={Heart}
+          eyebrow={t("badge")}
+          title={t("title")}
+          subtitle={t("subtitle")}
+        />
 
         {/* Image + conditions */}
         <div className="mt-12 grid items-stretch gap-6 lg:grid-cols-5">

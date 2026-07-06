@@ -64,6 +64,7 @@
     "categoryDefault": "Servicio Médico"
   },
   "testimonials": {
+    "eyebrow": "Opiniones reales",
     "title": "Reseñas de Pacientes en Pasadena",
     "subtitle": "Testimonios reales de Google Reviews de nuestra clínica hispana",
     "leaveReview": "Dejar una Reseña",
@@ -72,6 +73,7 @@
     "reviews": "reseñas"
   },
   "contact": {
+    "eyebrow": "Contáctanos",
     "title": "Contáctenos",
     "subtitle": "Estamos aquí para ayudarle",
     "form": {
@@ -101,6 +103,7 @@
     }
   },
   "faq": {
+    "eyebrow": "Antes de tu visita",
     "title": "Preguntas Frecuentes sobre Nuestra Clínica Hispana",
     "subtitle": "Respuestas a las preguntas más comunes sobre servicios médicos en Pasadena",
     "q1": "¿Necesito cita previa?",
@@ -125,6 +128,7 @@
     "a10": "Sí, contamos con amplio estacionamiento gratuito frente a la clínica. Nuestras instalaciones también son accesibles para personas con discapacidad, incluyendo rampas y baños adaptados."
   },
   "location": {
+    "eyebrow": "Visítanos",
     "title": "Ubicación de Nuestra Clínica en Pasadena",
     "subtitle": "Visítenos en 918 W Southmore Ave Suite 180, Pasadena TX 77502",
     "howToGetHere": "Cómo Llegar",

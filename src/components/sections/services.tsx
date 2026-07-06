@@ -12,6 +12,7 @@ import {
   ArrowRight,
 } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
+import { SectionHeader } from "@/components/layout/section-header";
 import { SERVICES } from "@/lib/constants";
 
 const CATEGORIES = [
@@ -63,16 +64,12 @@ export async function Services() {
 
       <div className="container relative mx-auto px-4">
         {/* Header */}
-        <div className="animate-on-scroll fade-up mx-auto mb-12 max-w-2xl text-center md:mb-16">
-          <span className="inline-flex items-center gap-2 rounded-full border border-red-primary/20 bg-white px-4 py-1.5 text-sm font-semibold text-red-primary shadow-sm">
-            <Heartbeat className="size-4" weight="fill" />
-            {t("eyebrow")}
-          </span>
-          <h2 className="mt-6 font-heading text-3xl font-bold text-slate-dark md:text-4xl lg:text-5xl">
-            {t("title")}
-          </h2>
-          <p className="mt-5 text-lg text-muted-foreground">{t("subtitle")}</p>
-        </div>
+        <SectionHeader
+          icon={Heartbeat}
+          eyebrow={t("eyebrow")}
+          title={t("title")}
+          subtitle={t("subtitle")}
+        />
 
         {/* Category cards */}
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

@@ -1,7 +1,8 @@
 import { getTranslations } from "next-intl/server";
-import { GoogleLogo } from "@phosphor-icons/react/dist/ssr";
+import { GoogleLogo, Star } from "@phosphor-icons/react/dist/ssr";
 import { TestimonialsCarousel } from "@/components/sections/testimonials-carousel";
 import { StarRating } from "@/components/ui/star-rating";
+import { SectionHeader } from "@/components/layout/section-header";
 import { Button } from "@/components/ui/button";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData, type GoogleReview } from "@/lib/google-places";
@@ -65,22 +66,19 @@ export async function Testimonials() {
     <section id="testimonios" className="py-20 md:py-28">
       <div className="container mx-auto px-4">
         {/* Header */}
-        <div className="animate-on-scroll fade-up text-center max-w-2xl mx-auto mb-12">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
-            {t("title")}
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8">
-            {t("subtitle")}
-          </p>
-
-          {/* Google Stats */}
+        <SectionHeader
+          icon={Star}
+          eyebrow={t("eyebrow")}
+          title={t("title")}
+          subtitle={t("subtitle")}
+        >
           <div className="inline-flex items-center gap-4 bg-white px-6 py-3 rounded-full shadow-sm border border-slate-100">
             <GoogleLogo className="size-6 text-slate-dark" weight="bold" />
             <StarRating rating={averageRating} starClassName="size-4" fillColorClassName="text-yellow-500" />
             <span className="font-bold text-slate-dark">{averageRating}</span>
             <span className="text-muted-foreground text-sm">({totalReviews}+ {t("reviews")})</span>
           </div>
-        </div>
+        </SectionHeader>
 
         {/* Carousel */}
         <TestimonialsCarousel reviews={reviews} />
