@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { getLocale, getTranslations } from "next-intl/server";
 import {
@@ -14,11 +15,36 @@ import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/lib/constants";
 
 const CATEGORIES = [
-  { key: "medicina-general", labelKey: "categoryMedicinaGeneral", icon: Stethoscope },
-  { key: "salud-mujer", labelKey: "categorySaludMujer", icon: GenderFemale },
-  { key: "examenes", labelKey: "categoryExamenes", icon: Clipboard },
-  { key: "laboratorio", labelKey: "categoryLaboratorio", icon: TestTube },
-  { key: "tratamientos", labelKey: "categoryTratamientos", icon: Syringe },
+  {
+    key: "medicina-general",
+    labelKey: "categoryMedicinaGeneral",
+    icon: Stethoscope,
+    image: "/images/services/condiciones-cronicas.webp",
+  },
+  {
+    key: "salud-mujer",
+    labelKey: "categorySaludMujer",
+    icon: GenderFemale,
+    image: "/images/services/ginecologia.webp",
+  },
+  {
+    key: "examenes",
+    labelKey: "categoryExamenes",
+    icon: Clipboard,
+    image: "/images/services/examen-dot.webp",
+  },
+  {
+    key: "laboratorio",
+    labelKey: "categoryLaboratorio",
+    icon: TestTube,
+    image: "/images/services/examenes-sangre.webp",
+  },
+  {
+    key: "tratamientos",
+    labelKey: "categoryTratamientos",
+    icon: Syringe,
+    image: "/images/services/curacion-heridas.webp",
+  },
 ] as const;
 
 export async function Services() {
@@ -56,52 +82,67 @@ export async function Services() {
               .slice(0, 3)
               .map((s) => (en ? s.titleEn ?? s.title : s.title));
             const isRed = idx % 2 === 0;
-            const accent = isRed ? "text-red-primary" : "text-blue-primary";
-            const tile = isRed
-              ? "bg-red-primary/10 text-red-primary"
-              : "bg-blue-primary/10 text-blue-primary";
+            const tint = isRed ? "bg-red-dark/25" : "bg-blue-dark/25";
+            const check = isRed ? "text-red-light" : "text-blue-light";
 
             return (
               <Link
                 key={cat.key}
                 href={servicesHref}
-                className="group animate-on-scroll fade-up flex flex-col rounded-3xl border border-slate-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-primary/30 hover:shadow-xl"
+                className="group animate-on-scroll fade-up relative flex min-h-[300px] flex-col justify-end overflow-hidden rounded-3xl shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
-                <div className="mb-4 flex items-center justify-between">
-                  <div className={`flex size-14 items-center justify-center rounded-2xl ${tile}`}>
-                    <cat.icon className="size-7" weight="duotone" />
+                {/* Background image */}
+                <Image
+                  src={cat.image}
+                  alt=""
+                  fill
+                  className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
+                {/* Overlays for legibility */}
+                <div aria-hidden className="absolute inset-0 bg-linear-to-t from-slate-900/95 via-slate-900/65 to-slate-900/20" />
+                <div aria-hidden className={`absolute inset-0 ${tint}`} />
+
+                {/* Top row: icon + count */}
+                <div className="absolute inset-x-5 top-5 z-10 flex items-center justify-between">
+                  <div className="flex size-12 items-center justify-center rounded-xl border border-white/20 bg-white/15 text-white backdrop-blur-sm">
+                    <cat.icon className="size-6" weight="duotone" />
                   </div>
-                  <span className="rounded-full bg-slate-light px-3 py-1 text-xs font-semibold text-slate-primary">
+                  <span className="rounded-full border border-white/20 bg-white/15 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
                     {items.length} {t("servicesAvailable")}
                   </span>
                 </div>
-                <h3 className="mb-3 font-heading text-lg font-bold text-slate-dark">
-                  {t(cat.labelKey)}
-                </h3>
-                <ul className="flex-1 space-y-2">
-                  {examples.map((ex) => (
-                    <li key={ex} className="flex items-start gap-2 text-sm text-slate-primary">
-                      <CheckCircle className={`mt-0.5 size-4 shrink-0 ${accent}`} weight="fill" />
-                      <span className="line-clamp-1">{ex}</span>
-                    </li>
-                  ))}
-                </ul>
-                <span className={`mt-5 inline-flex items-center gap-1 text-sm font-semibold ${accent} transition-all group-hover:gap-2`}>
-                  {t("learnMore")}
-                  <ArrowRight className="size-4" weight="bold" />
-                </span>
+
+                {/* Bottom content */}
+                <div className="relative z-10 p-6 text-white">
+                  <h3 className="font-heading text-xl font-bold drop-shadow-sm">
+                    {t(cat.labelKey)}
+                  </h3>
+                  <ul className="mt-3 space-y-1.5">
+                    {examples.map((ex) => (
+                      <li key={ex} className="flex items-center gap-2 text-sm text-white/90">
+                        <CheckCircle className={`size-4 shrink-0 ${check}`} weight="fill" />
+                        <span className="line-clamp-1">{ex}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-white transition-all group-hover:gap-2">
+                    {t("learnMore")}
+                    <ArrowRight className="size-4" weight="bold" />
+                  </span>
+                </div>
               </Link>
             );
           })}
 
           {/* CTA card fills the 6th cell */}
-          <div className="animate-on-scroll fade-up flex flex-col items-start justify-center rounded-3xl bg-linear-to-br from-red-primary to-red-dark p-6 text-white shadow-lg">
-            <h3 className="font-heading text-xl font-bold">{t("readyToSchedule")}</h3>
-            <p className="mt-2 text-sm text-white/90">{t("callOrVisit")}</p>
+          <div className="animate-on-scroll fade-up flex min-h-[300px] flex-col items-start justify-center rounded-3xl bg-linear-to-br from-red-primary to-red-dark p-8 text-white shadow-lg">
+            <h3 className="font-heading text-2xl font-bold">{t("readyToSchedule")}</h3>
+            <p className="mt-2 text-white/90">{t("callOrVisit")}</p>
             <Button
               asChild
               size="lg"
-              className="mt-5 gap-2 bg-white text-red-primary shadow-md hover:bg-white/90"
+              className="mt-6 gap-2 bg-white text-red-primary shadow-md hover:bg-white/90"
             >
               <Link href={servicesHref}>
                 {t("viewAll")}
