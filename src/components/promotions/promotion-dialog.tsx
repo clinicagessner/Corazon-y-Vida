@@ -115,7 +115,7 @@ export function PromotionDialog({
                     </a>
                   </Button>
 
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 gap-3">
                     <Button asChild variant="outline" className="gap-2">
                       <a
                         href={contact.googleMapsUrl}

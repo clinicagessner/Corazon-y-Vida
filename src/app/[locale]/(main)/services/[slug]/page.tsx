@@ -243,9 +243,9 @@ export default async function ServicePage({ params }: Props) {
               {service.features.map((feature, index) => (
                 <div
                   key={index}
-                  className="flex items-start gap-3 p-4 bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md hover:border-red-200 transition-all"
+                  className="flex items-start gap-3 p-4 bg-white rounded-xl border border-slate-100 shadow-sm hover:shadow-md hover:border-red-light transition-all"
                 >
-                  <div className="size-8 rounded-lg bg-green-100 text-green-600 flex items-center justify-center shrink-0">
+                  <div className="size-8 rounded-lg bg-success-light text-success flex items-center justify-center shrink-0">
                     <CheckCircle className="size-5" weight="fill" />
                   </div>
                   <span className="text-slate-dark font-medium">{feature}</span>
@@ -334,7 +334,7 @@ export default async function ServicePage({ params }: Props) {
                       href={`/services/${related.slug}`}
                       className="group block"
                     >
-                      <article className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-red-200">
+                      <article className="relative h-full bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-red-light">
                         <div className="relative h-32 overflow-hidden">
                           <Image
                             src={related.image}

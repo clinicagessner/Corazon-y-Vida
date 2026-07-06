@@ -169,7 +169,7 @@ export default async function BlogPostPage({ params }: Props) {
             </div>
 
             {/* CTA Section */}
-            <div className="mt-16 p-8 md:p-10 bg-linear-to-br from-red-primary via-red-dark to-slate-900 rounded-2xl text-white text-center shadow-xl">
+            <div className="mt-16 p-6 sm:p-8 md:p-10 bg-linear-to-br from-red-primary via-red-dark to-slate-900 rounded-2xl text-white text-center shadow-xl">
               <h3 className="text-2xl md:text-3xl font-heading font-bold mb-4">
                 {t("ctaTitle")}
               </h3>
@@ -178,10 +178,10 @@ export default async function BlogPostPage({ params }: Props) {
               </p>
               <a
                 href={`tel:${CONTACT_INFO.phone}`}
-                className="inline-flex items-center gap-2 bg-white text-red-primary font-bold px-8 py-4 rounded-full hover:bg-red-light hover:scale-105 transition-all shadow-lg"
+                className="inline-flex max-w-full flex-wrap items-center justify-center gap-2 bg-white text-red-primary font-bold px-6 py-3.5 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base hover:bg-red-light hover:scale-105 transition-all shadow-lg"
                 suppressHydrationWarning
               >
-                <Phone className="w-5 h-5" weight="fill" />
+                <Phone className="w-5 h-5 shrink-0" weight="fill" />
                 {t("callNow")} {CONTACT_INFO.phoneFormatted}
               </a>
             </div>

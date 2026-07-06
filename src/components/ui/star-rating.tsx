@@ -34,7 +34,7 @@ export function StarRating({
     <div
       className={`relative inline-flex${className ? ` ${className}` : ""}`}
       role="img"
-      aria-label={`${rating.toFixed(1)} de 5 estrellas`}
+      aria-label={`${rating.toFixed(1)} / 5`}
     >
       <div className="flex gap-0.5">{row(emptyColorClassName)}</div>
       <div

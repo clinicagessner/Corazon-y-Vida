@@ -3,8 +3,10 @@
 import Image from "next/image";
 import useEmblaCarousel from "embla-carousel-react";
 import Autoplay from "embla-carousel-autoplay";
-import { Star, CaretLeft, CaretRight } from "@phosphor-icons/react/dist/ssr";
+import { CaretLeft, CaretRight } from "@phosphor-icons/react/dist/ssr";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
+import { StarRating } from "@/components/ui/star-rating";
 import { useCallback, useEffect, useState } from "react";
 import type { GoogleReview } from "@/lib/google-places";
 
@@ -13,6 +15,7 @@ interface TestimonialsCarouselProps {
 }
 
 export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
+  const t = useTranslations("accessibility");
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
@@ -76,16 +79,13 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
                 <div className="absolute top-0 left-0 right-0 h-1 bg-linear-to-r from-red-primary via-red-medium to-red-primary rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
 
                 {/* Stars */}
-                <div className="flex gap-0.5 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Star
-                      key={i}
-                      className={`size-4 ${
-                        i < review.rating ? "text-yellow-500" : "text-slate-200"
-                      }`}
-                      weight="fill"
-                    />
-                  ))}
+                <div className="mb-4">
+                  <StarRating
+                    rating={review.rating}
+                    starClassName="size-4"
+                    fillColorClassName="text-yellow-500"
+                    emptyColorClassName="text-slate-200"
+                  />
                 </div>
 
                 {/* Review text */}
@@ -126,7 +126,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           size="icon"
           onClick={scrollPrev}
           className="size-10 rounded-full hover:bg-red-primary/10 text-slate-500 hover:text-red-primary"
-          aria-label="Anterior"
+          aria-label={t("previousSlide")}
         >
           <CaretLeft className="size-5" weight="bold" />
         </Button>
@@ -136,8 +136,8 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
             <button
               key={index}
               onClick={() => scrollTo(index)}
-              className="size-8 flex items-center justify-center"
-              aria-label={`Ir a review ${index + 1}`}
+              className="size-10 flex items-center justify-center"
+              aria-label={`${index + 1}`}
             >
               <span
                 className={`block rounded-full transition-colors duration-300 ${
@@ -155,7 +155,7 @@ export function TestimonialsCarousel({ reviews }: TestimonialsCarouselProps) {
           size="icon"
           onClick={scrollNext}
           className="size-10 rounded-full hover:bg-red-primary/10 text-slate-500 hover:text-red-primary"
-          aria-label="Siguiente"
+          aria-label={t("nextSlide")}
         >
           <CaretRight className="size-5" weight="bold" />
         </Button>

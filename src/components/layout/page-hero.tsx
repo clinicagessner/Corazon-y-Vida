@@ -39,7 +39,7 @@ export function PageHero({ eyebrow, title, subtitle, icon: Icon, children }: Pag
             {Icon ? <Icon className="size-4" weight="fill" /> : null}
             {eyebrow}
           </span>
-          <h1 className="mt-6 font-heading text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white drop-shadow-sm">
+          <h1 className="mt-6 font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white drop-shadow-sm">
             {title}
           </h1>
           {subtitle ? (

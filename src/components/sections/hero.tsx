@@ -93,7 +93,7 @@ export async function Hero() {
           <div className="animate-hero-badges hidden md:flex flex-wrap justify-center gap-x-6 gap-y-2">
             {(["1", "2", "3", "4"] as const).map((key) => (
               <div key={key} className="flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-1.5">
-                <CheckCircle className="size-4 text-green-400 shrink-0" weight="fill" />
+                <CheckCircle className="size-4 text-success shrink-0" weight="fill" />
                 <span className="text-white text-sm">{t(`features.${key}`)}</span>
               </div>
             ))}

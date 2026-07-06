@@ -51,9 +51,9 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
     keywords: post.keywords?.length
       ? post.keywords.join(", ")
       : [
-          "clínica hispana Houston",
+          "clínica hispana Pasadena",
           "salud",
-          "medicina familiar Houston",
+          "medicina familiar Pasadena",
           post.category?.toLowerCase() || "salud",
         ].join(", "),
   };

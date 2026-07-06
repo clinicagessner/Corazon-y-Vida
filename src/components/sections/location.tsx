@@ -44,7 +44,7 @@ export async function Location() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Ubicación de la Clínica Hispana Houston"
+                title={t("title")}
                 className="absolute inset-0"
               />
             </div>
@@ -70,7 +70,7 @@ export async function Location() {
                 </div>
               </div>
 
-              <div className="flex gap-3">
+              <div className="flex flex-col sm:flex-row gap-3">
                 <Button
                   asChild
                   size="default"
