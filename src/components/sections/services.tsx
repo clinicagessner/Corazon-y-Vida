@@ -1,173 +1,114 @@
-"use client";
-
-import Image from "next/image";
 import Link from "next/link";
-import { useLocale } from "next-intl";
-import { useTranslations } from "next-intl";
-import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { getLocale, getTranslations } from "next-intl/server";
+import {
+  Stethoscope,
+  GenderFemale,
+  Clipboard,
+  TestTube,
+  Syringe,
+  Heartbeat,
+  CheckCircle,
+  ArrowRight,
+} from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { SERVICES } from "@/lib/constants";
 
-export function Services() {
-  const t = useTranslations("services");
-  const locale = useLocale();
+const CATEGORIES = [
+  { key: "medicina-general", labelKey: "categoryMedicinaGeneral", icon: Stethoscope },
+  { key: "salud-mujer", labelKey: "categorySaludMujer", icon: GenderFemale },
+  { key: "examenes", labelKey: "categoryExamenes", icon: Clipboard },
+  { key: "laboratorio", labelKey: "categoryLaboratorio", icon: TestTube },
+  { key: "tratamientos", labelKey: "categoryTratamientos", icon: Syringe },
+] as const;
 
-  const getLocalizedHref = (href: string) => {
-    if (locale === "es") return href;
-    return href.startsWith("/") ? `/${locale}${href}` : `/${locale}/${href}`;
-  };
-
-  const highlightedServices = SERVICES.filter((s) => s.highlighted).slice(0, 4);
+export async function Services() {
+  const [t, locale] = await Promise.all([
+    getTranslations("services"),
+    getLocale(),
+  ]);
+  const en = locale === "en";
+  const servicesHref = en ? "/en/services" : "/services";
 
   return (
-    <section id="servicios" className="py-16 md:py-24 bg-slate-light">
-      <div className="container mx-auto px-4">
-        {/* Section Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12 md:mb-16">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-slate-dark mb-4">
+    <section id="servicios" className="relative overflow-hidden bg-slate-light py-20 md:py-28">
+      {/* Decorative glows */}
+      <div aria-hidden className="pointer-events-none absolute -right-16 -top-24 size-80 rounded-full bg-red-primary/5 blur-3xl" />
+      <div aria-hidden className="pointer-events-none absolute -bottom-24 -left-16 size-80 rounded-full bg-blue-primary/5 blur-3xl" />
+
+      <div className="container relative mx-auto px-4">
+        {/* Header */}
+        <div className="animate-on-scroll fade-up mx-auto mb-12 max-w-2xl text-center md:mb-16">
+          <span className="inline-flex items-center gap-2 rounded-full border border-red-primary/20 bg-white px-4 py-1.5 text-sm font-semibold text-red-primary shadow-sm">
+            <Heartbeat className="size-4" weight="fill" />
+            {t("eyebrow")}
+          </span>
+          <h2 className="mt-6 font-heading text-3xl font-bold text-slate-dark md:text-4xl lg:text-5xl">
             {t("title")}
           </h2>
-          <p className="text-lg text-muted-foreground">
-            {t("subtitle")}
-          </p>
+          <p className="mt-5 text-lg text-muted-foreground">{t("subtitle")}</p>
         </div>
 
-        {/* Bento Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-5 max-w-4xl mx-auto">
-          {/* Card 1 - Large (spans 2 rows on md+) */}
-          {highlightedServices[0] && (
-            <div className="md:row-span-2 group animate-on-scroll fade-up">
-              <Link
-                href={getLocalizedHref(`/services/${highlightedServices[0].slug}`)}
-                className="block relative h-72 md:h-full min-h-[280px] md:min-h-[360px] rounded-2xl overflow-hidden"
-              >
-                <Image
-                  src={highlightedServices[0].image}
-                  alt={`${highlightedServices[0].title} - Clínica Hispana Corazón y Vida Pasadena TX`}
-                  fill
-                  priority
-                  loading="eager"
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
+        {/* Category cards */}
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {CATEGORIES.map((cat, idx) => {
+            const items = SERVICES.filter((s) => s.category === cat.key);
+            const examples = items
+              .slice(0, 3)
+              .map((s) => (en ? s.titleEn ?? s.title : s.title));
+            const isRed = idx % 2 === 0;
+            const accent = isRed ? "text-red-primary" : "text-blue-primary";
+            const tile = isRed
+              ? "bg-red-primary/10 text-red-primary"
+              : "bg-blue-primary/10 text-blue-primary";
 
-                {/* Content */}
-                <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                  <h3 className="text-2xl md:text-3xl font-heading font-bold text-white mb-2">
-                    {highlightedServices[0].title}
-                  </h3>
-                  <p className="text-white/80 text-sm md:text-base mb-4 line-clamp-2">
-                    {highlightedServices[0].description}
-                  </p>
-                  <span className="inline-flex items-center gap-2 text-white font-medium group-hover:gap-3 transition-all">
-                    {t("learnMore")}
-                    <ArrowRight className="size-5" weight="bold" />
+            return (
+              <Link
+                key={cat.key}
+                href={servicesHref}
+                className="group animate-on-scroll fade-up flex flex-col rounded-3xl border border-slate-100 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-red-primary/30 hover:shadow-xl"
+              >
+                <div className="mb-4 flex items-center justify-between">
+                  <div className={`flex size-14 items-center justify-center rounded-2xl ${tile}`}>
+                    <cat.icon className="size-7" weight="duotone" />
+                  </div>
+                  <span className="rounded-full bg-slate-light px-3 py-1 text-xs font-semibold text-slate-primary">
+                    {items.length} {t("servicesAvailable")}
                   </span>
                 </div>
+                <h3 className="mb-3 font-heading text-lg font-bold text-slate-dark">
+                  {t(cat.labelKey)}
+                </h3>
+                <ul className="flex-1 space-y-2">
+                  {examples.map((ex) => (
+                    <li key={ex} className="flex items-start gap-2 text-sm text-slate-primary">
+                      <CheckCircle className={`mt-0.5 size-4 shrink-0 ${accent}`} weight="fill" />
+                      <span className="line-clamp-1">{ex}</span>
+                    </li>
+                  ))}
+                </ul>
+                <span className={`mt-5 inline-flex items-center gap-1 text-sm font-semibold ${accent} transition-all group-hover:gap-2`}>
+                  {t("learnMore")}
+                  <ArrowRight className="size-4" weight="bold" />
+                </span>
               </Link>
-            </div>
-          )}
+            );
+          })}
 
-          {/* Card 2 - Top right */}
-          {highlightedServices[1] && (
-            <div className="group animate-on-scroll fade-up stagger-1">
-              <Link
-                href={getLocalizedHref(`/services/${highlightedServices[1].slug}`)}
-                className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
-              >
-                <Image
-                  src={highlightedServices[1].image}
-                  alt={`${highlightedServices[1].title} - Clínica Hispana Corazón y Vida Pasadena TX`}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
-
-                <div className="absolute inset-0 p-5 flex flex-col justify-end">
-                  <h3 className="text-xl font-heading font-bold text-white mb-1">
-                    {highlightedServices[1].title}
-                  </h3>
-                  <span className="inline-flex items-center gap-1 text-white/80 text-sm font-medium group-hover:text-white group-hover:gap-2 transition-all">
-                    {t("learnMore")}
-                    <ArrowRight className="size-4" weight="bold" />
-                  </span>
-                </div>
+          {/* CTA card fills the 6th cell */}
+          <div className="animate-on-scroll fade-up flex flex-col items-start justify-center rounded-3xl bg-linear-to-br from-red-primary to-red-dark p-6 text-white shadow-lg">
+            <h3 className="font-heading text-xl font-bold">{t("readyToSchedule")}</h3>
+            <p className="mt-2 text-sm text-white/90">{t("callOrVisit")}</p>
+            <Button
+              asChild
+              size="lg"
+              className="mt-5 gap-2 bg-white text-red-primary shadow-md hover:bg-white/90"
+            >
+              <Link href={servicesHref}>
+                {t("viewAll")}
+                <ArrowRight className="size-5" weight="bold" />
               </Link>
-            </div>
-          )}
-
-          {/* Card 3 - Bottom right */}
-          {highlightedServices[2] && (
-            <div className="group animate-on-scroll fade-up stagger-2">
-              <Link
-                href={getLocalizedHref(`/services/${highlightedServices[2].slug}`)}
-                className="block relative h-72 md:h-[calc(50%-10px)] min-h-[170px] rounded-2xl overflow-hidden"
-              >
-                <Image
-                  src={highlightedServices[2].image}
-                  alt={`${highlightedServices[2].title} - Clínica Hispana Corazón y Vida Pasadena TX`}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent" />
-
-                <div className="absolute inset-0 p-5 flex flex-col justify-end">
-                  <h3 className="text-xl font-heading font-bold text-white mb-1">
-                    {highlightedServices[2].title}
-                  </h3>
-                  <span className="inline-flex items-center gap-1 text-white/80 text-sm font-medium group-hover:text-white group-hover:gap-2 transition-all">
-                    {t("learnMore")}
-                    <ArrowRight className="size-4" weight="bold" />
-                  </span>
-                </div>
-              </Link>
-            </div>
-          )}
-
-          {/* Card 4 - Bottom wide */}
-          {highlightedServices[3] && (
-            <div className="md:col-span-2 group animate-on-scroll fade-up stagger-3">
-              <Link
-                href={getLocalizedHref(`/services/${highlightedServices[3].slug}`)}
-                className="block relative h-72 md:h-52 rounded-2xl overflow-hidden"
-              >
-                <Image
-                  src={highlightedServices[3].image}
-                  alt={`${highlightedServices[3].title} - Clínica Hispana Corazón y Vida Pasadena TX`}
-                  fill
-                  className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  sizes="(max-width: 768px) 100vw, 66vw"
-                />
-                <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/40 to-transparent" />
-
-                <div className="absolute inset-0 p-6 flex flex-col justify-center max-w-md">
-                  <h3 className="text-2xl font-heading font-bold text-white mb-2">
-                    {highlightedServices[3].title}
-                  </h3>
-                  <p className="text-white/80 text-sm mb-3 line-clamp-2">
-                    {highlightedServices[3].description}
-                  </p>
-                  <span className="inline-flex items-center gap-2 text-white font-medium group-hover:gap-3 transition-all">
-                    {t("learnMore")}
-                    <ArrowRight className="size-5" weight="bold" />
-                  </span>
-                </div>
-              </Link>
-            </div>
-          )}
-        </div>
-
-        {/* View All Button */}
-        <div className="text-center mt-12">
-          <Button asChild size="lg" variant="outline" className="gap-2">
-            <Link href={getLocalizedHref("/services")}>
-              {t("viewAll")}
-              <ArrowRight className="size-5" />
-            </Link>
-          </Button>
+            </Button>
+          </div>
         </div>
       </div>
     </section>
