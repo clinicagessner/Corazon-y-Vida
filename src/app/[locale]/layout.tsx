@@ -9,6 +9,7 @@ import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
+import { GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -159,8 +160,9 @@ export default async function LocaleLayout({ children, params }: Props) {
             alt=""
           />
         </noscript>
-        {/* PENDIENTE: GA4 (G-XXXXXXXXXX) de la nueva clínica cuando exista. */}
+        {/* GA4 se gestiona desde Google Tag Manager (contenedor abajo). */}
       </head>
+      <GoogleTagManager gtmId="GTM-K8S48BQ3" />
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <NextIntlClientProvider messages={messages}>
           <TooltipProvider>
