@@ -133,6 +133,10 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   const messages = await getMessages();
 
+  // Analytics IDs desde variables de entorno (se renderizan solo si existen).
+  const metaPixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID;
+  const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+
   return (
     <html lang={locale} data-scroll-behavior="smooth" className={`${montserrat.variable} ${sourceSans.variable}`} suppressHydrationWarning>
       <head>
@@ -151,15 +155,17 @@ export default async function LocaleLayout({ children, params }: Props) {
           async
         />
         {/* Meta Pixel noscript fallback */}
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1313742604079285&ev=PageView&noscript=1"
-            alt=""
-          />
-        </noscript>
+        {metaPixelId && (
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: "none" }}
+              src={`https://www.facebook.com/tr?id=${metaPixelId}&ev=PageView&noscript=1`}
+              alt=""
+            />
+          </noscript>
+        )}
         {/* GA4 se gestiona desde Google Tag Manager (contenedor abajo). */}
       </head>
       <GoogleTagManager gtmId="GTM-K8S48BQ3" />
@@ -176,33 +182,39 @@ export default async function LocaleLayout({ children, params }: Props) {
         </NextIntlClientProvider>
       </body>
       {/* Meta Pixel */}
-      <Script id="meta-pixel" strategy="afterInteractive">
-        {`
-          !function(f,b,e,v,n,t,s)
-          {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-          n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-          if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-          n.queue=[];t=b.createElement(e);t.async=!0;
-          t.src=v;s=b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t,s)}(window, document,'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1313742604079285');
-          fbq('track', 'PageView');
-        `}
-      </Script>
+      {metaPixelId && (
+        <Script id="meta-pixel" strategy="afterInteractive">
+          {`
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '${metaPixelId}');
+            fbq('track', 'PageView');
+          `}
+        </Script>
+      )}
       {/* Google Ads */}
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-11177638128"
-        strategy="afterInteractive"
-      />
-      <Script id="google-ads-tag" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('config', 'AW-11177638128');
-        `}
-      </Script>
-      {/* PENDIENTE: GA4 <GoogleAnalytics gaId="G-XXXXXXXXXX" /> cuando exista. */}
+      {googleAdsId && (
+        <>
+          <Script
+            src={`https://www.googletagmanager.com/gtag/js?id=${googleAdsId}`}
+            strategy="afterInteractive"
+          />
+          <Script id="google-ads-tag" strategy="afterInteractive">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('config', '${googleAdsId}');
+            `}
+          </Script>
+        </>
+      )}
+      {/* GA4 se gestiona desde Google Tag Manager (GTM-K8S48BQ3). */}
     </html>
   );
 }
