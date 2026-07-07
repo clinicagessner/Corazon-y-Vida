@@ -155,7 +155,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1009016302106066&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=1313742604079285&ev=PageView&noscript=1"
             alt=""
           />
         </noscript>
@@ -184,20 +184,20 @@ export default async function LocaleLayout({ children, params }: Props) {
           t.src=v;s=b.getElementsByTagName(e)[0];
           s.parentNode.insertBefore(t,s)}(window, document,'script',
           'https://connect.facebook.net/en_US/fbevents.js');
-          fbq('init', '1009016302106066');
+          fbq('init', '1313742604079285');
           fbq('track', 'PageView');
         `}
       </Script>
       {/* Google Ads */}
       <Script
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16958517954"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-11177638128"
         strategy="afterInteractive"
       />
       <Script id="google-ads-tag" strategy="afterInteractive">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
-          gtag('config', 'AW-16958517954');
+          gtag('config', 'AW-11177638128');
         `}
       </Script>
       {/* PENDIENTE: GA4 <GoogleAnalytics gaId="G-XXXXXXXXXX" /> cuando exista. */}
