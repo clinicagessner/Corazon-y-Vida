@@ -53,7 +53,7 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
         "X-Goog-FieldMask":
           "rating,userRatingCount,reviews.rating,reviews.text,reviews.originalText,reviews.relativePublishTimeDescription,reviews.publishTime,reviews.authorAttribution",
       },
-      next: { revalidate: 3600 }, // Cache for 1 hour
+      next: { revalidate: 604800 }, // Cache for 1 week
     });
 
     if (!response.ok) {
@@ -94,12 +94,12 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
   }
 }
 
-// Cached version - revalidates every hour
+// Cached version - revalidates every week
 export const getGooglePlaceData = unstable_cache(
   fetchGooglePlaceDetails,
   ["google-place-data"],
   {
-    revalidate: 3600, // 1 hour
+    revalidate: 604800, // 1 week
     tags: ["google-reviews"],
   }
 );
