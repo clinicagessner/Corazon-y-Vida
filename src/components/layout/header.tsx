@@ -85,10 +85,13 @@ export function Header({ phoneOverride }: HeaderProps = {}) {
   };
 
   const isActiveLink = (href: string) => {
+    if (href === "/") {
+      return isHomepage && activeSection === "home";
+    }
     if (href.includes("#")) {
       return isHomepage && activeSection === href.split("#")[1];
     }
-    return pathname.startsWith(href) && href !== "/";
+    return pathname.startsWith(href);
   };
 
   return (
