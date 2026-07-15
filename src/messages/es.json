@@ -25,6 +25,7 @@
     "title": "Su Clínica Hispana de Confianza en Pasadena",
     "subtitle": "Una de las clínicas hispanas líderes en Pasadena TX. Medicina familiar, ginecología, diabetes y laboratorio. Sin cita previa, precios accesibles.",
     "ctaCall": "Llamar Ahora",
+    "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Cómo Llegar",
     "ctaContact": "¿Prefieres que te contactemos? Escríbenos",
     "hours": "Lun a Sáb: 9:00 AM - 9:00 PM · Dom: 9:00 AM - 7:00 PM",
@@ -174,6 +175,8 @@
   "cta": {
     "callNow": "Llamar Ahora",
     "getDirections": "Cómo Llegar",
+    "whatsapp": "Escríbenos por WhatsApp",
+    "whatsappMessage": "Hola, me gustaría más información sobre sus servicios.",
     "bookAppointment": "Agendar Cita",
     "learnMore": "Más Información",
     "contactUs": "Contáctenos",

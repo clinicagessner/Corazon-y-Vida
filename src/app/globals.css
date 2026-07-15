@@ -34,6 +34,10 @@
   --success: #16A34A;
   --success-light: #DCFCE7;
 
+  /* WhatsApp (color oficial de la marca) */
+  --whatsapp: #25D366;
+  --whatsapp-dark: #1DA851;
+
   /* shadcn/ui tokens */
   --radius: 0.625rem;
   --background: #FFFBFB;
@@ -163,6 +167,10 @@
   --color-slate-dark: var(--slate-dark);
   --color-slate-primary: var(--slate-primary);
   --color-slate-light: var(--slate-light);
+
+  /* WhatsApp */
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-dark: var(--whatsapp-dark);
 
   /* Estados */
   --color-error: var(--error);

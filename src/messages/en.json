@@ -25,6 +25,7 @@
     "title": "Your Trusted Hispanic Clinic in Pasadena",
     "subtitle": "One of the leading hispanic clinics in Pasadena TX. Family medicine, gynecology, diabetes care, and laboratory. Walk-ins welcome, affordable prices.",
     "ctaCall": "Call Now",
+    "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Get Directions",
     "ctaContact": "Prefer that we contact you? Write to us",
     "hours": "Mon to Sat: 9:00 AM - 9:00 PM · Sun: 9:00 AM - 7:00 PM",
@@ -174,6 +175,8 @@
   "cta": {
     "callNow": "Call Now",
     "getDirections": "Get Directions",
+    "whatsapp": "Message us on WhatsApp",
+    "whatsappMessage": "Hello, I would like more information about your services.",
     "bookAppointment": "Book Appointment",
     "learnMore": "Learn More",
     "contactUs": "Contact Us",

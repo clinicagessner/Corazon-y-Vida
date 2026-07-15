@@ -17,6 +17,10 @@ export const CONTACT_INFO: ContactInfo = {
   zip: "77502",
   phone: "+18329305551",
   phoneFormatted: "+1 (832) 930-5551",
+  // WhatsApp usa el mismo número de la clínica, en E.164 sin "+" (formato wa.me).
+  // No mostrarlo como texto visible en los botones: CallRail swap.js reescribe
+  // los números visibles y aquí solo debe intercambiar los enlaces tel:.
+  whatsapp: "18329305551",
   email: "chcorazonyvida@gmail.com",
   hours: "Lunes a Sábado: 9:00 AM - 9:00 PM | Domingo: 9:00 AM - 7:00 PM",
   hoursWeekday: "Lunes a Sábado: 9:00 AM - 9:00 PM",

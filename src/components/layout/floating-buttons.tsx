@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { Phone, MapPin } from "@phosphor-icons/react/dist/ssr";
+import { Phone, MapPin, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import { Tooltip, TooltipContent, TooltipTrigger } from "@/components/ui/tooltip";
 import { CONTACT_INFO } from "@/lib/constants";
 import { cn } from "@/lib/utils";
@@ -15,6 +15,10 @@ export function FloatingButtons({ phoneOverride }: FloatingButtonsProps = {}) {
   const t = useTranslations("cta");
   const [isVisible, setIsVisible] = useState(false);
   const phone = phoneOverride?.phone ?? CONTACT_INFO.phone;
+
+  // Enlace wa.me con mensaje precargado. Solo icono/label, sin número visible:
+  // CallRail swap.js reescribe los números mostrados y no debe tocar este chat.
+  const whatsappHref = `https://wa.me/${CONTACT_INFO.whatsapp}?text=${encodeURIComponent(t("whatsappMessage"))}`;
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,6 +51,24 @@ export function FloatingButtons({ phoneOverride }: FloatingButtonsProps = {}) {
         </TooltipTrigger>
         <TooltipContent side="left">
           <p>{t("getDirections")}</p>
+        </TooltipContent>
+      </Tooltip>
+
+      {/* WhatsApp Button */}
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <a
+            href={whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="size-12 rounded-full bg-whatsapp text-white shadow-md shadow-whatsapp/30 flex items-center justify-center hover:bg-whatsapp-dark hover:shadow-lg transition-all"
+            aria-label={t("whatsapp")}
+          >
+            <WhatsappLogo className="size-5" weight="fill" />
+          </a>
+        </TooltipTrigger>
+        <TooltipContent side="left">
+          <p>{t("whatsapp")}</p>
         </TooltipContent>
       </Tooltip>
 
