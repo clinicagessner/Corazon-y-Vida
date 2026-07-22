@@ -7,8 +7,6 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
-import { SpeedInsights } from "@vercel/speed-insights/next";
-import { Analytics } from "@vercel/analytics/next";
 import { GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
@@ -176,8 +174,6 @@ export default async function LocaleLayout({ children, params }: Props) {
             <ScrollToTop />
             <JsonLdMedicalClinic />
             <ScrollAnimations />
-            <SpeedInsights />
-            <Analytics />
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>
