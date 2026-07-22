@@ -81,7 +81,7 @@ export default async function BlogPage({ params }: Props) {
             <Link href={getLocalizedHref(`/blog/${featuredPost.slug}`)} className="block group">
               <Card className="overflow-hidden border-0 shadow-lg hover:shadow-2xl transition-shadow rounded-3xl">
                 <div className="grid md:grid-cols-2 gap-0">
-                  <div className="relative aspect-video md:aspect-auto md:min-h-[420px] overflow-hidden">
+                  <div className="relative aspect-video md:aspect-auto md:min-h-105 overflow-hidden">
                     <Image
                       src={featuredPost.image || "/images/blog/default.webp"}
                       alt={`${featuredPost.title} - Blog de salud Clínica Hispana Corazón y Vida Pasadena`}
