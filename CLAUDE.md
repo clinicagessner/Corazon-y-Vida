@@ -26,7 +26,7 @@ Bilingual medical clinic website (Spanish/English) for Houston, TX using Next.js
 
 ### Key Files
 
-- `src/lib/constants.ts` - All business data: SITE_CONFIG, CONTACT_INFO, SERVICES[], PROMOTIONS[], BLOG_POSTS[], SOCIAL_LINKS
+- `src/lib/constants.ts` - All business data: SITE_CONFIG, CONTACT_INFO, SERVICES[], PROMOTIONS[], SOCIAL_LINKS
 - `src/lib/validations.ts` - Zod schemas for forms (contactFormSchema, contactFormSchemaEn)
 - `src/app/actions/send-contact-email.ts` - Server action for contact form (uses Resend)
 - `src/components/seo/json-ld.tsx` - MedicalClinic, FAQPage, BreadcrumbList, MedicalProcedure schemas
@@ -51,8 +51,9 @@ Icon weight variants: `regular`, `fill`, `duotone`, `bold`
 
 ### Blog System
 
-- Blog posts defined in `BLOG_POSTS[]` in constants.ts (not markdown files)
-- Posts have inline markdown content, parsed by `parseMarkdown()` in blog page
+- Blog posts are markdown files in `src/content/blog/{es,en}/<slug>.md` with gray-matter frontmatter (slug, title, description, date, author, image, category, readTime, keywords)
+- Both locales must have the same filename/slug — slugs are read from the `es` directory (`getAllSlugs` in `src/lib/blog.ts`)
+- Loaded via `getBlogPosts`/`getBlogPost`/`getFeaturedPost` in `src/lib/blog.ts`; posts sort by date desc and the featured post is always the most recent (`posts[0]`)
 - Routes: `/blog` (list), `/blog/[slug]` (post detail)
 - SEO: `JsonLdBlogPosting` component for structured data
 
