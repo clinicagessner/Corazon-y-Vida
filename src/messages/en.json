@@ -2,7 +2,7 @@
   "metadata": {
     "title": "Hispanic Clinics Pasadena | Clinica Hispana Corazon y Vida | Spanish Speaking Doctors",
     "titleTemplate": "%s | Clinica Hispana Corazon y Vida Pasadena",
-    "description": "One of the top hispanic clinics in Pasadena TX. 100% Spanish medical care, walk-ins welcome. Family medicine, gynecology, diabetes care, laboratory. No insurance required; affordable self-pay pricing. Call: (832) 930-5551",
+    "description": "One of the top hispanic clinics in Pasadena TX. A medical center with 100% Spanish care, walk-ins welcome. Primary care, family medicine, gynecology, diabetes care, laboratory. No insurance required; affordable self-pay pricing. Call: (832) 930-5551",
     "ogDescription": "Trusted hispanic clinic in Pasadena. Professional Spanish-speaking medical care for the whole family. Family medicine, gynecology, diabetes, lab. Walk-ins welcome. {reviews}+ {rating}-star Google reviews."
   },
   "nav": {
@@ -126,11 +126,15 @@
     "q9": "How long is the wait without an appointment?",
     "a9": "Wait times vary depending on daily demand, but we generally see patients within 15-30 minutes. We recommend arriving early to ensure faster service.",
     "q10": "Is parking available?",
-    "a10": "Yes, we have ample free parking in front of the clinic. Our facilities are also accessible for people with disabilities, including ramps and adapted restrooms."
+    "a10": "Yes, we have ample free parking in front of the clinic. Our facilities are also accessible for people with disabilities, including ramps and adapted restrooms.",
+    "q11": "Where can I find a Hispanic clinic near me in Pasadena?",
+    "a11": "Clínica Hispana Corazón y Vida is a Hispanic and Latino clinic at 918 W Southmore Ave Suite 180, Pasadena, TX 77502, just minutes from Houston. We are open Monday through Saturday from 9:00 AM to 9:00 PM and Sundays from 9:00 AM to 7:00 PM, no appointment needed.",
+    "q12": "Can this clinic be my primary care doctor?",
+    "a12": "Yes. Many families choose us as their primary care provider and medical center close to home: general medicine visits, chronic condition management and lab work in one place."
   },
   "location": {
     "eyebrow": "Visit us",
-    "title": "Our Clinic Location in Pasadena",
+    "title": "Our Hispanic Clinic Near You in Pasadena",
     "subtitle": "Visit us at 918 W Southmore Ave Suite 180, Pasadena TX 77502",
     "howToGetHere": "How to Get Here",
     "getDirections": "Get Directions",
@@ -145,7 +149,7 @@
     "call": "Call"
   },
   "footer": {
-    "tagline": "Your health is our passion",
+    "tagline": "Your Hispanic clinic in Pasadena, TX: your health is our passion",
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Information",
     "followUs": "Follow Us",
