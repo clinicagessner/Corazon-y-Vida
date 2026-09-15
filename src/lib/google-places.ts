@@ -67,6 +67,11 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
       return null;
     }
 
+    if (!data.reviews) {
+      // Places omite `reviews` (campo Enterprise) cuando el proyecto de la clave no tiene facturación.
+      console.warn("Google Places: la respuesta no incluye reviews; revisar facturación del proyecto de la API key");
+    }
+
     // Filter: only 5-star reviews with text
     const filteredReviews = (data.reviews ?? [])
       .filter((review) => {

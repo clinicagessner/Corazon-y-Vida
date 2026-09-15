@@ -46,7 +46,7 @@ export const SOCIAL_LINKS: SocialLinks = {
 // Google Reviews fallback (datos reales del listado de Google, vía Places API).
 // Se usa si la API en vivo no responde. Actualizado: 518 reseñas / 4.9★.
 export const GOOGLE_REVIEWS_DATA = {
-  totalReviews: 518,
+  totalReviews: 538,
   averageRating: 4.9,
   placeId: "ChIJQz95O_OjQIYRFSccibEMRQ8",
 };
