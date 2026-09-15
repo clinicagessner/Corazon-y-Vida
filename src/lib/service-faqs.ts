@@ -372,150 +372,150 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examen-heces": {
     "faqs": [
       {
-        "question": "¿Cómo se toma la muestra de heces?",
-        "answer": "Te entregamos un recipiente e instrucciones claras para recolectar la muestra en casa y traerla a la clínica."
+        "question": "¿Puedo traer la muestra de heces desde mi casa?",
+        "answer": "Sí. Pase por la clínica a recoger el frasco con las instrucciones, recoja la muestra sin mezclarla con orina ni agua y tráigala el mismo día; si no es posible, refrigérela un máximo de 12 a 24 horas."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Por qué me piden tres muestras para parásitos?",
+        "answer": "Los parásitos y sus huevos no salen en todas las evacuaciones. Con tres muestras de días distintos la probabilidad de detectarlos aumenta mucho; una sola muestra negativa no descarta la infección."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Toda la familia debe tratarse si salen parásitos?",
+        "answer": "Con frecuencia sí, sobre todo con oxiuros o giardia, que se contagian entre convivientes. El médico le indica quiénes deben tratarse y cómo lavar ropa de cama y manos para evitar la reinfección."
       }
     ],
     "faqsEn": [
       {
-        "question": "How is the stool sample collected?",
-        "answer": "We give you a container and clear instructions to collect the sample at home and bring it to the clinic."
+        "question": "Can I bring the stool sample from home?",
+        "answer": "Yes. Stop by the clinic to pick up the jar with instructions, collect the sample without mixing it with urine or water and bring it the same day; if not possible, refrigerate it for a maximum of 12 to 24 hours."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Why do you ask for three samples for parasites?",
+        "answer": "Parasites and their eggs do not appear in every bowel movement. With three samples from different days the chance of detecting them rises a lot; a single negative sample does not rule out infection."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Does the whole family need treatment if parasites are found?",
+        "answer": "Often yes, especially with pinworms or giardia, which spread between household members. The provider tells you who should be treated and how to wash bedding and hands to avoid reinfection."
       }
     ]
   },
   "prueba-strep": {
     "faqs": [
       {
-        "question": "¿Cuánto tarda el resultado del strep test?",
-        "answer": "La prueba rápida de estreptococo da resultado en pocos minutos durante tu visita."
+        "question": "¿La prueba de estreptococo duele?",
+        "answer": "No duele; el hisopo roza el fondo de la garganta unos segundos y puede provocar arcadas breves. En niños pequeños se hace rápido y con el padre presente. El resultado está en minutos."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "Si la prueba rápida sale negativa, ¿ya descarto el estreptococo?",
+        "answer": "En adultos, casi siempre. En niños y adolescentes con síntomas claros se envía un cultivo de garganta, porque la prueba rápida puede pasar por alto algunos casos; el resultado tarda unos días."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Necesito antibiótico si es una gripe y no estreptococo?",
+        "answer": "No. Los dolores de garganta virales se curan solos en pocos días con líquidos, reposo y analgésicos. El antibiótico solo sirve cuando la prueba confirma estreptococo u otra causa bacteriana."
       }
     ],
     "faqsEn": [
       {
-        "question": "How long does the strep test take?",
-        "answer": "The rapid strep test gives a result in just a few minutes during your visit."
+        "question": "Does the strep test hurt?",
+        "answer": "It does not hurt; the swab brushes the back of the throat for a few seconds and may cause brief gagging. In small children it is done quickly with the parent present. The result is ready in minutes."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "If the rapid test is negative, is strep ruled out?",
+        "answer": "In adults, almost always. In children and teens with clear symptoms a throat culture is sent, because the rapid test can miss some cases; the result takes a few days."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do I need antibiotics if it is a cold and not strep?",
+        "answer": "No. Viral sore throats go away on their own in a few days with fluids, rest and pain relievers. Antibiotics only help when the test confirms strep or another bacterial cause."
       }
     ]
   },
   "prueba-tuberculosis": {
     "faqs": [
       {
-        "question": "¿Tengo que regresar para leer la prueba de TB?",
-        "answer": "Sí, la prueba cutánea (PPD) se lee entre 48 y 72 horas después de aplicarla; te damos la cita de lectura."
+        "question": "¿Qué pasa si no vuelvo a la lectura en 48 a 72 horas?",
+        "answer": "La prueba cutánea no puede leerse después de 72 horas y hay que repetirla desde cero. Si sabe que no podrá volver, pida desde el inicio la prueba de sangre IGRA, que se resuelve en una sola visita."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Me vacunaron con BCG de niño: cuál prueba me conviene?",
+        "answer": "La de sangre IGRA. La vacuna BCG puede dar un falso positivo en la prueba cutánea, mientras que la IGRA no se ve afectada por ella y es la que exige el examen de inmigración."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puedo hacerme la prueba de tuberculosis si estoy embarazada?",
+        "answer": "Sí. Tanto la prueba cutánea como la de sangre son seguras durante el embarazo y se indican cuando hay contacto con un caso o lo pide un trámite. Avísenos para anotarlo en la evaluación."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do I have to come back to read the TB test?",
-        "answer": "Yes, the skin test (PPD) is read 48 to 72 hours after it's placed; we schedule your reading appointment."
+        "question": "What if I can't return for the reading within 48 to 72 hours?",
+        "answer": "The skin test cannot be read after 72 hours and must be repeated from the start. If you know you cannot return, ask from the beginning for the IGRA blood test, which is resolved in a single visit."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "I had the BCG vaccine as a child: which test is right for me?",
+        "answer": "The IGRA blood test. The BCG vaccine can cause a false positive on the skin test, while IGRA is not affected by it and is the one required for the immigration exam."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can I take the tuberculosis test if I am pregnant?",
+        "answer": "Yes. Both the skin test and the blood test are safe during pregnancy and are indicated when there is contact with a case or a process requires it. Let us know so we note it in the evaluation."
       }
     ]
   },
   "enfermedades-transmision-sexual": {
     "faqs": [
       {
-        "question": "¿Las pruebas son confidenciales?",
-        "answer": "Sí, todas las pruebas de STD son completamente confidenciales y se realizan con respeto y sin juicios."
+        "question": "¿Cuánto tiempo después de la exposición puedo hacerme la prueba?",
+        "answer": "Gonorrea y clamidia se detectan desde una o dos semanas; sífilis, de tres a seis; VIH, de dos a seis semanas según la prueba. Si la exposición fue reciente, se hace una primera prueba y se repite después."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Mi pareja tiene que venir?",
+        "answer": "No es obligatorio, pero si su resultado es positivo por gonorrea, clamidia, sífilis o tricomonas, su pareja debe tratarse al mismo tiempo para evitar la reinfección. Puede venir por su cuenta a la clínica."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Necesito tener síntomas para hacerme las pruebas?",
+        "answer": "No. La mayoría de las infecciones no da síntomas al inicio. Puede pedir el panel completo como chequeo de rutina, con una pareja nueva o antes de dejar de usar preservativo."
       }
     ],
     "faqsEn": [
       {
-        "question": "Is the testing confidential?",
-        "answer": "Yes, all STD testing is completely confidential and done with respect and without judgment."
+        "question": "How long after exposure can I get tested?",
+        "answer": "Gonorrhea and chlamydia can be detected from one or two weeks; syphilis, three to six; HIV, two to six weeks depending on the test. If the exposure was recent, a first test is done and repeated later."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Does my partner have to come?",
+        "answer": "It is not required, but if your result is positive for gonorrhea, chlamydia, syphilis or trichomonas, your partner must be treated at the same time to avoid reinfection. They can come to the clinic on their own."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do I need symptoms to get tested?",
+        "answer": "No. Most infections cause no symptoms at first. You can request the full panel as a routine check, with a new partner or before stopping condom use."
       }
     ]
   },
   "examen-alcohol-drogas": {
     "faqs": [
       {
-        "question": "¿Entregan documentación para el trabajo?",
-        "answer": "Sí, te entregamos la documentación del resultado para tu empleador o trámite."
+        "question": "¿Qué panel de drogas necesito para mi trabajo?",
+        "answer": "Lo define el empleador: los más comunes son de 5 o 10 sustancias. Traiga su formulario o pregunte a recursos humanos qué panel y si exigen cadena de custodia, y lo hacemos exactamente así."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Un medicamento recetado puede dar positivo?",
+        "answer": "Sí, algunos analgésicos, ansiolíticos y medicamentos para el déficit de atención dan positivo. Traiga la receta o el frasco: el médico revisor lo considera antes de reportar el resultado."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cuánto tarda el resultado de la prueba de drogas?",
+        "answer": "Las pruebas rápidas en la clínica dan resultado en minutos. Los paneles que van a laboratorio externo, sobre todo con cadena de custodia, tardan algunos días; le indicamos el plazo al recolectar la muestra."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you provide documentation for work?",
-        "answer": "Yes, we give you documentation of the result for your employer or paperwork."
+        "question": "Which drug panel do I need for my job?",
+        "answer": "The employer defines it: the most common are 5- or 10-substance panels. Bring your form or ask human resources which panel and whether chain of custody is required, and we do it exactly that way."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Can a prescription medication test positive?",
+        "answer": "Yes, some pain relievers, anxiety medications and attention deficit medications test positive. Bring the prescription or the bottle: the reviewing physician considers it before reporting the result."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How long does the drug test result take?",
+        "answer": "Rapid tests at the clinic give a result in minutes. Panels sent to an outside laboratory, especially with chain of custody, take a few days; we tell you the turnaround when the sample is collected."
       }
     ]
   },
