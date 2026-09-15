@@ -12,150 +12,150 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "condiciones-cronicas": {
     "faqs": [
       {
-        "question": "¿Cada cuánto debo hacerme exámenes de control?",
-        "answer": "Depende de tu condición; por lo general cada 3 a 6 meses para diabetes, presión o colesterol. Te damos un plan de seguimiento personalizado."
+        "question": "¿Puedo llevar aquí el control si ya me diagnosticaron en otro lugar?",
+        "answer": "Sí. Traiga sus últimos análisis y la lista de medicamentos con dosis. Revisamos su registro, repetimos las pruebas que hagan falta y continuamos el tratamiento sin empezar de cero."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Me pueden recetar los medicamentos para la diabetes o la presión?",
+        "answer": "Sí. El médico inicia o ajusta el tratamiento según sus análisis y le entrega la receta. Cuando existe la opción, se receta el genérico para que el medicamento le cueste menos en la farmacia."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Con qué frecuencia necesito análisis si tengo diabetes?",
+        "answer": "A1c cada tres meses mientras se ajusta el tratamiento y cada seis cuando está estable; riñón, colesterol y orina una vez al año. La presión se revisa en cada visita."
       }
     ],
     "faqsEn": [
       {
-        "question": "How often should I get control labs?",
-        "answer": "It depends on your condition; usually every 3 to 6 months for diabetes, blood pressure or cholesterol. We give you a personalized follow-up plan."
+        "question": "Can I continue my follow-up here if I was diagnosed elsewhere?",
+        "answer": "Yes. Bring your latest lab results and your medication list with doses. We review your record, repeat the tests that are needed and continue the treatment without starting over."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Can you prescribe my diabetes or blood pressure medications?",
+        "answer": "Yes. The provider starts or adjusts treatment based on your lab work and hands you the prescription. When the option exists, the generic is prescribed so the medication costs you less at the pharmacy."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How often do I need lab work if I have diabetes?",
+        "answer": "A1c every three months while treatment is being adjusted and every six once it is stable; kidney, cholesterol and urine once a year. Blood pressure is checked at every visit."
       }
     ]
   },
   "tiroides": {
     "faqs": [
       {
-        "question": "¿Qué prueba se usa para revisar la tiroides?",
-        "answer": "Usamos principalmente la TSH y, si es necesario, T3 y T4 para evaluar cómo funciona tu tiroides."
+        "question": "¿Necesito ayuno para la prueba de tiroides?",
+        "answer": "No. La TSH y la T4 se pueden tomar a cualquier hora. Si ya toma levotiroxina, tómela como siempre y díganos la dosis; el médico lo tendrá en cuenta al interpretar el resultado."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cada cuánto se repite el análisis si tomo medicamento para la tiroides?",
+        "answer": "Seis a ocho semanas después de cada cambio de dosis, y cada seis a doce meses cuando la TSH ya está estable. Durante el embarazo los controles son más frecuentes."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puedo tratarme aquí si tengo hipertiroidismo o un nódulo?",
+        "answer": "Hacemos el diagnóstico y el análisis inicial, y lo referimos a un endocrinólogo para el tratamiento específico. Mientras tanto seguimos su presión, pulso y síntomas en la clínica."
       }
     ],
     "faqsEn": [
       {
-        "question": "What test is used to check the thyroid?",
-        "answer": "We mainly use TSH and, if needed, T3 and T4 to evaluate how your thyroid is working."
+        "question": "Do I need to fast for the thyroid test?",
+        "answer": "No. TSH and T4 can be drawn at any time. If you already take levothyroxine, take it as usual and tell us the dose; the provider will consider it when interpreting the result."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "How often is the test repeated if I take thyroid medication?",
+        "answer": "Six to eight weeks after each dose change, and every six to twelve months once TSH is stable. During pregnancy the checks are more frequent."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can I be treated here if I have hyperthyroidism or a nodule?",
+        "answer": "We make the diagnosis and run the initial tests, and refer you to an endocrinologist for the specific treatment. Meanwhile we follow your blood pressure, pulse and symptoms at the clinic."
       }
     ]
   },
   "alergias": {
     "faqs": [
       {
-        "question": "¿Tratan alergias en la piel y respiratorias?",
-        "answer": "Sí, evaluamos y tratamos alergias respiratorias (rinitis, congestión) y de la piel (ronchas, comezón)."
+        "question": "¿Hacen pruebas de alergia en la clínica?",
+        "answer": "Evaluamos los síntomas y los desencadenantes en la consulta y tratamos las alergias comunes. Cuando hacen falta pruebas cutáneas o de sangre específicas, se lo indicamos y lo referimos a un especialista."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cómo sé si es alergia o resfriado?",
+        "answer": "La alergia no da fiebre, dura semanas, empeora en ciertas temporadas o lugares y suele traer comezón en nariz y ojos. El resfriado dura pocos días y puede acompañarse de fiebre y malestar."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puedo tomar antihistamínicos todos los días?",
+        "answer": "Los antihistamínicos de segunda generación pueden usarse a diario en temporada, según indicación médica. Si los necesita todo el año, conviene revisar el plan y valorar aerosol nasal o pruebas."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you treat both skin and respiratory allergies?",
-        "answer": "Yes, we evaluate and treat respiratory allergies (rhinitis, congestion) and skin allergies (hives, itching)."
+        "question": "Do you do allergy testing at the clinic?",
+        "answer": "We evaluate symptoms and triggers at the visit and treat common allergies. When specific skin or blood tests are needed, we tell you and refer you to a specialist."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "How do I know if it is an allergy or a cold?",
+        "answer": "An allergy causes no fever, lasts weeks, worsens in certain seasons or places and usually brings itchy nose and eyes. A cold lasts a few days and may come with fever and malaise."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can I take antihistamines every day?",
+        "answer": "Second-generation antihistamines can be used daily during the season, as directed by the provider. If you need them all year, the plan should be reviewed and a nasal spray or testing considered."
       }
     ]
   },
   "enfermedades-respiratorias": {
     "faqs": [
       {
-        "question": "¿Hacen prueba de flu y de COVID el mismo día?",
-        "answer": "Sí, hacemos pruebas rápidas de influenza y COVID y te damos el resultado y el tratamiento el mismo día."
+        "question": "¿Cuánto tarda el resultado de la prueba de flu o COVID?",
+        "answer": "Las pruebas rápidas se procesan en la clínica y el resultado está listo en la misma visita, normalmente en unos 15 minutos, así que sale con el diagnóstico y el tratamiento el mismo día."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Me dan nota médica para el trabajo o la escuela?",
+        "answer": "Sí. Si la evaluación lo justifica, le entregamos una nota con los días de reposo recomendados y, si aplica, la fecha en que puede volver sin contagiar a otros."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Atienden a niños con fiebre y tos?",
+        "answer": "Sí, atendemos a niños y adultos. Los bebés menores de tres meses con fiebre deben ir a emergencias; para el resto, hacemos las pruebas y el tratamiento en la clínica."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you test for flu and COVID the same day?",
-        "answer": "Yes, we run rapid flu and COVID tests and give you the result and treatment the same day."
+        "question": "How long does the flu or COVID test result take?",
+        "answer": "Rapid tests are processed at the clinic and the result is ready in the same visit, usually within about 15 minutes, so you leave with the diagnosis and treatment the same day."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Do you give a medical note for work or school?",
+        "answer": "Yes. If the evaluation warrants it, we give you a note with the recommended rest days and, when applicable, the date you can return without infecting others."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do you see children with fever and cough?",
+        "answer": "Yes, we see children and adults. Babies under three months with fever should go to the emergency room; for everyone else, we run the tests and provide treatment at the clinic."
       }
     ]
   },
   "examen-fisico-escolar": {
     "faqs": [
       {
-        "question": "¿Llenan el formulario de la escuela o el equipo?",
-        "answer": "Sí, trae el formulario de tu escuela o equipo deportivo y lo completamos durante la visita."
+        "question": "¿Tengo que traer el formulario de la escuela o ustedes lo tienen?",
+        "answer": "Traiga el formulario de su escuela, liga o del UIL con la parte del padre ya llena. Si no lo tiene, entregamos un certificado general, pero la mayoría de los programas exige su propio formato."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿El niño debe venir acompañado?",
+        "answer": "Sí. Los menores deben venir con su padre, madre o tutor legal, que firma el historial y el consentimiento. Traiga su identificación y la cartilla de vacunas del niño."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Sirve el mismo examen para la escuela y para el deporte?",
+        "answer": "En general sí: el examen es el mismo y podemos llenar ambos formularios en la misma visita. El de deportes incluye preguntas adicionales sobre desmayos, dolor de pecho y lesiones."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you fill out the school or team form?",
-        "answer": "Yes, bring your school or sports-team form and we complete it during the visit."
+        "question": "Do I have to bring the school form or do you have it?",
+        "answer": "Bring your school's, league's or UIL form with the parent section already filled out. If you do not have it, we provide a general certificate, but most programs require their own format."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Does the child need to be accompanied?",
+        "answer": "Yes. Minors must come with a parent or legal guardian, who signs the history and consent. Bring your ID and the child's vaccination record."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Does the same exam work for school and for sports?",
+        "answer": "In general yes: the exam is the same and we can complete both forms in the same visit. The sports form includes additional questions about fainting, chest pain and injuries."
       }
     ]
   },
@@ -282,30 +282,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "salud-hombre": {
     "faqs": [
       {
-        "question": "¿Qué incluye el examen del hombre?",
-        "answer": "Incluye antígeno prostático (PSA), nivel de testosterona y un chequeo general, con resultados explicados en español."
+        "question": "¿Necesito ayuno para el chequeo del hombre?",
+        "answer": "Solo si quiere incluir glucosa y perfil de lípidos en la misma visita: 8 a 12 horas sin comer, agua permitida. El PSA, el riñón, el hígado y el perfil hormonal no requieren ayuno."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Un PSA alto significa que tengo cáncer de próstata?",
+        "answer": "No necesariamente. El PSA también sube con el crecimiento benigno de la próstata, la infección o el ejercicio reciente. Se repite y se valora con la edad; si persiste alto, se refiere al urólogo."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puedo pedir solo una prueba en lugar del chequeo completo?",
+        "answer": "Sí. Puede solicitar una prueba concreta, como el PSA o la glucosa, y conocer su precio antes. El médico le dirá si conviene añadir alguna otra según sus síntomas o antecedentes."
       }
     ],
     "faqsEn": [
       {
-        "question": "What does the men's exam include?",
-        "answer": "It includes prostate antigen (PSA), testosterone level and a general checkup, with results explained in Spanish."
+        "question": "Do I need to fast for the men's checkup?",
+        "answer": "Only if you want glucose and the lipid profile included in the same visit: 8 to 12 hours without food, water allowed. PSA, kidney, liver and the hormone profile do not require fasting."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Does a high PSA mean I have prostate cancer?",
+        "answer": "Not necessarily. PSA also rises with benign prostate growth, infection or recent exercise. It is repeated and weighed against your age; if it stays high, you are referred to a urologist."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can I ask for a single test instead of the full checkup?",
+        "answer": "Yes. You can request a specific test, such as PSA or glucose, and know its price beforehand. The provider will tell you whether adding another one makes sense based on your symptoms or history."
       }
     ]
   },
