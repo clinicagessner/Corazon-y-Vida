@@ -1,6 +1,7 @@
 ---
 slug: "laboratorio-clinico-houston-analisis-sangre"
 title: "Laboratorio Clínico en Pasadena: Análisis de Sangre con Resultados Rápidos"
+metaTitle: "Laboratorio Clínico en Pasadena: Análisis de Sangre"
 description: "Laboratorio clínico en Pasadena TX con resultados el mismo día. Análisis de sangre, glucosa, colesterol, tiroides y más. Precios accesibles en español."
 date: "2026-03-21"
 dateModified: "2026-03-21"

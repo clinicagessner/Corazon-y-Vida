@@ -1,6 +1,7 @@
 ---
 slug: "examen-dot-cdl-camioneros-houston"
 title: "DOT Physical Exam for Truck Drivers in Pasadena: Everything You Need to Know"
+metaTitle: "DOT Physical for Truck Drivers in Pasadena"
 description: "Complete guide to DOT physical exams for CDL license in Pasadena TX. Requirements, what to expect, cost, and where to get it done in Spanish. No appointment needed."
 date: "2026-04-11"
 dateModified: "2026-04-11"

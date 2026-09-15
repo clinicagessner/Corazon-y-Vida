@@ -1,6 +1,7 @@
 ---
 slug: "vitamina-b12-beneficios-inyecciones-pasadena"
 title: "Vitamina B12: Beneficios, Síntomas de Deficiencia e Inyecciones"
+metaTitle: "Vitamina B12: Beneficios e Inyecciones en Pasadena"
 description: "Para qué sirve la vitamina B12, síntomas de deficiencia y cuándo conviene la inyección o el suero vitaminado. Prueba de B12 en español en Pasadena TX, sin cita y sin seguro."
 date: "2026-08-18"
 author: "Clínica Hispana Corazón y Vida"

@@ -12,9 +12,16 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const { locale } = await params;
   const localePath = locale === "en" ? "/en" : "";
 
+  const isEn = locale === "en";
+  const title = isEn ? "HIPAA Privacy Policy" : "Política de Privacidad HIPAA";
+  const description = isEn
+    ? `HIPAA privacy policy and notice of privacy practices of ${SITE_CONFIG.name}, Pasadena TX. Learn how we protect your health information.`
+    : `Política de privacidad y aviso de prácticas HIPAA de ${SITE_CONFIG.name}, Pasadena TX. Cómo protegemos su información de salud.`;
+  const ogImage = `${SITE_CONFIG.baseUrl}/images/og-image.jpg`;
+
   return {
-    title: "Política de Privacidad HIPAA",
-    description: `Política de privacidad y aviso de prácticas de privacidad HIPAA de ${SITE_CONFIG.name}. Conozca cómo protegemos su información de salud.`,
+    title,
+    description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
       languages: {
@@ -24,11 +31,13 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       },
     },
     openGraph: {
-      title: `Política de Privacidad HIPAA | ${SITE_CONFIG.name}`,
-      description: `Política de privacidad y aviso de prácticas de privacidad HIPAA. Conozca cómo protegemos su información de salud en ${SITE_CONFIG.name}.`,
+      title: `${title} | Corazón y Vida`,
+      description,
       url: `${SITE_CONFIG.baseUrl}${localePath}/privacy`,
       type: "website",
+      images: [{ url: ogImage, width: 1200, height: 630, alt: SITE_CONFIG.name }],
     },
+    twitter: { card: "summary_large_image", title: `${title} | Corazón y Vida`, description, images: [ogImage] },
     robots: {
       index: true,
       follow: true,

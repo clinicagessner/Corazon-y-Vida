@@ -1,6 +1,7 @@
 ---
 slug: "bienvenidos-clinica-hispana-corazon-y-vida"
 title: "Welcome to Clínica Hispana Corazón y Vida!"
+metaTitle: "Welcome to Clínica Corazón y Vida"
 description: "Discover our Hispanic medical clinic in Pasadena, TX. Professional care in Spanish, affordable prices, and a team committed to your health."
 date: "2026-03-16"
 dateModified: "2026-03-21"

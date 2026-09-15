@@ -26,11 +26,15 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
   const t = await getTranslations({ locale, namespace: "services" });
   const localePath = locale === "en" ? "/en" : "";
 
+  const title = locale === "en" ? "Medical Services in Pasadena TX | Corazón y Vida" : "Servicios Médicos en Pasadena TX | Corazón y Vida";
+  const description = locale === "en"
+    ? "Medical services in Pasadena TX: family medicine, I-693 immigration exams, lab tests, gynecology, ultrasound, DOT physicals and more. Walk-ins welcome."
+    : "Servicios médicos en Pasadena TX: medicina familiar, exámenes I-693, laboratorio, ginecología, ultrasonido, examen DOT y más. Sin cita, en español.";
+  const ogImage = { url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`, width: 1920, height: 1280, alt: t("title") };
+
   return {
-    title: t("title"),
-    description: locale === "en"
-      ? "Medical services in Pasadena TX: family medicine, I-693 immigration exams, lab tests, gynecology, ultrasound, DOT physicals and more. Walk-ins welcome, Spanish-speaking staff."
-      : "Servicios médicos en Pasadena TX: medicina familiar, exámenes I-693, laboratorio, ginecología, ultrasonido, examen DOT y más. Sin cita previa, atención en español.",
+    title: { absolute: title },
+    description,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/services`,
       languages: {
@@ -40,18 +44,13 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       },
     },
     openGraph: {
-      title: t("title"),
-      description: t("subtitle"),
+      title,
+      description,
+      type: "website",
       url: `${SITE_CONFIG.baseUrl}${localePath}/services`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
-          width: 1200,
-          height: 630,
-          alt: t("title"),
-        },
-      ],
+      images: [ogImage],
     },
+    twitter: { card: "summary_large_image", title, description, images: [ogImage.url] },
   };
 }
 

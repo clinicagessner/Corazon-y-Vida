@@ -1,6 +1,7 @@
 ---
 slug: "control-diabetes-houston-guia-pacientes"
 title: "Diabetes Management in Pasadena: A Guide for Hispanic Patients"
+metaTitle: "Diabetes Management in Pasadena: A Guide"
 description: "Learn how to manage your diabetes with our comprehensive guide. Glucose monitoring, diet, medications, and how Clínica Hispana Corazón y Vida can help Pasadena patients."
 date: "2026-03-19"
 dateModified: "2026-03-21"

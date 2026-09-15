@@ -1,6 +1,7 @@
 ---
 slug: "guia-examen-medico-inmigracion-i693-houston"
 title: "Guía Completa: Examen Médico de Inmigración I-693 en Pasadena"
+metaTitle: "Examen Médico de Inmigración I-693 en Pasadena"
 description: "Todo lo que necesita saber sobre el examen médico I-693 para Green Card en Pasadena TX. Requisitos, vacunas, costos y qué esperar con Civil Surgeons certificados."
 date: "2026-03-18"
 dateModified: "2026-03-21"

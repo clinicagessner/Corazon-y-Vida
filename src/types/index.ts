@@ -74,6 +74,8 @@ export interface BlogPost {
   slug: string;
   title: string;
   titleEn?: string;
+  /** Título corto (≤ 44 caracteres) para <title>; el largo queda como H1. */
+  metaTitle?: string;
   description: string;
   descriptionEn?: string;
   date: string;

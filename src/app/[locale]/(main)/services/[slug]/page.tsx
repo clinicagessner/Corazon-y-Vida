@@ -36,6 +36,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { seoDescription, seoTitle } from "@/lib/seo";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
 import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ } from "@/components/seo/json-ld";
@@ -93,9 +94,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const service = getLocalizedService(rawService, locale);
   const localePath = locale === "en" ? "/en" : "";
 
+  const title = seoTitle(service.title, locale);
+  const description = seoDescription(service.description);
+  const image = { url: `${SITE_CONFIG.baseUrl}${service.image}`, width: 1024, height: 1024, alt: service.title };
+
   return {
-    title: service.title,
-    description: service.description,
+    title: { absolute: title },
+    description,
     keywords: service.keywords,
     alternates: {
       canonical: `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`,
@@ -106,18 +111,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: `${service.title} | ${SITE_CONFIG.name}`,
-      description: service.description,
+      title,
+      description,
+      type: "website",
       url: `${SITE_CONFIG.baseUrl}${localePath}/services/${slug}`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}${service.image}`,
-          width: 1200,
-          height: 630,
-          alt: service.title,
-        },
-      ],
+      images: [image],
     },
+    twitter: { card: "summary_large_image", title, description, images: [image.url] },
   };
 }
 

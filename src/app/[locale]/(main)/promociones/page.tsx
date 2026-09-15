@@ -37,16 +37,11 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
     openGraph: {
       title: t("metaTitle"),
       description: t("metaDescription"),
+      type: "website",
       url: `${SITE_CONFIG.baseUrl}${localePath}/promociones`,
-      images: [
-        {
-          url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
-          width: 1200,
-          height: 630,
-          alt: t("pageTitle"),
-        },
-      ],
+      images: [{ url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`, width: 1920, height: 1280, alt: t("pageTitle") }],
     },
+    twitter: { card: "summary_large_image", title: t("metaTitle"), description: t("metaDescription"), images: [`${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`] },
   };
 }
 

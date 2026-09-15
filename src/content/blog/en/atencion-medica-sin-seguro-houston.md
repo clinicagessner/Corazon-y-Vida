@@ -1,6 +1,7 @@
 ---
 slug: "atencion-medica-sin-seguro-houston"
 title: "Healthcare Without Insurance in Pasadena: Affordable Options"
+metaTitle: "Healthcare Without Insurance in Pasadena TX"
 description: "No health insurance in Pasadena? Discover affordable, quality medical care options at Clínica Hispana Corazón y Vida — transparent pricing, no appointment needed."
 date: "2026-03-17"
 dateModified: "2026-03-21"

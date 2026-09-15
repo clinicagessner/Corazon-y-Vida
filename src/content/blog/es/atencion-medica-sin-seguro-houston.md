@@ -1,6 +1,7 @@
 ---
 slug: "atencion-medica-sin-seguro-houston"
 title: "Atención Médica Sin Seguro en Pasadena: Opciones Accesibles"
+metaTitle: "Atención Médica Sin Seguro en Pasadena TX"
 description: "¿No tiene seguro médico en Pasadena? Conozca sus opciones para recibir atención médica accesible y de calidad en Clínica Hispana Corazón y Vida."
 date: "2026-03-17"
 dateModified: "2026-03-21"

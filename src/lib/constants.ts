@@ -430,11 +430,11 @@ export const SERVICES: Service[] = [
   {
     "id": "salud-hombre",
     "slug": "salud-hombre",
-    "title": "Exámenes del Hombre: PSA y Testosterona",
-    "titleEn": "Men's Health Exams: PSA & Testosterone",
+    "title": "Salud del Hombre: Chequeo y Examen de PSA",
+    "titleEn": "Men's Health: Checkup and PSA Test",
     "shortTitle": "Salud del Hombre",
-    "description": "Exámenes del hombre en Pasadena, TX: PSA y testosterona. Laboratorio y atención en español, con precios accesibles.",
-    "descriptionEn": "Men's health exams in Pasadena, TX: PSA and testosterone. Lab work and care in Spanish, with affordable pricing.",
+    "description": "Chequeo de salud del hombre en Pasadena, TX: examen de PSA, perfil de laboratorio y consulta en español, sin seguro.",
+    "descriptionEn": "Men's health checkup in Pasadena, TX: PSA test, lab profile and consultation in Spanish, no insurance needed.",
     "longDescription": "La salud del hombre muchas veces se posterga. En Clínica Hispana Corazón y Vida facilitamos los exámenes que ayudan a detectar a tiempo cambios importantes, con resultados explicados en español.\n\n**¿Qué incluye?**\n- Examen de antígeno prostático (PSA)\n- Medición del nivel de testosterona\n- Chequeo general y de signos vitales\n- Evaluación de síntomas urinarios o de energía\n- Referencia a especialista si se requiere\n\n**Por qué es importante**\nEl PSA ayuda a vigilar la salud de la próstata y la testosterona influye en la energía, el ánimo y la salud general. Un control sencillo te da tranquilidad.\n\n**¿Por qué elegir Clínica Hispana Corazón y Vida?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 918 W Southmore Ave Suite 180, Pasadena, TX 77502, con horario de lunes a sábado de 9 AM a 9 PM y domingos de 9 AM a 7 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Pasadena, TX y el área sureste de Houston: South Houston, Deer Park, Galena Park, Genoa, Red Bluff y comunidades cercanas.",
     "longDescriptionEn": "Men's health is often postponed. At Clínica Hispana Corazón y Vida we make it easy to get the exams that help catch important changes early, with results explained in Spanish.\n\n**What's included?**\n- Prostate antigen (PSA) test\n- Testosterone level measurement\n- General checkup and vital signs\n- Evaluation of urinary or energy symptoms\n- Referral to a specialist if needed\n\n**Why it matters**\nPSA helps monitor prostate health, and testosterone influences energy, mood and overall health. A simple check gives you peace of mind.\n\n**Why choose Clínica Hispana Corazón y Vida?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 918 W Southmore Ave Suite 180, Pasadena, TX 77502, open Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Pasadena, TX and the southeast Houston area: South Houston, Deer Park, Galena Park, Genoa, Red Bluff and nearby communities.",
     "icon": "Activity",
@@ -444,13 +444,13 @@ export const SERVICES: Service[] = [
       "examen del hombre pasadena",
       "prueba psa pasadena",
       "examen de prostata pasadena",
-      "examen de testosterona pasadena"
+      "chequeo de salud del hombre pasadena"
     ],
     "keywordsEn": [
       "mens health pasadena",
       "psa test pasadena",
       "prostate exam pasadena",
-      "testosterone test pasadena"
+      "mens health checkup pasadena"
     ],
     "features": [
       "Antígeno prostático (PSA)",
@@ -1193,8 +1193,8 @@ export const SERVICES: Service[] = [
     "title": "Farmacia",
     "titleEn": "Pharmacy",
     "shortTitle": "Farmacia",
-    "description": "Farmacia en Pasadena, TX dentro de la clínica. Surtimos tu receta al terminar la consulta, atención en español.",
-    "descriptionEn": "Pharmacy in Pasadena, TX inside the clinic. We fill your prescription right after your visit, service in Spanish.",
+    "description": "Farmacia dentro de la clínica en Pasadena, TX: medicamentos disponibles al terminar tu consulta, con atención en español.",
+    "descriptionEn": "In-clinic pharmacy in Pasadena, TX: medications available right after your visit, with service in Spanish.",
     "longDescription": "Al terminar tu consulta en Clínica Hispana Corazón y Vida puedes recoger tus medicamentos en nuestra propia farmacia, sin tener que ir a otro lugar. Es la comodidad de resolver todo en una sola visita, con atención en español.\n\n**¿Qué incluye?**\n- Surtido de tu receta justo al terminar la consulta\n- Medicamentos de marca y genéricos\n- Medicamentos de venta libre (OTC) para gripe, dolor, alergias y más\n- Asesoría del personal sobre cómo tomar tus medicamentos\n- Resurtido de recetas\n\n**¿Por qué usar nuestra farmacia?**\nTe ahorras una segunda parada: el médico te atiende, te receta y recoges tu medicamento en el mismo lugar. Te explicamos en español la dosis, los horarios y los cuidados.\n\n**¿Por qué elegir Clínica Hispana Corazón y Vida?**\nSomos una clínica hispana y latina que te atiende 100% en español, sin cita previa y con precios accesibles, sin necesidad de seguro médico. Encuéntranos como tu centro médico cerca de ti en 918 W Southmore Ave Suite 180, Pasadena, TX 77502, con horario de lunes a sábado de 9 AM a 9 PM y domingos de 9 AM a 7 PM. Nuestro equipo trata a cada paciente con respeto, tiempo y explicaciones claras.\n\n**Formas de pago**\nNo necesitas seguro médico. Manejamos precios accesibles y transparentes, y aceptamos efectivo y tarjetas. Pregúntanos por el costo de tu servicio antes de tu visita.\n\n**Áreas que servimos**\nAtendemos a pacientes de Pasadena, TX y el área sureste de Houston: South Houston, Deer Park, Galena Park, Genoa, Red Bluff y comunidades cercanas.",
     "longDescriptionEn": "After your visit at Clínica Hispana Corazón y Vida you can pick up your medications at our own pharmacy, without going anywhere else. It's the convenience of getting everything done in a single visit, with service in Spanish.\n\n**What's included?**\n- Your prescription filled right after your visit\n- Brand-name and generic medications\n- Over-the-counter (OTC) medications for colds, pain, allergies and more\n- Staff guidance on how to take your medications\n- Prescription refills\n\n**Why use our pharmacy?**\nYou skip the second stop: the doctor sees you, writes your prescription, and you pick up your medication in the same place. We explain the dosage, schedule and precautions in Spanish.\n\n**Why choose Clínica Hispana Corazón y Vida?**\nWe are a Hispanic and Latino clinic that cares for you 100% in Spanish, with no appointment needed and affordable pricing, no insurance required. Find your medical center near you at 918 W Southmore Ave Suite 180, Pasadena, TX 77502, open Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. Our team treats every patient with respect, time and clear explanations.\n\n**Payment**\nYou don't need health insurance. We offer affordable, transparent pricing and accept cash and cards. Ask us about the cost of your service before your visit.\n\n**Areas we serve**\nWe care for patients across Pasadena, TX and the southeast Houston area: South Houston, Deer Park, Galena Park, Genoa, Red Bluff and nearby communities.",
     "icon": "Pill",
@@ -1204,13 +1204,13 @@ export const SERVICES: Service[] = [
       "farmacia en pasadena",
       "farmacia hispana pasadena",
       "farmacia cerca de mí pasadena",
-      "surtir receta pasadena"
+      "medicamentos en la clinica pasadena"
     ],
     "keywordsEn": [
       "pharmacy pasadena",
       "hispanic pharmacy pasadena",
       "pharmacy near me pasadena",
-      "fill prescription pasadena"
+      "medications at the clinic pasadena"
     ],
     "features": [
       "Surtido de tu receta al instante",
