@@ -26,8 +26,8 @@ export async function Hero() {
       <Image
         src="/images/hero-bg.webp"
         alt="Clínica médica hispana en Pasadena TX - Doctor atendiendo paciente con atención profesional 100% en español"
-        width={1920}
-        height={1080}
+        width={560}
+        height={510}
         priority
         fetchPriority="high"
         quality={50}

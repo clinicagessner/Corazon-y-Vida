@@ -8,7 +8,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleTags, GoogleTagManagerNoScript } from "@/components/tracking/google-tags";
 import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -141,25 +141,16 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   // Analytics IDs desde variables de entorno (se renderizan solo si existen).
   const metaPixelId = process.env.NEXT_PUBLIC_META_PIXEL_ID;
-  const googleAdsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
 
   return (
     <html lang={locale} data-scroll-behavior="smooth" className={`${montserrat.variable} ${sourceSans.variable}`} suppressHydrationWarning>
       <head>
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#E11649" />
-        {/* Preconnect to external domains for faster loading */}
-        <link rel="preconnect" href="https://connect.facebook.net" />
-        <link rel="preconnect" href="https://cdn.callrail.com" />
-        <link rel="preconnect" href="https://maps.googleapis.com" />
-        <link rel="preconnect" href="https://lh3.googleusercontent.com" />
+        {/* Los scripts de terceros se cargan tras window.load (ver abajo), así
+            que no hace falta preconnect en el camino crítico del LCP. */}
         <link rel="dns-prefetch" href="https://cdn.callrail.com" />
-        {/* CallRail - Call Tracking */}
-        <script
-          type="text/javascript"
-          src="//cdn.callrail.com/companies/466775339/5eb54ce6b242c3e2876d/12/swap.js"
-          async
-        />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
         {/* Meta Pixel noscript fallback */}
         {metaPixelId && (
           <noscript>
@@ -174,8 +165,8 @@ export default async function LocaleLayout({ children, params }: Props) {
         )}
         {/* GA4 se gestiona desde Google Tag Manager (contenedor abajo). */}
       </head>
-      <GoogleTagManager gtmId="GTM-K8S48BQ3" />
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
+        <GoogleTagManagerNoScript />
         <NextIntlClientProvider messages={messages}>
           <TooltipProvider>
             {children}
@@ -185,9 +176,17 @@ export default async function LocaleLayout({ children, params }: Props) {
           </TooltipProvider>
         </NextIntlClientProvider>
       </body>
-      {/* Meta Pixel */}
+      {/* GTM + Google Ads (gtm.js y gtag.js diferidos a después de window.load) */}
+      <GoogleTags />
+      {/* CallRail swap: reescribe los números mostrados; diferido, no está en el LCP */}
+      <Script
+        id="callrail-swap"
+        strategy="lazyOnload"
+        src="https://cdn.callrail.com/companies/466775339/5eb54ce6b242c3e2876d/12/swap.js"
+      />
+      {/* Meta Pixel (diferido: era la tarea larga más grande tras la hidratación) */}
       {metaPixelId && (
-        <Script id="meta-pixel" strategy="afterInteractive">
+        <Script id="meta-pixel" strategy="lazyOnload">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -201,22 +200,6 @@ export default async function LocaleLayout({ children, params }: Props) {
             fbq('track', 'PageView');
           `}
         </Script>
-      )}
-      {/* Google Ads */}
-      {googleAdsId && (
-        <>
-          <Script
-            src={`https://www.googletagmanager.com/gtag/js?id=${googleAdsId}`}
-            strategy="afterInteractive"
-          />
-          <Script id="google-ads-tag" strategy="afterInteractive">
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('config', '${googleAdsId}');
-            `}
-          </Script>
-        </>
       )}
       {/* GA4 se gestiona desde Google Tag Manager (GTM-K8S48BQ3). */}
     </html>

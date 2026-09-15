@@ -26,6 +26,7 @@ export function PageHero({ eyebrow, title, subtitle, icon: Icon, children }: Pag
         alt=""
         fill
         priority
+        fetchPriority="high"
         className="object-cover object-center"
         sizes="100vw"
       />

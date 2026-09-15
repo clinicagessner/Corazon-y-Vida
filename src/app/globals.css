@@ -222,8 +222,19 @@ h1, h2, h3, h4, h5, h6 {
   animation: hero-fade-in-up 0.6s ease-out both;
 }
 
+/* El H1 es el elemento LCP: no puede nacer con opacity 0 (Lighthouse lo
+   descartaba y tomaba un span de la barra inferior). Solo se anima el transform. */
+@keyframes hero-slide-up {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
 .animate-hero-subtitle {
-  animation: hero-fade-in-up 0.6s ease-out 0.1s both;
+  animation: hero-slide-up 0.6s ease-out 0.1s both;
 }
 
 .animate-hero-features {

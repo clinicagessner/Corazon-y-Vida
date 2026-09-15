@@ -160,6 +160,7 @@ export default async function ServicePage({ params }: Props) {
               alt={`${service.title} - Servicio médico Clínica Hispana Corazón y Vida Pasadena TX`}
               fill
               priority
+              fetchPriority="high"
               className="object-cover"
               sizes="100vw"
             />
