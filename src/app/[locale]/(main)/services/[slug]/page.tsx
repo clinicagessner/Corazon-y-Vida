@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import {
@@ -102,6 +102,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: {
         es: `/services/${slug}`,
         en: `/en/services/${slug}`,
+        "x-default": `/services/${slug}`,
       },
     },
     openGraph: {

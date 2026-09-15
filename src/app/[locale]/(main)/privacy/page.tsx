@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import { Phone, MapPin, Envelope, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
 import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       languages: {
         es: "/privacy",
         en: "/en/privacy",
+        "x-default": "/privacy",
       },
     },
     openGraph: {

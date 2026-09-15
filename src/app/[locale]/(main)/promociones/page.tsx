@@ -31,6 +31,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
       languages: {
         es: "/promociones",
         en: "/en/promociones",
+        "x-default": "/promociones",
       },
     },
     openGraph: {
