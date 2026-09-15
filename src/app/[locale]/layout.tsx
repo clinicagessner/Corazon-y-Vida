@@ -6,7 +6,6 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
-import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { GoogleTags, GoogleTagManagerNoScript } from "@/components/tracking/google-tags";
 import Script from "next/script";
@@ -160,7 +159,6 @@ export default async function LocaleLayout({ children, params }: Props) {
           <TooltipProvider>
             {children}
             <ScrollToTop />
-            <JsonLdMedicalClinicRef />
             <ScrollAnimations />
           </TooltipProvider>
         </NextIntlClientProvider>

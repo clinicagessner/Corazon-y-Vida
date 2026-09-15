@@ -10,9 +10,9 @@ const BASE = SITE_CONFIG.baseUrl;
 const STATIC_DATES: Record<string, string> = {
   "": "2026-08-02",
   "/services": "2026-08-02",
-  "/promociones": "2026-06-30",
+  "/promociones": "2026-09-15",
   "/blog": "2026-06-30",
-  "/privacy": "2026-06-30",
+  "/privacy": "2026-09-15",
 };
 
 // Strings YYYY-MM-DD comparan bien lexicográficamente.

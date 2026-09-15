@@ -5,7 +5,7 @@ import { ServicesFilter } from "@/components/services/services-filter";
 import { PageHero } from "@/components/layout/page-hero";
 import { SERVICES, SITE_CONFIG } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
-import { JsonLdCollectionPage } from "@/components/seo/json-ld";
+import { JsonLdCollectionPage, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 
 const categoryInfo: Record<string, { label: string; labelEn: string; iconName: string }> = {
   "medicina-general": { label: "Medicina general", labelEn: "General medicine", iconName: "Stethoscope" },
@@ -76,6 +76,7 @@ export default async function ServicesPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdMedicalClinicRef />
       <JsonLdCollectionPage
         name={t("title")}
         description={t("subtitle")}

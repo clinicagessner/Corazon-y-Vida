@@ -3,7 +3,7 @@ slug: "control-diabetes-houston-guia-pacientes"
 title: "Control de Diabetes en Pasadena: Guía para Pacientes Hispanos"
 metaTitle: "Control de Diabetes en Pasadena: Guía"
 relatedServices: ["condiciones-cronicas", "examenes-sangre", "electrocardiograma"]
-description: "Guía práctica para controlar la diabetes en Pasadena TX: qué significan sus números de glucosa y A1c, cada cuánto revisarse, qué comer y cuándo acudir a la clínica."
+description: "Guía práctica para controlar la diabetes en Pasadena TX: qué significan sus números de glucosa y A1c, cada cuánto revisarse, qué comer y cuándo venir."
 date: "2026-03-19"
 dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"

@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
-import { JsonLdMedicalWebPage } from "@/components/seo/json-ld";
+import { JsonLdMedicalWebPage, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 import { Markdown } from "@/components/shared/markdown";
 import { MedicalReview } from "@/components/shared/medical-review";
 import { formatDate } from "@/lib/dates";
@@ -110,6 +110,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      <JsonLdMedicalClinicRef />
       <JsonLdBlogPosting post={post} locale={locale} />
       <JsonLdMedicalWebPage
         url={`${SITE_CONFIG.baseUrl}${locale === "en" ? "/en" : ""}/blog/${slug}`}
