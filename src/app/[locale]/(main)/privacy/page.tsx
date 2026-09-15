@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 import { Link } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import { Phone, MapPin, Envelope, ArrowLeft } from "@phosphor-icons/react/dist/ssr";
@@ -55,6 +56,7 @@ export default async function PrivacyPage({ params }: Props) {
 
   return (
     <div className="pt-28 pb-16 md:pt-32 md:pb-24 bg-red-warm min-h-screen">
+      <JsonLdMedicalClinicRef />
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Back Link */}
