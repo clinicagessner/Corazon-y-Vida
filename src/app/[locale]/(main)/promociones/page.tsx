@@ -8,7 +8,9 @@ import { PromotionsGrid } from "@/components/promotions/promotions-grid";
 import {
   JsonLdBreadcrumb,
   JsonLdCollectionPage,
-  JsonLdFAQ,, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
+  JsonLdFAQ,
+  JsonLdMedicalClinicRef,
+} from "@/components/seo/json-ld";
 import { getLocalizedPromotions } from "@/lib/promotions";
 import { CONTACT_INFO, GOOGLE_REVIEWS_DATA, SITE_CONFIG } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
