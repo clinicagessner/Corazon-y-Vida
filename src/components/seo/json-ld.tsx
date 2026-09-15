@@ -1,129 +1,194 @@
 import { SITE_CONFIG, CONTACT_INFO, SERVICES, SOCIAL_LINKS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
+import { getLocale } from "next-intl/server";
 
-export async function JsonLdMedicalClinic() {
+const CLINIC_ID = `${SITE_CONFIG.baseUrl}/#clinic`;
+
+const localePath = (locale: string) => (locale === "es" ? "" : `/${locale}`);
+
+const postalAddress = {
+  "@type": "PostalAddress",
+  streetAddress: CONTACT_INFO.address,
+  addressLocality: CONTACT_INFO.city,
+  addressRegion: CONTACT_INFO.state,
+  postalCode: CONTACT_INFO.zip,
+  addressCountry: "US",
+};
+
+// Solo perfiles reales y verificados de la clínica.
+const SAME_AS = [
+  SOCIAL_LINKS.facebook,
+  SOCIAL_LINKS.instagram,
+  SOCIAL_LINKS.youtube,
+  SOCIAL_LINKS.x,
+  SOCIAL_LINKS.linkedin,
+  SOCIAL_LINKS.google,
+].filter(Boolean);
+
+// Mismas zonas que el bloque "Áreas que servimos" de las páginas de servicio.
+const AREA_SERVED = [
+  "Pasadena",
+  "South Houston",
+  "Deer Park",
+  "Galena Park",
+  "Genoa",
+  "Red Bluff",
+  "Houston",
+].map((name) => ({ "@type": "City", name }));
+
+// Valores de la enumeración MedicalSpecialty de schema.org.
+const MEDICAL_SPECIALTY = [
+  "https://schema.org/PrimaryCare",
+  "https://schema.org/Gynecologic",
+  "https://schema.org/LaboratoryScience",
+  "https://schema.org/CommunityHealth",
+  "https://schema.org/PublicHealth",
+];
+
+export const serviceProcedureId = (slug: string) => `${SITE_CONFIG.baseUrl}/services/${slug}#procedure`;
+
+/**
+ * Nodo ligero de la clínica para todas las páginas menos la home: resuelve el
+ * mismo @id sin repetir rating, reseñas y los 29 servicios en 86 páginas (y sin
+ * que reviewCount difiera entre páginas regeneradas en momentos distintos).
+ */
+export async function JsonLdMedicalClinicRef() {
+  const locale = await getLocale();
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "@id": CLINIC_ID,
+    name: SITE_CONFIG.name,
+    url: `${SITE_CONFIG.baseUrl}${localePath(locale)}`,
+    telephone: CONTACT_INFO.phone,
+    address: postalAddress,
+    sameAs: SAME_AS,
+    inLanguage: locale === "es" ? "es-MX" : "en-US",
+  };
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
+/**
+ * MedicalClinic completo: solo en la home, única fuente de verdad del rating.
+ * Rating, conteo y reseñas 5★ en vivo desde Places con fallback a GOOGLE_REVIEWS_DATA.
+ */
+export async function JsonLdMedicalClinic({ locale }: { locale: string }) {
   const googleData = await getGooglePlaceData();
   const ratingValue = googleData?.rating ?? GOOGLE_REVIEWS_DATA.averageRating;
   const reviewCount = googleData?.totalReviews ?? GOOGLE_REVIEWS_DATA.totalReviews;
+  const isEn = locale === "en";
+  const homeUrl = `${SITE_CONFIG.baseUrl}${localePath(locale)}`;
+  const services = [...SERVICES].sort((a, b) => a.order - b.order);
+
+  const clinic: Record<string, unknown> = {
+    "@type": "MedicalClinic",
+    "@id": CLINIC_ID,
+    name: SITE_CONFIG.name,
+    description: SITE_CONFIG.description,
+    // Ubicación exacta para que buscadores e IAs no la mezclen con clínicas de nombre parecido.
+    disambiguatingDescription: isEn
+      ? `Walk-in Hispanic family clinic at ${CONTACT_INFO.address}, ${CONTACT_INFO.city}, TX ${CONTACT_INFO.zip}. Phone ${CONTACT_INFO.phoneFormatted}. Not affiliated with other clinics of similar name.`
+      : `Clínica hispana familiar sin cita en ${CONTACT_INFO.address}, ${CONTACT_INFO.city}, TX ${CONTACT_INFO.zip}. Teléfono ${CONTACT_INFO.phoneFormatted}. Sin relación con otras clínicas de nombre parecido.`,
+    url: homeUrl,
+    inLanguage: isEn ? "en-US" : "es-MX",
+    telephone: CONTACT_INFO.phone,
+    email: CONTACT_INFO.email,
+    image: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
+    logo: `${SITE_CONFIG.baseUrl}/images/logo.webp`,
+    priceRange: "$$",
+    currenciesAccepted: "USD",
+    paymentAccepted: "Cash, Credit Card, Debit Card",
+    address: postalAddress,
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: CONTACT_INFO.coordinates.lat,
+      longitude: CONTACT_INFO.coordinates.lng,
+    },
+    hasMap: CONTACT_INFO.googleMapsUrl,
+    areaServed: AREA_SERVED,
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue,
+      reviewCount,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    openingHoursSpecification: [
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        opens: "09:00",
+        closes: "21:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        dayOfWeek: "Sunday",
+        opens: "09:00",
+        closes: "19:00",
+      },
+    ],
+    availableLanguage: [
+      { "@type": "Language", name: "Spanish", alternateName: "es" },
+      { "@type": "Language", name: "English", alternateName: "en" },
+    ],
+    medicalSpecialty: MEDICAL_SPECIALTY,
+    availableService: services.map((service) => ({
+      "@type": "MedicalProcedure",
+      "@id": serviceProcedureId(service.slug),
+      name: isEn && service.titleEn ? service.titleEn : service.title,
+      url: `${SITE_CONFIG.baseUrl}${localePath(locale)}/services/${service.slug}`,
+    })),
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: isEn ? "Medical Services" : "Servicios Médicos",
+      itemListElement: services.map((service, index) => ({
+        "@type": "Offer",
+        position: index + 1,
+        url: `${SITE_CONFIG.baseUrl}${localePath(locale)}/services/${service.slug}`,
+        itemOffered: { "@id": serviceProcedureId(service.slug) },
+      })),
+    },
+    sameAs: SAME_AS,
+  };
+
+  if (googleData?.reviews?.length) {
+    clinic.review = googleData.reviews.slice(0, 5).map((r) => ({
+      "@type": "Review",
+      author: { "@type": "Person", name: r.author_name },
+      datePublished: r.time ? new Date(r.time).toISOString().slice(0, 10) : undefined,
+      reviewBody: r.text,
+      reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5, worstRating: 1 },
+    }));
+  }
 
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "MedicalClinic",
-        "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
-        name: SITE_CONFIG.name,
-        description: SITE_CONFIG.description,
-        url: SITE_CONFIG.baseUrl,
-        telephone: CONTACT_INFO.phone,
-        email: CONTACT_INFO.email,
-        image: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`,
-        logo: `${SITE_CONFIG.baseUrl}/images/logo.webp`,
-        priceRange: "$$",
-        currenciesAccepted: "USD",
-        paymentAccepted: "Cash, Credit Card, Debit Card",
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: CONTACT_INFO.address,
-          addressLocality: CONTACT_INFO.city,
-          addressRegion: CONTACT_INFO.state,
-          postalCode: CONTACT_INFO.zip,
-          addressCountry: "US",
-        },
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: CONTACT_INFO.coordinates.lat,
-          longitude: CONTACT_INFO.coordinates.lng,
-        },
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue,
-          reviewCount,
-          bestRating: 5,
-          worstRating: 1,
-        },
-        openingHoursSpecification: [
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-            opens: "09:00",
-            closes: "21:00",
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: "Sunday",
-            opens: "09:00",
-            closes: "19:00",
-          },
-        ],
-        availableLanguage: [
-          {
-            "@type": "Language",
-            name: "Spanish",
-            alternateName: "es",
-          },
-          {
-            "@type": "Language",
-            name: "English",
-            alternateName: "en",
-          },
-        ],
-        hasOfferCatalog: {
-          "@type": "OfferCatalog",
-          name: "Servicios Médicos",
-          itemListElement: SERVICES.slice(0, 10).map((service, index) => ({
-            "@type": "Offer",
-            itemOffered: {
-              "@type": "MedicalProcedure",
-              name: service.title,
-              description: service.description,
-            },
-            position: index + 1,
-          })),
-        },
-        sameAs: [
-          SOCIAL_LINKS.facebook,
-          SOCIAL_LINKS.instagram,
-          SOCIAL_LINKS.x,
-          SOCIAL_LINKS.linkedin,
-          SOCIAL_LINKS.google,
-        ].filter(Boolean),
-        areaServed: {
-          "@type": "City",
-          name: "Pasadena",
-        },
-        medicalSpecialty: [
-          "Family Medicine",
-          "Urgent Care",
-          "Preventive Medicine",
-          "Gynecology",
-          "Immigration Medical Exam",
-        ],
-      },
+      clinic,
       {
         "@type": "WebSite",
         "@id": `${SITE_CONFIG.baseUrl}/#website`,
         url: SITE_CONFIG.baseUrl,
         name: SITE_CONFIG.name,
         description: SITE_CONFIG.description,
-        publisher: {
-          "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
-        },
+        publisher: { "@id": CLINIC_ID },
         inLanguage: ["es-MX", "en-US"],
       },
       {
         "@type": "WebPage",
-        "@id": `${SITE_CONFIG.baseUrl}/#webpage`,
-        url: SITE_CONFIG.baseUrl,
+        "@id": `${homeUrl}/#webpage`,
+        url: homeUrl,
         name: SITE_CONFIG.name,
-        isPartOf: {
-          "@id": `${SITE_CONFIG.baseUrl}/#website`,
-        },
-        about: {
-          "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
-        },
+        isPartOf: { "@id": `${SITE_CONFIG.baseUrl}/#website` },
+        about: { "@id": CLINIC_ID },
         description: SITE_CONFIG.description,
-        inLanguage: "es-MX",
+        inLanguage: isEn ? "en-US" : "es-MX",
       },
     ],
   };
@@ -193,15 +258,19 @@ export function JsonLdBreadcrumb({ items }: BreadcrumbSchemaProps) {
 }
 
 interface MedicalProcedureSchemaProps {
+  slug: string;
   name: string;
   description: string;
   image: string;
   url: string;
   bodyLocation?: string;
-  procedureType?: string;
+  procedureType?: "NoninvasiveProcedure" | "PercutaneousProcedure" | "SurgicalProcedure";
 }
 
+// `provider` no es una propiedad de MedicalProcedure; la relación con la clínica
+// va por el @id que la home lista en availableService.
 export function JsonLdMedicalProcedure({
+  slug,
   name,
   description,
   image,
@@ -212,27 +281,15 @@ export function JsonLdMedicalProcedure({
   const schema = {
     "@context": "https://schema.org",
     "@type": "MedicalProcedure",
+    "@id": serviceProcedureId(slug),
     name,
     description,
     image: `${SITE_CONFIG.baseUrl}${image}`,
     url,
+    mainEntityOfPage: url,
     procedureType: `https://schema.org/${procedureType}`,
     ...(bodyLocation && { bodyLocation }),
     howPerformed: description,
-    provider: {
-      "@type": "MedicalClinic",
-      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
-      name: SITE_CONFIG.name,
-      telephone: CONTACT_INFO.phone,
-      address: {
-        "@type": "PostalAddress",
-        streetAddress: CONTACT_INFO.address,
-        addressLocality: CONTACT_INFO.city,
-        addressRegion: CONTACT_INFO.state,
-        postalCode: CONTACT_INFO.zip,
-        addressCountry: "US",
-      },
-    },
   };
 
   return (
@@ -254,10 +311,6 @@ export function JsonLdCollectionPage({ name, description, url }: { name: string;
       "@id": `${SITE_CONFIG.baseUrl}/#website`,
     },
     about: {
-      "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
-    },
-    provider: {
-      "@type": "MedicalClinic",
       "@id": `${SITE_CONFIG.baseUrl}/#clinic`,
     },
   };

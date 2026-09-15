@@ -5,7 +5,7 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { routing } from "@/i18n/routing";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
-import { JsonLdMedicalClinic } from "@/components/seo/json-ld";
+import { JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { GoogleTagManager } from "@next/third-parties/google";
 import Script from "next/script";
@@ -173,7 +173,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <TooltipProvider>
             {children}
             <ScrollToTop />
-            <JsonLdMedicalClinic />
+            <JsonLdMedicalClinicRef />
             <ScrollAnimations />
           </TooltipProvider>
         </NextIntlClientProvider>

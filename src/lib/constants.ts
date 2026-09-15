@@ -40,6 +40,7 @@ export const CONTACT_INFO: ContactInfo = {
 export const SOCIAL_LINKS: SocialLinks = {
   facebook: "https://www.facebook.com/clinicahispanacorazonyvida",
   instagram: "https://www.instagram.com/clinicahispanacorazonyvida/",
+  youtube: "https://www.youtube.com/channel/UCVpMW6qontrt28zwWGw_vAw",
   // PENDIENTE google: URL de reseñas de Google cuando exista
 };
 

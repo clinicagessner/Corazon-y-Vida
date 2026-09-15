@@ -375,6 +375,8 @@ export default async function ServicePage({ params }: Props) {
 
       <JsonLdBreadcrumb items={breadcrumbs} />
       <JsonLdMedicalProcedure
+        slug={service.slug}
+        procedureType={PROCEDURE_TYPE[service.slug] ?? "NoninvasiveProcedure"}
         name={service.title}
         description={service.description}
         image={service.image}
@@ -386,6 +388,19 @@ export default async function ServicePage({ params }: Props) {
     </>
   );
 }
+
+// Tipo de procedimiento (enumeración MedicalProcedureType de schema.org) por servicio.
+const PROCEDURE_TYPE: Record<string, "NoninvasiveProcedure" | "PercutaneousProcedure" | "SurgicalProcedure"> = {
+  "suturas-heridas": "SurgicalProcedure",
+  "cirugias-menores": "SurgicalProcedure",
+  "drenaje-abscesos": "SurgicalProcedure",
+  "unas-encarnadas": "SurgicalProcedure",
+  "extraccion-implantes": "SurgicalProcedure",
+  "curacion-heridas": "NoninvasiveProcedure",
+  vacunas: "PercutaneousProcedure",
+  "sueros-vitaminados": "PercutaneousProcedure",
+  "examenes-sangre": "PercutaneousProcedure",
+};
 
 function ServiceContent({ content }: { content: string }) {
   const sections = content.split("\n\n");
