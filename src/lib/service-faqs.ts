@@ -192,60 +192,60 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "prueba-embarazo": {
     "faqs": [
       {
-        "question": "¿Qué tan confiable es la prueba de embarazo?",
-        "answer": "Nuestras pruebas son confiables y las confirma personal médico; también podemos orientarte sobre los siguientes pasos."
+        "question": "¿Desde cuándo puedo hacerme la prueba de embarazo?",
+        "answer": "La de orina, desde el primer día de retraso de la regla; antes puede dar un falso negativo. La de sangre detecta el embarazo unos días antes del retraso y es la indicada si necesita saberlo pronto."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Necesito venir en ayunas para la prueba de sangre?",
+        "answer": "No. La prueba de hCG en sangre no requiere ayuno y se puede tomar a cualquier hora. Para la de orina conviene la primera orina de la mañana, que está más concentrada."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Qué pasa después de un resultado positivo?",
+        "answer": "Calculamos las semanas, revisamos su salud y sus medicamentos, iniciamos ácido fólico y le explicamos cómo empezar el control prenatal. Si hace falta, hacemos un ultrasonido para confirmar."
       }
     ],
     "faqsEn": [
       {
-        "question": "How reliable is the pregnancy test?",
-        "answer": "Our tests are reliable and confirmed by medical staff; we can also guide you on next steps."
+        "question": "How early can I take the pregnancy test?",
+        "answer": "The urine test from the first day of a missed period; earlier it may give a false negative. The blood test detects pregnancy a few days before the missed period and is the right choice if you need to know soon."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Do I need to fast for the blood pregnancy test?",
+        "answer": "No. The blood hCG test requires no fasting and can be drawn at any time. For the urine test, the first morning urine is best because it is more concentrated."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "What happens after a positive result?",
+        "answer": "We calculate the weeks, review your health and medications, start folic acid and explain how to begin prenatal care. If needed, we do an ultrasound to confirm."
       }
     ]
   },
   "anticonceptivos": {
     "faqs": [
       {
-        "question": "¿Qué métodos anticonceptivos ofrecen?",
-        "answer": "Ofrecemos orientación, pastillas anticonceptivas e inyección, y te ayudamos a elegir el método adecuado para ti."
+        "question": "¿Qué métodos anticonceptivos puedo empezar en la clínica?",
+        "answer": "Las pastillas anticonceptivas y la inyección trimestral se inician aquí el mismo día. Para implante o dispositivo intrauterino le damos la orientación y la referencia al centro que los coloca."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Necesito un Papanicolaou antes de empezar anticonceptivos?",
+        "answer": "No es obligatorio para iniciar el método. Sí revisamos presión, peso, historial y, si hay dudas, una prueba de embarazo. El Papanicolaou se programa según su edad y su último resultado."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puedo cambiar de método si no me sienta bien?",
+        "answer": "Sí. En el control revisamos los efectos secundarios y cambiamos a otra opción sin dejar días sin protección. Traiga el nombre del método actual y la fecha en que lo empezó."
       }
     ],
     "faqsEn": [
       {
-        "question": "What contraceptive methods do you offer?",
-        "answer": "We offer guidance, birth control pills and the injection, and help you choose the right method for you."
+        "question": "Which contraceptive methods can I start at the clinic?",
+        "answer": "Birth control pills and the quarterly injection are started here the same day. For the implant or an intrauterine device we provide guidance and a referral to the center that places them."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Do I need a Pap test before starting contraception?",
+        "answer": "It is not required to start a method. We do check blood pressure, weight, history and, if in doubt, a pregnancy test. The Pap test is scheduled according to your age and last result."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can I switch methods if it does not agree with me?",
+        "answer": "Yes. At the follow-up we review side effects and switch to another option without leaving unprotected days. Bring the name of your current method and the date you started it."
       }
     ]
   },
@@ -253,29 +253,29 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Duele la extracción del implante?",
-        "answer": "Se realiza con anestesia local, por lo que las molestias son mínimas. El procedimiento toma pocos minutos."
+        "answer": "Se hace con anestesia local, así que solo siente el pinchazo inicial y algo de presión. Después puede haber sensibilidad o un moretón durante una o dos semanas, que se controla con analgésico común."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Pueden retirar un implante que se colocó en otro país?",
+        "answer": "Sí, siempre que se pueda palpar bajo la piel. Traiga, si la tiene, la tarjeta con la fecha y el tipo de implante. Si no se palpa, se pide un ultrasonido antes de intentar retirarlo."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cuándo puedo quedar embarazada después de retirarlo?",
+        "answer": "La fertilidad vuelve en pocas semanas; muchas mujeres ovulan en el primer mes. Si no desea embarazo, empiece otro método el mismo día de la extracción o use preservativo."
       }
     ],
     "faqsEn": [
       {
         "question": "Does implant removal hurt?",
-        "answer": "It's done with local anesthesia, so discomfort is minimal. The procedure takes just a few minutes."
+        "answer": "It is done with local anesthesia, so you only feel the initial pinch and some pressure. Afterwards there may be tenderness or a bruise for one or two weeks, controlled with a common pain reliever."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Can you remove an implant placed in another country?",
+        "answer": "Yes, as long as it can be felt under the skin. Bring the card with the date and type of implant if you have it. If it cannot be felt, an ultrasound is ordered before attempting removal."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "When can I get pregnant after removal?",
+        "answer": "Fertility returns within a few weeks; many women ovulate in the first month. If you do not want a pregnancy, start another method the same day as the removal or use condoms."
       }
     ]
   },
@@ -522,60 +522,60 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "electrocardiograma": {
     "faqs": [
       {
-        "question": "¿El electrocardiograma duele?",
-        "answer": "No, es un estudio rápido y sin dolor; solo se colocan electrodos en la piel por unos minutos."
+        "question": "¿Necesito alguna preparación para el electrocardiograma?",
+        "answer": "No. No hace falta ayuno ni suspender medicamentos. Evite cremas o aceites en el pecho ese día, use ropa fácil de quitar y traiga sus estudios previos y la lista de lo que toma."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Un electrocardiograma normal descarta problemas del corazón?",
+        "answer": "No del todo. Registra solo unos segundos en reposo, así que una arritmia intermitente o una obstrucción sin síntomas pueden no verse. Si hay dudas, el médico indica estudios adicionales."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Sirve el EKG para un examen de trabajo o preoperatorio?",
+        "answer": "Sí. Se lo entregamos impreso con la interpretación del médico el mismo día para presentarlo a su empleador, en un examen DOT cuando lo piden o antes de una cirugía."
       }
     ],
     "faqsEn": [
       {
-        "question": "Does the EKG hurt?",
-        "answer": "No, it's a fast, painless test; electrodes are simply placed on the skin for a few minutes."
+        "question": "Do I need any preparation for the electrocardiogram?",
+        "answer": "No. No fasting or stopping medications is needed. Avoid lotions or oils on the chest that day, wear clothes that are easy to remove and bring previous studies and a list of what you take."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Does a normal EKG rule out heart problems?",
+        "answer": "Not entirely. It records only a few seconds at rest, so an intermittent arrhythmia or a blockage without symptoms may not show. If in doubt, the provider orders additional studies."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Is the EKG valid for a work or pre-surgery exam?",
+        "answer": "Yes. We hand it to you printed with the provider's interpretation the same day to present to your employer, for a DOT physical when required or before surgery."
       }
     ]
   },
   "ultrasonido": {
     "faqs": [
       {
-        "question": "¿El ultrasonido tiene radiación?",
-        "answer": "No, el ultrasonido no usa radiación, por lo que es seguro incluso durante el embarazo."
+        "question": "¿Necesito orden médica para hacerme un ultrasonido?",
+        "answer": "No. Puede venir directamente y el médico de la clínica lo indica tras una consulta breve, o traer la orden de otro médico. En ambos casos conoce el precio antes del estudio."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cómo debo prepararme para el ultrasonido abdominal?",
+        "answer": "Con ayuno de seis a ocho horas, solo agua, para que la vesícula se vea llena y sin gas intestinal. Tome sus medicamentos como siempre y avise si tiene diabetes para programarlo temprano."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Me entregan las imágenes y el informe el mismo día?",
+        "answer": "Sí. El médico revisa el estudio con usted al terminar y le entrega el informe por escrito. Si algo necesita seguimiento o un estudio especializado, se lo indica en ese momento."
       }
     ],
     "faqsEn": [
       {
-        "question": "Does ultrasound use radiation?",
-        "answer": "No, ultrasound uses no radiation, so it's safe even during pregnancy."
+        "question": "Do I need a doctor's order for an ultrasound?",
+        "answer": "No. You can walk in and the clinic provider orders it after a brief consultation, or bring an order from another provider. Either way you know the price before the study."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "How should I prepare for an abdominal ultrasound?",
+        "answer": "Fast six to eight hours, water only, so the gallbladder is full and there is little intestinal gas. Take your medications as usual and tell us if you have diabetes so we schedule it early."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do I get the images and report the same day?",
+        "answer": "Yes. The provider reviews the study with you when it ends and hands you the written report. If anything needs follow-up or a specialized study, you are told at that moment."
       }
     ]
   },
@@ -642,30 +642,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "vacunas": {
     "faqs": [
       {
-        "question": "¿Qué vacunas aplican?",
-        "answer": "Aplicamos la vacuna contra la influenza (flu) y el toxoide tetánico; pregúntanos cuál te conviene."
+        "question": "¿Cuándo es mejor ponerse la vacuna contra la influenza?",
+        "answer": "En septiembre u octubre, antes de que empiece la temporada, porque la protección tarda unas dos semanas en desarrollarse. Si ya avanzó la temporada, vacunarse sigue siendo útil."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Me pueden vacunar si tengo gripe o fiebre?",
+        "answer": "Con fiebre o enfermedad moderada conviene esperar a recuperarse. Con un resfriado leve sin fiebre sí se puede vacunar. El personal lo revisa antes de aplicar la dosis."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Me dan un comprobante de la vacuna?",
+        "answer": "Sí. Le entregamos el registro escrito con vacuna, lote y fecha, válido para el trabajo, la escuela o el examen de inmigración, y lo anotamos en su cartilla si la trae."
       }
     ],
     "faqsEn": [
       {
-        "question": "Which vaccines do you give?",
-        "answer": "We administer the influenza (flu) vaccine and tetanus toxoid; ask us which one you need."
+        "question": "When is the best time to get the flu vaccine?",
+        "answer": "In September or October, before the season starts, because protection takes about two weeks to develop. If the season is already underway, getting vaccinated is still worthwhile."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Can I get vaccinated if I have a cold or fever?",
+        "answer": "With fever or a moderate illness it is better to wait until you recover. With a mild cold and no fever you can be vaccinated. Staff check you before giving the dose."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do I get proof of vaccination?",
+        "answer": "Yes. We give you a written record with the vaccine, lot and date, valid for work, school or the immigration exam, and we note it in your vaccination card if you bring it."
       }
     ]
   },
