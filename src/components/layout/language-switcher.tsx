@@ -1,7 +1,8 @@
 "use client";
 
 import { useLocale } from "next-intl";
-import { Link, usePathname } from "@/i18n/routing";
+import Link from "next/link";
+import { routing, usePathname } from "@/i18n/routing";
 import { Globe } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -16,6 +17,14 @@ export function LanguageSwitcher({ isScrolled = true }: LanguageSwitcherProps) {
   const newLocale = locale === "es" ? "en" : "es";
 
   // Enlace real (<a href>) para que Google y los bots de IA descubran la otra versión de idioma.
+  // Href a mano: con localePrefix "as-needed" el Link de next-intl con locale="es" genera /es (307).
+  const href =
+    newLocale === routing.defaultLocale
+      ? pathname
+      : pathname === "/"
+        ? `/${newLocale}`
+        : `/${newLocale}${pathname}`;
+
   return (
     <Button
       asChild
@@ -29,8 +38,8 @@ export function LanguageSwitcher({ isScrolled = true }: LanguageSwitcherProps) {
       )}
     >
       <Link
-        href={pathname}
-        locale={newLocale}
+        href={href}
+        replace
         hrefLang={newLocale}
         aria-label={locale === "es" ? "Switch to English" : "Cambiar a Español"}
       >
