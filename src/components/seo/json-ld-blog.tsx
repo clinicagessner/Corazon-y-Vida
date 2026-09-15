@@ -26,6 +26,7 @@ export function JsonLdBlogPosting({ post, locale }: Props) {
       : `${SITE_CONFIG.baseUrl}/images/og-image.jpg`,
     datePublished: post.date,
     dateModified: post.dateModified || post.date,
+    reviewedBy: { "@type": "MedicalClinic", "@id": `${SITE_CONFIG.baseUrl}/#clinic`, name: SITE_CONFIG.name },
     author: {
       "@type": "Organization",
       name: post.author,

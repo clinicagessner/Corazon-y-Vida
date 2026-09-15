@@ -311,5 +311,11 @@
     "eyebrow": "Sobre la clínica",
     "heading": "¿Qué es Clínica Hispana Corazón y Vida?",
     "body": "Clínica Hispana Corazón y Vida es una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100% en español. Está en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, y abre los siete días de la semana: de lunes a sábado de 9 de la mañana a 9 de la noche, y los domingos de 9 a 7. No hace falta seguro médico: cada servicio tiene un precio directo y accesible, que se paga en efectivo o con tarjeta. El equipo médico atiende consultas generales y control de diabetes, presión alta, colesterol y tiroides; ginecología y Papanicolaou; exámenes de laboratorio con análisis de sangre y orina; ultrasonido y electrocardiograma; exámenes físicos DOT para licencia CDL, exámenes médicos de inmigración, físicos escolares y pruebas de alcohol y drogas; vacunas, sueros vitaminados, suturas, curación de heridas y cirugías menores. También se atiende en inglés. Teléfono y WhatsApp: (832) 930-5551. Recibe pacientes de Pasadena, South Houston, Deer Park, Galena Park, Genoa y Red Bluff."
+  },
+  "medicalReview": {
+    "reviewedBy": "Revisado por el equipo médico de Clínica Hispana Corazón y Vida",
+    "published": "Publicado el",
+    "updated": "Última revisión:",
+    "disclaimer": "Información general de salud. No sustituye la consulta con un profesional; si tienes síntomas, visítanos sin cita o llama a la clínica."
   }
 }

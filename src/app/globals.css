@@ -574,3 +574,21 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--slate-dark);
   line-height: 1.75;
 }
+
+/* Listas del markdown (posts y servicios): viñeta de check en el color de marca. */
+.md-check > li {
+  position: relative;
+  padding-left: 1.75rem;
+}
+.md-check > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3rem;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px;
+  background-color: var(--red-primary);
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><path fill='black' d='M128 24a104 104 0 1 0 104 104A104.1 104.1 0 0 0 128 24Zm45.7 85.7l-56 56a8 8 0 0 1-11.4 0l-24-24a8 8 0 0 1 11.4-11.4L112 148.7l50.3-50.4a8 8 0 0 1 11.4 11.4Z'/></svg>") center / contain no-repeat;
+  mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'><path fill='black' d='M128 24a104 104 0 1 0 104 104A104.1 104.1 0 0 0 128 24Zm45.7 85.7l-56 56a8 8 0 0 1-11.4 0l-24-24a8 8 0 0 1 11.4-11.4L112 148.7l50.3-50.4a8 8 0 0 1 11.4 11.4Z'/></svg>") center / contain no-repeat;
+}

@@ -35,11 +35,12 @@ import {
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { SERVICES, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { SERVICES, SERVICES_LAST_MODIFIED, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { MedicalReview } from "@/components/shared/medical-review";
 import { seoDescription, seoTitle } from "@/lib/seo";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
-import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ } from "@/components/seo/json-ld";
+import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalWebPage } from "@/components/seo/json-ld";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -232,6 +233,7 @@ export default async function ServicePage({ params }: Props) {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ServiceContent content={service.longDescription} />
+              <MedicalReview updated={rawService.dateModified ?? SERVICES_LAST_MODIFIED} />
             </div>
           </div>
         </section>
@@ -377,6 +379,13 @@ export default async function ServicePage({ params }: Props) {
       </main>
 
       <JsonLdBreadcrumb items={breadcrumbs} />
+      <JsonLdMedicalWebPage
+        url={`${SITE_CONFIG.baseUrl}${localePath}/services/${service.slug}`}
+        name={service.title}
+        description={service.description}
+        lastReviewed={rawService.dateModified ?? SERVICES_LAST_MODIFIED}
+        locale={locale}
+      />
       <JsonLdMedicalProcedure
         slug={service.slug}
         procedureType={PROCEDURE_TYPE[service.slug] ?? "NoninvasiveProcedure"}

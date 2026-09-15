@@ -201,6 +201,35 @@ export async function JsonLdMedicalClinic({ locale }: { locale: string }) {
   );
 }
 
+// Página médica con fecha de revisión y responsable (E-E-A-T). El revisor es
+// la clínica (equipo médico) por decisión del cliente, sin Person nombrada.
+export function JsonLdMedicalWebPage({ url, name, description, datePublished, lastReviewed, locale }: {
+  url: string; name: string; description: string; datePublished?: string; lastReviewed: string; locale: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": `${url}#webpage`,
+    url,
+    name,
+    description,
+    inLanguage: locale === "en" ? "en-US" : "es-MX",
+    isPartOf: { "@id": `${SITE_CONFIG.baseUrl}/#website` },
+    about: { "@id": CLINIC_ID },
+    ...(datePublished && { datePublished }),
+    dateModified: lastReviewed,
+    lastReviewed,
+    reviewedBy: { "@id": CLINIC_ID },
+    audience: { "@type": "MedicalAudience", audienceType: "Patient" },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+    />
+  );
+}
+
 interface FAQSchemaProps {
   questions: Array<{
     question: string;

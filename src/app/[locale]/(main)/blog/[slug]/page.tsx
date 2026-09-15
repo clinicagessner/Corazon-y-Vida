@@ -11,6 +11,10 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
+import { JsonLdMedicalWebPage } from "@/components/seo/json-ld";
+import { Markdown } from "@/components/shared/markdown";
+import { MedicalReview } from "@/components/shared/medical-review";
+import { formatDate } from "@/lib/dates";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -107,6 +111,14 @@ export default async function BlogPostPage({ params }: Props) {
   return (
     <>
       <JsonLdBlogPosting post={post} locale={locale} />
+      <JsonLdMedicalWebPage
+        url={`${SITE_CONFIG.baseUrl}${locale === "en" ? "/en" : ""}/blog/${slug}`}
+        name={post.title}
+        description={post.description}
+        datePublished={post.date}
+        lastReviewed={post.dateModified ?? post.date}
+        locale={locale}
+      />
 
       <article>
         {/* Hero Header with Background Image */}
@@ -153,11 +165,7 @@ export default async function BlogPostPage({ params }: Props) {
               <div className="flex flex-wrap items-center gap-4 text-sm text-white/70">
                 <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
                   <CalendarDots className="w-4 h-4" weight="fill" />
-                  {new Date(post.date).toLocaleDateString(locale, {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
+                  <time dateTime={post.date}>{formatDate(post.date, locale)}</time>
                 </span>
                 {post.readTime && (
                   <span className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-full">
@@ -177,7 +185,8 @@ export default async function BlogPostPage({ params }: Props) {
         <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-3xl mx-auto">
             <div className="blog-content">
-              <div dangerouslySetInnerHTML={{ __html: parseMarkdown(post.content, locale) }} />
+              <Markdown content={post.content} />
+              <MedicalReview published={post.date} updated={post.dateModified ?? post.date} />
             </div>
 
             {/* CTA Section */}
@@ -268,42 +277,3 @@ export default async function BlogPostPage({ params }: Props) {
 }
 
 // Simple markdown parser (for basic formatting)
-function parseMarkdown(markdown: string, locale: string): string {
-  // Enlaces internos del markdown con el prefijo del idioma (en /en los posts enlazaban a páginas en español).
-  const localizeHref = (href: string) =>
-    locale !== "es" && href.startsWith("/") && !href.startsWith(`/${locale}/`) && href !== `/${locale}`
-      ? `/${locale}${href}`
-      : href;
-  let html = markdown
-    // Headers
-    .replace(/^### (.*$)/gim, '<h3>$1</h3>')
-    .replace(/^## (.*$)/gim, '<h2>$1</h2>')
-    .replace(/^# (.*$)/gim, '<h1>$1</h1>')
-    // Bold
-    .replace(/\*\*(.*?)\*\*/gim, '<strong>$1</strong>')
-    // Italic
-    .replace(/\*(.*?)\*/gim, '<em>$1</em>')
-    // Links
-    .replace(/\[(.*?)\]\((.*?)\)/gim, (_m, text, href) => `<a href="${localizeHref(href)}">${text}</a>`)
-    // Unordered lists
-    .replace(/^- (.*$)/gim, '<li>$1</li>')
-    // Ordered lists
-    .replace(/^\d+\. (.*$)/gim, '<li>$1</li>')
-    // Paragraphs
-    .replace(/\n\n/gim, '</p><p>')
-    // Line breaks
-    .replace(/\n/gim, '<br>');
-
-  // Wrap content in paragraph tags
-  html = `<p>${html}</p>`;
-
-  // Fix list structure
-  html = html
-    .replace(/<p><li>/g, '<ul><li>')
-    .replace(/<\/li><\/p>/g, '</li></ul>')
-    .replace(/<\/li><br><li>/g, '</li><li>')
-    .replace(/<br><ul>/g, '</p><ul>')
-    .replace(/<\/ul><br>/g, '</ul><p>');
-
-  return html;
-}
