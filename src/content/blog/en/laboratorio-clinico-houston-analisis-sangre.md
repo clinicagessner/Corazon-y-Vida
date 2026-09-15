@@ -3,7 +3,7 @@ slug: "laboratorio-clinico-houston-analisis-sangre"
 title: "Clinical Laboratory in Pasadena: Blood Tests with Same-Day Results"
 metaTitle: "Clinical Laboratory in Pasadena: Blood Tests"
 relatedServices: ["examenes-sangre", "examen-heces", "enfermedades-transmision-sexual", "tiroides"]
-description: "Clinical laboratory in Pasadena TX with same-day results. Blood tests, glucose, cholesterol, thyroid panel, and more at affordable prices with Spanish-speaking staff."
+description: "Which blood and urine tests we run in Pasadena TX, how to prepare (fasting, water, medications), what the most common results mean and when to order them."
 date: "2026-03-21"
 dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
@@ -19,222 +19,58 @@ keywords:
   - "affordable lab tests Pasadena"
 ---
 
-# Clinical Laboratory in Pasadena: Blood Tests with Same-Day Results
+A blood test answers in minutes the questions that symptoms take months to reveal: whether sugar is high, whether cholesterol is damaging the arteries, whether the thyroid is working well or whether an infection explains the fatigue. At the lab of Clínica Hispana Corazón y Vida in Pasadena we draw the sample without an appointment and explain the result in Spanish.
 
-Laboratory tests are fundamental for diagnosing diseases, monitoring chronic conditions, and maintaining good health. At Clínica Hispana Corazón y Vida, we offer clinical laboratory services in Pasadena with fast results and affordable prices.
+## Which tests can I get?
 
-## Why Lab Tests Matter
+- **Complete blood count (CBC):** red cells, white cells and platelets. Detects anemia and infections.
+- **Metabolic panel:** glucose, kidneys (creatinine), liver, electrolytes.
+- **Lipid profile:** total cholesterol, LDL, HDL and triglycerides.
+- **Hemoglobin A1c:** average glucose over the last two to three months.
+- **Thyroid (TSH and T4):** for fatigue, weight changes or hair loss.
+- **Urinalysis and urine culture:** urinary infections and protein.
+- **Pregnancy tests (hCG)** in urine or blood.
+- **Sexually transmitted infection tests:** HIV, syphilis, gonorrhea, chlamydia, hepatitis.
+- **PSA** for the prostate and **vitamin B12 and D** for deficiencies.
+- **Tuberculosis (IGRA)** and the tests required for immigration and DOT exams.
 
-Blood tests can:
-- Detect diseases before symptoms appear
-- Monitor conditions like diabetes and hypertension
-- Verify organ function
-- Evaluate treatment effectiveness
-- Identify nutritional deficiencies
+If you need a test that is not on the list, ask: many are sent to a reference laboratory from the clinic itself.
 
-## Available Laboratory Tests
+## Do I have to come fasting?
 
-### Basic Metabolic Panel
-Evaluates kidney function and metabolism:
-- Blood glucose
-- Electrolytes (sodium, potassium)
-- Kidney function (creatinine, BUN)
+It depends on the test:
 
-### Comprehensive Metabolic Panel
-Includes everything above plus:
-- Liver function (ALT, AST)
-- Total proteins
-- Bilirubin
+| Test | Fasting |
+|---|---|
+| Fasting glucose | Yes, 8 to 12 hours |
+| Lipid profile | Preferably 9 to 12 hours; your provider may order it without fasting |
+| A1c, thyroid, CBC, PSA, infections | Not needed |
+| Urine | No; bring the first urine of the morning if possible |
 
-### Lipid Panel (Cholesterol)
-- Total cholesterol
-- LDL (bad cholesterol)
-- HDL (good cholesterol)
-- Triglycerides
+You may drink water while fasting. Take your medications as usual unless your provider says otherwise, and tell us what you take, because some alter results.
 
-### Thyroid Tests
-- TSH
-- T3 and T4
-- Thyroid function evaluation
+## When should I get tested?
 
-### Complete Blood Count (CBC)
-- Red blood cells
-- White blood cells
-- Platelets
-- Hemoglobin
+- Once a year as a checkup, even if you feel well.
+- If you have diabetes, high blood pressure or cholesterol: every three to six months depending on control.
+- With persistent fatigue, thirst, unexplained weight loss or gain, fever that does not go away or repeated infections.
+- Before starting hormone treatment, an IV vitamin drip or a weight plan.
+- When a process requires it: work, school, immigration or a commercial license.
 
-### Diabetes Tests
-- Fasting glucose
-- Hemoglobin A1C (3-month average)
-- Glucose tolerance
+## How do I read my results?
 
-### Other Tests
-- Urinalysis
-- Pregnancy tests
-- STI testing
-- Vitamin D
-- Iron and ferritin
+The report shows your value next to the laboratory's reference range. These are the most consulted guides:
 
-## When to Get Lab Tests
+- **Fasting glucose:** under 100 mg/dL is normal; 126 or higher, on two occasions, indicates diabetes.
+- **A1c:** under 5.7% normal; 6.5% or higher, diabetes.
+- **Total cholesterol:** ideally under 200 mg/dL; **LDL** under 100; a higher **HDL** is better; **triglycerides** under 150.
+- **TSH:** most laboratories use an approximate range of 0.4 to 4.0 mIU/L; outside it, the thyroid should be reviewed.
+- **Hemoglobin:** low suggests anemia, common in women with heavy periods.
 
-### Annual Checkups
-Every adult should get a basic annual panel including:
-- Glucose
-- Cholesterol
-- Kidney function
-- Complete blood count
+An out-of-range value is not a diagnosis by itself. At the visit we interpret it with your symptoms and history, and repeat it when needed.
 
-### Chronic Conditions
-If you have diabetes, hypertension, or another condition, you need more frequent testing as directed by your doctor.
+## How long do they take and how much do they cost?
 
-### Specific Symptoms
-Consult if you experience:
-- Unexplained fatigue
-- Weight changes
-- Excessive thirst
-- Changes in urine
+Many basic tests are processed at the clinic and results are usually ready quickly; those sent to an outside laboratory take somewhat longer. We tell you the exact turnaround for each test when we draw the sample and let you know when they are in. Payment is direct, no insurance, in cash or by card; ask for the price beforehand on WhatsApp at (832) 930-5551.
 
-## Preparation for Lab Tests
-
-### Fasting
-Some tests require 8-12 hours of fasting:
-- Fasting glucose
-- Lipid panel
-- Metabolic panel
-
-### Hydration
-- Drink water normally
-- Avoid coffee and tea before the test
-
-### Medications
-- You can generally take your medications
-- Ask your doctor if you have questions
-
-## Advantages of Our Laboratory
-
-### Same-Day Results
-Most tests have results within hours. No waiting days.
-
-### Modern Technology
-Updated equipment for accurate, reliable results.
-
-### Spanish-Language Service
-Our staff explains your results in Spanish, ensuring you understand your health status.
-
-### Affordable Prices
-Competitive, transparent pricing. Ask about our lab packages.
-
-### Walk-In Availability
-Visit when convenient. No appointment needed.
-
-## Understanding Your Results
-
-### Common Normal Values
-
-| Test | Normal Range |
-|------|-------------|
-| Fasting glucose | 70-100 mg/dL |
-| Total cholesterol | <200 mg/dL |
-| LDL | <100 mg/dL |
-| HDL | >40 mg/dL (men), >50 mg/dL (women) |
-| Hemoglobin A1C | <5.7% |
-
-*Values may vary by laboratory. Your doctor will interpret your results.*
-
-## How to Read Your Lab Results
-
-Receiving a sheet full of numbers and abbreviations can be confusing. Here we explain, in plain terms, what the most common values mean.
-
-### What the columns mean
-
-Almost all lab reports show three columns: your result, the reference range, and a flag (H for high, L for low, or nothing if normal). The **reference range** is the interval where most healthy people fall, but keep in mind that small variations may be normal for you.
-
-### Most commonly flagged results
-
-| Result | High may indicate | Low may indicate |
-|--------|------------------|-----------------|
-| Fasting glucose | Pre-diabetes or diabetes | Hypoglycemia |
-| LDL cholesterol | Higher cardiovascular risk | Generally not a concern |
-| Hemoglobin | Dehydration | Anemia |
-| White blood cells | Infection or inflammation | Weakened immune system |
-| TSH (thyroid) | Hypothyroidism | Hyperthyroidism |
-| Creatinine | Possible kidney damage | Malnutrition or low muscle mass |
-
-**Important:** A value outside the reference range does not always mean disease. Your doctor will interpret the results together with your symptoms and medical history. Never make health decisions based on numbers alone.
-
-### Questions you can ask your doctor
-- Does this result require treatment or just monitoring?
-- Should I repeat this test in a certain amount of time?
-- Do I need to change anything in my diet or medications?
-
-## Most Requested Lab Packages
-
-Many people in Pasadena TX look for lab packages that offer more value for their money. At Clínica Hispana Corazón y Vida, we group the most-requested tests together:
-
-### General Checkup Package
-Ideal for adults who have not had lab work in more than a year:
-- Complete blood count (CBC)
-- Comprehensive metabolic panel
-- Lipid panel
-- Fasting glucose
-- Urinalysis
-
-### Cardiovascular Package
-For people with a family history of heart disease or hypertension:
-- Complete lipid panel
-- C-reactive protein (CRP)
-- Homocysteine
-- Basic metabolic panel
-
-### Female Hormonal Package
-Highly requested by women in Pasadena with menopause symptoms or menstrual irregularities:
-- TSH, T3, T4
-- FSH and LH
-- Estradiol
-- Prolactin
-
-Ask at the front desk about available packages and current pricing.
-
-## Lab Tests for Specific Conditions
-
-### Diabetes Monitoring
-
-People with diabetes in Pasadena need regular lab work to keep the condition under control and prevent complications such as kidney, eye, and nerve damage.
-
-**Essential tests for diabetics:**
-- **Hemoglobin A1C:** Every 3–6 months; measures average blood glucose over the past 2–3 months. Goal: less than 7% for most diabetics
-- **Comprehensive metabolic panel:** Includes kidney function (creatinine, BUN) and liver function
-- **Lipid panel:** Diabetics have a higher cardiovascular risk
-- **Urine microalbumin:** Detects early kidney damage
-
-Our [chronic conditions services](/services/condiciones-cronicas) include complete diabetes follow-up with regular lab work and nutritional guidance.
-
-### Lab Tests During Pregnancy
-
-Pregnancy requires special monitoring from the earliest weeks:
-- **Complete blood count:** To detect anemia, which is common during pregnancy
-- **Glucose:** Screening for gestational diabetes (typically between weeks 24 and 28)
-- **Blood type and Rh factor:** To know your blood type and Rh status
-- **STI testing:** Syphilis, HIV, hepatitis B — required in prenatal care
-- **Thyroid function (TSH):** Untreated hypothyroidism can affect the baby's development
-
-### Cardiovascular Health
-
-Heart disease is the leading cause of death in Pasadena and across the United States. Preventive lab tests make a real difference:
-- Complete lipid panel (ideally once a year)
-- Fasting glucose (diabetes doubles cardiac risk)
-- High-sensitivity C-reactive protein (inflammation marker)
-- Electrocardiogram if your doctor recommends it — also available at our clinic
-
-Visit our [clinical laboratory](/services/examenes-sangre) page to see all available tests with no appointment needed in Pasadena TX.
-
-## Schedule Your Lab Work
-
-Stay on top of your health with regular lab tests. We serve the Hispanic community in Pasadena, including the Northside, Eastwood, Magnolia Park, and Greater Greenspoint neighborhoods.
-
-**Clínica Hispana Corazón y Vida**
-- Phone: (832) 930-5551
-- Address: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Hours: Monday-Saturday 9 AM - 9 PM · Sunday 9 AM - 7 PM
-
-*Fast results, Spanish-language care, fair prices.*
+Walk in at 918 W Southmore Ave, Suite 180, Pasadena, Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM, or see the details of our [blood tests](/services/examenes-sangre) and [thyroid testing](/services/tiroides).
