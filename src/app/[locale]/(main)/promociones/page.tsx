@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
 import { Tag } from "@phosphor-icons/react/dist/ssr";
-import { ContactForm } from "@/components/forms/contact-form";
+import { ContactFormLazy } from "@/components/forms/contact-form-lazy";
 import { StarRating } from "@/components/ui/star-rating";
 import { PageHero } from "@/components/layout/page-hero";
 import { PromotionsGrid } from "@/components/promotions/promotions-grid";
@@ -169,7 +169,7 @@ export default async function PromotionsPage({ params }: Props) {
               <p className="text-lg text-muted-foreground">{t("formSubtitle")}</p>
             </div>
             <div className="mx-auto max-w-2xl rounded-2xl border border-slate-100 bg-white p-6 shadow-lg md:p-8">
-              <ContactForm />
+              <ContactFormLazy />
             </div>
           </div>
         </section>

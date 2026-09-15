@@ -1,6 +1,11 @@
 import { getTranslations } from "next-intl/server";
 import { GoogleLogo, Star } from "@phosphor-icons/react/dist/ssr";
-import { TestimonialsCarousel } from "@/components/sections/testimonials-carousel";
+import dynamic from "next/dynamic";
+
+// Chunk aparte para Embla: las reseñas siguen en el HTML del servidor (SEO/GEO).
+const TestimonialsCarousel = dynamic(() =>
+  import("@/components/sections/testimonials-carousel").then((m) => m.TestimonialsCarousel),
+);
 import { StarRating } from "@/components/ui/star-rating";
 import { SectionHeader } from "@/components/layout/section-header";
 import { Button } from "@/components/ui/button";
