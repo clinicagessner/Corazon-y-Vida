@@ -702,180 +702,180 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "suturas-heridas": {
     "faqs": [
       {
-        "question": "¿Atienden heridas sin cita?",
-        "answer": "Sí, atendemos cortes y heridas sin cita previa; entre más pronto, menor el riesgo de infección."
+        "question": "¿Cuánto tiempo después del corte pueden ponerme puntos?",
+        "answer": "Lo ideal es dentro de las primeras seis a ocho horas, y hasta 24 horas en la cara. Pasado ese plazo la herida se limpia y se deja cicatrizar sola, porque cerrarla tarde aumenta el riesgo de infección."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Necesito la vacuna del tétanos si me corté?",
+        "answer": "Si su último refuerzo fue hace más de cinco años y la herida es profunda o sucia, sí; si fue hace más de diez años, en cualquier herida. Se aplica en la misma visita y queda anotado en su registro."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Dejan mucha cicatriz los puntos?",
+        "answer": "Una herida bien limpia y cerrada a tiempo cicatriza con una línea fina. Retirar los puntos en el plazo indicado, proteger la zona del sol durante meses y no rascar la costra reducen la marca."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you treat wounds without an appointment?",
-        "answer": "Yes, we treat cuts and wounds on a walk-in basis; the sooner, the lower the risk of infection."
+        "question": "How long after the cut can I get stitches?",
+        "answer": "Ideally within the first six to eight hours, and up to 24 hours on the face. After that the wound is cleaned and left to heal on its own, because closing it late raises the risk of infection."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Do I need a tetanus shot if I cut myself?",
+        "answer": "If your last booster was more than five years ago and the wound is deep or dirty, yes; if more than ten years ago, for any wound. It is given in the same visit and noted in your record."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do stitches leave a big scar?",
+        "answer": "A wound that is cleaned well and closed in time heals as a thin line. Removing the stitches on schedule, protecting the area from the sun for months and not picking the scab reduce the mark."
       }
     ]
   },
   "curacion-heridas": {
     "faqs": [
       {
-        "question": "¿Hacen cambios de vendaje y seguimiento?",
-        "answer": "Sí, limpiamos, curamos y cambiamos los vendajes, y damos seguimiento hasta que la herida cicatrice."
+        "question": "¿Puedo curar la herida en casa en vez de venir?",
+        "answer": "Las heridas pequeñas y limpias sí, con agua, jabón suave y un apósito limpio. Venga si es profunda, tiene pus o enrojecimiento que se extiende, no cierra en dos semanas, o si tiene diabetes o mala circulación."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Tengo diabetes y me salió una herida en el pie: es urgente?",
+        "answer": "Sí. En el pie diabético una herida pequeña puede infectarse en días y llegar al hueso. Venga el mismo día para limpieza, apósito y revisión de la circulación; no camine descalzo ni la trate con remedios caseros."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Qué debo poner en la herida en casa?",
+        "answer": "Agua limpia y jabón suave, secar sin frotar y cubrir con el apósito que le indicamos. Evite alcohol, agua oxigenada, yodo concentrado y remedios caseros, que dañan el tejido nuevo y retrasan el cierre."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do you do dressing changes and follow-up?",
-        "answer": "Yes, we clean, treat and change the dressings, and follow up until the wound heals."
+        "question": "Can I treat the wound at home instead of coming in?",
+        "answer": "Small, clean wounds yes, with water, mild soap and a clean dressing. Come in if it is deep, has pus or spreading redness, does not close in two weeks, or if you have diabetes or poor circulation."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "I have diabetes and got a wound on my foot: is it urgent?",
+        "answer": "Yes. In the diabetic foot a small wound can become infected within days and reach the bone. Come in the same day for cleaning, dressing and a circulation check; do not walk barefoot or use home remedies."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "What should I put on the wound at home?",
+        "answer": "Clean water and mild soap, pat dry and cover with the dressing we indicate. Avoid alcohol, hydrogen peroxide, concentrated iodine and home remedies, which damage new tissue and delay closure."
       }
     ]
   },
   "cirugias-menores": {
     "faqs": [
       {
-        "question": "¿Qué cirugías menores realizan?",
-        "answer": "Realizamos extracción de lunares, quistes y lipomas, entre otros procedimientos ambulatorios con anestesia local."
+        "question": "¿Puedo hacerme la cirugía menor el mismo día de la consulta?",
+        "answer": "En la mayoría de los casos sí: el médico evalúa la lesión, le explica el procedimiento y el precio, y si está de acuerdo se realiza en la misma visita. Traiga la lista de medicamentos y avise si toma anticoagulantes."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Mandan el lunar a analizar después de quitarlo?",
+        "answer": "Cuando el aspecto lo aconseja, sí: se envía a patología para confirmar que es benigno. Le decimos el plazo del resultado al terminar y lo revisamos con usted cuando llega."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Queda cicatriz después de quitar un quiste o un lipoma?",
+        "answer": "Queda una línea fina proporcional al tamaño de la lesión. Retirar los puntos a tiempo, proteger la zona del sol durante varios meses y no manipular la herida reducen la marca."
       }
     ],
     "faqsEn": [
       {
-        "question": "What minor surgeries do you perform?",
-        "answer": "We perform removal of moles, cysts and lipomas, among other outpatient procedures with local anesthesia."
+        "question": "Can I have the minor surgery the same day as the consultation?",
+        "answer": "In most cases yes: the provider evaluates the lesion, explains the procedure and the price, and if you agree it is done in the same visit. Bring your medication list and tell us if you take blood thinners."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Do you send the mole for analysis after removing it?",
+        "answer": "When its appearance calls for it, yes: it is sent to pathology to confirm it is benign. We tell you the turnaround for the result when we finish and review it with you when it arrives."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Is there a scar after removing a cyst or lipoma?",
+        "answer": "A thin line proportional to the size of the lesion remains. Removing the stitches on time, protecting the area from the sun for several months and not handling the wound reduce the mark."
       }
     ]
   },
   "drenaje-abscesos": {
     "faqs": [
       {
-        "question": "¿El drenaje de un absceso duele?",
-        "answer": "Se realiza con anestesia local para reducir las molestias y aliviar el dolor del absceso rápidamente."
+        "question": "¿Puedo tomar antibiótico en vez de drenar el absceso?",
+        "answer": "No. El antibiótico no entra en la bolsa de pus; el absceso necesita abrirse y limpiarse. El antibiótico se añade solo cuando hay infección alrededor, fiebre o factores de riesgo como diabetes."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Duele el drenaje del absceso?",
+        "answer": "Se hace con anestesia local; puede sentir presión y una molestia breve al infiltrar la piel inflamada. En cuanto sale el pus, el dolor que tenía desaparece casi por completo."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cuántas veces tengo que volver a cambiar la gasa?",
+        "answer": "Depende del tamaño: los abscesos pequeños cierran con uno o dos cambios y los grandes pueden necesitar varios en una o dos semanas. Le damos las fechas y puede venir sin cita."
       }
     ],
     "faqsEn": [
       {
+        "question": "Can I take antibiotics instead of draining the abscess?",
+        "answer": "No. Antibiotics do not reach inside the pocket of pus; the abscess needs to be opened and cleaned. Antibiotics are added only when there is surrounding infection, fever or risk factors such as diabetes."
+      },
+      {
         "question": "Does abscess drainage hurt?",
-        "answer": "It's done with local anesthesia to reduce discomfort and quickly relieve the abscess pain."
+        "answer": "It is done with local anesthesia; you may feel pressure and brief discomfort when the inflamed skin is numbed. As soon as the pus comes out, the pain you had almost completely disappears."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
-      },
-      {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How many times do I have to come back to change the packing?",
+        "answer": "It depends on the size: small abscesses close with one or two changes and large ones may need several over one or two weeks. We give you the dates and you can walk in."
       }
     ]
   },
   "unas-encarnadas": {
     "faqs": [
       {
-        "question": "¿Cómo tratan la uña encarnada?",
-        "answer": "Con un procedimiento sencillo y anestesia local retiramos la porción encarnada para aliviar el dolor el mismo día."
+        "question": "¿Me quitan toda la uña?",
+        "answer": "Normalmente no. Se retira solo la porción del borde que se clava en la piel, y la uña sigue creciendo con aspecto normal. Solo en casos muy repetidos o con deformidad se valora retirar una parte mayor."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Puedo caminar después del procedimiento?",
+        "answer": "Sí. Sale caminando con calzado abierto o amplio. Conviene reducir la actividad ese día, elevar el pie si duele y evitar zapatos cerrados y ajustados durante unos días."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cómo debo cortarme las uñas para que no se encarnen?",
+        "answer": "Rectas, sin redondear las esquinas ni dejarlas muy cortas, y con las uñas ablandadas después del baño. Use calzado con espacio en la punta; el zapato apretado es la causa más frecuente."
       }
     ],
     "faqsEn": [
       {
-        "question": "How do you treat an ingrown toenail?",
-        "answer": "With a simple procedure and local anesthesia we remove the ingrown portion to relieve pain the same day."
+        "question": "Do you remove the whole nail?",
+        "answer": "Usually not. Only the portion of the edge digging into the skin is removed, and the nail keeps growing with a normal appearance. Only in very recurrent cases or with deformity is removing a larger part considered."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Can I walk after the procedure?",
+        "answer": "Yes. You walk out in open or roomy footwear. It is best to reduce activity that day, elevate the foot if it hurts and avoid closed, tight shoes for a few days."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How should I trim my nails so they don't become ingrown?",
+        "answer": "Straight across, without rounding the corners or cutting them very short, and with the nails softened after bathing. Wear shoes with room at the toes; tight shoes are the most frequent cause."
       }
     ]
   },
   "farmacia": {
     "faqs": [
       {
-        "question": "¿Puedo surtir mi receta en la clínica?",
-        "answer": "Sí, al terminar tu consulta surtimos tu receta en nuestra farmacia, sin tener que ir a otro lugar."
+        "question": "¿Me entregan medicamentos si traigo una receta de otro médico?",
+        "answer": "Los medicamentos de la clínica se entregan con la consulta de nuestro médico, que revisa su caso antes de indicarlos. Si trae una receta de otro médico, puede pasar a consulta para valorarla o surtirla en la farmacia de su preferencia."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Qué pasa si el medicamento que necesito no está disponible?",
+        "answer": "Se le entrega la receta para surtirla en la farmacia que prefiera y, cuando existe, se le sugiere la opción genérica. Puede preguntar por WhatsApp la disponibilidad de un producto antes de venir."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Me explican cómo tomar el medicamento?",
+        "answer": "Sí. Recibe las indicaciones por escrito y el personal le explica en español la dosis, el horario, si se toma con comida y qué efectos vigilar. Si tiene dudas después, puede llamar o escribir."
       }
     ],
     "faqsEn": [
       {
-        "question": "Can I fill my prescription at the clinic?",
-        "answer": "Yes, after your visit we fill your prescription at our pharmacy, with no need to go elsewhere."
+        "question": "Will you give me medications if I bring a prescription from another doctor?",
+        "answer": "Clinic medications are provided with a visit to our provider, who reviews your case before indicating them. If you bring a prescription from another doctor, you can have a visit to evaluate it or fill it at the pharmacy you prefer."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "What if the medication I need is not available?",
+        "answer": "You are given the prescription to fill at the pharmacy you prefer and, when one exists, the generic option is suggested. You can ask on WhatsApp whether a product is available before you come."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do you explain how to take the medication?",
+        "answer": "Yes. You receive written instructions and staff explain in Spanish the dose, schedule, whether to take it with food and which effects to watch. If you have questions later, you can call or message."
       }
     ]
   }
