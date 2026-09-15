@@ -102,7 +102,7 @@ async function fetchGooglePlaceDetails(): Promise<GooglePlaceData | null> {
 // Cached version - revalidates every week
 export const getGooglePlaceData = unstable_cache(
   fetchGooglePlaceDetails,
-  ["google-place-data"],
+  ["google-place-data", "v2"], // v2: caché nueva tras habilitar facturación en Places (2026-09-14)
   {
     revalidate: 604800, // 1 week
     tags: ["google-reviews"],
