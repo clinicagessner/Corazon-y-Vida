@@ -5,7 +5,7 @@ metaTitle: "I-693 Immigration Medical Exam in Pasadena TX"
 relatedServices: ["examenes-inmigracion", "vacunas", "prueba-tuberculosis"]
 description: "Everything you need to know about the I-693 medical exam for a Green Card in Pasadena TX. Requirements, vaccines, costs, documents, and what to expect from USCIS-certified Civil Surgeons."
 date: "2026-03-18"
-dateModified: "2026-03-21"
+dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/examenes-inmigracion.webp"
 featured: false
@@ -52,12 +52,11 @@ USCIS requires that all applicants be up to date with the vaccination schedule r
 - **Hepatitis A:** 2-dose series; protects against viral liver infection
 - **Hepatitis B:** 3-dose series; required for all applicants
 - **Influenza (flu):** One annual dose; required during flu season
-- **Measles, Mumps, and Rubella (MMR):** 2 doses; especially important for those born before 1957
+- **Measles, Mumps, and Rubella (MMR):** 2 doses for people born in 1957 or later; those born before 1957 are generally considered immune
 - **Tetanus, Diphtheria, and Pertussis (Tdap/Td):** Booster every 10 years
 - **Varicella (chickenpox):** 2 doses if you did not have the illness as a child
 - **Meningococcal:** Required for certain age groups
 - **Pneumococcal:** For older adults or those with chronic conditions
-- **COVID-19:** Complete schedule per current USCIS guidelines
 - **HPV (Human Papillomavirus):** For applicants ages 11 to 26
 
 If you have already received some vaccines, bring your vaccination card or medical records. The Civil Surgeon will determine which vaccines are missing and only administer the ones you actually need.
@@ -82,7 +81,7 @@ Vaccines are billed separately based on which ones you need.
 
 At our Pasadena clinic, the examination is typically completed in **1-2 hours**. If you need additional vaccines, a follow-up visit may be needed to complete the series.
 
-Form I-693 is valid for **2 years** from the date of the Civil Surgeon's signature, or 4 years if vaccinations were administered during that period.
+Since **June 11, 2025**, USCIS generally treats Form I-693 as valid only for the immigration benefit application it is submitted with; it no longer has a fixed expiration date. Forms signed before November 1, 2023 keep a 2-year validity. Confirm the timing for your case with your attorney and at [uscis.gov/i-693](https://www.uscis.gov/i-693).
 
 ## Common Mistakes to Avoid
 
@@ -94,17 +93,17 @@ If you don't bring proof of previous vaccines, the Civil Surgeon will be require
 ### 2. Choosing a doctor not authorized by USCIS
 Only **designated Civil Surgeons** may sign the I-693. If another physician performs the exam, USCIS will reject it. Always verify that the clinic appears on the official USCIS list.
 
-### 3. Opening the sealed envelope
-Once the Civil Surgeon seals the envelope containing the form, you **must not open it**. If the envelope arrives opened or damaged, USCIS will reject it and you will have to repeat the exam.
+### 3. Mishandling the sealed envelope
+The Civil Surgeon gives you the I-693 in a sealed envelope. If you file Form I-485 **on paper**, submit it sealed. If you file Form I-485 **online**, USCIS instructs you to open the envelope and upload the completed form. If the envelope was opened by mistake, you do not need to repeat the exam: USCIS accepts the original opened I-693 with your application.
 
-### 4. Submitting the form after it has expired
-The I-693 is valid for 2 years from the Civil Surgeon's signature date, and 4 years if vaccines were administered during that period. Plan your timeline carefully to avoid repeating the process.
+### 4. Filing the I-693 separately from the I-485
+Since **December 2, 2024**, Form I-693 must be submitted together with Form I-485; otherwise USCIS may reject the green card application. Coordinate the exam date with the date your attorney will file the I-485.
 
 ### 5. Not disclosing prior medical conditions
 Concealing health conditions can lead to more serious complications during the process. Health problems do not necessarily prevent immigration; there are waivers available for many conditions.
 
 ### 6. Waiting until the last minute
-In Pasadena, clinics with Civil Surgeons may have wait times, especially during high-demand periods. Schedule your appointment at least 2–3 weeks before your USCIS interview.
+In Pasadena, clinics with Civil Surgeons may have wait times, especially during high-demand periods. Schedule your appointment at least 2–3 weeks before the date you will file your I-485.
 
 ## What Happens if My I-693 is Rejected?
 
@@ -114,10 +113,10 @@ If USCIS rejects your I-693 form, don't panic. There are several common reasons 
 USCIS may return the form if sections are blank, signatures are missing, or information is incorrect. In this case, you will need to return to the Civil Surgeon to have it corrected or completed. At Clínica Hispana Corazón y Vida, we carefully review the form before sealing it.
 
 ### The envelope arrived opened or damaged
-You will need to repeat the full medical exam. Make sure to keep the envelope in a safe place and do not open it under any circumstances.
+You do not need to repeat the exam: USCIS accepts the original I-693 even if the envelope is open. Keep the complete form and submit it with your application. Only an incomplete or illegible form requires a return visit to the Civil Surgeon.
 
-### The form is expired
-If you submitted the I-693 after its expiration date, you will need a new exam. Keep track of the form's signature date and calculate the deadlines with your immigration attorney.
+### The form is an outdated edition
+Since **July 3, 2025**, USCIS only accepts the 01/20/25 edition of Form I-693. Check the edition date at the bottom of the form and confirm the timing for your case with your immigration attorney.
 
 ### A medical condition requires additional evaluation
 In some cases, USCIS may request additional specialist evaluations. The Civil Surgeon will guide you through the next steps, and in many cases it is possible to request a medical waiver from USCIS.
@@ -138,7 +137,7 @@ If your form was rejected, contact us. We can help you understand why and schedu
 
 ### After the Exam
 - Keep a copy of the form
-- Do not open the sealed envelope
+- Submit the envelope sealed if filing on paper; open it only if you file the I-485 online
 - Submit the form with your USCIS application
 
 ## Why Choose Clínica Hispana Corazón y Vida?
@@ -157,6 +156,11 @@ Don't let the medical exam delay your immigration process. Contact us today to s
 **Clínica Hispana Corazón y Vida**
 - Phone: (832) 930-5551
 - Address: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Hours: Monday-Sunday 9AM-9PM
+- Hours: Monday-Saturday 9 AM - 9 PM · Sunday 9 AM - 7 PM
+
+**Official sources**
+- [USCIS: Form I-693](https://www.uscis.gov/i-693)
+- [USCIS Policy Manual, Vol. 8, Part B, Ch. 4: I-693 validity](https://www.uscis.gov/policy-manual/volume-8-part-b-chapter-4)
+- [USCIS Policy Manual, Vol. 8, Part B, Ch. 9: vaccination requirements](https://www.uscis.gov/policy-manual/volume-8-part-b-chapter-9)
 
 *This article is for informational purposes only and does not constitute legal advice. Consult a licensed immigration attorney for questions about your specific case.*

@@ -5,7 +5,7 @@ metaTitle: "Clinical Laboratory in Pasadena: Blood Tests"
 relatedServices: ["examenes-sangre", "examen-heces", "enfermedades-transmision-sexual", "tiroides"]
 description: "Clinical laboratory in Pasadena TX with same-day results. Blood tests, glucose, cholesterol, thyroid panel, and more at affordable prices with Spanish-speaking staff."
 date: "2026-03-21"
-dateModified: "2026-03-21"
+dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/examenes-sangre.webp"
 featured: false
@@ -235,6 +235,6 @@ Stay on top of your health with regular lab tests. We serve the Hispanic communi
 **Clínica Hispana Corazón y Vida**
 - Phone: (832) 930-5551
 - Address: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Hours: Monday-Friday 9AM-9PM
+- Hours: Monday-Saturday 9 AM - 9 PM · Sunday 9 AM - 7 PM
 
 *Fast results, Spanish-language care, fair prices.*

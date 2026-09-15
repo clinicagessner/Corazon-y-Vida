@@ -5,7 +5,7 @@ metaTitle: "Laboratorio Clínico en Pasadena: Análisis de Sangre"
 relatedServices: ["examenes-sangre", "examen-heces", "enfermedades-transmision-sexual", "tiroides"]
 description: "Laboratorio clínico en Pasadena TX con resultados el mismo día. Análisis de sangre, glucosa, colesterol, tiroides y más. Precios accesibles en español."
 date: "2026-03-21"
-dateModified: "2026-03-21"
+dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/examenes-sangre.webp"
 featured: false
@@ -235,6 +235,6 @@ Mantenga su salud bajo control con análisis regulares. Servimos a la comunidad 
 **Clínica Hispana Corazón y Vida**
 - Teléfono: (832) 930-5551
 - Dirección: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Horario: Lunes a Viernes 9AM-9PM
+- Horario: Lunes a Sábado 9 AM - 9 PM · Domingo 9 AM - 7 PM
 
 *Resultados rápidos, atención en español, precios justos.*

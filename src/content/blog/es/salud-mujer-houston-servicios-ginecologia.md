@@ -5,7 +5,7 @@ metaTitle: "Ginecología en Español en Pasadena TX"
 relatedServices: ["ginecologia", "prueba-embarazo", "anticonceptivos", "ultrasonido"]
 description: "Servicios de ginecología en Pasadena TX con atención en español. Papanicolaou, exámenes pélvicos, planificación familiar y más en Clínica Hispana Corazón y Vida."
 date: "2026-03-20"
-dateModified: "2026-03-21"
+dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -222,6 +222,6 @@ Su salud es importante. No posponga sus exámenes ginecológicos. Somos la clín
 **Clínica Hispana Corazón y Vida**
 - Teléfono: (832) 930-5551
 - Dirección: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Horario: Lunes a Viernes 9AM-9PM
+- Horario: Lunes a Sábado 9 AM - 9 PM · Domingo 9 AM - 7 PM
 
 *Cuidamos la salud de la mujer hispana en Pasadena.*

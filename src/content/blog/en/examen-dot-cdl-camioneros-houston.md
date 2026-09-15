@@ -5,7 +5,7 @@ metaTitle: "DOT Physical for Truck Drivers in Pasadena"
 relatedServices: ["examen-dot", "examen-alcohol-drogas", "examenes-sangre"]
 description: "Complete guide to DOT physical exams for CDL license in Pasadena TX. Requirements, what to expect, cost, and where to get it done in Spanish. No appointment needed."
 date: "2026-04-11"
-dateModified: "2026-04-11"
+dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/examen-dot.webp"
 featured: true
@@ -81,7 +81,7 @@ Some medical conditions may affect the duration of your certificate or require a
 
 ### Diabetes
 - If you manage your diabetes **without insulin** (diet, exercise, or oral medication only), you can generally receive a 2-year certificate
-- If you use **insulin**, you need a special exemption from FMCSA (Federal Motor Carrier Safety Administration)
+- If you use **insulin**, since November 2018 you no longer need an FMCSA exemption: your treating clinician completes form **MCSA-5870** and you bring it to the exam; the certificate is usually valid for up to 1 year
 
 ### High Blood Pressure
 | Blood Pressure Level | Certification |
@@ -134,7 +134,7 @@ If the doctor determines you don't meet the requirements at the time of the exam
 
 - **High blood pressure:** You may receive a temporary certificate while starting treatment. Return when your pressure is controlled.
 - **Vision problems:** Get prescription glasses and return for re-evaluation.
-- **Insulin-dependent diabetes:** Apply for the special FMCSA exemption with help from your endocrinologist.
+- **Insulin-dependent diabetes:** Ask your treating clinician to complete form MCSA-5870 (no more than 45 days before the exam) and bring it to your appointment.
 - **Other conditions:** The doctor will explain exactly what you need to get certified.
 
 At Clínica Hispana Corazón y Vida, **we never turn you away without explaining what to do next**. We give you a clear plan to resolve any situation and obtain your certificate.
@@ -165,7 +165,7 @@ We understand the specific needs of Pasadena's Hispanic trucking community. Many
 **No.** The DOT physical exam and drug testing are two separate things. We perform the physical exam. Drug and alcohol testing is your employer's responsibility or done through a testing consortium.
 
 ### Can I get a DOT physical if I have diabetes?
-**Yes**, if your diabetes is controlled with diet, exercise, or oral medications (no insulin). If you use insulin, you need a special FMCSA exemption.
+**Yes**, if your diabetes is controlled with diet, exercise, or oral medications (no insulin). If you use insulin you can still be certified: bring form MCSA-5870 completed by your treating clinician, and the certificate will be valid for up to 1 year.
 
 ### What if my blood pressure is high on exam day?
 If slightly elevated, the doctor may issue a 1-year certificate instead of 2. If very high, we'll recommend treatment and you can return when it's controlled.

@@ -5,7 +5,7 @@ metaTitle: "Examen DOT para Camioneros en Pasadena"
 relatedServices: ["examen-dot", "examen-alcohol-drogas", "examenes-sangre"]
 description: "Guía completa del examen físico DOT para licencia CDL en Pasadena TX. Requisitos, qué esperar, costo y dónde hacerlo en español. Sin cita previa."
 date: "2026-04-11"
-dateModified: "2026-04-11"
+dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/examen-dot.webp"
 featured: true
@@ -81,7 +81,7 @@ Algunas condiciones médicas pueden afectar la duración de su certificado o req
 
 ### Diabetes
 - Si controla su diabetes **sin insulina** (solo con dieta, ejercicio o pastillas), generalmente puede obtener un certificado de 2 años
-- Si usa **insulina**, necesita una exención especial del FMCSA (Federal Motor Carrier Safety Administration)
+- Si usa **insulina**, desde noviembre de 2018 ya no hace falta una exención de la FMCSA: su médico tratante completa el formulario **MCSA-5870** y usted lo trae al examen; el certificado suele ser de hasta 1 año
 
 ### Presión Arterial Alta
 | Nivel de Presión | Certificación |
@@ -134,7 +134,7 @@ Si el médico determina que usted no cumple con los requisitos en el momento del
 
 - **Presión alta:** Puede recibir un certificado temporal mientras comienza tratamiento. Regrese cuando su presión esté controlada.
 - **Problemas de visión:** Obtenga lentes recetados y regrese para una re-evaluación.
-- **Diabetes con insulina:** Solicite la exención especial del FMCSA con la ayuda de su endocrinólogo.
+- **Diabetes con insulina:** Pida a su médico tratante el formulario MCSA-5870 completado (no más de 45 días antes del examen) y tráigalo a la cita.
 - **Otras condiciones:** El médico le explicará exactamente qué necesita para poder certificarse.
 
 En Clínica Hispana Corazón y Vida **nunca le rechazamos sin explicarle qué hacer**. Le damos un plan claro para resolver cualquier situación y poder obtener su certificado.
@@ -165,7 +165,7 @@ Entendemos las necesidades específicas de la comunidad de camioneros hispanos e
 **No.** El examen DOT físico y la prueba de drogas son dos cosas separadas. Nosotros realizamos el examen físico. Las pruebas de drogas y alcohol son responsabilidad de su empleador o del consorcio de pruebas al que esté inscrito.
 
 ### ¿Puedo hacer el examen DOT si tengo diabetes?
-**Sí**, si su diabetes está controlada con dieta, ejercicio o medicamentos orales (sin insulina). Si usa insulina, necesita una exención especial del FMCSA.
+**Sí**, si su diabetes está controlada con dieta, ejercicio o medicamentos orales (sin insulina). Si usa insulina también puede certificarse: traiga el formulario MCSA-5870 llenado por su médico tratante y el certificado será de hasta 1 año.
 
 ### ¿Qué pasa si mi presión está alta el día del examen?
 Si está ligeramente elevada, el médico puede emitir un certificado por 1 año en lugar de 2. Si está muy alta, le recomendaremos tratamiento y podrá regresar cuando esté controlada.

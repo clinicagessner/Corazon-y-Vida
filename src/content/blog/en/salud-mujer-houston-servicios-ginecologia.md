@@ -5,7 +5,7 @@ metaTitle: "Gynecology in Spanish in Pasadena TX"
 relatedServices: ["ginecologia", "prueba-embarazo", "anticonceptivos", "ultrasonido"]
 description: "Gynecology services in Pasadena TX with Spanish-speaking staff. Pap smears, pelvic exams, family planning, and more at Clínica Hispana Corazón y Vida."
 date: "2026-03-20"
-dateModified: "2026-03-21"
+dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/ginecologia.webp"
 featured: false
@@ -222,6 +222,6 @@ Your health is important. Don't postpone your gynecological exams. We are the tr
 **Clínica Hispana Corazón y Vida**
 - Phone: (832) 930-5551
 - Address: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Hours: Monday-Friday 9AM-9PM
+- Hours: Monday-Saturday 9 AM - 9 PM · Sunday 9 AM - 7 PM
 
 *Caring for the health of Hispanic women in Pasadena.*
