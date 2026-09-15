@@ -37,6 +37,7 @@ import { Badge } from "@/components/ui/badge";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { SERVICES, SERVICES_LAST_MODIFIED, SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
 import { MedicalReview } from "@/components/shared/medical-review";
+import { Markdown } from "@/components/shared/markdown";
 import { seoDescription, seoTitle } from "@/lib/seo";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
@@ -232,7 +233,13 @@ export default async function ServicePage({ params }: Props) {
         <section className="py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <ServiceContent content={service.longDescription} />
+              {/* Servicios reescritos en markdown real (## preguntas); el parser
+                  antiguo sigue para los que aún usan **título** + lista. */}
+              {/\n## /.test(service.longDescription) ? (
+                <Markdown content={service.longDescription} />
+              ) : (
+                <ServiceContent content={service.longDescription} />
+              )}
               <MedicalReview updated={rawService.dateModified ?? SERVICES_LAST_MODIFIED} />
             </div>
           </div>

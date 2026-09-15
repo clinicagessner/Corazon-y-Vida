@@ -17,7 +17,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -47,7 +47,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -77,7 +77,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -107,7 +107,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -137,7 +137,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -162,30 +162,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "ginecologia": {
     "faqs": [
       {
-        "question": "¿Necesito cita para el papanicolaou?",
-        "answer": "No es obligatorio, atendemos sin cita; pero puedes llamarnos para reservar un horario cómodo."
+        "question": "¿Puedo pedir que me atienda una mujer?",
+        "answer": "Sí. Indíquelo en recepción al llegar y organizamos la consulta con personal femenino cuando esté disponible. También puede entrar acompañada si así lo prefiere."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Puedo hacerme el Papanicolaou si tengo la regla?",
+        "answer": "Es mejor esperar a que termine el sangrado, porque la muestra puede salir poco legible. Si tiene una molestia urgente, venga igual: la consulta y el cultivo sí se pueden hacer."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cuándo recibo el resultado del Papanicolaou o del cultivo?",
+        "answer": "El cultivo y el Papanicolaou se procesan en laboratorio y tardan unos días; le decimos el plazo al tomar la muestra. Si hay infección evidente, el tratamiento empieza el mismo día."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do I need an appointment for a Pap smear?",
-        "answer": "It's not required, we welcome walk-ins; but you can call us to reserve a convenient time."
+        "question": "Can I ask to be seen by a woman?",
+        "answer": "Yes. Tell the front desk when you arrive and we arrange the visit with female staff when available. You may also bring a companion into the room if you prefer."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Can I get a Pap test while on my period?",
+        "answer": "It is better to wait until the bleeding ends, because the sample may be hard to read. If you have an urgent discomfort, come anyway: the consultation and the culture can still be done."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "When do I get the Pap test or culture result?",
+        "answer": "The culture and the Pap test are processed in a laboratory and take a few days; we tell you the turnaround when the sample is taken. If an infection is evident, treatment starts the same day."
       }
     ]
   },
@@ -197,7 +197,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -227,7 +227,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -257,7 +257,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -287,7 +287,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -312,60 +312,60 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examenes-sangre": {
     "faqs": [
       {
-        "question": "¿En cuánto tiempo entregan los resultados?",
-        "answer": "En la mayoría de los casos los resultados están listos el mismo día o muy pronto, y te los explicamos en español."
+        "question": "¿Puedo tomar agua si vengo en ayunas para el análisis?",
+        "answer": "Sí. El agua no altera la glucosa ni los lípidos. Evite café, jugos, chicle y comida durante las 8 a 12 horas previas, y tome sus medicamentos como siempre salvo indicación contraria."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Necesito orden médica para hacerme análisis de sangre?",
+        "answer": "No. Puede pedir directamente la prueba o el panel que necesita, o pasar con el médico para que la elija con usted según sus síntomas. En ambos casos conoce el precio antes."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Me explican el resultado o solo me entregan el papel?",
+        "answer": "Se lo explicamos. Revisamos con usted cada valor frente a su rango de referencia y, si algo sale alterado, definimos tratamiento, seguimiento o repetición de la prueba."
       }
     ],
     "faqsEn": [
       {
-        "question": "How soon are results ready?",
-        "answer": "In most cases results are ready the same day or very soon, and we explain them to you in Spanish."
+        "question": "Can I drink water if I come fasting for the test?",
+        "answer": "Yes. Water does not affect glucose or lipids. Avoid coffee, juice, gum and food for the 8 to 12 hours before, and take your medications as usual unless told otherwise."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Do I need a doctor's order to get blood work?",
+        "answer": "No. You can ask directly for the test or panel you need, or see the provider so it is chosen with you based on your symptoms. Either way you know the price beforehand."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Do you explain the result or just hand me the paper?",
+        "answer": "We explain it. We review each value with you against its reference range and, if anything is abnormal, we define treatment, follow-up or a repeat test."
       }
     ]
   },
   "infecciones-urinarias": {
     "faqs": [
       {
-        "question": "¿Puedo recibir tratamiento el mismo día?",
-        "answer": "Sí, hacemos el examen de orina y, si hay infección, iniciamos el tratamiento el mismo día."
+        "question": "¿Puedo hacerme el examen de orina si tengo la regla?",
+        "answer": "Sí. Avise en recepción; la muestra se toma con limpieza previa y de la mitad del chorro para que la sangre menstrual no altere el resultado. Si hay duda, se envía urocultivo."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cuándo hace falta un urocultivo además del examen de orina?",
+        "answer": "Cuando la infección se repite, no mejora con el primer antibiótico, hay embarazo, diabetes o fiebre, o el médico sospecha que llegó al riñón. Identifica la bacteria y el antibiótico adecuado."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Puedo tomar el antibiótico que me sobró de otra vez?",
+        "answer": "No. Puede no ser el correcto para esta bacteria, enmascarar el resultado del cultivo y generar resistencia. Traiga el nombre de lo que tomó antes y el médico decide el tratamiento."
       }
     ],
     "faqsEn": [
       {
-        "question": "Can I get treatment the same day?",
-        "answer": "Yes, we run the urine test and, if there's an infection, we start treatment the same day."
+        "question": "Can I take the urine test while on my period?",
+        "answer": "Yes. Let the front desk know; the sample is collected after cleaning and from midstream so menstrual blood does not alter the result. If in doubt, a urine culture is sent."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "When is a urine culture needed in addition to the urinalysis?",
+        "answer": "When the infection recurs, does not improve with the first antibiotic, there is pregnancy, diabetes or fever, or the provider suspects it reached the kidney. It identifies the bacteria and the right antibiotic."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Can I take antibiotics left over from another time?",
+        "answer": "No. They may not be right for this bacteria, can mask the culture result and create resistance. Bring the name of what you took before and the provider decides the treatment."
       }
     ]
   },
@@ -377,7 +377,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -407,7 +407,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -437,7 +437,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -467,7 +467,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -497,7 +497,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -527,7 +527,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -557,7 +557,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -582,60 +582,60 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "examen-dot": {
     "faqs": [
       {
-        "question": "¿Me entregan el certificado DOT el mismo día?",
-        "answer": "Sí, al terminar el examen físico DOT te entregamos tu certificado el mismo día."
+        "question": "¿El examen DOT incluye la prueba de drogas?",
+        "answer": "No. El análisis de orina del examen DOT busca proteína, sangre y azúcar. La prueba de drogas es un servicio aparte que ordena el empleador; también la ofrecemos en la clínica."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Puedo pasar el examen DOT si tomo medicamento para la presión?",
+        "answer": "Sí, si la presión está controlada. En ese caso el certificado suele emitirse por un año y se revisa en cada renovación. Traiga su medicamento o la lista con dosis."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Qué hago con el certificado después del examen?",
+        "answer": "Guarde el original en el vehículo y entregue una copia al Departamento de Seguridad Pública de Texas (DPS) para mantener su licencia CDL activa. Su empleador puede pedir otra copia."
       }
     ],
     "faqsEn": [
       {
-        "question": "Do I get the DOT certificate the same day?",
-        "answer": "Yes, after the DOT physical we give you your certificate the same day."
+        "question": "Does the DOT physical include a drug test?",
+        "answer": "No. The urinalysis in the DOT physical screens for protein, blood and sugar. The drug test is a separate service ordered by the employer; we also offer it at the clinic."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "Can I pass the DOT physical if I take blood pressure medication?",
+        "answer": "Yes, if your pressure is controlled. In that case the certificate is usually issued for one year and rechecked at each renewal. Bring your medication or a list with doses."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "What do I do with the certificate after the exam?",
+        "answer": "Keep the original in the vehicle and submit a copy to the Texas Department of Public Safety (DPS) to keep your CDL active. Your employer may ask for another copy."
       }
     ]
   },
   "examenes-inmigracion": {
     "faqs": [
       {
-        "question": "¿El médico está autorizado por USCIS?",
-        "answer": "Sí, el examen lo realiza un médico autorizado (civil surgeon) y te entregamos el Formulario I-693 sellado."
+        "question": "¿Necesito abrir el sobre del I-693?",
+        "answer": "Depende de cómo presente el I-485. En papel, el sobre va cerrado. En línea, USCIS indica abrirlo y subir el formulario escaneado. Si se abrió por error, no hay que repetir el examen."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Qué pasa si no tengo mi cartilla de vacunas?",
+        "answer": "Puede hacerse el examen igual. Las vacunas sin registro escrito se consideran no aplicadas y se reponen en la clínica según su edad, lo que puede añadir costo y una visita más."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿Cuánto tiempo vale el examen de inmigración?",
+        "answer": "Desde el 11 de junio de 2025, USCIS considera que el I-693 vale en general solo para la solicitud con la que se presenta, y debe ir junto con el I-485. Confirme los plazos con su abogado."
       }
     ],
     "faqsEn": [
       {
-        "question": "Is the doctor authorized by USCIS?",
-        "answer": "Yes, the exam is performed by an authorized civil surgeon and we give you the sealed Form I-693."
+        "question": "Do I need to open the I-693 envelope?",
+        "answer": "It depends on how you file the I-485. On paper, the envelope stays sealed. Online, USCIS instructs you to open it and upload the scanned form. If it was opened by mistake, the exam does not need to be repeated."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "What if I don't have my vaccination record?",
+        "answer": "You can still take the exam. Vaccines without a written record count as not given and are replaced at the clinic according to your age, which may add cost and one more visit."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "How long is the immigration exam valid?",
+        "answer": "Since June 11, 2025, USCIS generally treats the I-693 as valid only for the application it is submitted with, and it must be filed together with the I-485. Confirm the timing with your attorney."
       }
     ]
   },
@@ -647,7 +647,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -672,30 +672,30 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "sueros-vitaminados": {
     "faqs": [
       {
-        "question": "¿Quién aplica el suero vitaminado?",
-        "answer": "Lo aplica y supervisa personal médico, tras una breve evaluación para elegir el suero adecuado para ti."
+        "question": "¿Puedo recibir un suero vitaminado sin consulta médica?",
+        "answer": "No. Antes de aplicarlo el médico revisa su historial, medicamentos, alergias y signos vitales para elegir el suero y la dosis adecuados y descartar condiciones en las que no conviene."
       },
       {
-        "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "question": "¿Cuánto tarda la aplicación del suero?",
+        "answer": "Entre 30 y 60 minutos según el volumen indicado. Durante ese tiempo permanece sentado con supervisión del personal y puede retirarse al terminar sin necesidad de acompañante."
       },
       {
-        "question": "¿Atienden a pacientes sin seguro?",
-        "answer": "Sí. No necesitas seguro médico; manejamos precios accesibles y transparentes. Pregúntanos por el costo antes de tu visita."
+        "question": "¿El suero vitaminado cura el cansancio?",
+        "answer": "Alivia la deshidratación y repone vitaminas, pero no trata la causa de un cansancio persistente. Si dura semanas, conviene un análisis de sangre para revisar tiroides, anemia, azúcar y B12."
       }
     ],
     "faqsEn": [
       {
-        "question": "Who administers the vitamin IV?",
-        "answer": "It's administered and monitored by medical staff, after a brief evaluation to choose the right drip for you."
+        "question": "Can I get an IV vitamin drip without a medical consultation?",
+        "answer": "No. Before giving it, the provider reviews your history, medications, allergies and vital signs to choose the right drip and dose and rule out conditions where it is not advisable."
       },
       {
-        "question": "Do I need an appointment?",
-        "answer": "No. We welcome walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. You can also call us to reserve a time."
+        "question": "How long does the infusion take?",
+        "answer": "Between 30 and 60 minutes depending on the volume indicated. During that time you remain seated under staff supervision and can leave when it ends without needing a companion."
       },
       {
-        "question": "Do you accept patients without insurance?",
-        "answer": "Yes. You don't need insurance; we offer affordable, transparent pricing. Ask us about the cost before your visit."
+        "question": "Does an IV vitamin drip cure fatigue?",
+        "answer": "It relieves dehydration and replaces vitamins, but it does not treat the cause of persistent fatigue. If it lasts weeks, a blood test to check thyroid, anemia, sugar and B12 is advisable."
       }
     ]
   },
@@ -707,7 +707,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -737,7 +737,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -767,7 +767,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -797,7 +797,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -827,7 +827,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
@@ -857,7 +857,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito cita previa?",
-        "answer": "No. Atendemos sin cita de de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
+        "answer": "No. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. También puedes llamarnos para reservar un horario."
       },
       {
         "question": "¿Atienden a pacientes sin seguro?",
