@@ -26,23 +26,19 @@ const csp = [
 
 const nextConfig: NextConfig = {
   images: {
-    // Optimizador de Vercel desactivado: la cuenta tiene topada la cuota de Image
-    // Optimization (/_next/image devuelve HTTP 402). Servimos los originales,
-    // ya comprimidos a mano (WebP q80 + PNG pngquant/oxipng).
-    unoptimized: true,
+    // Optimizador de Vercel desactivado (cuota agotada: /_next/image devolvía 402).
+    // Loader propio: sirve variantes pregeneradas en prebuild
+    // (scripts/generate-image-variants.mjs) para que next/image emita srcset y
+    // las tarjetas no descarguen 1024 px, sin pasar por /_next/image.
+    loader: "custom",
+    loaderFile: "./src/lib/image-loader.ts",
+    deviceSizes: [384, 640, 828, 1080, 1376],
+    imageSizes: [128, 256, 512],
     qualities: [50, 60, 75],
     minimumCacheTTL: 31536000,
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "lh3.googleusercontent.com",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "maps.googleapis.com",
-        pathname: "/**",
-      },
+      { protocol: "https", hostname: "lh3.googleusercontent.com", pathname: "/**" },
+      { protocol: "https", hostname: "maps.googleapis.com", pathname: "/**" },
     ],
   },
   experimental: {
@@ -50,6 +46,11 @@ const nextConfig: NextConfig = {
   },
   async headers() {
     return [
+      {
+        // Imágenes estáticas: un año en caché (Vercel sirve public/ con max-age=0 por defecto).
+        source: "/images/:path*",
+        headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }],
+      },
       {
         source: "/:path*",
         headers: [

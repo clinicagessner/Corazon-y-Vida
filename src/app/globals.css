@@ -35,8 +35,9 @@
   --success-light: #DCFCE7;
 
   /* WhatsApp (color oficial de la marca) */
-  --whatsapp: #25D366;
-  --whatsapp-dark: #1DA851;
+  /* Verde oficial "teal" de WhatsApp: texto blanco 4.1:1 (el #25D366 daba 1.98:1). */
+  --whatsapp: #128C7E;
+  --whatsapp-dark: #075E54;
 
   /* shadcn/ui tokens */
   --radius: 0.625rem;

@@ -91,6 +91,7 @@ export default async function BlogPage({ params }: Props) {
                       src={featuredPost.image || "/images/blog/default.webp"}
                       alt={`${featuredPost.title} - Blog de salud Clínica Hispana Corazón y Vida Pasadena`}
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover transition-transform duration-700 group-hover:scale-105"
                       priority
                     />
@@ -149,6 +150,7 @@ export default async function BlogPage({ params }: Props) {
                       src={post.image || "/images/blog/default.webp"}
                       alt={`${post.title} - Blog de salud Clínica Hispana Corazón y Vida Pasadena`}
                       fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     {post.category && (

@@ -249,6 +249,7 @@ export default async function BlogPostPage({ params }: Props) {
                             src={relatedPost.image}
                             alt={`${relatedPost.title} - Blog Clínica Hispana Corazón y Vida Pasadena`}
                             fill
+                            sizes="(max-width: 768px) 100vw, 50vw"
                             className="object-cover group-hover:scale-105 transition-transform duration-500"
                           />
                         </div>

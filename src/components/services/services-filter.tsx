@@ -144,6 +144,10 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
           })}
         </div>
 
+        {/* Encabezado H2 (antes las tarjetas usaban H3 sin H2: salto h1→h3) */}
+        <h2 className="sr-only">
+          {activeCategory === "all" ? t("filterAll") : categories.find((c) => c.id === activeCategory)?.label}
+        </h2>
         {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {filteredServices.map((service) => {
