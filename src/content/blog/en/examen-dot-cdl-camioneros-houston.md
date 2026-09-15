@@ -3,7 +3,7 @@ slug: "examen-dot-cdl-camioneros-houston"
 title: "DOT Physical Exam for Truck Drivers in Pasadena: Everything You Need to Know"
 metaTitle: "DOT Physical for Truck Drivers in Pasadena"
 relatedServices: ["examen-dot", "examen-alcohol-drogas", "examenes-sangre"]
-description: "Complete guide to DOT physical exams for CDL license in Pasadena TX. Requirements, what to expect, cost, and where to get it done in Spanish. No appointment needed."
+description: "What the DOT physical in Pasadena TX checks: blood pressure and vision limits, what to bring, how long the certificate lasts, and what changes if you use insulin."
 date: "2026-04-11"
 dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
@@ -20,172 +20,68 @@ keywords:
   - "CDL medical card Pasadena"
 ---
 
-# DOT Physical Exam for Truck Drivers in Pasadena: Everything You Need to Know
+If you drive a truck, a bus or any commercial vehicle across state lines, federal law requires a valid medical card. At Clínica Hispana Corazón y Vida in Pasadena we do that exam without an appointment and in Spanish. This guide walks through what happens in the visit and how to arrive prepared so you leave with your certificate the same day.
 
-If you're a truck driver, bus operator, or commercial vehicle driver in Pasadena, you need a valid **DOT physical exam** to obtain or renew your CDL license. At Clínica Hispana Corazón y Vida, we perform this exam with **100% Spanish-speaking staff**, no appointment needed, and same-day results.
+## What is the DOT physical for?
 
-## What Is a DOT Physical Exam?
+The DOT physical confirms that a commercial driver can operate safely. It is required by the FMCSA (Federal Motor Carrier Safety Administration) and can only be signed by a medical examiner listed on its National Registry. When you pass, the examiner issues the Medical Examiner's Certificate (form MCSA-5876), which you must carry and submit in copy to the Texas Department of Public Safety (DPS) to keep your CDL active.
 
-The DOT (Department of Transportation) physical is a **mandatory medical examination** required by the federal government for all commercial motor vehicle (CMV) drivers. Its purpose is to verify that you are in adequate health to safely operate a large vehicle.
+## What does the examiner check in Pasadena?
 
-This exam is different from a regular checkup. It's specifically designed to evaluate the physical capabilities needed to drive a truck, bus, or commercial vehicle for extended periods.
+The visit usually takes 30 to 45 minutes and always follows the same order:
 
-## Who Needs a DOT Physical?
+1. **Health history.** You complete the first part of the form: illnesses, surgeries, medications and habits. Accurate answers prevent problems later.
+2. **Vision.** You need at least 20/40 in each eye and in both together, with or without glasses, plus a 70-degree field of vision on each side and the ability to tell red, green and amber apart.
+3. **Hearing.** You must hear a forced whisper from five feet away with at least one ear, or pass an audiometry test with an average of 40 decibels or less. Hearing aids are allowed.
+4. **Blood pressure and pulse.** This is the reading that shortens the most certificates; the ranges are below.
+5. **Urinalysis.** It screens for protein, blood and sugar as signs of kidney problems or diabetes. It is not a drug test; that is a separate test ordered by your employer.
+6. **General physical exam.** Heart, lungs, abdomen, spine, limbs, reflexes and hernias.
 
-You need a DOT physical if you:
+## How long does the certificate last?
 
-- **Drive a truck** weighing more than 10,001 pounds
-- **Operate a bus** with a capacity of 16 or more passengers
-- **Transport hazardous materials** (HAZMAT)
-- **Need to obtain** a Commercial Driver's License (CDL) for the first time
-- **Need to renew** your CDL medical card (every 2 years or as directed by your doctor)
-
-## What Does the DOT Physical Include?
-
-During the exam, our physician will evaluate the following areas:
-
-### Vision
-- Visual acuity of at least 20/40 in each eye (with or without glasses)
-- Peripheral vision of at least 70 degrees in each eye
-- Ability to distinguish traffic signal colors
-
-### Hearing
-- Must perceive a forced whisper at 5 feet
-- Hearing aids are permitted if needed
-
-### Blood Pressure
-- Measured during the exam
-- Elevated blood pressure may result in a shorter certification period (1 year instead of 2)
-- Very high blood pressure may require treatment before certification
-
-### Urinalysis
-- Tests for glucose and protein levels
-- **This is not a drug test** (drug testing is conducted separately by your employer)
-
-### General Physical Examination
-- Cardiovascular evaluation (heart and lungs)
-- Neurological evaluation (reflexes, coordination)
-- Musculoskeletal evaluation (strength, mobility)
-- Abdominal examination
-- Hernia evaluation
-
-### Medical History
-- Current and past conditions
-- Medications you take
-- Previous surgeries
-- History of seizures, diabetes, heart problems
-
-## Conditions That May Affect Your Certification
-
-Some medical conditions may affect the duration of your certificate or require additional documentation:
-
-### Diabetes
-- If you manage your diabetes **without insulin** (diet, exercise, or oral medication only), you can generally receive a 2-year certificate
-- If you use **insulin**, since November 2018 you no longer need an FMCSA exemption: your treating clinician completes form **MCSA-5870** and you bring it to the exam; the certificate is usually valid for up to 1 year
-
-### High Blood Pressure
-| Blood Pressure Level | Certification |
+| Situation | Typical length |
 |---|---|
-| Under 140/90 | 2 years |
-| 140-159/90-99 | 1 year |
-| 160-179/100-109 | Temporary certification, treatment required |
-| 180/110 or higher | Not certified until controlled |
+| Blood pressure under 140/90 and no conditions to monitor | 24 months |
+| Blood pressure 140-159 / 90-99 | 12 months |
+| Blood pressure 160-179 / 100-109 | One-time 3-month certificate to get it under control |
+| Blood pressure 180/110 or higher | Not certified until it comes down with treatment |
+| Diabetes treated with insulin | Up to 12 months |
 
-### Sleep Apnea
-- If diagnosed with sleep apnea, you must bring documentation showing you're using your CPAP machine
-- Your doctor may require results from a recent sleep study
+If you take blood pressure medication and it is controlled, you normally receive a one-year certificate and get rechecked at each renewal.
 
-### Vision Problems
-- If you need glasses or contact lenses, your license will have a restriction requiring you to wear them while driving
-- If you cannot achieve 20/40 even with correction in one eye, you may apply for a vision exemption
+## Can I pass the exam if I have diabetes?
 
-## What Documents Should You Bring?
+Yes. With diet, exercise or pills, and no complications, the certificate can last up to two years. If you use insulin, since November 2018 you no longer need a federal exemption: your treating clinician completes form MCSA-5870 within 45 days before the exam, you bring it to the visit, and the examiner can certify you for up to one year. Bring your recent glucose log as well.
 
-To make your exam quick and hassle-free, bring the following:
+## What should I bring?
 
-1. **Photo ID** (driver's license, passport, or state ID)
-2. **List of medications** you currently take (name, dose, frequency)
-3. **Glasses or hearing aids** if you use them
-4. **Recent test results** if you have conditions like diabetes, sleep apnea, or heart problems
-5. **Name and contact of your primary care doctor** (if you have one)
+- Photo ID and your driver's license.
+- Glasses, contact lenses or hearing aids, if you use them.
+- A list of your medications with doses and the name of the prescriber.
+- If you use CPAP for sleep apnea, the device's usage report for the last 90 days.
+- If you have a heart condition, a recent letter from your cardiologist.
+- If you use insulin, the completed MCSA-5870 form.
 
-## How Much Does the DOT Physical Cost?
+With these papers in hand, most drivers finish in a single visit.
 
-At Clínica Hispana Corazón y Vida, we offer the DOT physical at **affordable and competitive prices**. The cost includes:
+## What if I don't pass?
 
-- Complete physical examination
-- Urinalysis
-- DOT medical certificate (form MCSA-5876)
-- Driver's medical card
+Failing is not always final. The examiner can often issue a shorter certificate while you get your pressure or sugar under control, or ask for a report from your doctor before signing. At the clinic we explain what is missing, treat what can be treated on site, such as high blood pressure, and tell you when to come back.
 
-**We accept cash and all major credit and debit cards.** Many trucking companies cover the cost of the exam for their drivers — check with your employer.
+## How much does it cost and how do I pay?
 
-## How Often Do You Need to Renew?
+The DOT physical is self-pay, no insurance needed, in cash or by card. Call or message us on WhatsApp at (832) 930-5551 to confirm the current price; there is no extra charge for walking in.
 
-- **Standard certificate:** every **2 years**
-- **With medical conditions** (controlled high blood pressure, non-insulin diabetes): may be every **1 year**
-- **If your certificate has expired:** you need a complete new exam before you can drive
+## Frequently asked questions
 
-**Tip:** Don't wait until your medical card expires. Schedule your renewal **at least 2 weeks before** the expiration date to avoid being unable to work.
+**Do I need an appointment?** No. We see drivers in order of arrival Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM.
 
-## What If I Don't Pass the Exam?
+**Can I renew a card issued by another clinic here?** Yes. You only need to meet the requirements on the day of the exam.
 
-If the doctor determines you don't meet the requirements at the time of the exam, you have options:
+**Is the result immediate?** If you pass, you leave with the printed certificate in the same visit.
 
-- **High blood pressure:** You may receive a temporary certificate while starting treatment. Return when your pressure is controlled.
-- **Vision problems:** Get prescription glasses and return for re-evaluation.
-- **Insulin-dependent diabetes:** Ask your treating clinician to complete form MCSA-5870 (no more than 45 days before the exam) and bring it to your appointment.
-- **Other conditions:** The doctor will explain exactly what you need to get certified.
+**Do you do the DOT drug test?** We offer [alcohol and drug testing](/services/examen-alcohol-drogas) separately; check with your employer which panel they require.
 
-At Clínica Hispana Corazón y Vida, **we never turn you away without explaining what to do next**. We give you a clear plan to resolve any situation and obtain your certificate.
+Schedule your [DOT physical in Pasadena](/services/examen-dot) or walk in at 918 W Southmore Ave, Suite 180.
 
-## Why Choose Clínica Hispana Corazón y Vida for Your DOT Physical?
-
-### 100% in Spanish
-The entire process — from check-in to receiving your certificate — is in Spanish. No translator needed.
-
-### No Appointment Needed
-Come when it's convenient. We're open **Monday to Saturday, 9 AM to 9 PM (Sundays until 7 PM)**. This is especially helpful for truck drivers with irregular schedules.
-
-### Same-Day Results
-Leave our clinic with your **DOT medical certificate and medical card** in hand. No waiting days or coming back for another visit.
-
-### Affordable Prices
-We offer competitive prices without sacrificing exam quality. We accept cash and cards.
-
-### Convenient Location
-We're located at **918 W Southmore Ave Suite 180, Pasadena, TX 77502**, near Highway 59/69, with ample free parking for trucks and large vehicles.
-
-### Experience with Hispanic Truck Drivers
-We understand the specific needs of Pasadena's Hispanic trucking community. Many of our patients are drivers who trust us for their renewals year after year.
-
-## Frequently Asked Questions About the DOT Physical
-
-### Does the DOT physical include drug testing?
-**No.** The DOT physical exam and drug testing are two separate things. We perform the physical exam. Drug and alcohol testing is your employer's responsibility or done through a testing consortium.
-
-### Can I get a DOT physical if I have diabetes?
-**Yes**, if your diabetes is controlled with diet, exercise, or oral medications (no insulin). If you use insulin you can still be certified: bring form MCSA-5870 completed by your treating clinician, and the certificate will be valid for up to 1 year.
-
-### What if my blood pressure is high on exam day?
-If slightly elevated, the doctor may issue a 1-year certificate instead of 2. If very high, we'll recommend treatment and you can return when it's controlled.
-
-### Do I need an appointment?
-**No.** We accept walk-ins Monday to Saturday, 9 AM to 9 PM (Sundays until 7 PM).
-
-### How long does the exam take?
-Approximately **30-45 minutes**. You leave with your certificate the same day.
-
-### Do you accept walk-ins for renewals?
-**Yes.** Both new exams and renewals are accepted without an appointment.
-
-## Contact Us
-
-Ready for your DOT physical? Visit Clínica Hispana Corazón y Vida today:
-
-- **Phone:** (832) 930-5551
-- **Address:** 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- **Hours:** Monday to Saturday 9:00 AM - 9:00 PM · Sunday 9:00 AM - 7:00 PM
-- **No appointment needed** — Walk-ins welcome
-
-*Your health and your license are in good hands at Clínica Hispana Corazón y Vida.*
+**Sources:** [FMCSA: Medical Examiner's Certificate](https://www.fmcsa.dot.gov/regulations/medical/medical-examiners-certificate-commercial-driver-medical-certification) · [FMCSA: Insulin-treated diabetes mellitus](https://www.fmcsa.dot.gov/medical/driver-medical-requirements/insulin-treated-diabetes-mellitus-itdm)

@@ -3,7 +3,7 @@ slug: "examen-dot-cdl-camioneros-houston"
 title: "Examen DOT para Camioneros en Pasadena: Todo lo que Necesita Saber"
 metaTitle: "Examen DOT para Camioneros en Pasadena"
 relatedServices: ["examen-dot", "examen-alcohol-drogas", "examenes-sangre"]
-description: "Guía completa del examen físico DOT para licencia CDL en Pasadena TX. Requisitos, qué esperar, costo y dónde hacerlo en español. Sin cita previa."
+description: "Cómo es el examen físico DOT en Pasadena TX: qué revisa el examinador, límites de presión y visión, qué traer, cuánto dura el certificado y qué hacer si usa insulina."
 date: "2026-04-11"
 dateModified: "2026-09-15"
 author: "Clínica Hispana Corazón y Vida"
@@ -20,172 +20,68 @@ keywords:
   - "tarjeta médica CDL Pasadena"
 ---
 
-# Examen DOT para Camioneros en Pasadena: Todo lo que Necesita Saber
+Si maneja un camión, un autobús o cualquier vehículo comercial que cruce líneas estatales, la ley federal le pide una tarjeta médica vigente. En Clínica Hispana Corazón y Vida, en Pasadena, hacemos ese examen sin cita y en español. Esta guía explica, punto por punto, qué va a pasar en la consulta y cómo llegar preparado para salir con su certificado el mismo día.
 
-Si usted es camionero, conductor de autobús o maneja un vehículo comercial en Pasadena, necesita un **examen físico DOT** vigente para obtener o renovar su licencia CDL. En Clínica Hispana Corazón y Vida realizamos este examen con atención **100% en español**, sin cita previa y con resultados el mismo día.
+## ¿Para qué sirve el examen DOT?
 
-## ¿Qué es el Examen DOT?
+El examen físico DOT confirma que un conductor comercial puede manejar con seguridad. Lo exige la FMCSA (Administración Federal de Seguridad de Autotransportes) y solo puede firmarlo un examinador médico inscrito en su Registro Nacional. Al aprobarlo, el examinador emite el certificado médico (formulario MCSA-5876), que usted debe llevar consigo y entregar en copia al Departamento de Seguridad Pública de Texas (DPS) para mantener activa su licencia CDL.
 
-El examen DOT (Department of Transportation) es un **examen físico obligatorio** que el gobierno federal requiere para todos los conductores de vehículos comerciales (CMV). Su propósito es verificar que usted está en condiciones de salud adecuadas para operar un vehículo grande de manera segura.
+## ¿Qué revisa el examinador en Pasadena?
 
-Este examen es diferente a un chequeo médico regular. Está diseñado específicamente para evaluar las capacidades físicas necesarias para conducir un camión, autobús o vehículo comercial por largas horas.
+La consulta suele tomar entre 30 y 45 minutos y sigue siempre el mismo orden:
 
-## ¿Quién Necesita un Examen DOT?
+1. **Historial de salud.** Usted llena la primera parte del formulario: enfermedades, cirugías, medicamentos y hábitos. Responder con exactitud evita problemas después.
+2. **Visión.** Necesita ver al menos 20/40 con cada ojo y con ambos, con o sin lentes, además de un campo visual de 70 grados por lado y distinguir los colores rojo, verde y ámbar.
+3. **Audición.** Debe oír un susurro fuerte a cinco pies de distancia con al menos un oído, o pasar una audiometría con un promedio de 40 decibeles o menos. Los audífonos están permitidos.
+4. **Presión arterial y pulso.** Es la medición que más certificados acorta; más abajo están los rangos.
+5. **Análisis de orina.** Busca proteína, sangre y azúcar como señal de problemas renales o de diabetes. No es una prueba de drogas: esa es aparte y la pide su empleador.
+6. **Examen físico general.** Corazón, pulmones, abdomen, columna, extremidades, reflejos y hernias.
 
-Necesita un examen DOT si usted:
+## ¿Cuánto dura el certificado?
 
-- **Maneja un camión** de más de 10,001 libras
-- **Conduce un autobús** con capacidad para 16 o más pasajeros
-- **Transporta materiales peligrosos** (HAZMAT)
-- **Necesita obtener** una licencia CDL (Commercial Driver's License) por primera vez
-- **Necesita renovar** su tarjeta médica CDL (cada 2 años o según indicación del médico)
-
-## ¿Qué Incluye el Examen DOT?
-
-Durante el examen, nuestro médico evaluará las siguientes áreas:
-
-### Visión
-- Agudeza visual de al menos 20/40 en cada ojo (con o sin lentes)
-- Campo visual de al menos 70 grados en cada ojo
-- Capacidad de distinguir colores de señales de tráfico
-
-### Audición
-- Debe percibir un susurro forzado a 5 pies de distancia
-- Se puede usar audífono si es necesario
-
-### Presión Arterial
-- Se mide durante el examen
-- Si su presión está elevada, el certificado puede ser por un período más corto (1 año en lugar de 2)
-- Presión arterial muy alta puede requerir tratamiento antes de la certificación
-
-### Análisis de Orina
-- Prueba de glucosa y proteínas
-- **No es una prueba de drogas** (las pruebas de drogas las realiza su empleador por separado)
-
-### Examen Físico General
-- Evaluación cardiovascular (corazón y pulmones)
-- Evaluación neurológica (reflejos, coordinación)
-- Evaluación musculoesquelética (fuerza, movilidad)
-- Revisión del abdomen
-- Evaluación de hernias
-
-### Historial Médico
-- Condiciones actuales y pasadas
-- Medicamentos que toma
-- Cirugías previas
-- Historial de convulsiones, diabetes, problemas cardíacos
-
-## Condiciones que Pueden Afectar su Certificación
-
-Algunas condiciones médicas pueden afectar la duración de su certificado o requerir documentación adicional:
-
-### Diabetes
-- Si controla su diabetes **sin insulina** (solo con dieta, ejercicio o pastillas), generalmente puede obtener un certificado de 2 años
-- Si usa **insulina**, desde noviembre de 2018 ya no hace falta una exención de la FMCSA: su médico tratante completa el formulario **MCSA-5870** y usted lo trae al examen; el certificado suele ser de hasta 1 año
-
-### Presión Arterial Alta
-| Nivel de Presión | Certificación |
+| Situación | Duración habitual |
 |---|---|
-| Menos de 140/90 | 2 años |
-| 140-159/90-99 | 1 año |
-| 160-179/100-109 | Certificación temporal, requiere tratamiento |
-| 180/110 o más | No se certifica hasta que baje |
+| Presión menor de 140/90 y sin condiciones que vigilar | 24 meses |
+| Presión entre 140-159 / 90-99 | 12 meses |
+| Presión entre 160-179 / 100-109 | Certificado único de 3 meses para controlarla |
+| Presión de 180/110 o más | No se certifica hasta que baje con tratamiento |
+| Diabetes tratada con insulina | Hasta 12 meses |
 
-### Apnea del Sueño
-- Si le han diagnosticado apnea del sueño, debe traer documentación de que está usando su máquina CPAP
-- Su médico puede requerir resultados de un estudio del sueño reciente
+Si toma medicamento para la presión y está controlada, normalmente recibe un certificado de un año y se revisa en cada renovación.
 
-### Problemas de Visión
-- Si necesita lentes o lentes de contacto, su licencia tendrá una restricción que indica que debe usarlos al conducir
-- Si no alcanza 20/40 incluso con corrección en un ojo, puede solicitar una exención de visión
+## ¿Puedo pasar el examen si tengo diabetes?
 
-## ¿Qué Documentos Necesita Traer?
+Sí. Con dieta, ejercicio o pastillas, y sin complicaciones, el certificado puede ser de hasta dos años. Si usa insulina, desde noviembre de 2018 ya no hace falta pedir una exención federal: su médico tratante llena el formulario MCSA-5870 dentro de los 45 días previos al examen, usted lo trae a la consulta y el examinador puede certificarlo por hasta un año. Traiga también su registro de glucosa reciente.
 
-Para que su examen sea rápido y sin complicaciones, traiga lo siguiente:
+## ¿Qué debo llevar a la cita?
 
-1. **Identificación con foto** (licencia de conducir, pasaporte o ID estatal)
-2. **Lista de medicamentos** que toma actualmente (nombre, dosis, frecuencia)
-3. **Lentes o audífonos** si los usa
-4. **Resultados de estudios recientes** si tiene condiciones como diabetes, apnea del sueño o problemas cardíacos
-5. **Nombre y contacto de su médico de cabecera** (si tiene uno)
+- Identificación con foto y su licencia de conducir.
+- Lentes, lentes de contacto o audífonos, si los usa.
+- Lista de medicamentos con dosis y el nombre de quien los receta.
+- Si usa CPAP para apnea del sueño, el reporte de uso del aparato de los últimos 90 días.
+- Si tiene una condición del corazón, la carta reciente de su cardiólogo.
+- Si usa insulina, el formulario MCSA-5870 completado.
 
-## ¿Cuánto Cuesta el Examen DOT?
+Con estos papeles en mano, la mayoría de los conductores termina en una sola visita.
 
-En Clínica Hispana Corazón y Vida ofrecemos el examen DOT a **precios accesibles y competitivos**. El costo incluye:
+## ¿Qué pasa si no apruebo?
 
-- Examen físico completo
-- Análisis de orina
-- Certificado médico DOT (formulario MCSA-5876)
-- Tarjeta médica de conductor
+No aprobar no siempre es definitivo. Muchas veces el examinador puede dar un certificado más corto mientras usted controla la presión o el azúcar, o pedir un informe de su médico antes de firmar. En la clínica le explicamos qué falta, tratamos lo que se pueda tratar aquí mismo, como la presión alta, y le decimos cuándo volver.
 
-**Aceptamos efectivo y todas las tarjetas de crédito y débito.** Muchas empresas de transporte cubren el costo del examen para sus conductores — consulte con su empleador.
+## ¿Cuánto cuesta y cómo pago?
 
-## ¿Cada Cuánto Tiempo se Renueva?
+El examen DOT se paga directo, sin seguro, en efectivo o con tarjeta. Llame o escriba por WhatsApp al (832) 930-5551 para confirmar el precio del día; no cobramos extra por atenderlo sin cita.
 
-- **Certificado estándar:** cada **2 años**
-- **Con condiciones médicas** (presión alta controlada, diabetes sin insulina): puede ser cada **1 año**
-- **Si su certificado venció:** necesita un nuevo examen completo antes de poder conducir
+## Preguntas frecuentes
 
-**Consejo:** No espere a que su tarjeta médica expire. Programe su renovación **al menos 2 semanas antes** del vencimiento para evitar quedarse sin poder trabajar.
+**¿Necesito cita?** No. Atendemos por orden de llegada de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM.
 
-## ¿Qué Pasa si No Paso el Examen?
+**¿Puedo renovar aquí una tarjeta emitida en otra clínica?** Sí. Solo necesita cumplir los requisitos del día del examen.
 
-Si el médico determina que usted no cumple con los requisitos en el momento del examen, tiene opciones:
+**¿El resultado es inmediato?** Si aprueba, sale con el certificado impreso en la misma visita.
 
-- **Presión alta:** Puede recibir un certificado temporal mientras comienza tratamiento. Regrese cuando su presión esté controlada.
-- **Problemas de visión:** Obtenga lentes recetados y regrese para una re-evaluación.
-- **Diabetes con insulina:** Pida a su médico tratante el formulario MCSA-5870 completado (no más de 45 días antes del examen) y tráigalo a la cita.
-- **Otras condiciones:** El médico le explicará exactamente qué necesita para poder certificarse.
+**¿Hacen la prueba de drogas DOT?** Ofrecemos [pruebas de alcohol y drogas](/services/examen-alcohol-drogas) por separado; confirme con su empleador qué panel le piden.
 
-En Clínica Hispana Corazón y Vida **nunca le rechazamos sin explicarle qué hacer**. Le damos un plan claro para resolver cualquier situación y poder obtener su certificado.
+Programe su [examen DOT en Pasadena](/services/examen-dot) o venga directamente a 918 W Southmore Ave, Suite 180.
 
-## ¿Por Qué Elegir Clínica Hispana Corazón y Vida para su Examen DOT?
-
-### 100% en Español
-Todo el proceso — desde el registro hasta la entrega de su certificado — es en español. No necesita traductor ni preocuparse por malentendidos.
-
-### Sin Cita Previa
-Venga cuando le convenga. Atendemos de **lunes a sábado de 9 AM a 9 PM (domingos hasta las 7 PM)**. Esto es especialmente útil para camioneros con horarios irregulares.
-
-### Resultados el Mismo Día
-Sale de nuestra clínica con su **certificado médico DOT y tarjeta médica** en mano. No tiene que esperar días ni volver otra cita.
-
-### Precios Accesibles
-Ofrecemos precios competitivos sin sacrificar la calidad del examen. Aceptamos efectivo y tarjetas.
-
-### Ubicación Conveniente
-Estamos en **918 W Southmore Ave Suite 180, Pasadena, TX 77502**, cerca de la Highway 59/69, con amplio estacionamiento gratuito para camiones y vehículos grandes.
-
-### Experiencia con Camioneros Hispanos
-Entendemos las necesidades específicas de la comunidad de camioneros hispanos en Pasadena. Muchos de nuestros pacientes son conductores que confían en nosotros para sus renovaciones año tras año.
-
-## Preguntas Frecuentes sobre el Examen DOT
-
-### ¿El examen DOT incluye prueba de drogas?
-**No.** El examen DOT físico y la prueba de drogas son dos cosas separadas. Nosotros realizamos el examen físico. Las pruebas de drogas y alcohol son responsabilidad de su empleador o del consorcio de pruebas al que esté inscrito.
-
-### ¿Puedo hacer el examen DOT si tengo diabetes?
-**Sí**, si su diabetes está controlada con dieta, ejercicio o medicamentos orales (sin insulina). Si usa insulina también puede certificarse: traiga el formulario MCSA-5870 llenado por su médico tratante y el certificado será de hasta 1 año.
-
-### ¿Qué pasa si mi presión está alta el día del examen?
-Si está ligeramente elevada, el médico puede emitir un certificado por 1 año en lugar de 2. Si está muy alta, le recomendaremos tratamiento y podrá regresar cuando esté controlada.
-
-### ¿Necesito cita previa?
-**No.** Atendemos sin cita previa, de lunes a sábado de 9 AM a 9 PM (domingos hasta las 7 PM).
-
-### ¿Cuánto tiempo toma el examen?
-Aproximadamente **30-45 minutos**. Sale con su certificado el mismo día.
-
-### ¿Aceptan walk-ins para renovaciones?
-**Sí.** Tanto exámenes nuevos como renovaciones se atienden sin cita previa.
-
-## Contacto
-
-¿Listo para su examen DOT? Visite Clínica Hispana Corazón y Vida hoy:
-
-- **Teléfono:** (832) 930-5551
-- **Dirección:** 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- **Horario:** Lunes a Sábado 9:00 AM - 9:00 PM · Domingo 9:00 AM - 7:00 PM
-- **Sin cita previa** — Walk-ins bienvenidos
-
-*Su salud y su licencia están en buenas manos con Clínica Hispana Corazón y Vida.*
+**Fuentes:** [FMCSA: Medical Examiner's Certificate](https://www.fmcsa.dot.gov/regulations/medical/medical-examiners-certificate-commercial-driver-medical-certification) · [FMCSA: Insulin-treated diabetes mellitus](https://www.fmcsa.dot.gov/medical/driver-medical-requirements/insulin-treated-diabetes-mellitus-itdm)
