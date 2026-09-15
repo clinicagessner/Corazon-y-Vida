@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import { getLocale, getTranslations } from "next-intl/server";
 import {
   Stethoscope,
@@ -54,7 +54,8 @@ export async function Services() {
     getLocale(),
   ]);
   const en = locale === "en";
-  const servicesHref = en ? "/en/services" : "/services";
+  // Link de next-intl: añade /en solo cuando toca.
+  const servicesHref = "/services";
 
   return (
     <section id="servicios" className="relative overflow-hidden bg-slate-light py-20 md:py-28">
@@ -74,18 +75,19 @@ export async function Services() {
         {/* Category cards */}
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {CATEGORIES.map((cat, idx) => {
-            const items = SERVICES.filter((s) => s.category === cat.key);
+            const items = [...SERVICES].filter((s) => s.category === cat.key).sort((a, b) => a.order - b.order);
+            // Enlaces reales a 3 servicios de la categoría: antes las 6 tarjetas
+            // apuntaban a /services y la home enlazaba a 1 de 29 servicios.
             const examples = items
               .slice(0, 3)
-              .map((s) => (en ? s.titleEn ?? s.title : s.title));
+              .map((s) => ({ slug: s.slug, title: en ? s.titleEn ?? s.title : s.title }));
             const isRed = idx % 2 === 0;
             const tint = isRed ? "bg-red-dark/25" : "bg-blue-dark/25";
             const check = isRed ? "text-red-light" : "text-blue-light";
 
             return (
-              <Link
+              <article
                 key={cat.key}
-                href={servicesHref}
                 className="group animate-on-scroll fade-up relative flex min-h-[300px] flex-col justify-end overflow-hidden rounded-3xl shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
               >
                 {/* Background image */}
@@ -113,22 +115,29 @@ export async function Services() {
                 {/* Bottom content */}
                 <div className="relative z-10 p-6 text-white">
                   <h3 className="font-heading text-xl font-bold drop-shadow-sm">
-                    {t(cat.labelKey)}
+                    <Link href={`${servicesHref}#${cat.key}`} className="hover:underline">
+                      {t(cat.labelKey)}
+                    </Link>
                   </h3>
                   <ul className="mt-3 space-y-1.5">
                     {examples.map((ex) => (
-                      <li key={ex} className="flex items-center gap-2 text-sm text-white/90">
+                      <li key={ex.slug} className="flex items-center gap-2 text-sm text-white/90">
                         <CheckCircle className={`size-4 shrink-0 ${check}`} weight="fill" />
-                        <span className="line-clamp-1">{ex}</span>
+                        <Link href={`/services/${ex.slug}`} className="line-clamp-1 hover:text-white hover:underline">
+                          {ex.title}
+                        </Link>
                       </li>
                     ))}
                   </ul>
-                  <span className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-white transition-all group-hover:gap-2">
+                  <Link
+                    href={`${servicesHref}#${cat.key}`}
+                    className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-white transition-all hover:gap-2"
+                  >
                     {t("learnMore")}
                     <ArrowRight className="size-4" weight="bold" />
-                  </span>
+                  </Link>
                 </div>
-              </Link>
+              </article>
             );
           })}
 

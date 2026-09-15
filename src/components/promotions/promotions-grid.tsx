@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
+import { Link } from "@/i18n/routing";
 import { Button } from "@/components/ui/button";
 import { PromotionDialog } from "@/components/promotions/promotion-dialog";
 import type {
@@ -86,6 +87,14 @@ export function PromotionsGrid({
                 {labels.viewDetail}
                 <ArrowRight className="size-4" weight="bold" />
               </Button>
+              {promo.serviceSlug && (
+                <Link
+                  href={`/services/${promo.serviceSlug}`}
+                  className="mt-3 text-center text-sm font-medium text-red-primary hover:underline"
+                >
+                  {labels.viewService}
+                </Link>
+              )}
             </div>
           </article>
         ))}

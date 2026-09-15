@@ -9,6 +9,7 @@ export interface LocalizedPromotion {
   image: string;
   alt: string;
   highlighted: boolean;
+  serviceSlug?: string;
 }
 
 /**
@@ -30,6 +31,7 @@ export function getLocalizedPromotions(locale: string): LocalizedPromotion[] {
       image: p.image,
       alt: en ? p.altEn : p.alt,
       highlighted: p.highlighted ?? false,
+      serviceSlug: p.serviceSlug,
     }));
 }
 
@@ -44,6 +46,7 @@ export interface PromotionLabels {
   openAria: string;
   viewPromotion: string;
   viewDetail: string;
+  viewService: string;
 }
 
 export interface PromotionContact {

@@ -2,6 +2,7 @@
 slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Women's Health in Pasadena: Gynecology Services in Spanish"
 metaTitle: "Gynecology in Spanish in Pasadena TX"
+relatedServices: ["ginecologia", "prueba-embarazo", "anticonceptivos", "ultrasonido"]
 description: "Gynecology services in Pasadena TX with Spanish-speaking staff. Pap smears, pelvic exams, family planning, and more at Clínica Hispana Corazón y Vida."
 date: "2026-03-20"
 dateModified: "2026-03-21"

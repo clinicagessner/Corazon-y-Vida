@@ -137,10 +137,12 @@ export default async function ServicePage({ params }: Props) {
   const service = getLocalizedService(rawService, locale);
   const IconComponent = iconMap[service.icon] || Stethoscope;
 
-  // Get related services (same category, excluding current)
-  const relatedServices = SERVICES.filter(
-    (s) => s.category === rawService.category && s.id !== rawService.id
-  ).slice(0, 3).map((s) => getLocalizedService(s, locale));
+  // Relacionados rotativos: los 3 siguientes de la misma categoría en orden
+  // circular, así todos reciben enlaces (antes solo los 3 primeros de cada categoría).
+  const siblings = [...SERVICES].filter((s) => s.category === rawService.category).sort((a, b) => a.order - b.order);
+  const startAt = siblings.findIndex((s) => s.slug === rawService.slug);
+  const rotated = siblings.slice(startAt + 1).concat(siblings.slice(0, startAt));
+  const relatedServices = rotated.slice(0, 3).map((s) => getLocalizedService(s, locale));
 
   const localePath = locale === "en" ? "/en" : "";
   const breadcrumbs = [

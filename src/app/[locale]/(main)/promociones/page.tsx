@@ -75,6 +75,7 @@ export default async function PromotionsPage({ params }: Props) {
     openAria: t("openAria"),
     viewPromotion: t("viewPromotion"),
     viewDetail: t("viewDetail"),
+    viewService: t("viewService"),
   };
 
   const contact = {

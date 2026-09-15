@@ -2,6 +2,7 @@
 slug: "salud-mujer-houston-servicios-ginecologia"
 title: "Salud de la Mujer en Pasadena: Servicios de Ginecología en Español"
 metaTitle: "Ginecología en Español en Pasadena TX"
+relatedServices: ["ginecologia", "prueba-embarazo", "anticonceptivos", "ultrasonido"]
 description: "Servicios de ginecología en Pasadena TX con atención en español. Papanicolaou, exámenes pélvicos, planificación familiar y más en Clínica Hispana Corazón y Vida."
 date: "2026-03-20"
 dateModified: "2026-03-21"

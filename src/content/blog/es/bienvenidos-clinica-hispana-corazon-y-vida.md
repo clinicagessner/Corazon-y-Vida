@@ -2,6 +2,7 @@
 slug: "bienvenidos-clinica-hispana-corazon-y-vida"
 title: "¡Bienvenidos a Clínica Hispana Corazón y Vida!"
 metaTitle: "Bienvenidos a Clínica Corazón y Vida"
+relatedServices: ["examenes-sangre", "ginecologia", "examen-dot", "examenes-inmigracion"]
 description: "Conoce nuestra clínica médica hispana en Pasadena, TX. Atención profesional en español, precios accesibles y un equipo comprometido con tu salud."
 date: "2026-03-16"
 dateModified: "2026-03-21"

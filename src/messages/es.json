@@ -266,7 +266,8 @@
     "relatedPosts": "Artículos Relacionados",
     "ctaTitle": "¿Necesita atención médica?",
     "ctaDescription": "Estamos aquí para ayudarle. Llame ahora para agendar su cita o visite nuestra clínica sin cita previa.",
-    "callNow": "Llamar ahora:"
+    "callNow": "Llamar ahora:",
+    "relatedServices": "Servicios relacionados"
   },
   "promotions": {
     "eyebrow": "Promociones",
@@ -303,7 +304,8 @@
     "formTitle": "¿Le interesa una promoción? Escríbanos",
     "formSubtitle": "Déjenos sus datos y le contactamos para agendar su cita.",
     "metaTitle": "Promociones Médicas en Pasadena TX",
-    "metaDescription": "Promociones y paquetes médicos a precios accesibles en Pasadena TX: chequeos para hombres y mujeres, control de diabetes y más. Sin seguro ni cita previa."
+    "metaDescription": "Promociones y paquetes médicos a precios accesibles en Pasadena TX: chequeos para hombres y mujeres, control de diabetes y más. Sin seguro ni cita previa.",
+    "viewService": "Ver el servicio"
   },
   "about": {
     "eyebrow": "Sobre la clínica",

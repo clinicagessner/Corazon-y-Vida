@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations, useLocale } from "next-intl";
@@ -86,6 +86,16 @@ export function ServicesFilter({ services, categories }: ServicesFilterProps) {
   const t = useTranslations("services");
   const locale = useLocale();
   const [activeCategory, setActiveCategory] = useState<string>("all");
+
+  // Las tarjetas de la home enlazan a /services#<categoría>: seleccionar esa
+  // categoría al cargar. Solo una vez, desde la URL (no es estado derivado).
+  useEffect(() => {
+    const hash = window.location.hash.replace("#", "");
+    if (hash && categories.some((c) => c.id === hash)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setActiveCategory(hash);
+    }
+  }, [categories]);
 
   const getLocalizedHref = (href: string) => {
     if (locale === "es") return href;

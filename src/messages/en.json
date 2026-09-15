@@ -266,7 +266,8 @@
     "relatedPosts": "Related Articles",
     "ctaTitle": "Need medical attention?",
     "ctaDescription": "We're here to help. Call now to schedule your appointment or visit our clinic without an appointment.",
-    "callNow": "Call now:"
+    "callNow": "Call now:",
+    "relatedServices": "Related services"
   },
   "promotions": {
     "eyebrow": "Promotions",
@@ -303,7 +304,8 @@
     "formTitle": "Interested in a promotion? Write to us",
     "formSubtitle": "Leave us your details and we'll contact you to schedule your appointment.",
     "metaTitle": "Medical Promotions in Pasadena TX",
-    "metaDescription": "Affordable medical promotions and packages in Pasadena TX: checkups for men and women, diabetes care and more. No insurance and no appointment needed."
+    "metaDescription": "Affordable medical promotions and packages in Pasadena TX: checkups for men and women, diabetes care and more. No insurance and no appointment needed.",
+    "viewService": "View service"
   },
   "about": {
     "eyebrow": "About the clinic",

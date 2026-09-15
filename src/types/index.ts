@@ -37,6 +37,8 @@ export interface Promotion {
   altEn: string;
   highlighted?: boolean;
   order: number;
+  /** Servicio al que lleva la promoción (enlace interno). */
+  serviceSlug?: string;
 }
 
 export interface ContactInfo {
@@ -89,6 +91,8 @@ export interface BlogPost {
   categoryEn?: string;
   readTime?: number;
   keywords?: string[];
+  /** Slugs de servicios enlazados desde el post. */
+  relatedServices?: string[];
   keywordsEn?: string[];
 }
 

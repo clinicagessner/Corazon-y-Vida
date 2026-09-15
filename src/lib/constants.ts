@@ -1232,6 +1232,7 @@ export const SERVICES: Service[] = [
 export const PROMOTIONS: Promotion[] = [
   {
     slug: "control-ginecologico",
+    serviceSlug: "ginecologia",
     title: "Control Ginecológico",
     titleEn: "Gynecological Care",
     price: null,
@@ -1249,6 +1250,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "diabetes-hipertension",
+    serviceSlug: "condiciones-cronicas",
     title: "Diabetes e Hipertensión",
     titleEn: "Diabetes & Hypertension",
     price: null,
@@ -1266,6 +1268,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "menopausia-salud-reproductiva",
+    serviceSlug: "ginecologia",
     title: "Menopausia y Salud Reproductiva",
     titleEn: "Menopause & Reproductive Health",
     price: null,
@@ -1282,6 +1285,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "atencion-sin-seguro",
+    serviceSlug: "examenes-sangre",
     title: "Atención Médica Sin Seguro",
     titleEn: "Medical Care Without Insurance",
     price: null,
@@ -1298,6 +1302,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "control-ginecologico-prenatal",
+    serviceSlug: "ginecologia",
     title: "Control Ginecológico y Prenatal",
     titleEn: "Gynecological & Prenatal Care",
     price: null,
@@ -1314,6 +1319,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "diabetes-hipertension-sintomas",
+    serviceSlug: "condiciones-cronicas",
     title: "Diabetes e Hipertensión: Detección a Tiempo",
     titleEn: "Diabetes & Hypertension: Early Detection",
     price: null,
@@ -1330,6 +1336,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "prevencion-cancer-prostata",
+    serviceSlug: "salud-hombre",
     title: "Prevención del Cáncer de Próstata",
     titleEn: "Prostate Cancer Prevention",
     price: null,
@@ -1346,6 +1353,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "menopausia-info",
+    serviceSlug: "ginecologia",
     title: "Menopausia: Hablemos del Tema",
     titleEn: "Menopause: Let's Talk",
     price: null,
@@ -1362,6 +1370,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "salud-hombre-energia-nutricion",
+    serviceSlug: "salud-hombre",
     title: "Salud del Hombre: Energía y Nutrición",
     titleEn: "Men's Health: Energy & Nutrition",
     price: null,
@@ -1378,6 +1387,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "salud-reproductiva-mujer",
+    serviceSlug: "anticonceptivos",
     title: "Salud Reproductiva de la Mujer",
     titleEn: "Women's Reproductive Health",
     price: null,
@@ -1394,6 +1404,7 @@ export const PROMOTIONS: Promotion[] = [
   },
   {
     slug: "salud-masculina",
+    serviceSlug: "salud-hombre",
     title: "Salud Masculina",
     titleEn: "Men's Health",
     price: null,

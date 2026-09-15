@@ -31,6 +31,7 @@ export async function Promotions() {
     openAria: t("openAria"),
     viewPromotion: t("viewPromotion"),
     viewDetail: t("viewDetail"),
+    viewService: t("viewService"),
     prev: t("prev"),
     next: t("next"),
     swipeHint: t("swipeHint"),

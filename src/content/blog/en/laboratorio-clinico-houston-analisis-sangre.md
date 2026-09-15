@@ -2,6 +2,7 @@
 slug: "laboratorio-clinico-houston-analisis-sangre"
 title: "Clinical Laboratory in Pasadena: Blood Tests with Same-Day Results"
 metaTitle: "Clinical Laboratory in Pasadena: Blood Tests"
+relatedServices: ["examenes-sangre", "examen-heces", "enfermedades-transmision-sexual", "tiroides"]
 description: "Clinical laboratory in Pasadena TX with same-day results. Blood tests, glucose, cholesterol, thyroid panel, and more at affordable prices with Spanish-speaking staff."
 date: "2026-03-21"
 dateModified: "2026-03-21"

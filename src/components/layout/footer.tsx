@@ -1,10 +1,21 @@
 import Link from "next/link";
+import { Link as LocaleLink } from "@/i18n/routing";
 import Image from "next/image";
 import { getTranslations, getLocale } from "next-intl/server";
 import { Phone, MapPin, Clock, InstagramLogo, FacebookLogo, XLogo, LinkedinLogo, GoogleLogo } from "@phosphor-icons/react/dist/ssr";
 import { Button } from "@/components/ui/button";
 import { StarRating } from "@/components/ui/star-rating";
-import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SOCIAL_LINKS, NAV_ITEMS, GOOGLE_REVIEWS_DATA, SERVICES } from "@/lib/constants";
+
+// Los 29 servicios en el pie por categoría: cada servicio recibe un enlace
+// desde todas las páginas (antes 22 tenían un único enlace entrante).
+const FOOTER_CATEGORIES = [
+  { key: "medicina-general", labelKey: "services.categoryMedicinaGeneral" },
+  { key: "salud-mujer", labelKey: "services.categorySaludMujer" },
+  { key: "examenes", labelKey: "services.categoryExamenes" },
+  { key: "laboratorio", labelKey: "services.categoryLaboratorio" },
+  { key: "tratamientos", labelKey: "services.categoryTratamientos" },
+] as const;
 import { getGooglePlaceData } from "@/lib/google-places";
 
 type FooterProps = {
@@ -213,6 +224,35 @@ export async function Footer({ phoneOverride }: FooterProps = {}) {
             </div>
           </div>
         </div>
+
+        {/* Servicios por categoría */}
+        <nav aria-labelledby="footer-services-heading" className="mt-12 border-t border-white/10 pt-10">
+          <h3 id="footer-services-heading" className="font-heading font-bold text-lg mb-6">
+            {t("nav.services")}
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8">
+            {FOOTER_CATEGORIES.map((cat) => (
+              <div key={cat.key}>
+                <h4 className="text-sm font-semibold text-white/90 mb-3">{t(cat.labelKey)}</h4>
+                <ul className="space-y-2">
+                  {[...SERVICES]
+                    .filter((s) => s.category === cat.key)
+                    .sort((a, b) => a.order - b.order)
+                    .map((s) => (
+                      <li key={s.slug}>
+                        <LocaleLink
+                          href={`/services/${s.slug}`}
+                          className="text-white/60 hover:text-white transition-colors text-sm"
+                        >
+                          {locale === "en" ? s.titleEn ?? s.title : s.title}
+                        </LocaleLink>
+                      </li>
+                    ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </nav>
       </div>
 
       {/* Bottom Bar */}

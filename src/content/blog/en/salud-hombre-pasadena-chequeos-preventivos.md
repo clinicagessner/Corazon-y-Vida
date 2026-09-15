@@ -2,6 +2,7 @@
 slug: "salud-hombre-pasadena-chequeos-preventivos"
 title: "Men's Health in Pasadena: Preventive Checkups That Can Save Your Life"
 metaTitle: "Men's Health in Pasadena: Preventive Checkups"
+relatedServices: ["salud-hombre", "examenes-sangre", "electrocardiograma"]
 description: "Preventive checkups for men in Pasadena TX: PSA, hormone profile, blood pressure, diabetes and cholesterol. 100% Spanish-speaking care, no appointment needed at Clínica Hispana Corazón y Vida."
 date: "2026-07-22"
 author: "Clínica Hispana Corazón y Vida"

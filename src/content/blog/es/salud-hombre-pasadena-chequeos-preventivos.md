@@ -2,6 +2,7 @@
 slug: "salud-hombre-pasadena-chequeos-preventivos"
 title: "Salud del Hombre en Pasadena: Chequeos Preventivos que Pueden Salvar tu Vida"
 metaTitle: "Salud del Hombre en Pasadena: Chequeos"
+relatedServices: ["salud-hombre", "examenes-sangre", "electrocardiograma"]
 description: "Chequeos preventivos para hombres en Pasadena TX: PSA, perfil hormonal, presión arterial, diabetes y colesterol. Atención 100% en español y sin cita previa en Clínica Hispana Corazón y Vida."
 date: "2026-07-22"
 author: "Clínica Hispana Corazón y Vida"

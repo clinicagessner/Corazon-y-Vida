@@ -2,6 +2,7 @@
 slug: "examen-dot-cdl-camioneros-houston"
 title: "Examen DOT para Camioneros en Pasadena: Todo lo que Necesita Saber"
 metaTitle: "Examen DOT para Camioneros en Pasadena"
+relatedServices: ["examen-dot", "examen-alcohol-drogas", "examenes-sangre"]
 description: "Guía completa del examen físico DOT para licencia CDL en Pasadena TX. Requisitos, qué esperar, costo y dónde hacerlo en español. Sin cita previa."
 date: "2026-04-11"
 dateModified: "2026-04-11"

@@ -4,7 +4,8 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { seoDescription, seoTitle } from "@/lib/seo";
-import { SITE_CONFIG, CONTACT_INFO } from "@/lib/constants";
+import { SITE_CONFIG, CONTACT_INFO, SERVICES } from "@/lib/constants";
+import { getLocalizedService } from "@/lib/utils";
 import { getBlogPosts, getBlogPost, getRelatedPosts } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -98,6 +99,10 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const relatedPosts = getRelatedPosts(slug, locale, 2);
+  const relatedServices = (post.relatedServices ?? [])
+    .map((slug) => SERVICES.find((svc) => svc.slug === slug))
+    .filter((svc): svc is NonNullable<typeof svc> => Boolean(svc))
+    .map((svc) => getLocalizedService(svc, locale));
 
   return (
     <>
@@ -193,6 +198,28 @@ export default async function BlogPostPage({ params }: Props) {
               </a>
             </div>
           </div>
+
+          {/* Servicios relacionados: las consultas de servicio aterrizaban en
+              el post o en la home sin camino hacia la página del servicio. */}
+          {relatedServices.length > 0 && (
+            <nav aria-labelledby="related-services-heading" className="max-w-4xl mx-auto mt-12 rounded-3xl border border-slate-100 bg-red-warm p-6 sm:p-8">
+              <h2 id="related-services-heading" className="text-xl font-heading font-bold text-slate-dark">
+                {t("relatedServices")}
+              </h2>
+              <ul className="mt-4 flex flex-wrap gap-3">
+                {relatedServices.map((s) => (
+                  <li key={s.slug}>
+                    <Link
+                      href={getLocalizedHref(`/services/${s.slug}`)}
+                      className="inline-block rounded-full border border-red-primary/20 bg-white px-4 py-2 text-sm font-medium text-red-dark hover:border-red-primary"
+                    >
+                      {s.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
 
           {/* Related Posts */}
           {relatedPosts.length > 0 && (

@@ -2,6 +2,7 @@
 slug: "control-diabetes-houston-guia-pacientes"
 title: "Control de Diabetes en Pasadena: Guía para Pacientes Hispanos"
 metaTitle: "Control de Diabetes en Pasadena: Guía"
+relatedServices: ["condiciones-cronicas", "examenes-sangre", "electrocardiograma"]
 description: "Aprenda a controlar su diabetes con nuestra guía completa. Monitoreo de glucosa, alimentación, medicamentos y cómo Clínica Hispana Corazón y Vida puede ayudarle."
 date: "2026-03-19"
 dateModified: "2026-03-21"
