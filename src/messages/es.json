@@ -28,7 +28,7 @@
     "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Cómo Llegar",
     "ctaContact": "¿Prefieres que te contactemos? Escríbenos",
-    "hours": "Lun a Sáb: 9:00 AM - 9:00 PM · Dom: 9:00 AM - 7:00 PM",
+    "hours": "Lun a Dom: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reseñas en Google",
     "cardTitle": "¿Por qué elegirnos?",
     "cardSubtitle": "La mejor atención para usted y su familia",
@@ -97,8 +97,8 @@
       "address": "Dirección",
       "phone": "Teléfono",
       "hours": "Horario",
-      "hoursWeekday": "Lunes a Sábado: 9:00 AM - 9:00 PM",
-      "hoursWeekend": "Domingo: 9:00 AM - 7:00 PM",
+      "hoursWeekday": "Lunes a Domingo: 9:00 AM - 9:00 PM",
+      "hoursWeekend": "Abierto los 7 días, sin cita previa",
       "email": "Correo",
       "footerNote": "Estamos ubicados en el corazón de Pasadena, con fácil acceso y estacionamiento gratuito."
     }
@@ -114,7 +114,7 @@
     "q3": "¿Hablan español en la clínica?",
     "a3": "Sí, todo nuestro personal habla español. Nuestra clínica fue creada específicamente para servir a la comunidad hispana de Pasadena, y nos aseguramos de que pueda comunicarse cómodamente en su idioma.",
     "q4": "¿Cuáles son sus horarios de atención?",
-    "a4": "Atendemos de lunes a sábado de 9:00 AM a 9:00 PM y domingos de 9:00 AM a 7:00 PM. Por favor llámenos para confirmar horarios en días festivos.",
+    "a4": "Atendemos todos los días de 9:00 AM a 9:00 PM, incluidos sábados y domingos. Por favor llámenos para confirmar horarios en días festivos.",
     "q5": "¿Qué formas de pago aceptan?",
     "a5": "Aceptamos efectivo y todas las tarjetas de crédito y débito principales (Visa, MasterCard, American Express, Discover). Manejamos precios accesibles y transparentes, y atendemos a pacientes sin seguro.",
     "q6": "¿Ofrecen planes de pago?",
@@ -128,7 +128,7 @@
     "q10": "¿Hay estacionamiento disponible?",
     "a10": "Sí, contamos con amplio estacionamiento gratuito frente a la clínica. Nuestras instalaciones también son accesibles para personas con discapacidad, incluyendo rampas y baños adaptados.",
     "q11": "¿Dónde encuentro una clínica hispana cerca de mí en Pasadena?",
-    "a11": "Clínica Hispana Corazón y Vida es una clínica hispana y latina en 918 W Southmore Ave Suite 180, Pasadena, TX 77502, a minutos de Houston. Atendemos de lunes a sábado de 9:00 AM a 9:00 PM y domingos de 9:00 AM a 7:00 PM, sin cita previa.",
+    "a11": "Clínica Hispana Corazón y Vida es una clínica hispana y latina en 918 W Southmore Ave Suite 180, Pasadena, TX 77502, a minutos de Houston. Atendemos todos los días de 9:00 AM a 9:00 PM, incluidos sábados y domingos, sin cita previa.",
     "q12": "¿Puedo tener aquí a mi médico primario?",
     "a12": "Sí. Muchas familias nos eligen como su médico primario y centro médico cerca de casa: consultas de medicina general, control de condiciones crónicas y laboratorio en un solo lugar."
   },
@@ -145,7 +145,7 @@
       "bus": "Acceso en Autobús",
       "security": "Área Segura"
     },
-    "hours": "Lun a Sáb: 9:00 AM - 9:00 PM · Dom: 9:00 AM - 7:00 PM",
+    "hours": "Lun a Dom: 9:00 AM - 9:00 PM",
     "call": "Llamar"
   },
   "footer": {
@@ -158,8 +158,8 @@
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
     "hipaa": "Aviso HIPAA",
-    "hoursWeekday": "Lunes a Sábado: 9:00 AM - 9:00 PM",
-    "hoursWeekend": "Domingo: 9:00 AM - 7:00 PM",
+    "hoursWeekday": "Lunes a Domingo: 9:00 AM - 9:00 PM",
+    "hoursWeekend": "Abierto los 7 días, sin cita previa",
     "stars": "{rating} con {reviews}+ reseñas"
   },
   "common": {
@@ -310,7 +310,7 @@
   "about": {
     "eyebrow": "Sobre la clínica",
     "heading": "¿Qué es Clínica Hispana Corazón y Vida?",
-    "body": "Clínica Hispana Corazón y Vida es una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100% en español. Está en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, y abre los siete días de la semana: de lunes a sábado de 9 de la mañana a 9 de la noche, y los domingos de 9 a 7. No hace falta seguro médico: cada servicio tiene un precio directo y accesible, que se paga en efectivo o con tarjeta. El equipo médico atiende consultas generales y control de diabetes, presión alta, colesterol y tiroides; ginecología y Papanicolaou; exámenes de laboratorio con análisis de sangre y orina; ultrasonido y electrocardiograma; exámenes físicos DOT para licencia CDL, exámenes médicos de inmigración, físicos escolares y pruebas de alcohol y drogas; vacunas, sueros vitaminados, suturas, curación de heridas y cirugías menores. También se atiende en inglés. Teléfono y WhatsApp: (832) 930-5551. Recibe pacientes de Pasadena, South Houston, Deer Park, Galena Park, Genoa y Red Bluff."
+    "body": "Clínica Hispana Corazón y Vida es una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100% en español. Está en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, y abre los siete días de la semana: de 9 de la mañana a 9 de la noche, sábados y domingos incluidos. No hace falta seguro médico: cada servicio tiene un precio directo y accesible, que se paga en efectivo o con tarjeta. El equipo médico atiende consultas generales y control de diabetes, presión alta, colesterol y tiroides; ginecología y Papanicolaou; exámenes de laboratorio con análisis de sangre y orina; ultrasonido y electrocardiograma; exámenes físicos DOT para licencia CDL, exámenes médicos de inmigración, físicos escolares y pruebas de alcohol y drogas; vacunas, sueros vitaminados, suturas, curación de heridas y cirugías menores. También se atiende en inglés. Teléfono y WhatsApp: (832) 930-5551. Recibe pacientes de Pasadena, South Houston, Deer Park, Galena Park, Genoa y Red Bluff."
   },
   "medicalReview": {
     "reviewedBy": "Revisado por el equipo médico de Clínica Hispana Corazón y Vida",

@@ -73,4 +73,4 @@ Un valor fuera de rango no es un diagnóstico por sí solo. En la consulta lo in
 
 Muchas pruebas básicas se procesan en la clínica y los resultados suelen estar listos rápido; las que se envían a un laboratorio externo tardan algo más. Le decimos el plazo exacto de cada prueba al tomar la muestra y le avisamos cuando estén. El pago es directo, sin seguro, en efectivo o con tarjeta; pregunte el precio antes por WhatsApp al (832) 930-5551.
 
-Venga sin cita a 918 W Southmore Ave, Suite 180, Pasadena, de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM, o vea el detalle de nuestros [análisis de sangre](/services/examenes-sangre) y de [tiroides](/services/tiroides).
+Venga sin cita a 918 W Southmore Ave, Suite 180, Pasadena, todos los días de 9 AM a 9 PM, o vea el detalle de nuestros [análisis de sangre](/services/examenes-sangre) y de [tiroides](/services/tiroides).

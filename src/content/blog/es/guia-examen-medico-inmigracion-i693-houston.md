@@ -70,7 +70,7 @@ Faltan registros de vacunas, la prueba de tuberculosis sale positiva y hay que e
 
 El examen se paga directo, sin seguro, en efectivo o con tarjeta. Las vacunas y las pruebas que necesite se cobran según su caso. Llame o escriba por WhatsApp al (832) 930-5551 para confirmar el precio antes de venir.
 
-Programe su [examen médico de inmigración en Pasadena](/services/examenes-inmigracion) o visítenos sin cita en 918 W Southmore Ave, Suite 180, de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM.
+Programe su [examen médico de inmigración en Pasadena](/services/examenes-inmigracion) o visítenos sin cita en 918 W Southmore Ave, Suite 180, todos los días de 9 AM a 9 PM.
 
 **Fuentes oficiales:** [USCIS: Formulario I-693](https://www.uscis.gov/i-693) · [Policy Manual, Vol. 8, Parte B, Cap. 4](https://www.uscis.gov/policy-manual/volume-8-part-b-chapter-4) · [Policy Manual, Vol. 8, Parte B, Cap. 9](https://www.uscis.gov/policy-manual/volume-8-part-b-chapter-9)
 

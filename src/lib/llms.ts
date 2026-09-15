@@ -30,8 +30,8 @@ const byOrder = [...SERVICES].sort((a, b) => a.order - b.order);
 const byPromoOrder = [...PROMOTIONS].sort((a, b) => a.order - b.order);
 
 const ADDRESS = `${CONTACT_INFO.address}, ${CONTACT_INFO.city}, ${CONTACT_INFO.state} ${CONTACT_INFO.zip}`;
-const HOURS_EN = "Open seven days a week: Monday through Saturday from 9:00 AM to 9:00 PM and Sunday from 9:00 AM to 7:00 PM. No appointment needed at any time the clinic is open.";
-const HOURS_ES = "Abierto los siete días: lunes a sábado de 9:00 AM a 9:00 PM y domingo de 9:00 AM a 7:00 PM. Se atiende sin cita en todo el horario.";
+const HOURS_EN = "Open seven days a week from 9:00 AM to 9:00 PM. No appointment needed at any time the clinic is open.";
+const HOURS_ES = "Abierto los siete días de la semana de 9:00 AM a 9:00 PM. Se atiende sin cita en todo el horario.";
 const AREA_EN =
   "Pasadena, TX and the southeast Houston area: South Houston, Deer Park, Galena Park, Genoa, Red Bluff and nearby communities. The clinic is on W Southmore Ave in ZIP 77502.";
 // Ubicación exacta, sin nombrar otras clínicas de nombre parecido.

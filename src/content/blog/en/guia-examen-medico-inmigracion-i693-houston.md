@@ -70,7 +70,7 @@ Missing vaccine records, a positive tuberculosis test that requires waiting for 
 
 The exam is self-pay, no insurance needed, in cash or by card. Any vaccines and tests you need are charged according to your case. Call or message us on WhatsApp at (832) 930-5551 to confirm the price before you come.
 
-Schedule your [immigration medical exam in Pasadena](/services/examenes-inmigracion) or walk in at 918 W Southmore Ave, Suite 180, Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM.
+Schedule your [immigration medical exam in Pasadena](/services/examenes-inmigracion) or walk in at 918 W Southmore Ave, Suite 180, every day from 9 AM to 9 PM.
 
 **Official sources:** [USCIS: Form I-693](https://www.uscis.gov/i-693) · [Policy Manual, Vol. 8, Part B, Ch. 4](https://www.uscis.gov/policy-manual/volume-8-part-b-chapter-4) · [Policy Manual, Vol. 8, Part B, Ch. 9](https://www.uscis.gov/policy-manual/volume-8-part-b-chapter-9)
 

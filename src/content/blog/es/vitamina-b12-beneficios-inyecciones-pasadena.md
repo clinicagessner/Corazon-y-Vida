@@ -76,7 +76,7 @@ Con deficiencia confirmada, el esquema habitual empieza con varias inyecciones c
 3. Si hay deficiencia, inyección o [suero vitaminado](/services/sueros-vitaminados) en la clínica y un plan con fechas.
 4. Control de seguimiento sin cita.
 
-El pago es directo, sin seguro, y conoce el precio antes de cada paso. Venga a 918 W Southmore Ave, Suite 180, de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM, o escríbanos por WhatsApp al (832) 930-5551.
+El pago es directo, sin seguro, y conoce el precio antes de cada paso. Venga a 918 W Southmore Ave, Suite 180, todos los días de 9 AM a 9 PM, o escríbanos por WhatsApp al (832) 930-5551.
 
 ## Preguntas frecuentes
 

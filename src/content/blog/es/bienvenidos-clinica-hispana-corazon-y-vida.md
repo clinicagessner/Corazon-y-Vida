@@ -23,7 +23,7 @@ Si es la primera vez que piensa venir a Clínica Hispana Corazón y Vida, esta g
 
 ## ¿Qué es Clínica Hispana Corazón y Vida?
 
-Somos una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100 % en español, también en inglés. Abrimos los siete días de la semana: de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM. No pedimos seguro médico; cada servicio tiene un precio directo que conoce antes de pasar con el médico.
+Somos una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100 % en español, también en inglés. Abrimos los siete días de la semana: todos los días de 9 AM a 9 PM. No pedimos seguro médico; cada servicio tiene un precio directo que conoce antes de pasar con el médico.
 
 ## ¿Necesito cita?
 

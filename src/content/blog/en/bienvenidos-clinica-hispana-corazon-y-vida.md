@@ -23,7 +23,7 @@ If this is the first time you are thinking of coming to Clínica Hispana Corazó
 
 ## What is Clínica Hispana Corazón y Vida?
 
-We are a family medical clinic in Pasadena, Texas, that sees patients without an appointment and fully in Spanish, with English available too. We are open seven days a week: Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM. We do not ask for health insurance; every service has a direct price you know before you see the provider.
+We are a family medical clinic in Pasadena, Texas, that sees patients without an appointment and fully in Spanish, with English available too. We are open seven days a week: every day from 9 AM to 9 PM. We do not ask for health insurance; every service has a direct price you know before you see the provider.
 
 ## Do I need an appointment?
 

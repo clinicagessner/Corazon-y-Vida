@@ -70,6 +70,6 @@ Metformin is usually the first medication for type 2 diabetes. If it is not enou
 
 ## How do we help in Pasadena?
 
-At Clínica Hispana Corazón y Vida we run the glucose and A1c tests, check kidneys and cholesterol in the same lab, adjust treatment and schedule follow-up for [diabetes, blood pressure and cholesterol](/services/condiciones-cronicas). All in Spanish, no insurance needed, with the price stated before the visit. Walk in Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM, or message us on WhatsApp at (832) 930-5551.
+At Clínica Hispana Corazón y Vida we run the glucose and A1c tests, check kidneys and cholesterol in the same lab, adjust treatment and schedule follow-up for [diabetes, blood pressure and cholesterol](/services/condiciones-cronicas). All in Spanish, no insurance needed, with the price stated before the visit. Walk in every day from 9 AM to 9 PM, or message us on WhatsApp at (832) 930-5551.
 
 *The values in this guide follow the American Diabetes Association criteria. Your provider may set different targets for your case.*

@@ -120,6 +120,6 @@ No espere a que un dolor lo obligue a ir al médico. Un chequeo preventivo toma 
 **Clínica Hispana Corazón y Vida**
 - Teléfono: (832) 930-5551
 - Dirección: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Horario: Lunes a Sábado 9:00 AM - 9:00 PM | Domingo 9:00 AM - 7:00 PM
+- Horario: Todos los días 9:00 AM - 9:00 PM
 
 *Cuidamos la salud del hombre hispano en Pasadena y el sureste de Houston.*

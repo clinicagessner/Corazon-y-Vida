@@ -28,7 +28,7 @@
     "ctaWhatsapp": "WhatsApp",
     "ctaLocation": "Get Directions",
     "ctaContact": "Prefer that we contact you? Write to us",
-    "hours": "Mon to Sat: 9:00 AM - 9:00 PM · Sun: 9:00 AM - 7:00 PM",
+    "hours": "Mon to Sun: 9:00 AM - 9:00 PM",
     "googleReviews": "+ reviews on Google",
     "cardTitle": "Why choose us?",
     "cardSubtitle": "The best care for you and your family",
@@ -97,8 +97,8 @@
       "address": "Address",
       "phone": "Phone",
       "hours": "Hours",
-      "hoursWeekday": "Monday - Saturday: 9:00 AM - 9:00 PM",
-      "hoursWeekend": "Sunday: 9:00 AM - 7:00 PM",
+      "hoursWeekday": "Monday - Sunday: 9:00 AM - 9:00 PM",
+      "hoursWeekend": "Open 7 days a week, walk-ins welcome",
       "email": "Email",
       "footerNote": "We are located in the heart of Pasadena, with easy access and free parking."
     }
@@ -114,7 +114,7 @@
     "q3": "Do you speak Spanish at the clinic?",
     "a3": "Yes, all our staff speaks Spanish. Our clinic was specifically created to serve Pasadena's Hispanic community, and we make sure you can communicate comfortably in your language.",
     "q4": "What are your business hours?",
-    "a4": "We're open Monday through Saturday from 9:00 AM to 9:00 PM and Sundays from 9:00 AM to 7:00 PM. Please call us to confirm hours on holidays.",
+    "a4": "We're open every day from 9:00 AM to 9:00 PM, Saturdays and Sundays included. Please call us to confirm hours on holidays.",
     "q5": "What payment methods do you accept?",
     "a5": "We accept cash and all major credit and debit cards (Visa, MasterCard, American Express, Discover). We offer affordable, transparent pricing, and we welcome patients without insurance.",
     "q6": "Do you offer payment plans?",
@@ -128,7 +128,7 @@
     "q10": "Is parking available?",
     "a10": "Yes, we have ample free parking in front of the clinic. Our facilities are also accessible for people with disabilities, including ramps and adapted restrooms.",
     "q11": "Where can I find a Hispanic clinic near me in Pasadena?",
-    "a11": "Clínica Hispana Corazón y Vida is a Hispanic and Latino clinic at 918 W Southmore Ave Suite 180, Pasadena, TX 77502, just minutes from Houston. We are open Monday through Saturday from 9:00 AM to 9:00 PM and Sundays from 9:00 AM to 7:00 PM, no appointment needed.",
+    "a11": "Clínica Hispana Corazón y Vida is a Hispanic and Latino clinic at 918 W Southmore Ave Suite 180, Pasadena, TX 77502, just minutes from Houston. We are open every day from 9:00 AM to 9:00 PM, Saturdays and Sundays included, no appointment needed.",
     "q12": "Can this clinic be my primary care doctor?",
     "a12": "Yes. Many families choose us as their primary care provider and medical center close to home: general medicine visits, chronic condition management and lab work in one place."
   },
@@ -145,7 +145,7 @@
       "bus": "Bus Access",
       "security": "Safe Area"
     },
-    "hours": "Mon to Sat: 9:00 AM - 9:00 PM · Sun: 9:00 AM - 7:00 PM",
+    "hours": "Mon to Sun: 9:00 AM - 9:00 PM",
     "call": "Call"
   },
   "footer": {
@@ -159,8 +159,8 @@
     "terms": "Terms of Service",
     "hipaa": "HIPAA Notice",
     "stars": "{rating} with {reviews}+ reviews",
-    "hoursWeekday": "Monday - Saturday: 9:00 AM - 9:00 PM",
-    "hoursWeekend": "Sunday: 9:00 AM - 7:00 PM"
+    "hoursWeekday": "Monday - Sunday: 9:00 AM - 9:00 PM",
+    "hoursWeekend": "Open 7 days a week, walk-ins welcome"
   },
   "common": {
     "loading": "Loading...",
@@ -310,7 +310,7 @@
   "about": {
     "eyebrow": "About the clinic",
     "heading": "What is Clínica Hispana Corazón y Vida?",
-    "body": "Clínica Hispana Corazón y Vida is a family medical clinic in Pasadena, Texas, that sees patients without an appointment and fully in Spanish. It is located at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, and opens seven days a week: Monday through Saturday from 9 in the morning to 9 at night, and Sundays from 9 to 7. No health insurance is required: every service has a direct, affordable price, payable in cash or by card. The medical team handles general consultations and management of diabetes, high blood pressure, cholesterol and thyroid; gynecology and Pap smears; lab work with blood and urine tests; ultrasound and EKG; DOT physicals for CDL drivers, immigration medical exams, school physicals and alcohol and drug testing; vaccines, IV vitamin drips, stitches, wound care and minor surgery. Care is also available in English. Phone and WhatsApp: (832) 930-5551. Patients come from Pasadena, South Houston, Deer Park, Galena Park, Genoa and Red Bluff."
+    "body": "Clínica Hispana Corazón y Vida is a family medical clinic in Pasadena, Texas, that sees patients without an appointment and fully in Spanish. It is located at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, and opens seven days a week: from 9 in the morning to 9 at night, Saturdays and Sundays included. No health insurance is required: every service has a direct, affordable price, payable in cash or by card. The medical team handles general consultations and management of diabetes, high blood pressure, cholesterol and thyroid; gynecology and Pap smears; lab work with blood and urine tests; ultrasound and EKG; DOT physicals for CDL drivers, immigration medical exams, school physicals and alcohol and drug testing; vaccines, IV vitamin drips, stitches, wound care and minor surgery. Care is also available in English. Phone and WhatsApp: (832) 930-5551. Patients come from Pasadena, South Houston, Deer Park, Galena Park, Genoa and Red Bluff."
   },
   "medicalReview": {
     "reviewedBy": "Reviewed by the medical team at Clínica Hispana Corazón y Vida",

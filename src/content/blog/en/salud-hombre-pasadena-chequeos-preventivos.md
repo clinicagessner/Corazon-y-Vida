@@ -120,6 +120,6 @@ Don't wait until pain forces you to see a doctor. A preventive checkup takes les
 **Clínica Hispana Corazón y Vida**
 - Phone: (832) 930-5551
 - Address: 918 W Southmore Ave Suite 180, Pasadena, TX 77502
-- Hours: Monday-Saturday 9:00 AM - 9:00 PM | Sunday 9:00 AM - 7:00 PM
+- Hours: Every day 9:00 AM - 9:00 PM
 
 *Caring for Hispanic men's health in Pasadena and southeast Houston.*

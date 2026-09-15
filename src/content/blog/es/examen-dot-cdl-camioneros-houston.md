@@ -74,7 +74,7 @@ El examen DOT se paga directo, sin seguro, en efectivo o con tarjeta. Llame o es
 
 ## Preguntas frecuentes
 
-**¿Necesito cita?** No. Atendemos por orden de llegada de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM.
+**¿Necesito cita?** No. Atendemos por orden de llegada todos los días de 9 AM a 9 PM.
 
 **¿Puedo renovar aquí una tarjeta emitida en otra clínica?** Sí. Solo necesita cumplir los requisitos del día del examen.
 

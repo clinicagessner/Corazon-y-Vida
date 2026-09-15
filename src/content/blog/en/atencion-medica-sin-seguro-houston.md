@@ -23,7 +23,7 @@ In Pasadena and southeast Houston, many families work without health insurance a
 
 ## Can I see a doctor without insurance?
 
-Yes. Our clinic does not ask for insurance, a policy number or a referral. You pay for the service you receive, in cash or by card, and you know the price before you see the provider. We take walk-ins Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM, at 918 W Southmore Ave, Suite 180.
+Yes. Our clinic does not ask for insurance, a policy number or a referral. You pay for the service you receive, in cash or by card, and you know the price before you see the provider. We take walk-ins every day from 9 AM to 9 PM, at 918 W Southmore Ave, Suite 180.
 
 ## Which services can I get on a self-pay basis?
 

@@ -74,7 +74,7 @@ The DOT physical is self-pay, no insurance needed, in cash or by card. Call or m
 
 ## Frequently asked questions
 
-**Do I need an appointment?** No. We see drivers in order of arrival Monday through Saturday from 9 AM to 9 PM and Sundays from 9 AM to 7 PM.
+**Do I need an appointment?** No. We see drivers in order of arrival every day from 9 AM to 9 PM.
 
 **Can I renew a card issued by another clinic here?** Yes. You only need to meet the requirements on the day of the exam.
 

@@ -23,7 +23,7 @@ En Pasadena y el sureste de Houston, muchas familias trabajan sin seguro médico
 
 ## ¿Puedo ir al médico sin seguro?
 
-Sí. En nuestra clínica no pedimos seguro, número de póliza ni referido. Usted paga el servicio que recibe, en efectivo o con tarjeta, y conoce el precio antes de pasar con el médico. Atendemos sin cita de lunes a sábado de 9 AM a 9 PM y los domingos de 9 AM a 7 PM, en 918 W Southmore Ave, Suite 180.
+Sí. En nuestra clínica no pedimos seguro, número de póliza ni referido. Usted paga el servicio que recibe, en efectivo o con tarjeta, y conoce el precio antes de pasar con el médico. Atendemos sin cita todos los días de 9 AM a 9 PM, en 918 W Southmore Ave, Suite 180.
 
 ## ¿Qué servicios puedo recibir pagando directo?
 
