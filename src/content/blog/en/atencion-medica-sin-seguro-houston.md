@@ -38,7 +38,7 @@ If your case needs a specialist or a study we do not perform here, we tell you p
 
 ## How do I know what I will pay?
 
-Ask for the price at the front desk or on WhatsApp at (832) 930-5551 before the visit. If the provider recommends an additional test or treatment, you are told the cost before it is done. Nobody leaves with a surprise bill.
+Ask for the price at the front desk or on WhatsApp at (346) 646-2974 before the visit. If the provider recommends an additional test or treatment, you are told the cost before it is done. Nobody leaves with a surprise bill.
 
 ## Clinic or emergency room?
 
@@ -68,4 +68,4 @@ Uninsured children can receive consultations, school and sports physicals, and c
 
 You have the right to know the price before the service, to a clear explanation of your diagnosis, to a copy of your results, and to have your health information handled privately, with or without insurance.
 
-If it has been a while since you saw a doctor, start with a checkup. Walk in or message us on WhatsApp at (832) 930-5551 and we will tell you what to expect.
+If it has been a while since you saw a doctor, start with a checkup. Walk in or message us on WhatsApp at (346) 646-2974 and we will tell you what to expect.

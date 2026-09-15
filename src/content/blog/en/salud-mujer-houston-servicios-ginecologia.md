@@ -72,6 +72,6 @@ Around age 50, hot flashes, insomnia, vaginal dryness and mood changes are commo
 
 ## What is care like in Pasadena?
 
-At Clínica Hispana Corazón y Vida the [gynecology](/services/ginecologia) visit is in Spanish, without an appointment, with the price stated beforehand and with lab and ultrasound in the same place. We are open every day from 9 AM to 9 PM at 918 W Southmore Ave, Suite 180. Message us on WhatsApp at (832) 930-5551 if you prefer to ask before coming.
+At Clínica Hispana Corazón y Vida the [gynecology](/services/ginecologia) visit is in Spanish, without an appointment, with the price stated beforehand and with lab and ultrasound in the same place. We are open every day from 9 AM to 9 PM at 918 W Southmore Ave, Suite 180. Message us on WhatsApp at (346) 646-2974 if you prefer to ask before coming.
 
 *Screening intervals follow the U.S. Preventive Services Task Force recommendations. Your provider may adjust them based on your history.*

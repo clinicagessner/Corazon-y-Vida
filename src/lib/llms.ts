@@ -61,7 +61,7 @@ export function buildLlmsTxt(): string {
     "",
     `- Address: ${ADDRESS}`,
     `- Phone: ${CONTACT_INFO.phoneFormatted}`,
-    `- WhatsApp: [${CONTACT_INFO.phoneFormatted}](https://wa.me/${CONTACT_INFO.whatsapp})`,
+    `- WhatsApp (chat): [${CONTACT_INFO.whatsappFormatted}](https://wa.me/${CONTACT_INFO.whatsapp})`,
     `- Email: ${CONTACT_INFO.email}`,
     `- Coordinates: ${CONTACT_INFO.coordinates.lat}, ${CONTACT_INFO.coordinates.lng}`,
     `- [Google Maps](${CONTACT_INFO.googleMapsUrl})`,

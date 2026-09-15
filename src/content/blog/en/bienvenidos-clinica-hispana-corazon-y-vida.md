@@ -27,7 +27,7 @@ We are a family medical clinic in Pasadena, Texas, that sees patients without an
 
 ## Do I need an appointment?
 
-No. We see patients in order of arrival. If you prefer to reserve a time, you can call or message us on WhatsApp at (832) 930-5551 and we will tell you when the wait is shortest. Weekends and evenings are usually the busiest.
+No. We see patients in order of arrival. If you prefer to reserve a time, you can call (832) 930-5551 or message us on WhatsApp at (346) 646-2974 and we will tell you when the wait is shortest. Weekends and evenings are usually the busiest.
 
 ## What should I bring to my first visit?
 
@@ -67,6 +67,6 @@ If your case needs follow-up, we give you the date of the next check and you can
 
 ## Where are we and how do I get there?
 
-We are at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, with parking. We serve patients from Pasadena, South Houston, Deer Park, Galena Park, Genoa and Red Bluff. Open the location in Google Maps from the [home page](/#ubicacion) or ask us on WhatsApp at (832) 930-5551.
+We are at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, with parking. We serve patients from Pasadena, South Houston, Deer Park, Galena Park, Genoa and Red Bluff. Open the location in Google Maps from the [home page](/#ubicacion) or ask us on WhatsApp at (346) 646-2974.
 
 Welcome. Here the door is open every day and your language is spoken.

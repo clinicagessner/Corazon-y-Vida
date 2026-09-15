@@ -68,7 +68,7 @@ Missing vaccine records, a positive tuberculosis test that requires waiting for 
 
 ## How much does it cost?
 
-The exam is self-pay, no insurance needed, in cash or by card. Any vaccines and tests you need are charged according to your case. Call or message us on WhatsApp at (832) 930-5551 to confirm the price before you come.
+The exam is self-pay, no insurance needed, in cash or by card. Any vaccines and tests you need are charged according to your case. Call (832) 930-5551 or message us on WhatsApp at (346) 646-2974 to confirm the price before you come.
 
 Schedule your [immigration medical exam in Pasadena](/services/examenes-inmigracion) or walk in at 918 W Southmore Ave, Suite 180, every day from 9 AM to 9 PM.
 

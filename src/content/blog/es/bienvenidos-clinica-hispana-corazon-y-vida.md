@@ -27,7 +27,7 @@ Somos una clínica médica familiar en Pasadena, Texas, que atiende sin cita pre
 
 ## ¿Necesito cita?
 
-No. Atendemos por orden de llegada. Si prefiere reservar un horario, puede llamar o escribir por WhatsApp al (832) 930-5551 y le decimos cuándo hay menos espera. Los fines de semana y las tardes suelen ser los momentos de más movimiento.
+No. Atendemos por orden de llegada. Si prefiere reservar un horario, puede llamar al (832) 930-5551 o escribir por WhatsApp al (346) 646-2974 y le decimos cuándo hay menos espera. Los fines de semana y las tardes suelen ser los momentos de más movimiento.
 
 ## ¿Qué debo traer a mi primera visita?
 
@@ -67,6 +67,6 @@ Si su caso requiere seguimiento, le damos la fecha del siguiente control y puede
 
 ## ¿Dónde estamos y cómo llego?
 
-Estamos en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, con estacionamiento. Atendemos a pacientes de Pasadena, South Houston, Deer Park, Galena Park, Genoa y Red Bluff. Abra la ubicación en Google Maps desde la [página de inicio](/#ubicacion) o pregúntenos por WhatsApp al (832) 930-5551.
+Estamos en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, con estacionamiento. Atendemos a pacientes de Pasadena, South Houston, Deer Park, Galena Park, Genoa y Red Bluff. Abra la ubicación en Google Maps desde la [página de inicio](/#ubicacion) o pregúntenos por WhatsApp al (346) 646-2974.
 
 Bienvenido. Aquí la puerta está abierta todos los días y se habla su idioma.

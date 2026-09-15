@@ -75,7 +75,7 @@ With a confirmed deficiency, the usual schedule starts with several injections c
 3. If there is a deficiency, an injection or [IV vitamin drip](/services/sueros-vitaminados) at the clinic and a plan with dates.
 4. A follow-up check without an appointment.
 
-Payment is direct, no insurance, and you know the price before each step. Come to 918 W Southmore Ave, Suite 180, every day from 9 AM to 9 PM, or message us on WhatsApp at (832) 930-5551.
+Payment is direct, no insurance, and you know the price before each step. Come to 918 W Southmore Ave, Suite 180, every day from 9 AM to 9 PM, or message us on WhatsApp at (346) 646-2974.
 
 ## Frequently asked questions
 

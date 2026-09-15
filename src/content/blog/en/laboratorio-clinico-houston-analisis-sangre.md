@@ -71,6 +71,6 @@ An out-of-range value is not a diagnosis by itself. At the visit we interpret it
 
 ## How long do they take and how much do they cost?
 
-Many basic tests are processed at the clinic and results are usually ready quickly; those sent to an outside laboratory take somewhat longer. We tell you the exact turnaround for each test when we draw the sample and let you know when they are in. Payment is direct, no insurance, in cash or by card; ask for the price beforehand on WhatsApp at (832) 930-5551.
+Many basic tests are processed at the clinic and results are usually ready quickly; those sent to an outside laboratory take somewhat longer. We tell you the exact turnaround for each test when we draw the sample and let you know when they are in. Payment is direct, no insurance, in cash or by card; ask for the price beforehand on WhatsApp at (346) 646-2974.
 
 Walk in at 918 W Southmore Ave, Suite 180, Pasadena, every day from 9 AM to 9 PM, or see the details of our [blood tests](/services/examenes-sangre) and [thyroid testing](/services/tiroides).

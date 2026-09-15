@@ -70,7 +70,7 @@ Failing is not always final. The examiner can often issue a shorter certificate 
 
 ## How much does it cost and how do I pay?
 
-The DOT physical is self-pay, no insurance needed, in cash or by card. Call or message us on WhatsApp at (832) 930-5551 to confirm the current price; there is no extra charge for walking in.
+The DOT physical is self-pay, no insurance needed, in cash or by card. Call (832) 930-5551 or message us on WhatsApp at (346) 646-2974 to confirm the current price; there is no extra charge for walking in.
 
 ## Frequently asked questions
 

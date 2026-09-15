@@ -70,7 +70,7 @@ No aprobar no siempre es definitivo. Muchas veces el examinador puede dar un cer
 
 ## ¿Cuánto cuesta y cómo pago?
 
-El examen DOT se paga directo, sin seguro, en efectivo o con tarjeta. Llame o escriba por WhatsApp al (832) 930-5551 para confirmar el precio del día; no cobramos extra por atenderlo sin cita.
+El examen DOT se paga directo, sin seguro, en efectivo o con tarjeta. Llame al (832) 930-5551 o escriba por WhatsApp al (346) 646-2974 para confirmar el precio del día; no cobramos extra por atenderlo sin cita.
 
 ## Preguntas frecuentes
 

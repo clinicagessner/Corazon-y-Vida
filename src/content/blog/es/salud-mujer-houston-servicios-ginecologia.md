@@ -72,6 +72,6 @@ Alrededor de los 50 años, los sofocos, el insomnio, la sequedad vaginal y los c
 
 ## ¿Cómo es la atención en Pasadena?
 
-En Clínica Hispana Corazón y Vida la consulta de [ginecología](/services/ginecologia) se hace en español, sin cita, con el precio informado antes y con laboratorio y ultrasonido en el mismo lugar. Atendemos todos los días de 9 AM a 9 PM en 918 W Southmore Ave, Suite 180. Escríbanos por WhatsApp al (832) 930-5551 si prefiere preguntar antes de venir.
+En Clínica Hispana Corazón y Vida la consulta de [ginecología](/services/ginecologia) se hace en español, sin cita, con el precio informado antes y con laboratorio y ultrasonido en el mismo lugar. Atendemos todos los días de 9 AM a 9 PM en 918 W Southmore Ave, Suite 180. Escríbanos por WhatsApp al (346) 646-2974 si prefiere preguntar antes de venir.
 
 *Los intervalos de tamizaje siguen las recomendaciones del U.S. Preventive Services Task Force. Su médico puede ajustarlos según su historial.*

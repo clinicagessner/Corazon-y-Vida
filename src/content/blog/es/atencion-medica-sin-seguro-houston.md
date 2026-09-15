@@ -38,7 +38,7 @@ Si su caso necesita un especialista o un estudio que no hacemos aquí, se lo dec
 
 ## ¿Cómo sé cuánto voy a pagar?
 
-Pregunte el precio en recepción o por WhatsApp al (832) 930-5551 antes de la consulta. Si el médico recomienda una prueba o un tratamiento adicional, se le informa el costo antes de hacerlo. Nadie sale con una cuenta sorpresa.
+Pregunte el precio en recepción o por WhatsApp al (346) 646-2974 antes de la consulta. Si el médico recomienda una prueba o un tratamiento adicional, se le informa el costo antes de hacerlo. Nadie sale con una cuenta sorpresa.
 
 ## ¿Clínica o sala de emergencias?
 
@@ -68,4 +68,4 @@ Los niños sin seguro pueden recibir aquí consulta, físicos escolares y deport
 
 Tiene derecho a conocer el precio antes del servicio, a recibir una explicación clara de su diagnóstico, a una copia de sus resultados y a que su información de salud se maneje con privacidad, con o sin seguro.
 
-Si lleva tiempo sin ver a un médico, empiece por un chequeo. Venga sin cita o escríbanos por WhatsApp al (832) 930-5551 y le decimos qué esperar.
+Si lleva tiempo sin ver a un médico, empiece por un chequeo. Venga sin cita o escríbanos por WhatsApp al (346) 646-2974 y le decimos qué esperar.

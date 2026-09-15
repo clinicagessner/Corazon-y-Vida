@@ -49,6 +49,7 @@ export interface ContactInfo {
   phone: string;
   phoneFormatted: string;
   whatsapp: string;
+  whatsappFormatted: string;
   email: string;
   hours: string;
   hoursWeekday: string;

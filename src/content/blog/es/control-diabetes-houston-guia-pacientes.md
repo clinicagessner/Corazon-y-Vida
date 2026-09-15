@@ -70,6 +70,6 @@ La metformina suele ser el primer medicamento para la diabetes tipo 2. Si no bas
 
 ## ¿Cómo ayudamos en Pasadena?
 
-En Clínica Hispana Corazón y Vida hacemos la prueba de glucosa y A1c, revisamos riñón y colesterol en el mismo laboratorio, ajustamos el tratamiento y programamos el seguimiento de [diabetes, presión y colesterol](/services/condiciones-cronicas). Todo en español, sin seguro y con el precio informado antes de la consulta. Venga sin cita todos los días de 9 AM a 9 PM, o escríbanos por WhatsApp al (832) 930-5551.
+En Clínica Hispana Corazón y Vida hacemos la prueba de glucosa y A1c, revisamos riñón y colesterol en el mismo laboratorio, ajustamos el tratamiento y programamos el seguimiento de [diabetes, presión y colesterol](/services/condiciones-cronicas). Todo en español, sin seguro y con el precio informado antes de la consulta. Venga sin cita todos los días de 9 AM a 9 PM, o escríbanos por WhatsApp al (346) 646-2974.
 
 *Los valores de esta guía siguen los criterios de la Asociación Americana de Diabetes. Su médico puede fijar metas distintas según su caso.*

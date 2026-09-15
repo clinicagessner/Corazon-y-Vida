@@ -68,7 +68,7 @@ Faltan registros de vacunas, la prueba de tuberculosis sale positiva y hay que e
 
 ## ¿Cuánto cuesta?
 
-El examen se paga directo, sin seguro, en efectivo o con tarjeta. Las vacunas y las pruebas que necesite se cobran según su caso. Llame o escriba por WhatsApp al (832) 930-5551 para confirmar el precio antes de venir.
+El examen se paga directo, sin seguro, en efectivo o con tarjeta. Las vacunas y las pruebas que necesite se cobran según su caso. Llame al (832) 930-5551 o escriba por WhatsApp al (346) 646-2974 para confirmar el precio antes de venir.
 
 Programe su [examen médico de inmigración en Pasadena](/services/examenes-inmigracion) o visítenos sin cita en 918 W Southmore Ave, Suite 180, todos los días de 9 AM a 9 PM.
 
