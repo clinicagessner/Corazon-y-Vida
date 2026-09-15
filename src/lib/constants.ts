@@ -60,6 +60,10 @@ export const CONQUESTING_PHONE = {
   phoneFormatted: "+1 (832) 930-5551",
 } as const;
 
+// Fecha del último cambio de contenido de los 29 servicios (git: alineación de
+// encabezados y FAQ, 2026-08-02). Un servicio puede llevar su propio dateModified.
+export const SERVICES_LAST_MODIFIED = "2026-08-02";
+
 export const SERVICES: Service[] = [
   {
     "id": "condiciones-cronicas",
