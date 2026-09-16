@@ -62,7 +62,9 @@
     "categoryExamenes": "Exámenes y certificados",
     "categoryLaboratorio": "Laboratorio y pruebas",
     "categoryTratamientos": "Tratamientos",
-    "categoryDefault": "Servicio Médico"
+    "categoryDefault": "Servicio Médico",
+    "cardImageAlt": "{category} en Clínica Hispana Corazón y Vida, Pasadena TX",
+    "learnMoreCategory": "Ver todo en {category}"
   },
   "testimonials": {
     "eyebrow": "Opiniones reales",

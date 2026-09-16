@@ -93,7 +93,7 @@ export async function Services() {
                 {/* Background image */}
                 <Image
                   src={cat.image}
-                  alt=""
+                  alt={t("cardImageAlt", { category: t(cat.labelKey) })}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-105"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
@@ -133,7 +133,7 @@ export async function Services() {
                     href={`${servicesHref}#${cat.key}`}
                     className="mt-4 inline-flex items-center gap-1 text-sm font-semibold text-white transition-all hover:gap-2"
                   >
-                    {t("learnMore")}
+                    {t("learnMoreCategory", { category: t(cat.labelKey) })}
                     <ArrowRight className="size-4" weight="bold" />
                   </Link>
                 </div>
