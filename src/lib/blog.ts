@@ -64,3 +64,33 @@ export function getRelatedPosts(slug: string, locale: string = "es", limit: numb
   const posts = getBlogPosts(locale);
   return posts.filter((p) => p.slug !== slug).slice(0, limit);
 }
+
+// Pares pregunta/respuesta para FAQPage: toma los H2 del markdown que terminan
+// en "?" y el primer párrafo que los sigue. La respuesta queda igual al texto
+// visible, que es lo que exige Google para el marcado de preguntas frecuentes.
+export function getPostFaqs(content: string): Array<{ question: string; answer: string }> {
+  const faqs: Array<{ question: string; answer: string }> = [];
+  const sections = content.split(/\n(?=## )/);
+
+  for (const section of sections) {
+    const [heading, ...rest] = section.split("\n");
+    const question = heading.replace(/^##\s*/, "").trim();
+    if (!heading.startsWith("## ") || !question.endsWith("?")) continue;
+
+    const paragraph = rest
+      .join("\n")
+      .split(/\n\s*\n/)
+      .map((block) => block.trim())
+      .find((block) => block.length > 0 && !block.startsWith("#") && !/^[-*|\d]/.test(block));
+    if (!paragraph) continue;
+
+    const answer = paragraph
+      .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
+      .replace(/[*_`]/g, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (answer.length >= 40) faqs.push({ question, answer });
+  }
+
+  return faqs;
+}

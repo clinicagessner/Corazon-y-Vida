@@ -6,12 +6,12 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { seoDescription, seoTitle } from "@/lib/seo";
 import { SITE_CONFIG, CONTACT_INFO, SERVICES } from "@/lib/constants";
 import { getLocalizedService } from "@/lib/utils";
-import { getBlogPosts, getBlogPost, getRelatedPosts } from "@/lib/blog";
+import { getBlogPosts, getBlogPost, getPostFaqs, getRelatedPosts } from "@/lib/blog";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { CalendarDots, Clock, ArrowLeft, Phone } from "@phosphor-icons/react/dist/ssr";
 import { JsonLdBlogPosting } from "@/components/seo/json-ld-blog";
-import { JsonLdMedicalWebPage, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
+import { JsonLdFAQ, JsonLdMedicalWebPage, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
 import { Markdown } from "@/components/shared/markdown";
 import { MedicalReview } from "@/components/shared/medical-review";
 import { formatDate } from "@/lib/dates";
@@ -103,6 +103,7 @@ export default async function BlogPostPage({ params }: Props) {
   }
 
   const relatedPosts = getRelatedPosts(slug, locale, 2);
+  const faqs = getPostFaqs(post.content);
   const relatedServices = (post.relatedServices ?? [])
     .map((slug) => SERVICES.find((svc) => svc.slug === slug))
     .filter((svc): svc is NonNullable<typeof svc> => Boolean(svc))
@@ -120,6 +121,7 @@ export default async function BlogPostPage({ params }: Props) {
         lastReviewed={post.dateModified ?? post.date}
         locale={locale}
       />
+      {faqs.length >= 2 && <JsonLdFAQ questions={faqs} />}
 
       <article>
         {/* Hero Header with Background Image */}
