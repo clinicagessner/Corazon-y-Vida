@@ -68,6 +68,41 @@ export function getRelatedPosts(slug: string, locale: string = "es", limit: numb
 // Pares pregunta/respuesta para FAQPage: toma los H2 del markdown que terminan
 // en "?" y el primer párrafo que los sigue. La respuesta queda igual al texto
 // visible, que es lo que exige Google para el marcado de preguntas frecuentes.
+function renderBlock(block: string): string {
+  if (/^[-*]\s/.test(block)) {
+    return (
+      block
+        .split("\n")
+        .map((line) => line.replace(/^[-*]\s*/, "").trim().replace(/\.$/, ""))
+        .filter(Boolean)
+        .join("; ") + "."
+    );
+  }
+
+  if (block.startsWith("|")) {
+    const rows = block
+      .split("\n")
+      .map((line) => line.split("|").map((cell) => cell.trim()).filter(Boolean))
+      .filter((cells) => cells.length > 1 && !cells.every((cell) => /^-+$/.test(cell)));
+    const [header, ...body] = rows;
+    if (!header || body.length === 0) return "";
+    return (
+      body
+        .map(
+          (cells) =>
+            `${cells[0]} — ` +
+            cells
+              .slice(1)
+              .map((cell, i) => `${header[i + 1]}: ${cell}`)
+              .join(", ")
+        )
+        .join(". ") + "."
+    );
+  }
+
+  return block;
+}
+
 export function getPostFaqs(content: string): Array<{ question: string; answer: string }> {
   const faqs: Array<{ question: string; answer: string }> = [];
   const sections = content.split(/\n(?=## )/);
@@ -77,14 +112,23 @@ export function getPostFaqs(content: string): Array<{ question: string; answer: 
     const question = heading.replace(/^##\s*/, "").trim();
     if (!heading.startsWith("## ") || !question.endsWith("?")) continue;
 
-    const paragraph = rest
+    const blocks = rest
       .join("\n")
       .split(/\n\s*\n/)
       .map((block) => block.trim())
-      .find((block) => block.length > 0 && !block.startsWith("#") && !/^[-*|\d]/.test(block));
-    if (!paragraph) continue;
+      .filter((block) => block.length > 0 && !block.startsWith("#"));
+    if (blocks.length === 0) continue;
 
-    const answer = paragraph
+    // La respuesta empieza en el primer bloque de la sección. Se le suma el
+    // siguiente cuando el primero es una lista o una tabla, o cuando el párrafo
+    // termina en dos puntos: si no, el marcado se queda a medias.
+    const first = renderBlock(blocks[0]);
+    if (!first) continue;
+    const needsDetail = /^[-*|]/.test(blocks[0]) || blocks[0].endsWith(":");
+    const detail = needsDetail ? renderBlock(blocks[1] ?? "") : "";
+    if (needsDetail && !detail) continue;
+
+    const answer = (first + (detail ? ` ${detail}` : ""))
       .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
       .replace(/[*_`]/g, "")
       .replace(/\s+/g, " ")
