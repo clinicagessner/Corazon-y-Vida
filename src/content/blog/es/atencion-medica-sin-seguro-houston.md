@@ -68,4 +68,4 @@ Los niños sin seguro pueden recibir aquí consulta, físicos escolares y deport
 
 Tiene derecho a conocer el precio antes del servicio, a recibir una explicación clara de su diagnóstico, a una copia de sus resultados y a que su información de salud se maneje con privacidad, con o sin seguro.
 
-Si lleva tiempo sin ver a un médico, empiece por un chequeo. Venga sin cita o escríbanos por WhatsApp al (346) 646-2974 y le decimos qué esperar.
+Si lleva tiempo sin ver a un médico, empiece por un chequeo. Venga sin cita o escríbanos por WhatsApp al (346) 646-2974 y le decimos qué esperar. Si es su primera vez, lea [cómo es una visita en nuestra clínica](/blog/bienvenidos-clinica-hispana-corazon-y-vida).

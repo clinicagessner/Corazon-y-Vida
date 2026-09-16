@@ -68,4 +68,4 @@ Uninsured children can receive consultations, school and sports physicals, and c
 
 You have the right to know the price before the service, to a clear explanation of your diagnosis, to a copy of your results, and to have your health information handled privately, with or without insurance.
 
-If it has been a while since you saw a doctor, start with a checkup. Walk in or message us on WhatsApp at (346) 646-2974 and we will tell you what to expect.
+If it has been a while since you saw a doctor, start with a checkup. Walk in or message us on WhatsApp at (346) 646-2974 and we will tell you what to expect. If this is your first time, read [what a visit at our clinic is like](/blog/bienvenidos-clinica-hispana-corazon-y-vida).

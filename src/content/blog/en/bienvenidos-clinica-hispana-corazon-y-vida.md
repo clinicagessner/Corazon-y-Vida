@@ -69,4 +69,6 @@ If your case needs follow-up, we give you the date of the next check and you can
 
 We are at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, with parking. We serve patients from Pasadena, South Houston, Deer Park, Galena Park, Genoa and Red Bluff. Open the location in Google Maps from the [home page](/#ubicacion) or ask us on WhatsApp at (346) 646-2974.
 
+If you have no medical insurance, also read [how to get care without insurance in Houston](/blog/atencion-medica-sin-seguro-houston).
+
 Welcome. Here the door is open every day and your language is spoken.

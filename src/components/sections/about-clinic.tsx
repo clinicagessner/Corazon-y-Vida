@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { HeartStraight } from "@phosphor-icons/react/dist/ssr";
+import { Link } from "@/i18n/routing";
 
 // Bloque de definición de la entidad: encabezado en forma de pregunta y un
 // solo párrafo de hechos verificables (qué es, dónde, horario, condiciones,
@@ -20,6 +21,14 @@ export async function AboutClinic() {
             {t("heading")}
           </h2>
           <p className="text-base md:text-lg leading-relaxed text-muted-foreground">{t("body")}</p>
+          <p className="mt-5 text-base text-muted-foreground">
+            <Link
+              href="/blog/bienvenidos-clinica-hispana-corazon-y-vida"
+              className="font-medium text-red-primary underline-offset-2 hover:underline"
+            >
+              {t("moreLink")}
+            </Link>
+          </p>
         </div>
       </div>
     </section>
