@@ -1,112 +1,83 @@
-# Indexación en Google Search Console — Corazón y Vida
+# Indexación en Google Search Console — www.clinicahispanacorazonyvida.com
 
-**Este archivo es la fuente de verdad del progreso.** Al pedir una tanda, marcar sus casillas y
-poner `✅ PEDIDA dd/mm/aaaa` en el encabezado.
+**Ronda 2 (preparada 2026-09-25) — NO PEDIR ANTES DEL 2026-10-07.** Las tandas 2-7 de la ronda 1 se pidieron hasta el 23-sep y Google tarda 1-2 semanas en procesarlas: repetirlas antes gasta cupo sin acelerar nada. Diagnóstico 2026-09-25: los 29 servicios (es+en) siguen sin rastrear (`lastCrawlTime` vacío) pero técnicamente están bien (200, `index, follow`, canónica propia, en el sitemap). El 7-oct, volver a bajar el estado y quitar de aquí lo que ya esté indexado. La ronda 1 (7 tandas, 69 URLs, 15-23 sep) está en `indexacion-gsc-ronda1-2026-09.md`; esta solo lleva lo que Google sigue sin indexar. **Este archivo es la fuente de verdad del progreso.** Al pedir una tanda, marcar sus casillas y
+poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día por propiedad.
 
-Proceso: **Inspección de URLs** → pegar la URL → **Solicitar indexación**. Cuota ~10 URLs/día.
+Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
-## Cómo retomar
+**Estado de GSC (API, datos hasta 2026-09-23):** 30 de 84 indexadas · 45 descubiertas sin indexar · 0 rastreadas sin indexar · 9 desconocidas.
 
-1. Abrir **Indexación → Páginas** en GSC y mirar la lista de indexadas.
-2. Tachar de aquí lo que ya se haya indexado solo.
-3. Seguir por la primera tanda sin marcar.
+Solo las 54 no indexadas (español antes que inglés): el contenido lleva días publicado y las indexadas ya lo reflejan.
+Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
 
-## Estado conocido
+## Tanda 1
 
-- **2026-09-15:** se pidió la **tanda 1 de 7** (69 URLs en total). Desde entonces no hay registro
-  de más tandas: **verificar en GSC antes de continuar**, las 2-7 constan como no pedidas.
-- GSC al 2026-09-12: 17 indexadas de 86; 67 URLs nunca rastreadas; 53 "Descubierta, sin indexar";
-  2 "Rastreada, sin indexar". Sitemap enviado el 1-sept, 86 URLs, 0 errores.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/vacunas  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
 
-> Este archivo vivía en `~/Desktop`. Se movió al repo el 2026-09-20: en Lawndale el equivalente
-> se perdió dos veces y con él el historial de tandas.
+## Tanda 2
 
-## Tanda 1  ✅ PEDIDA 15/09/2026
+- [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — descubierta sin indexar · 0 impr.
 
-- [x] https://www.clinicahispanacorazonyvida.com/services/examen-dot
-- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion
-- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre
-- [x] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados
-- [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia
-- [x] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias
-- [x] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas
-- [x] https://www.clinicahispanacorazonyvida.com/services/tiroides
-- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre
-- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo
+## Tanda 3
 
-## Tanda 2  ✅ PEDIDA (fecha no registrada; confirmado por el usuario el 23/09/2026)
+- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — desconocida · 0 impr.
 
-- [x] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos
-- [x] https://www.clinicahispanacorazonyvida.com/services/ultrasonido
-- [x] https://www.clinicahispanacorazonyvida.com/services/vacunas
-- [x] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias
-- [x] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar
-- [x] https://www.clinicahispanacorazonyvida.com/services/alergias
-- [x] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual
-- [x] https://www.clinicahispanacorazonyvida.com/services/examen-alcohol-drogas
-- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-strep
-- [x] https://www.clinicahispanacorazonyvida.com/services/examen-heces
+## Tanda 4
 
-## Tanda 3  ✅ PEDIDA (fecha no registrada; confirmado por el usuario el 23/09/2026)
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/curacion-heridas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — descubierta sin indexar · 0 impr.
 
-- [x] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma
-- [x] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes
-- [x] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas
-- [x] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas
-- [x] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores
-- [x] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos
-- [x] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas
-- [x] https://www.clinicahispanacorazonyvida.com/services/farmacia
-- [x] https://www.clinicahispanacorazonyvida.com/blog/guia-examen-medico-inmigracion-i693-houston
-- [x] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston
+## Tanda 5
 
-## Tanda 4  ✅ PEDIDA (fecha no registrada; confirmado por el usuario el 23/09/2026)
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — descubierta sin indexar · 0 impr.
 
-- [x] https://www.clinicahispanacorazonyvida.com/blog/control-diabetes-houston-guia-pacientes
-- [x] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre
-- [x] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia
-- [x] https://www.clinicahispanacorazonyvida.com/blog/salud-hombre-pasadena-chequeos-preventivos
-- [x] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia
+## Tanda 6
 
-## Tanda 5  ✅ PEDIDA (fecha no registrada; confirmado por el usuario el 23/09/2026)
-
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/tiroides
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/vacunas
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/alergias
-
-## Tanda 6  ✅ PEDIDA (fecha no registrada; confirmado por el usuario el 23/09/2026)
-
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/curacion-heridas
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos
-
-## Tanda 7  ✅ PEDIDA 23/09/2026
-
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/farmacia
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/guia-examen-medico-inmigracion-i693-houston
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/control-diabetes-houston-guia-pacientes
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/salud-mujer-houston-servicios-ginecologia
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/salud-hombre-pasadena-chequeos-preventivos
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — descubierta sin indexar · 0 impr.
