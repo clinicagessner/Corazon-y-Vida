@@ -8,6 +8,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ScrollToTop } from "@/components/layout/scroll-to-top";
 import { ScrollAnimations } from "@/components/animations/scroll-animations";
 import { GoogleTags, GoogleTagManagerNoScript } from "@/components/tracking/google-tags";
+import { ConversionEvents } from "@/components/tracking/conversion-events";
 import Script from "next/script";
 import { SITE_CONFIG, GOOGLE_REVIEWS_DATA } from "@/lib/constants";
 import { getGooglePlaceData } from "@/lib/google-places";
@@ -151,7 +152,6 @@ export default async function LocaleLayout({ children, params }: Props) {
             />
           </noscript>
         )}
-        {/* GA4 se gestiona desde Google Tag Manager (contenedor abajo). */}
       </head>
       <body className="antialiased min-h-screen flex flex-col" suppressHydrationWarning>
         <GoogleTagManagerNoScript />
@@ -162,8 +162,9 @@ export default async function LocaleLayout({ children, params }: Props) {
             <ScrollAnimations />
           </TooltipProvider>
         </NextIntlClientProvider>
+        <ConversionEvents />
       </body>
-      {/* GTM + Google Ads (gtm.js y gtag.js diferidos a después de window.load) */}
+      {/* GTM + GA4 y Google Ads (gtm.js y gtag.js diferidos a después de window.load) */}
       <GoogleTags />
       {/* CallRail swap: reescribe los números mostrados; diferido, no está en el LCP */}
       <Script
@@ -188,7 +189,6 @@ export default async function LocaleLayout({ children, params }: Props) {
           `}
         </Script>
       )}
-      {/* GA4 se gestiona desde Google Tag Manager (GTM-K8S48BQ3). */}
     </html>
   );
 }
