@@ -1,16 +1,17 @@
 # Indexación en Google Search Console — www.clinicahispanacorazonyvida.com
 
-**Ronda 2 (preparada 2026-09-25) — NO PEDIR ANTES DEL 2026-10-07.** Las tandas 2-7 de la ronda 1 se pidieron hasta el 23-sep y Google tarda 1-2 semanas en procesarlas: repetirlas antes gasta cupo sin acelerar nada. Diagnóstico 2026-09-25: los 29 servicios (es+en) siguen sin rastrear (`lastCrawlTime` vacío) pero técnicamente están bien (200, `index, follow`, canónica propia, en el sitemap). El 7-oct, volver a bajar el estado y quitar de aquí lo que ya esté indexado. La ronda 1 (7 tandas, 69 URLs, 15-23 sep) está en `indexacion-gsc-ronda1-2026-09.md`; esta solo lleva lo que Google sigue sin indexar. **Este archivo es la fuente de verdad del progreso.** Al pedir una tanda, marcar sus casillas y
+**Este archivo es la fuente de verdad del progreso.** Al pedir una tanda, marcar sus casillas y
 poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día por propiedad.
 
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
-**Estado de GSC (API, datos hasta 2026-09-23):** 30 de 84 indexadas · 45 descubiertas sin indexar · 0 rastreadas sin indexar · 9 desconocidas.
+<!-- tandas:auto -->
+**Estado (actualizado 2026-10-04; URL Inspection API, datos de hoy 2026-10-04):** 30 de 84 URLs del sitemap indexadas · 54 sin indexar (32 descubierta sin indexar · 22 desconocida).
 
-Solo las 54 no indexadas (español antes que inglés): el contenido lleva días publicado y las indexadas ya lo reflejan.
-Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
-
-**Actualizado el 2026-10-04:** la tanda 1 son las 10 páginas que cambiaron hoy; esas sí se piden ya (contenido nuevo; el sitemap se reenvió hoy por API). **Las tandas 2 en adelante siguen sin pedirse antes del 2026-10-07.**
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 18 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 6 no indexadas no pedidas en los últimos 14 días.
+Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
+36 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-07).
+<!-- /tandas:auto -->
 
 ## Tanda 1 — cambios del 2026-10-04 (título de la home, urinarias, suturas, abscesos, estacionamiento): se puede pedir HOY
 
@@ -27,63 +28,38 @@ Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
 
 ## Tanda 2
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/vacunas  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/promociones  — cambiada 2026-09-15 · rastreada 2026-08-06 · indexada · 190 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-09-15 · rastreada 2026-09-02 · indexada · 153 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/blog  — cambiada 2026-09-15 · rastreada 2026-08-07 · indexada · 42 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — cambiada 2026-09-16 · desconocida · pedida 2026-09-15 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — cambiada 2026-10-04 · desconocida · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-09-16 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-09-15 · rastreada 2026-09-03 · indexada · 21 impr.
 
 ## Tanda 3
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-09-15 · rastreada 2026-08-11 · indexada · 12 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-09-15 · rastreada 2026-08-06 · indexada · 12 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · indexada · 7 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-15 · rastreada 2026-07-17 · indexada · 3 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 2 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-09-15 · rastreada 2026-07-14 · indexada · 1 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 
 ## Tanda 4
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 
-## Tanda 5
+## Notas anteriores (texto previo del archivo, sin actualizar)
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/curacion-heridas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — descubierta sin indexar · 0 impr.
-
-## Tanda 6
-
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — descubierta sin indexar · 0 impr.
+**Ronda 2 (preparada 2026-09-25) — NO PEDIR ANTES DEL 2026-10-07.** Las tandas 2-7 de la ronda 1 se pidieron hasta el 23-sep y Google tarda 1-2 semanas en procesarlas: repetirlas antes gasta cupo sin acelerar nada. Diagnóstico 2026-09-25: los 29 servicios (es+en) siguen sin rastrear (`lastCrawlTime` vacío) pero técnicamente están bien (200, `index, follow`, canónica propia, en el sitemap). El 7-oct, volver a bajar el estado y quitar de aquí lo que ya esté indexado. La ronda 1 (7 tandas, 69 URLs, 15-23 sep) está en `indexacion-gsc-ronda1-2026-09.md`; esta solo lleva lo que Google sigue sin indexar. **Este archivo es la fuente de verdad del progreso.** Al pedir una tanda, marcar sus casillas y
+poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día por propiedad.
