@@ -171,7 +171,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Cuándo recibo el resultado del Papanicolaou o del cultivo?",
-        "answer": "El cultivo y el Papanicolaou se procesan en laboratorio y tardan unos días; le decimos el plazo al tomar la muestra. Si hay infección evidente, el tratamiento empieza el mismo día."
+        "answer": "El cultivo y el Papanicolaou se procesan en laboratorio y tardan unos días; le decimos el plazo al tomar la muestra. Si hay infección evidente, el tratamiento empieza rápido."
       }
     ],
     "faqsEn": [
@@ -185,7 +185,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "When do I get the Pap test or culture result?",
-        "answer": "The culture and the Pap test are processed in a laboratory and take a few days; we tell you the turnaround when the sample is taken. If an infection is evident, treatment starts the same day."
+        "answer": "The culture and the Pap test are processed in a laboratory and take a few days; we tell you the turnaround when the sample is taken. If an infection is evident, treatment starts promptly."
       }
     ]
   },
