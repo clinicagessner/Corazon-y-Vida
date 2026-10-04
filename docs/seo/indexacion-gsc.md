@@ -10,10 +10,24 @@ Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvid
 Solo las 54 no indexadas (español antes que inglés): el contenido lleva días publicado y las indexadas ya lo reflejan.
 Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
 
-## Tanda 1
+**Actualizado el 2026-10-04:** la tanda 1 son las 10 páginas que cambiaron hoy; esas sí se piden ya (contenido nuevo; el sitemap se reenvió hoy por API). **Las tandas 2 en adelante siguen sin pedirse antes del 2026-10-07.**
+
+## Tanda 1 — cambios del 2026-10-04 (título de la home, urinarias, suturas, abscesos, estacionamiento): se puede pedir HOY
+
+- [ ] https://www.clinicahispanacorazonyvida.com  — no estaba en las tandas
+- [ ] https://www.clinicahispanacorazonyvida.com/en  — no estaba en las tandas
+- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — desconocida · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — no estaba en las tandas
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — no estaba en las tandas
+
+## Tanda 2
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — desconocida · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — desconocida · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/vacunas  — desconocida · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — descubierta sin indexar · 0 impr.
@@ -21,12 +35,11 @@ Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
 - [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
-
-## Tanda 2
-
 - [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — descubierta sin indexar · 0 impr.
+
+## Tanda 3
+
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — descubierta sin indexar · 0 impr.
@@ -35,49 +48,42 @@ Antes de la tanda 1, reenviar el sitemap en GSC (Sitemaps → `sitemap.xml`).
 - [ ] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — descubierta sin indexar · 0 impr.
-
-## Tanda 3
-
 - [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — descubierta sin indexar · 0 impr.
+
+## Tanda 4
+
 - [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — desconocida · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — desconocida · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — desconocida · 0 impr.
-
-## Tanda 4
-
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — desconocida · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — desconocida · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — descubierta sin indexar · 0 impr.
+
+## Tanda 5
+
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/curacion-heridas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — descubierta sin indexar · 0 impr.
-
-## Tanda 5
-
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — descubierta sin indexar · 0 impr.
+
+## Tanda 6
+
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — descubierta sin indexar · 0 impr.
-
-## Tanda 6
-
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — descubierta sin indexar · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — descubierta sin indexar · 0 impr.
