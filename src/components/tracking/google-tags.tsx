@@ -51,11 +51,19 @@ function loadScript(src: string) {
   document.head.appendChild(s);
 }
 
-function loadTags(w: TagsWindow, gtagId: string | undefined, pixelId: string | undefined) {
+function loadTags(w: TagsWindow, ids: string[], pixelId: string | undefined) {
   if (w.__tagsLoaded) return;
   w.__tagsLoaded = true;
 
-  if (gtagId) loadScript(`https://www.googletagmanager.com/gtag/js?id=${gtagId}`);
+  // Los `config` van aquí y no al montar: GTM (lazyOnload) procesa los
+  // comandos `config` que ve en dataLayer y descarga gtag.js por su cuenta, así
+  // que encolarlos antes anulaba la espera a la interacción.
+  if (w.gtag && !w.__gtagConfigured) {
+    w.__gtagConfigured = true;
+    w.gtag("js", new Date());
+    for (const id of ids) w.gtag("config", id);
+  }
+  if (ids[0]) loadScript(`https://www.googletagmanager.com/gtag/js?id=${ids[0]}`);
 
   if (pixelId && !w.fbq) {
     const fbq = function (...args: unknown[]) {
@@ -90,18 +98,13 @@ export function GoogleTags() {
         w.dataLayer!.push(arguments);
       };
     }
-    // `trackEvent` (conversion-events.tsx) también puede crear `gtag`: la
-    // configuración va aparte para que se haga siempre, una sola vez.
-    if (!w.__gtagConfigured) {
-      w.__gtagConfigured = true;
-      w.gtag("js", new Date());
-      for (const id of ids) w.gtag("config", id);
-    }
+    // `trackEvent` (conversion-events.tsx) también puede crear `gtag`; la
+    // configuración (`js` + `config`) se hace una sola vez, en loadTags.
     if (w.__tagsLoaded) return;
 
     const onFirstInteraction = () => {
       for (const e of INTERACTION_EVENTS) window.removeEventListener(e, onFirstInteraction);
-      loadTags(w, ids[0], pixelId);
+      loadTags(w, ids, pixelId);
     };
     for (const e of INTERACTION_EVENTS) {
       window.addEventListener(e, onFirstInteraction, { once: true, passive: true });
