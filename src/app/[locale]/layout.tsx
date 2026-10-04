@@ -164,7 +164,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         </NextIntlClientProvider>
         <ConversionEvents />
       </body>
-      {/* GTM + GA4 y Google Ads (gtm.js y gtag.js diferidos a después de window.load) */}
+      {/* GTM tras window.load; GA4, Google Ads y Meta Pixel con la primera interacción */}
       <GoogleTags />
       {/* CallRail swap: reescribe los números mostrados; diferido, no está en el LCP */}
       <Script
@@ -172,23 +172,7 @@ export default async function LocaleLayout({ children, params }: Props) {
         strategy="lazyOnload"
         src="https://cdn.callrail.com/companies/466775339/5eb54ce6b242c3e2876d/12/swap.js"
       />
-      {/* Meta Pixel (diferido: era la tarea larga más grande tras la hidratación) */}
-      {metaPixelId && (
-        <Script id="meta-pixel" strategy="lazyOnload">
-          {`
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '${metaPixelId}');
-            fbq('track', 'PageView');
-          `}
-        </Script>
-      )}
+      {/* Meta Pixel: lo carga <GoogleTags /> con la primera interacción */}
     </html>
   );
 }
