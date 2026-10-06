@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 36 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-07).
 <!-- /tandas:auto -->
 
-## Tanda 1 — cambios del 2026-10-04 (título de la home, urinarias, suturas, abscesos, estacionamiento): se puede pedir HOY — 📨 ENVIADA 05/10/2026
+## Tanda 1 — cambios del 2026-10-04 (título de la home, urinarias, suturas, abscesos, estacionamiento): se puede pedir HOY  ✅ PEDIDA 05/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com  — no estaba en las tandas
-- [ ] https://www.clinicahispanacorazonyvida.com/en  — no estaba en las tandas
-- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — desconocida · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — no estaba en las tandas
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — no estaba en las tandas
+- [x] https://www.clinicahispanacorazonyvida.com  — no estaba en las tandas
+- [x] https://www.clinicahispanacorazonyvida.com/en  — no estaba en las tandas
+- [x] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — desconocida · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — desconocida · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos  — descubierta sin indexar · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — no estaba en las tandas
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — no estaba en las tandas
 
 ## Tanda 2
 
