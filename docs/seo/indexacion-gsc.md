@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-09; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 30 de 86 URLs del sitemap indexadas · 56 sin indexar (34 descubierta sin indexar · 20 desconocida · 2 sin datos).
+**Estado (actualizado 2026-10-10; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 30 de 86 URLs del sitemap indexadas · 56 sin indexar (34 descubierta sin indexar · 20 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 42 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 11 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 3  📨 ENVIADA 09/10/2026
+## Tanda 3  📨 ENVIADA 10/10/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-09-15 · rastreada 2026-09-03 · indexada · 21 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-09-15 · rastreada 2026-08-11 · indexada · 15 impr.
