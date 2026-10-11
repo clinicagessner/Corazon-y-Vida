@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 11 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 3  📨 ENVIADA 10/10/2026
+## Tanda 3  ✅ PEDIDA 11/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-09-15 · rastreada 2026-09-03 · indexada · 21 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-09-15 · rastreada 2026-08-11 · indexada · 15 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-09-15 · rastreada 2026-08-06 · indexada · 12 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · indexada · 7 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-15 · rastreada 2026-07-17 · indexada · 3 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 3 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-09-15 · rastreada 2026-07-14 · indexada · 1 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-09-15 · rastreada 2026-09-03 · indexada · 21 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-09-15 · rastreada 2026-08-11 · indexada · 15 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-09-15 · rastreada 2026-08-06 · indexada · 12 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · indexada · 7 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-15 · rastreada 2026-07-17 · indexada · 3 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 3 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-09-15 · rastreada 2026-07-14 · indexada · 1 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · desconocida · pedida 2026-09-23 · 0 impr.
 
 ## Tanda 4
 
