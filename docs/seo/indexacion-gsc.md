@@ -6,27 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-10; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 30 de 86 URLs del sitemap indexadas · 56 sin indexar (34 descubierta sin indexar · 20 desconocida · 2 sin datos).
+**Estado (actualizado 2026-10-11; URL Inspection API, datos ANTIGUOS del 2026-10-05: antiguos (2026-10-05): --sin-fetch):** 30 de 86 URLs del sitemap indexadas · 56 sin indexar (34 descubierta sin indexar · 20 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 42 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-11 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
+14 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 3  ✅ PEDIDA 11/10/2026
-
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-09-15 · rastreada 2026-09-03 · indexada · 21 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-09-15 · rastreada 2026-08-11 · indexada · 15 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-09-15 · rastreada 2026-08-06 · indexada · 12 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · indexada · 7 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-15 · rastreada 2026-07-17 · indexada · 3 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 3 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-09-15 · rastreada 2026-07-14 · indexada · 1 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · desconocida · pedida 2026-09-23 · 0 impr.
-
-## Tanda 4
+## Tanda 4  📨 ENVIADA 11/10/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
@@ -115,3 +102,16 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-09-16 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-10-04 · desconocida · pedida 2026-09-15 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 0 impr.
+
+## Tanda 3  ✅ PEDIDA 11/10/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-09-15 · rastreada 2026-09-03 · indexada · 21 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-09-15 · rastreada 2026-08-11 · indexada · 15 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-09-15 · rastreada 2026-08-06 · indexada · 12 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · indexada · 7 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-09-15 · rastreada 2026-07-17 · indexada · 3 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-09-15 · rastreada 2026-07-07 · indexada · 3 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-09-15 · rastreada 2026-07-14 · indexada · 1 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · desconocida · pedida 2026-09-23 · 0 impr.
