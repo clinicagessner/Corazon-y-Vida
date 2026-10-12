@@ -889,6 +889,47 @@ export const SERVICES: Service[] = [
     "order": 20
   },
   {
+    "id": "examenes-inmigracion",
+    "slug": "examenes-inmigracion",
+    "dateModified": "2026-10-13",
+    "title": "Examen Médico de Inmigración I-693",
+    "titleEn": "Immigration Medical Exam I-693",
+    "shortTitle": "Inmigración",
+    "description": "Examen médico de inmigración I-693 en Pasadena, TX. Llama antes de venir para confirmar la disponibilidad de este examen. Atención en español.",
+    "descriptionEn": "I-693 immigration medical exam in Pasadena, TX. Please call before coming to confirm this exam is available. Spanish spoken.",
+    "longDescription": "**Llama antes de venir para confirmar la disponibilidad de este examen.**\n\nEl examen médico de inmigración es el formulario I-693 que USCIS pide al solicitar la residencia permanente. En Clínica Hispana Corazón y Vida, en Pasadena, lo realiza un médico designado por USCIS, en español, y usted recibe el formulario completo en sobre sellado más una copia para su archivo.\n\n## ¿Qué incluye el examen I-693?\n\n- Revisión del historial médico y de la cartilla de vacunas.\n- Examen físico completo, con preguntas sobre salud mental y consumo de sustancias.\n- Prueba de sangre para tuberculosis (IGRA) a partir de los dos años; radiografía de tórax si sale positiva.\n- Prueba de sífilis entre los 18 y 44 años y de gonorrea entre los 18 y 24.\n- Aplicación de las vacunas que falten según la edad: MMR, Tdap o Td, polio, hepatitis A y B, varicela, influenza en temporada y otras según las instrucciones del CDC.\n- Llenado del formulario I-693 en su edición vigente y entrega en sobre sellado.\n\nLa vacuna contra el COVID-19 ya no es requisito desde enero de 2025.\n\n## ¿Quién puede firmar el I-693?\n\nSolo un médico con la designación de Civil Surgeon de USCIS. Antes de venir puede comprobar la clínica en el buscador oficial de USCIS. Un examen firmado por un médico sin designación no es válido.\n\n## ¿Qué debo traer?\n\n- Pasaporte o identificación con foto.\n- Cartilla de vacunas, en cualquier idioma.\n- Informes médicos de condiciones crónicas y lista de medicamentos.\n- Su nombre exacto como aparece en la solicitud de inmigración.\n\nSin registro escrito, una vacuna se considera no aplicada y se repone.\n\n## ¿Cómo es la visita?\n\n1. Recepción y revisión de documentos.\n2. Examen físico y toma de muestras de laboratorio.\n3. Aplicación de vacunas pendientes.\n4. Entrega del formulario sellado cuando los resultados están listos; si hace falta una segunda visita por la radiografía o una dosis adicional, se le indica la fecha.\n\nLa primera visita suele durar entre una y dos horas.\n\n## ¿Cómo se entrega a USCIS?\n\nDesde el 2 de diciembre de 2024 el I-693 debe presentarse junto con el formulario I-485. Si presenta en papel, el sobre va cerrado; si presenta en línea, USCIS indica abrirlo y subir el formulario. Desde junio de 2025 el formulario vale, en general, solo para la solicitud con la que se presenta. Coordine la fecha del examen con su abogado.\n\n## ¿Cuánto cuesta?\n\nEl examen se paga directo, sin seguro, en efectivo o con tarjeta; las vacunas y pruebas que necesite se cobran según su caso. Confirme el precio por WhatsApp al (346) 646-2974 antes de venir.\n\n## ¿Dónde y cuándo?\n\nSin cita en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, todos los días de 9 AM a 9 PM. Más detalle en nuestra [guía del examen I-693](/blog/guia-examen-medico-inmigracion-i693-houston).",
+    "longDescriptionEn": "**Please call before coming to confirm this exam is available.**\n\nThe immigration medical exam is Form I-693, which USCIS requires when applying for permanent residence. At Clínica Hispana Corazón y Vida in Pasadena it is performed by a USCIS-designated physician, in Spanish, and you receive the completed form in a sealed envelope plus a copy for your records.\n\n## What does the I-693 exam include?\n\n- Review of medical history and vaccination record.\n- Complete physical exam, with questions about mental health and substance use.\n- Blood test for tuberculosis (IGRA) from age two; chest X-ray if positive.\n- Syphilis test between ages 18 and 44 and gonorrhea test between 18 and 24.\n- Missing vaccines according to age: MMR, Tdap or Td, polio, hepatitis A and B, varicella, influenza in season and others per CDC instructions.\n- Completion of Form I-693 in its current edition and delivery in a sealed envelope.\n\nThe COVID-19 vaccine is no longer required since January 2025.\n\n## Who can sign the I-693?\n\nOnly a physician with the USCIS Civil Surgeon designation. Before coming, you can verify the clinic in the official USCIS locator. An exam signed by a physician without the designation is not valid.\n\n## What should I bring?\n\n- Passport or photo ID.\n- Vaccination record, in any language.\n- Medical reports for chronic conditions and a list of medications.\n- Your name exactly as it appears on your immigration application.\n\nWithout a written record, a vaccine counts as not given and is replaced.\n\n## What is the visit like?\n\n1. Front desk and document review.\n2. Physical exam and lab samples.\n3. Pending vaccines.\n4. Delivery of the sealed form when results are ready; if a second visit is needed for the X-ray or an additional dose, we give you the date.\n\nThe first visit usually takes one to two hours.\n\n## How is it submitted to USCIS?\n\nSince December 2, 2024 the I-693 must be filed together with Form I-485. If you file on paper, the envelope stays sealed; if you file online, USCIS instructs you to open it and upload the form. Since June 2025 the form is generally valid only for the application it is submitted with. Coordinate the exam date with your attorney.\n\n## How much does it cost?\n\nThe exam is self-pay, no insurance, in cash or by card; any vaccines and tests you need are charged according to your case. Confirm the price on WhatsApp at (346) 646-2974 before you come.\n\n## Where and when?\n\nWalk in at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, every day from 9 AM to 9 PM. More detail in our [I-693 exam guide](/blog/guia-examen-medico-inmigracion-i693-houston).",
+    "icon": "Clipboard",
+    "image": "/images/services/examenes-inmigracion.webp",
+    "category": "examenes",
+    "keywords": [
+      "examen de inmigracion pasadena",
+      "examen medico i-693 pasadena",
+      "civil surgeon pasadena español",
+      "medico autorizado uscis pasadena"
+    ],
+    "keywordsEn": [
+      "immigration medical exam pasadena",
+      "i-693 exam pasadena",
+      "civil surgeon pasadena",
+      "uscis authorized doctor pasadena"
+    ],
+    "features": [
+      "Médico autorizado (civil surgeon)",
+      "Formulario I-693 sellado",
+      "Vacunas requeridas disponibles",
+      "Proceso explicado en español"
+    ],
+    "featuresEn": [
+      "Authorized civil surgeon",
+      "Sealed Form I-693",
+      "Required vaccines available",
+      "Process explained in Spanish"
+    ],
+    "highlighted": false,
+    "order": 21
+  },
+  {
     "id": "vacunas",
     "slug": "vacunas",
     "dateModified": "2026-09-15",

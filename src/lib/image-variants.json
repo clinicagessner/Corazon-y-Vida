@@ -425,5 +425,15 @@
       828
     ],
     "original": 1024
+  },
+  "/images/services/examenes-inmigracion.webp": {
+    "widths": [
+      256,
+      384,
+      512,
+      640,
+      828
+    ],
+    "original": 1024
   }
 }
