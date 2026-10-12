@@ -6,7 +6,7 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-12; URL Inspection API, datos de hoy 2026-10-12):** 30 de 84 URLs del sitemap indexadas · 54 sin indexar (29 descubierta sin indexar · 23 desconocida · 2 sin datos).
+**Estado (actualizado 2026-10-12; URL Inspection API, datos de hoy 2026-10-12):** 32 de 88 URLs del sitemap indexadas · 56 sin indexar (30 descubierta sin indexar · 24 desconocida · 2 sin datos).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 3 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 26 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
@@ -57,7 +57,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/blog  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-10-13
 
-## Tanda 16
+## Tanda 19 — cambios del 2026-10-13 (inmigración restaurada con aviso de llamar)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
+
+## Tanda 20
 
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
@@ -70,7 +77,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 
-## Tanda 17
+## Tanda 21
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
@@ -83,7 +90,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 
-## Tanda 18
+## Tanda 22
 
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
