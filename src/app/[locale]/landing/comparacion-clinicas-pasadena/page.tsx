@@ -70,7 +70,6 @@ const copy = {
       { label: "Cita previa", value: "No se requiere" },
       { label: "Pago", value: "Sin necesidad de seguro" },
       { label: "Idioma", value: "100% Español" },
-      { label: "Examen I-693", value: "Civil Surgeon USCIS" },
       { label: "Estacionamiento", value: "Gratis y amplio" },
       { label: "Laboratorio", value: "Resultados el mismo día" },
     ],
@@ -106,10 +105,6 @@ const copy = {
       {
         q: "¿Tienen laboratorio en la clínica?",
         a: "Sí, contamos con laboratorio clínico en sitio. La mayoría de pruebas (glucosa, colesterol, A1C, tiroides, embarazo) tienen resultados el mismo día.",
-      },
-      {
-        q: "¿Realizan exámenes de inmigración I-693?",
-        a: "Sí. Contamos con Civil Surgeons certificados por USCIS para el examen médico I-693 requerido para la Green Card.",
       },
       {
         q: "¿Dónde están ubicados?",
@@ -153,7 +148,6 @@ const copy = {
       { label: "Appointment", value: "Not required" },
       { label: "Payment", value: "Self-pay, no insurance needed" },
       { label: "Language", value: "100% Spanish" },
-      { label: "I-693 Exam", value: "USCIS Civil Surgeon" },
       { label: "Parking", value: "Free and ample" },
       { label: "Laboratory", value: "Same-day results" },
     ],
@@ -189,10 +183,6 @@ const copy = {
       {
         q: "Do you have a laboratory on-site?",
         a: "Yes, we have an on-site clinical laboratory. Most tests (glucose, cholesterol, A1C, thyroid, pregnancy) have same-day results.",
-      },
-      {
-        q: "Do you perform I-693 immigration medical exams?",
-        a: "Yes. Our USCIS-certified Civil Surgeons perform the I-693 medical exam required for the Green Card.",
       },
       {
         q: "Where are you located?",

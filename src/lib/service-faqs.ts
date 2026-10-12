@@ -437,7 +437,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Me vacunaron con BCG de niño: cuál prueba me conviene?",
-        "answer": "La de sangre IGRA. La vacuna BCG puede dar un falso positivo en la prueba cutánea, mientras que la IGRA no se ve afectada por ella y es la que exige el examen de inmigración."
+        "answer": "La de sangre IGRA. La vacuna BCG puede dar un falso positivo en la prueba cutánea, mientras que la IGRA no se ve afectada por ella."
       },
       {
         "question": "¿Puedo hacerme la prueba de tuberculosis si estoy embarazada?",
@@ -451,7 +451,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "I had the BCG vaccine as a child: which test is right for me?",
-        "answer": "The IGRA blood test. The BCG vaccine can cause a false positive on the skin test, while IGRA is not affected by it and is the one required for the immigration exam."
+        "answer": "The IGRA blood test. The BCG vaccine can cause a false positive on the skin test, while IGRA is not affected by it."
       },
       {
         "question": "Can I take the tuberculosis test if I am pregnant?",
@@ -609,36 +609,6 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       }
     ]
   },
-  "examenes-inmigracion": {
-    "faqs": [
-      {
-        "question": "¿Necesito abrir el sobre del I-693?",
-        "answer": "Depende de cómo presente el I-485. En papel, el sobre va cerrado. En línea, USCIS indica abrirlo y subir el formulario escaneado. Si se abrió por error, no hay que repetir el examen."
-      },
-      {
-        "question": "¿Qué pasa si no tengo mi cartilla de vacunas?",
-        "answer": "Puede hacerse el examen igual. Las vacunas sin registro escrito se consideran no aplicadas y se reponen en la clínica según su edad, lo que puede añadir costo y una visita más."
-      },
-      {
-        "question": "¿Cuánto tiempo vale el examen de inmigración?",
-        "answer": "Desde el 11 de junio de 2025, USCIS considera que el I-693 vale en general solo para la solicitud con la que se presenta, y debe ir junto con el I-485. Confirme los plazos con su abogado."
-      }
-    ],
-    "faqsEn": [
-      {
-        "question": "Do I need to open the I-693 envelope?",
-        "answer": "It depends on how you file the I-485. On paper, the envelope stays sealed. Online, USCIS instructs you to open it and upload the scanned form. If it was opened by mistake, the exam does not need to be repeated."
-      },
-      {
-        "question": "What if I don't have my vaccination record?",
-        "answer": "You can still take the exam. Vaccines without a written record count as not given and are replaced at the clinic according to your age, which may add cost and one more visit."
-      },
-      {
-        "question": "How long is the immigration exam valid?",
-        "answer": "Since June 11, 2025, USCIS generally treats the I-693 as valid only for the application it is submitted with, and it must be filed together with the I-485. Confirm the timing with your attorney."
-      }
-    ]
-  },
   "vacunas": {
     "faqs": [
       {
@@ -651,7 +621,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Me dan un comprobante de la vacuna?",
-        "answer": "Sí. Le entregamos el registro escrito con vacuna, lote y fecha, válido para el trabajo, la escuela o el examen de inmigración, y lo anotamos en su cartilla si la trae."
+        "answer": "Sí. Le entregamos el registro escrito con vacuna, lote y fecha, válido para el trabajo, la escuela u otros trámites, y lo anotamos en su cartilla si la trae."
       }
     ],
     "faqsEn": [
@@ -665,7 +635,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Do I get proof of vaccination?",
-        "answer": "Yes. We give you a written record with the vaccine, lot and date, valid for work, school or the immigration exam, and we note it in your vaccination card if you bring it."
+        "answer": "Yes. We give you a written record with the vaccine, lot and date, valid for work, school or other paperwork, and we note it in your vaccination card if you bring it."
       }
     ]
   },

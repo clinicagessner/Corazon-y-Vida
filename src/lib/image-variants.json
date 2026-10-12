@@ -27,16 +27,6 @@
     ],
     "original": 1920
   },
-  "/images/green-card-bg.webp": {
-    "widths": [
-      256,
-      384,
-      512,
-      640,
-      828
-    ],
-    "original": 1280
-  },
   "/images/hero-bg.webp": {
     "widths": [
       256,
@@ -277,16 +267,6 @@
     "original": 1024
   },
   "/images/services/examen-heces.webp": {
-    "widths": [
-      256,
-      384,
-      512,
-      640,
-      828
-    ],
-    "original": 1024
-  },
-  "/images/services/examenes-inmigracion.webp": {
     "widths": [
       256,
       384,

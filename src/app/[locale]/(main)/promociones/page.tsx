@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getLocale, getTranslations, setRequestLocale } from "next-intl/server";
-import { Tag } from "@phosphor-icons/react/dist/ssr";
+import { CheckCircle, Tag } from "@phosphor-icons/react/dist/ssr";
 import { ContactFormLazy } from "@/components/forms/contact-form-lazy";
 import { StarRating } from "@/components/ui/star-rating";
 import { PageHero } from "@/components/layout/page-hero";
@@ -121,6 +121,10 @@ export default async function PromotionsPage({ params }: Props) {
               {rating.toFixed(1)} · {totalReviews}
               {t("reviewsSuffix")}
             </span>
+          </div>
+          <div className="mt-3 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-semibold text-red-dark shadow-sm">
+            <CheckCircle className="size-4 text-success shrink-0" weight="fill" />
+            {t("freeConsultation")}
           </div>
         </PageHero>
 

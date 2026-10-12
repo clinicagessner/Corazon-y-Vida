@@ -9,7 +9,6 @@
     "home": "Inicio",
     "services": "Servicios",
     "promotions": "Promociones",
-    "greenCard": "Green Card",
     "chronicCare": "Enfermedades Crónicas",
     "testimonials": "Testimonios",
     "location": "Ubicación",
@@ -37,7 +36,8 @@
       "2": "Sin cita previa necesaria",
       "3": "Aceptamos pacientes sin seguro",
       "4": "Precios accesibles y transparentes"
-    }
+    },
+    "freeConsultation": "Consulta inicial gratis"
   },
   "services": {
     "title": "Servicios de Nuestra Clínica Hispana en Pasadena",
@@ -123,8 +123,8 @@
     "a6": "Sí, ofrecemos planes de pago flexibles para ayudarle a manejar los costos de su atención médica. Hable con nuestra recepcionista sobre las opciones disponibles para su situación particular.",
     "q7": "¿Dónde están ubicados en Pasadena?",
     "a7": "Estamos ubicados en 918 W Southmore Ave Suite 180, Pasadena, TX 77502, cerca de Southmore Ave y la autopista 225. Contamos con amplio estacionamiento gratuito y fácil acceso en transporte público.",
-    "q8": "¿Realizan exámenes médicos de inmigración I-693?",
-    "a8": "Sí, contamos con médicos Civil Surgeon certificados por USCIS para realizar el examen médico de inmigración I-693 requerido para la Green Card. Ofrecemos resultados rápidos, vacunas disponibles en sitio, y atención 100% en español.",
+    "q8": "¿Cuánto cuesta la consulta?",
+    "a8": "La consulta inicial es gratis. Los exámenes, pruebas o tratamientos que se necesiten tienen su precio, y se lo decimos antes de hacerlos.",
     "q9": "¿Cuánto tiempo debo esperar sin cita?",
     "a9": "El tiempo de espera varía según la demanda del día, pero generalmente atendemos a los pacientes en 15-30 minutos. Le recomendamos llegar temprano para asegurar una atención más rápida.",
     "q10": "¿Hay estacionamiento disponible?",
@@ -204,14 +204,6 @@
   },
   "errorPage": {
     "description": "Ha ocurrido un error inesperado. Por favor, intente de nuevo."
-  },
-  "greenCard": {
-    "badge": "Autorizado por USCIS",
-    "title": "Exámenes Médicos de Inmigración I-693",
-    "subtitle": "Clínica Hispana Corazón y Vida es tu clínica hispana autorizada por USCIS para exámenes médicos de inmigración I-693 en Pasadena. Nuestros Civil Surgeons certificados te ayudan con tu proceso de Green Card de manera rápida y en español.",
-    "processTitle": "Proceso Simple en 5 Pasos",
-    "ctaSchedule": "Agendar Examen I-693",
-    "ctaCall": "Llamar Ahora"
   },
   "chronicCare": {
     "badge": "Cuidado Continuo",
@@ -307,12 +299,13 @@
     "formSubtitle": "Déjenos sus datos y le contactamos para agendar su cita.",
     "metaTitle": "Promociones Médicas en Pasadena TX",
     "metaDescription": "Promociones y paquetes médicos a precios accesibles en Pasadena TX: chequeos para hombres y mujeres, control de diabetes y más. Sin seguro ni cita previa.",
-    "viewService": "Ver el servicio"
+    "viewService": "Ver el servicio",
+    "freeConsultation": "Consulta inicial gratis"
   },
   "about": {
     "eyebrow": "Sobre la clínica",
     "heading": "¿Qué es Clínica Hispana Corazón y Vida?",
-    "body": "Clínica Hispana Corazón y Vida es una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100% en español. Está en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, y abre los siete días de la semana: de 9 de la mañana a 9 de la noche, sábados y domingos incluidos. No hace falta seguro médico: cada servicio tiene un precio directo y accesible, que se paga en efectivo o con tarjeta. El equipo médico atiende consultas generales y control de diabetes, presión alta, colesterol y tiroides; ginecología y Papanicolaou; exámenes de laboratorio con análisis de sangre y orina; ultrasonido y electrocardiograma; exámenes físicos DOT para licencia CDL, exámenes médicos de inmigración, físicos escolares y pruebas de alcohol y drogas; vacunas, sueros vitaminados, suturas, curación de heridas y cirugías menores. También se atiende en inglés. Teléfono: (832) 930-5551. WhatsApp: (346) 646-2974. Recibe pacientes de Pasadena, South Houston, Deer Park, Galena Park, Genoa y Red Bluff.",
+    "body": "Clínica Hispana Corazón y Vida es una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100% en español. Está en 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, y abre los siete días de la semana: de 9 de la mañana a 9 de la noche, sábados y domingos incluidos. No hace falta seguro médico: cada servicio tiene un precio directo y accesible, que se paga en efectivo o con tarjeta. El equipo médico atiende consultas generales y control de diabetes, presión alta, colesterol y tiroides; ginecología y Papanicolaou; exámenes de laboratorio con análisis de sangre y orina; ultrasonido y electrocardiograma; exámenes físicos DOT para licencia CDL, físicos escolares y pruebas de alcohol y drogas; vacunas, sueros vitaminados, suturas, curación de heridas y cirugías menores. También se atiende en inglés. Teléfono: (832) 930-5551. WhatsApp: (346) 646-2974. Recibe pacientes de Pasadena, South Houston, Deer Park, Galena Park, Genoa y Red Bluff.",
     "moreLink": "Conozca la clínica, su equipo y cómo es la primera visita"
   },
   "medicalReview": {

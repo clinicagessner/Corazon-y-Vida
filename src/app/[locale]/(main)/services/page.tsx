@@ -28,8 +28,8 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 
   const title = locale === "en" ? "Medical Services in Pasadena TX | Corazón y Vida" : "Servicios Médicos en Pasadena TX | Corazón y Vida";
   const description = locale === "en"
-    ? "Medical services in Pasadena TX: family medicine, I-693 immigration exams, lab tests, gynecology, ultrasound, DOT physicals and more. Walk-ins welcome."
-    : "Servicios médicos en Pasadena TX: medicina familiar, exámenes I-693, laboratorio, ginecología, ultrasonido, examen DOT y más. Sin cita, en español.";
+    ? "Medical services in Pasadena TX: family medicine, lab tests, gynecology, ultrasound, DOT physicals and more. Walk-ins welcome."
+    : "Servicios médicos en Pasadena TX: medicina familiar, laboratorio, ginecología, ultrasonido, examen DOT y más. Sin cita, en español.";
   const ogImage = { url: `${SITE_CONFIG.baseUrl}/images/clinic-interior.webp`, width: 1920, height: 1280, alt: t("title") };
 
   return {

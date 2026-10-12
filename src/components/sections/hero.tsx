@@ -58,6 +58,14 @@ export async function Hero() {
             {t("subtitle")}
           </p>
 
+          {/* Consulta inicial gratis (confirmado por la clínica, 2026-10-13) */}
+          <p className="animate-hero-features mb-6">
+            <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-1.5 text-sm md:text-base font-semibold text-red-dark shadow-md">
+              <CheckCircle className="size-5 text-success shrink-0" weight="fill" />
+              {t("freeConsultation")}
+            </span>
+          </p>
+
           {/* CTA Buttons */}
           <div className="animate-hero-cta flex flex-col sm:flex-row gap-3 justify-center mb-4">
             <Button asChild size="lg" className="text-base md:text-lg px-8 py-6 gap-2 shadow-lg shadow-red-primary/30">

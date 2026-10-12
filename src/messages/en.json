@@ -9,7 +9,6 @@
     "home": "Home",
     "services": "Services",
     "promotions": "Promotions",
-    "greenCard": "Green Card",
     "chronicCare": "Chronic Care",
     "testimonials": "Testimonials",
     "location": "Location",
@@ -37,7 +36,8 @@
       "2": "No appointment necessary",
       "3": "Uninsured patients welcome",
       "4": "Affordable and transparent prices"
-    }
+    },
+    "freeConsultation": "Free initial consultation"
   },
   "services": {
     "title": "Services at Our Hispanic Clinic in Pasadena",
@@ -123,8 +123,8 @@
     "a6": "Yes, we offer flexible payment plans to help you manage your healthcare costs. Talk to our receptionist about the options available for your particular situation.",
     "q7": "Where are you located in Pasadena?",
     "a7": "We are located at 918 W Southmore Ave Suite 180, Pasadena, TX 77502, near Southmore Ave and Highway 225. We have ample free parking and easy access by public transportation.",
-    "q8": "Do you perform I-693 immigration medical exams?",
-    "a8": "Yes, we have USCIS-certified Civil Surgeon physicians to perform the I-693 immigration medical exam required for the Green Card. We offer fast results, on-site vaccines, and 100% Spanish-language service.",
+    "q8": "How much does the visit cost?",
+    "a8": "The initial consultation is free. Any exams, tests or treatments you need have their own price, and we tell you before doing them.",
     "q9": "How long is the wait without an appointment?",
     "a9": "Wait times vary depending on daily demand, but we generally see patients within 15-30 minutes. We recommend arriving early to ensure faster service.",
     "q10": "Is parking available?",
@@ -204,14 +204,6 @@
   },
   "errorPage": {
     "description": "An unexpected error occurred. Please try again."
-  },
-  "greenCard": {
-    "badge": "USCIS Authorized",
-    "title": "Immigration Medical Exams I-693",
-    "subtitle": "Clínica Hispana Corazón y Vida is your USCIS authorized Hispanic clinic for I-693 immigration medical exams in Pasadena. Our certified Civil Surgeons help you with your Green Card process quickly and in Spanish.",
-    "processTitle": "Simple 5-Step Process",
-    "ctaSchedule": "Schedule I-693 Exam",
-    "ctaCall": "Call Now"
   },
   "chronicCare": {
     "badge": "Ongoing Care",
@@ -307,12 +299,13 @@
     "formSubtitle": "Leave us your details and we'll contact you to schedule your appointment.",
     "metaTitle": "Medical Promotions in Pasadena TX",
     "metaDescription": "Affordable medical promotions and packages in Pasadena TX: checkups for men and women, diabetes care and more. No insurance and no appointment needed.",
-    "viewService": "View service"
+    "viewService": "View service",
+    "freeConsultation": "Free initial consultation"
   },
   "about": {
     "eyebrow": "About the clinic",
     "heading": "What is Clínica Hispana Corazón y Vida?",
-    "body": "Clínica Hispana Corazón y Vida is a family medical clinic in Pasadena, Texas, that sees patients without an appointment and fully in Spanish. It is located at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, and opens seven days a week: from 9 in the morning to 9 at night, Saturdays and Sundays included. No health insurance is required: every service has a direct, affordable price, payable in cash or by card. The medical team handles general consultations and management of diabetes, high blood pressure, cholesterol and thyroid; gynecology and Pap smears; lab work with blood and urine tests; ultrasound and EKG; DOT physicals for CDL drivers, immigration medical exams, school physicals and alcohol and drug testing; vaccines, IV vitamin drips, stitches, wound care and minor surgery. Care is also available in English. Phone: (832) 930-5551. WhatsApp: (346) 646-2974. Patients come from Pasadena, South Houston, Deer Park, Galena Park, Genoa and Red Bluff.",
+    "body": "Clínica Hispana Corazón y Vida is a family medical clinic in Pasadena, Texas, that sees patients without an appointment and fully in Spanish. It is located at 918 W Southmore Ave, Suite 180, Pasadena, TX 77502, and opens seven days a week: from 9 in the morning to 9 at night, Saturdays and Sundays included. No health insurance is required: every service has a direct, affordable price, payable in cash or by card. The medical team handles general consultations and management of diabetes, high blood pressure, cholesterol and thyroid; gynecology and Pap smears; lab work with blood and urine tests; ultrasound and EKG; DOT physicals for CDL drivers, school physicals and alcohol and drug testing; vaccines, IV vitamin drips, stitches, wound care and minor surgery. Care is also available in English. Phone: (832) 930-5551. WhatsApp: (346) 646-2974. Patients come from Pasadena, South Houston, Deer Park, Galena Park, Genoa and Red Bluff.",
     "moreLink": "Meet the clinic, the team and what your first visit is like"
   },
   "medicalReview": {
