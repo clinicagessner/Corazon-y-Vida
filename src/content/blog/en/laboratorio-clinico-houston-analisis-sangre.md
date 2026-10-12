@@ -32,7 +32,7 @@ A blood test answers in minutes the questions that symptoms take months to revea
 - **Pregnancy tests (hCG)** in urine or blood.
 - **Sexually transmitted infection tests:** HIV, syphilis, gonorrhea, chlamydia, hepatitis.
 - **PSA** for the prostate and **vitamin B12 and D** for deficiencies.
-- **Tuberculosis (IGRA)** and the tests required for immigration and DOT exams.
+- **Tuberculosis (IGRA)** and the tests required for the DOT exam.
 
 If you need a test that is not on the list, ask: many are sent to a reference laboratory from the clinic itself.
 
@@ -55,7 +55,7 @@ You may drink water while fasting. Take your medications as usual unless your pr
 - If you have diabetes, high blood pressure or cholesterol: every three to six months depending on control.
 - With persistent fatigue, thirst, unexplained weight loss or gain, fever that does not go away or repeated infections.
 - Before starting hormone treatment, an IV vitamin drip or a weight plan.
-- When a process requires it: work, school, immigration or a commercial license.
+- When a process requires it: work, school or a commercial license.
 
 ## How do I read my results?
 

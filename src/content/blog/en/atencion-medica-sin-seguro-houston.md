@@ -30,7 +30,7 @@ Yes. Our clinic does not ask for insurance, a policy number or a referral. You p
 - General consultations and follow-up for [diabetes, high blood pressure and cholesterol](/services/condiciones-cronicas).
 - [Blood and urine tests](/services/examenes-sangre) with results we review with you.
 - Gynecology, pregnancy testing and contraception.
-- Physicals for work, school, DOT and immigration.
+- Physicals for work, school and DOT.
 - [Vaccines](/services/vacunas), IV vitamin drips, wound care and minor surgery.
 - Treatment of urinary, respiratory and sexually transmitted infections.
 

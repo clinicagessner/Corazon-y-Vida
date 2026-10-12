@@ -30,7 +30,7 @@ Sí. En nuestra clínica no pedimos seguro, número de póliza ni referido. Uste
 - Consulta general y seguimiento de [diabetes, presión alta y colesterol](/services/condiciones-cronicas).
 - [Análisis de sangre y orina](/services/examenes-sangre) con resultados que revisamos con usted.
 - Ginecología, prueba de embarazo y anticonceptivos.
-- Exámenes físicos para el trabajo, la escuela, el DOT y la inmigración.
+- Exámenes físicos para el trabajo, la escuela y el DOT.
 - [Vacunas](/services/vacunas), sueros vitaminados, curación de heridas y cirugías menores.
 - Tratamiento de infecciones urinarias, respiratorias y de transmisión sexual.
 

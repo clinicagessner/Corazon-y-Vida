@@ -32,7 +32,7 @@ Un análisis de sangre responde en minutos preguntas que los síntomas tardan me
 - **Pruebas de embarazo (hCG)** en orina o sangre.
 - **Pruebas de infecciones de transmisión sexual:** VIH, sífilis, gonorrea, clamidia, hepatitis.
 - **PSA** para la próstata y **vitamina B12 y D** para deficiencias.
-- **Tuberculosis (IGRA)** y las pruebas que piden los exámenes de inmigración y DOT.
+- **Tuberculosis (IGRA)** y las pruebas que pide el examen DOT.
 
 Si necesita una prueba que no está en la lista, pregunte: muchas se envían a un laboratorio de referencia desde la misma clínica.
 
@@ -55,7 +55,7 @@ Durante el ayuno puede beber agua. Tome sus medicamentos como siempre salvo que 
 - Si tiene diabetes, presión alta o colesterol: cada tres a seis meses según el control.
 - Con cansancio persistente, sed, pérdida o aumento de peso sin causa, fiebre que no cede o infecciones repetidas.
 - Antes de empezar un tratamiento hormonal, un suero vitaminado o un plan de peso.
-- Cuando lo pide un trámite: trabajo, escuela, inmigración o licencia comercial.
+- Cuando lo pide un trámite: trabajo, escuela o licencia comercial.
 
 ## ¿Cómo leo mis resultados?
 

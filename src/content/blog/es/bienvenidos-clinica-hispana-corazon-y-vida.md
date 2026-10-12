@@ -2,7 +2,7 @@
 slug: "bienvenidos-clinica-hispana-corazon-y-vida"
 title: "¡Bienvenidos a Clínica Hispana Corazón y Vida!"
 metaTitle: "Bienvenidos a Clínica Corazón y Vida"
-relatedServices: ["examenes-sangre", "ginecologia", "examen-dot", "examenes-inmigracion"]
+relatedServices: ["examenes-sangre", "ginecologia", "examen-dot", "vacunas"]
 description: "Cómo funciona una visita a Clínica Hispana Corazón y Vida en Pasadena TX: llegar sin cita, qué traer, cómo se paga sin seguro, qué servicios hay y cómo seguir su caso."
 date: "2026-03-16"
 dateModified: "2026-09-15"
@@ -51,7 +51,7 @@ No necesita número de seguro social ni comprobante de domicilio para atenderse.
 
 - **Consulta general y crónicos:** [diabetes, presión alta y colesterol](/services/condiciones-cronicas), tiroides, alergias, infecciones respiratorias y urinarias.
 - **Salud de la mujer:** [ginecología](/services/ginecologia) y Papanicolaou, prueba de embarazo, anticonceptivos.
-- **Exámenes y certificados:** [examen DOT](/services/examen-dot) para licencia CDL, [examen médico de inmigración](/services/examenes-inmigracion), físicos escolares y deportivos, pruebas de alcohol y drogas.
+- **Exámenes y certificados:** [examen DOT](/services/examen-dot) para licencia CDL, físicos escolares y deportivos, pruebas de alcohol y drogas.
 - **Laboratorio y pruebas:** [análisis de sangre](/services/examenes-sangre) y orina, infecciones de transmisión sexual, tuberculosis, electrocardiograma, ultrasonido.
 - **Tratamientos:** vacunas, sueros vitaminados, suturas y curación de heridas, cirugías menores, drenaje de abscesos, uñas encarnadas.
 

@@ -2,7 +2,7 @@
 slug: "bienvenidos-clinica-hispana-corazon-y-vida"
 title: "Welcome to Clínica Hispana Corazón y Vida!"
 metaTitle: "Welcome to Clínica Corazón y Vida"
-relatedServices: ["examenes-sangre", "ginecologia", "examen-dot", "examenes-inmigracion"]
+relatedServices: ["examenes-sangre", "ginecologia", "examen-dot", "vacunas"]
 description: "How a visit to Clínica Hispana Corazón y Vida in Pasadena TX works: walking in without an appointment, what to bring, how self-pay works, which services exist and how follow-up happens."
 date: "2026-03-16"
 dateModified: "2026-09-15"
@@ -51,7 +51,7 @@ You do not need a Social Security number or proof of address to be seen.
 
 - **General care and chronic conditions:** [diabetes, high blood pressure and cholesterol](/services/condiciones-cronicas), thyroid, allergies, respiratory and urinary infections.
 - **Women's health:** [gynecology](/services/ginecologia) and Pap tests, pregnancy testing, contraception.
-- **Exams and certificates:** [DOT physical](/services/examen-dot) for the CDL, [immigration medical exam](/services/examenes-inmigracion), school and sports physicals, alcohol and drug testing.
+- **Exams and certificates:** [DOT physical](/services/examen-dot) for the CDL, school and sports physicals, alcohol and drug testing.
 - **Lab and testing:** [blood tests](/services/examenes-sangre) and urine, sexually transmitted infections, tuberculosis, EKG, ultrasound.
 - **Treatments:** vaccines, IV vitamin drips, stitches and wound care, minor surgery, abscess drainage, ingrown toenails.
 
