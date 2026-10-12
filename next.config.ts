@@ -44,16 +44,6 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ["@phosphor-icons/react", "lucide-react", "@radix-ui/react-accordion", "@radix-ui/react-dialog", "@radix-ui/react-select"],
   },
-  // Corazón y Vida ya no hace exámenes de inmigración (clínica, 2026-10-13):
-  // páginas retiradas con 308 hacia su listado.
-  async redirects() {
-    return [
-      { source: "/services/examenes-inmigracion", destination: "/services", permanent: true },
-      { source: "/en/services/examenes-inmigracion", destination: "/en/services", permanent: true },
-      { source: "/blog/guia-examen-medico-inmigracion-i693-houston", destination: "/blog", permanent: true },
-      { source: "/en/blog/guia-examen-medico-inmigracion-i693-houston", destination: "/en/blog", permanent: true },
-    ];
-  },
   async headers() {
     return [
       {
