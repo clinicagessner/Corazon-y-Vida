@@ -25,18 +25,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-09-15 · desconocida · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 
-## Tanda 9 — cambios del 2026-10-13 (inmigración retirada y consulta gratis)  📨 ENVIADA 13/10/2026
+## Tanda 9 — cambios del 2026-10-13 (inmigración retirada y consulta gratis)  ✅ PEDIDA 13/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/services  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/promociones  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/services  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/promociones  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-13
 
 ## Tanda 14 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (2))
 
