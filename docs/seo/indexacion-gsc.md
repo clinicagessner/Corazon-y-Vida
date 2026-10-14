@@ -6,39 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-13; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 32 de 88 URLs del sitemap indexadas · 56 sin indexar (30 descubierta sin indexar · 24 desconocida · 2 sin datos).
+**Estado (actualizado 2026-10-14; URL Inspection API, datos ANTIGUOS del 2026-10-12: antiguos (2026-10-12): --sin-fetch):** 32 de 88 URLs del sitemap indexadas · 56 sin indexar (30 descubierta sin indexar · 24 desconocida · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 3 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 26 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 5 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 33 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-11 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
+13 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 4
-
-- [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-09-15 · desconocida · pedida 2026-09-15 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-
-## Tanda 9 — cambios del 2026-10-13 (inmigración retirada y consulta gratis)  ✅ PEDIDA 13/10/2026
-
-- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/services  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/promociones  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-13
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-13
-
-## Tanda 14 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (2))
+## Tanda 14 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (2))  📨 ENVIADA 14/10/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-13
@@ -67,8 +42,20 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 ## Tanda 20
 
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-10-12 · desconocida · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+
+## Tanda 21
+
+- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-09-15 · 0 impr.
@@ -76,10 +63,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
-
-## Tanda 21
-
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+
+## Tanda 22
+
 - [ ] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
@@ -89,10 +76,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-
-## Tanda 22
-
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+
+## Tanda 23
+
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
@@ -147,3 +134,16 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/en/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-10-05 · sin datos de inspección · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · desconocida · pedida 2026-09-23 · 0 impr.
+
+## Tanda 9 — cambios del 2026-10-13 (inmigración retirada y consulta gratis)  ✅ PEDIDA 13/10/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/services  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/promociones  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/promociones  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-tuberculosis  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-13
