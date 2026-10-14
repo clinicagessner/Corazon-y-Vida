@@ -18,18 +18,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/landing/comparacion-clinicas-pasadena  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/landing/comparacion-clinicas-pasadena  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-13
+- [ ] https://www.clinicahispanacorazonyvida.com/blog  — cambiada 2026-10-13
 
 ## Tanda 15 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (3))
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/blog  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-10-13
 
 ## Tanda 19 — cambios del 2026-10-13 (inmigración restaurada con aviso de llamar)
