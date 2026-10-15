@@ -13,7 +13,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 13 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 14 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (2))  📨 ENVIADA 15/10/2026
+## Tanda 14 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (2))
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-13
@@ -37,7 +37,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
 
-## Tanda 24 — cambios del 2026-10-15 (receta electrónica (sin farmacia))
+## Tanda 24 — cambios del 2026-10-15 (receta electrónica (sin farmacia))  📨 ENVIADA 15/10/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-10-15
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-10-15
