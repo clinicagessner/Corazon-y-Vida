@@ -37,27 +37,35 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
 
+## Tanda 24 — cambios del 2026-10-15 (receta electrónica (sin farmacia))
+
+- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-15
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-15
+
 ## Tanda 20
 
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-10-12 · desconocida · pedida 2026-09-15 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-12 · sin datos de inspección · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 
 ## Tanda 21
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-09-15 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-15 · 0 impr.
@@ -70,7 +78,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/curacion-heridas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
@@ -78,9 +85,7 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 23
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
