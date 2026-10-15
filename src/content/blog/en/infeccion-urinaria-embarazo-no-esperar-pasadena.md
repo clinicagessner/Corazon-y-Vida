@@ -5,7 +5,7 @@ metaTitle: "UTI During Pregnancy: Why You Shouldn't Wait"
 relatedServices: ["infecciones-urinarias", "prueba-embarazo", "ginecologia", "examenes-sangre"]
 description: "Pregnant and burning when you pee in Pasadena? Why pregnancy makes UTIs easier, when to head to labor and delivery, and why not to treat it on your own."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -64,11 +64,11 @@ Ask your OB now which hospital to use if something goes wrong; in the second hal
 
 ## What the visit looks like when you're expecting
 
-When you check in, tell the front desk you're pregnant and how many weeks along you are. If you're not sure and your period is late, a [pregnancy test](/services/prueba-embarazo) comes first, because the answer changes the treatment options. Then comes the urine part: at the [urinary infection visit](/services/infecciones-urinarias) you give a midstream sample, we do the urine test at the clinic, and if there is an infection, you leave with your treatment the same day, chosen by the clinic's medical team from the options that are safe for your pregnancy and for how far along you are.
+When you check in, tell the front desk you're pregnant and how many weeks along you are. If you're not sure and your period is late, a [pregnancy test](/services/prueba-embarazo) comes first, because the answer changes the treatment options. Then comes the urine part: at the [urinary infection visit](/services/infecciones-urinarias) you give a midstream sample, we do the urine test at the clinic, and if there is an infection, treatment is prescribed the same day, chosen by the clinic's medical team from the options that are safe for your pregnancy and for how far along you are.
 
 During pregnancy it usually makes sense to send a urine culture as well, one of the clinic's [lab tests](/services/examenes-sangre). That result takes a few days and confirms the bacteria respond to the treatment chosen; if they don't, you'll get a call to adjust it. Once you finish treatment, a repeat culture to make sure the urine is clear is common, so ask when to come back for it.
 
-Medications prescribed at the visit are handed to you at the clinic, so there's no extra stop to make while you're tired and carrying the extra weight.
+The [e-prescription](/en/services/farmacia) goes to the pharmacy you choose, the one closest to you, so there's no detour to make while you're tired and carrying the extra weight.
 
 ## Your OB needs to know
 

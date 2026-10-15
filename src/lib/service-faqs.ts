@@ -103,7 +103,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Cuánto tarda el resultado de la prueba de flu o COVID?",
-        "answer": "Las pruebas rápidas se procesan en la clínica y el resultado está listo en la misma visita, normalmente en unos 15 minutos, así que sale con el diagnóstico y el tratamiento el mismo día."
+        "answer": "Las pruebas rápidas se procesan en la clínica y el resultado está listo en la misma visita, normalmente en unos 15 minutos, así que el diagnóstico y el tratamiento se indican el mismo día."
       },
       {
         "question": "¿Me dan nota médica para el trabajo o la escuela?",
@@ -111,13 +111,13 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Atienden a niños con fiebre y tos?",
-        "answer": "Sí, atendemos a niños y adultos. Los bebés menores de tres meses con fiebre deben ir a emergencias; para el resto, hacemos las pruebas y el tratamiento en la clínica."
+        "answer": "Sí, atendemos a niños y adultos. Los bebés menores de tres meses con fiebre deben ir a emergencias; para el resto, hacemos las pruebas en la clínica e indicamos el tratamiento."
       }
     ],
     "faqsEn": [
       {
         "question": "How long does the flu or COVID test result take?",
-        "answer": "Rapid tests are processed at the clinic and the result is ready in the same visit, usually within about 15 minutes, so you leave with the diagnosis and treatment the same day."
+        "answer": "Rapid tests are processed at the clinic and the result is ready in the same visit, usually within about 15 minutes, so the diagnosis and treatment are given the same day."
       },
       {
         "question": "Do you give a medical note for work or school?",
@@ -125,7 +125,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Do you see children with fever and cough?",
-        "answer": "Yes, we see children and adults. Babies under three months with fever should go to the emergency room; for everyone else, we run the tests and provide treatment at the clinic."
+        "answer": "Yes, we see children and adults. Babies under three months with fever should go to the emergency room; for everyone else, we run the tests at the clinic and prescribe treatment."
       }
     ]
   },
@@ -852,30 +852,38 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
   "farmacia": {
     "faqs": [
       {
-        "question": "¿Me entregan medicamentos si traigo una receta de otro médico?",
-        "answer": "Los medicamentos de la clínica se entregan con la consulta de nuestro médico, que revisa su caso antes de indicarlos. Si trae una receta de otro médico, puede pasar a consulta para valorarla o surtirla en la farmacia de su preferencia."
+        "question": "¿La clínica tiene farmacia?",
+        "answer": "No. Al terminar su consulta, el médico envía la receta de forma electrónica a la farmacia que usted prefiera, cerca de su casa o de su trabajo, y usted la recoge allí cuando le quede mejor."
       },
       {
-        "question": "¿Qué pasa si el medicamento que necesito no está disponible?",
-        "answer": "Se le entrega la receta para surtirla en la farmacia que prefiera y, cuando existe, se le sugiere la opción genérica. Puede preguntar por WhatsApp la disponibilidad de un producto antes de venir."
+        "question": "¿A qué farmacia pueden enviar mi receta?",
+        "answer": "A la que usted elija. Solo díganos en la consulta el nombre de la farmacia y la calle o la zona donde está; si no lo recuerda, lo buscamos con usted antes de enviarla."
       },
       {
         "question": "¿Me explican cómo tomar el medicamento?",
-        "answer": "Sí. Recibe las indicaciones por escrito y el personal le explica en español la dosis, el horario, si se toma con comida y qué efectos vigilar. Si tiene dudas después, puede llamar o escribir."
+        "answer": "Sí. Antes de salir recibe las indicaciones por escrito y el personal le explica en español la dosis, el horario, si se toma con comida y qué efectos vigilar. Si tiene dudas después, puede llamar o escribir."
+      },
+      {
+        "question": "¿Pueden enviar a la farmacia una receta de otro médico?",
+        "answer": "No. La clínica envía solo las recetas de sus propias consultas. Si quiere que revisemos un tratamiento que le indicó otro médico, puede pasar sin cita a consulta."
       }
     ],
     "faqsEn": [
       {
-        "question": "Will you give me medications if I bring a prescription from another doctor?",
-        "answer": "Clinic medications are provided with a visit to our provider, who reviews your case before indicating them. If you bring a prescription from another doctor, you can have a visit to evaluate it or fill it at the pharmacy you prefer."
+        "question": "Does the clinic have a pharmacy?",
+        "answer": "No. After your visit, the provider sends your prescription electronically to the pharmacy you prefer, near your home or your job, and you pick it up there whenever it suits you."
       },
       {
-        "question": "What if the medication I need is not available?",
-        "answer": "You are given the prescription to fill at the pharmacy you prefer and, when one exists, the generic option is suggested. You can ask on WhatsApp whether a product is available before you come."
+        "question": "Which pharmacy can my prescription be sent to?",
+        "answer": "Whichever one you choose. Just tell us during the visit the pharmacy's name and the street or area where it is; if you don't remember, we look it up with you before sending it."
       },
       {
         "question": "Do you explain how to take the medication?",
-        "answer": "Yes. You receive written instructions and staff explain in Spanish the dose, schedule, whether to take it with food and which effects to watch. If you have questions later, you can call or message."
+        "answer": "Yes. Before you leave you get written instructions and staff explain in Spanish the dose, schedule, whether to take it with food and which effects to watch. If you have questions later, you can call or message."
+      },
+      {
+        "question": "Can you send another doctor's prescription to the pharmacy?",
+        "answer": "No. The clinic sends only prescriptions from its own visits. If you want us to review a treatment another doctor gave you, you can walk in for a visit."
       }
     ]
   }

@@ -5,7 +5,7 @@ metaTitle: "Welcome to Clínica Corazón y Vida"
 relatedServices: ["examenes-sangre", "ginecologia", "examen-dot", "vacunas"]
 description: "How a visit to Clínica Hispana Corazón y Vida in Pasadena TX works: walking in without an appointment, what to bring, how self-pay works, which services exist and how follow-up happens."
 date: "2026-03-16"
-dateModified: "2026-09-15"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -19,7 +19,7 @@ keywords:
   - "walk-in clinic Pasadena"
 ---
 
-If this is the first time you are thinking of coming to Clínica Hispana Corazón y Vida, this guide walks you through a visit: from the moment you enter at 918 W Southmore Ave, Suite 180, until you leave with your diagnosis, your prescription or your results. No surprises, in your language.
+If this is the first time you are thinking of coming to Clínica Hispana Corazón y Vida, this guide walks you through a visit: from the moment you enter at 918 W Southmore Ave, Suite 180, until you leave with your diagnosis, your results and, if needed, a prescription sent to the pharmacy you prefer. No surprises, in your language.
 
 ## What is Clínica Hispana Corazón y Vida?
 
@@ -45,7 +45,7 @@ You do not need a Social Security number or proof of address to be seen.
 2. **Vital signs.** Blood pressure, pulse, weight and temperature.
 3. **Consultation.** The provider listens to your concern, examines you and explains the diagnosis in Spanish, without rushing.
 4. **Tests on site.** If lab work, ultrasound or an EKG is needed, it is done here; you are told the cost first.
-5. **Plan.** You leave with the prescription, written instructions and the date of your next follow-up.
+5. **Plan.** You leave with written instructions and the date of your next follow-up; if you need medication, the prescription is sent electronically to the pharmacy you choose.
 
 ## Which services will I find here?
 

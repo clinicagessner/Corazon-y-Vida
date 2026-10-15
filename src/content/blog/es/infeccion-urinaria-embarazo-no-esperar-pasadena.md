@@ -5,7 +5,7 @@ metaTitle: "Infección urinaria en el embarazo: por qué no esperar"
 relatedServices: ["infecciones-urinarias", "prueba-embarazo", "ginecologia", "examenes-sangre"]
 description: "Embarazada y con ardor al orinar en Pasadena: por qué el embarazo facilita la infección urinaria, cuándo ir a labor y parto y por qué no automedicarse."
 date: "2026-10-12"
-dateModified: "2026-10-12"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/infecciones-urinarias.webp"
 featured: false
@@ -64,11 +64,11 @@ Pregunte desde ahora a su obstetra a qué hospital debe ir si algo se complica; 
 
 ## Cómo es la consulta cuando está embarazada
 
-Al llegar, avise en recepción que está embarazada y de cuántas semanas. Si no está segura de estarlo y tiene un retraso, se hace primero una [prueba de embarazo](/services/prueba-embarazo), porque el resultado cambia las opciones de tratamiento. Luego viene la parte de orina: en la consulta de [infecciones urinarias](/services/infecciones-urinarias) se le pide una muestra de la mitad del chorro, se hace el examen de orina en la clínica y, si hay infección, sale con su tratamiento el mismo día, elegido por el equipo médico de la clínica entre los que son compatibles con su embarazo y con las semanas que lleva.
+Al llegar, avise en recepción que está embarazada y de cuántas semanas. Si no está segura de estarlo y tiene un retraso, se hace primero una [prueba de embarazo](/services/prueba-embarazo), porque el resultado cambia las opciones de tratamiento. Luego viene la parte de orina: en la consulta de [infecciones urinarias](/services/infecciones-urinarias) se le pide una muestra de la mitad del chorro, se hace el examen de orina en la clínica y, si hay infección, se le indica el tratamiento el mismo día, elegido por el equipo médico de la clínica entre los que son compatibles con su embarazo y con las semanas que lleva.
 
 En el embarazo casi siempre conviene enviar también un urocultivo, que forma parte de los [exámenes de laboratorio](/services/examenes-sangre) de la clínica. Ese resultado tarda unos días y sirve para confirmar que la bacteria responde al tratamiento elegido; si no es así, se le llama para ajustarlo. Después de terminar el tratamiento, es habitual repetir el urocultivo para comprobar que la orina quedó limpia: pregunte cuándo hacerlo.
 
-Los medicamentos indicados en la consulta se entregan en la clínica, de modo que no tiene que hacer otra parada con la barriga y el cansancio a cuestas.
+La [receta electrónica](/services/farmacia) se envía a la farmacia que usted elija, la que le quede más cerca, para que no tenga que desviarse con la barriga y el cansancio a cuestas.
 
 ## Su obstetra debe saberlo
 

@@ -5,7 +5,7 @@ metaTitle: "Bienvenidos a Clínica Corazón y Vida"
 relatedServices: ["examenes-sangre", "ginecologia", "examen-dot", "vacunas"]
 description: "Cómo funciona una visita a Clínica Hispana Corazón y Vida en Pasadena TX: llegar sin cita, qué traer, cómo se paga sin seguro, qué servicios hay y cómo seguir su caso."
 date: "2026-03-16"
-dateModified: "2026-09-15"
+dateModified: "2026-10-15"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/blog/welcome.webp"
 featured: false
@@ -19,7 +19,7 @@ keywords:
   - "clínica sin cita Pasadena"
 ---
 
-Si es la primera vez que piensa venir a Clínica Hispana Corazón y Vida, esta guía le cuenta, paso a paso, cómo es una visita: desde que entra por la puerta en 918 W Southmore Ave, Suite 180, hasta que sale con su diagnóstico, su receta o sus resultados. Sin sorpresas y en su idioma.
+Si es la primera vez que piensa venir a Clínica Hispana Corazón y Vida, esta guía le cuenta, paso a paso, cómo es una visita: desde que entra por la puerta en 918 W Southmore Ave, Suite 180, hasta que sale con su diagnóstico, sus resultados y, si hace falta, su receta enviada a la farmacia que prefiera. Sin sorpresas y en su idioma.
 
 ## ¿Qué es Clínica Hispana Corazón y Vida?
 
@@ -45,7 +45,7 @@ No necesita número de seguro social ni comprobante de domicilio para atenderse.
 2. **Signos vitales.** Presión, pulso, peso y temperatura.
 3. **Consulta.** El médico escucha su motivo, revisa y explica el diagnóstico en español, sin prisa.
 4. **Pruebas en el mismo lugar.** Si hacen falta análisis, ultrasonido o electrocardiograma, se hacen aquí; se le informa el costo antes.
-5. **Plan.** Sale con la receta, las indicaciones por escrito y la fecha de su siguiente control.
+5. **Plan.** Sale con las indicaciones por escrito y la fecha de su siguiente control; si necesita medicamento, la receta se envía de forma electrónica a la farmacia que usted elija.
 
 ## ¿Qué servicios encuentro aquí?
 
