@@ -37,18 +37,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-10-13
 
-## Tanda 24 — cambios del 2026-10-15 (receta electrónica (sin farmacia))  📨 ENVIADA 16/10/2026
+## Tanda 24 — cambios del 2026-10-15 (receta electrónica (sin farmacia))  ✅ PEDIDA 16/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-15
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-15
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-10-15
 
 ## Tanda 25
 
