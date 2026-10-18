@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 21 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-19).
 <!-- /tandas:auto -->
 
-## Tanda 14 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (2))  📨 ENVIADA 18/10/2026
+## Tanda 14 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (2))  ✅ PEDIDA 18/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-13
-- [ ] https://www.clinicahispanacorazonyvida.com/blog  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-10-13
+- [x] https://www.clinicahispanacorazonyvida.com/blog  — cambiada 2026-10-13
 
 ## Tanda 15 — cambios del 2026-10-13 (inmigración retirada y consulta gratis (3))
 
