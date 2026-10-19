@@ -14,6 +14,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 <!-- /tandas:auto -->
 
 ## Tanda 19 — cambios del 2026-10-13 (inmigración restaurada con aviso de llamar)  📨 ENVIADA 19/10/2026
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/primer-ultrasonido-embarazo-cuando-que-se-ve  — post nuevo 2026-10-19 (blog semanal)
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/primer-ultrasonido-embarazo-cuando-que-se-ve  — post nuevo 2026-10-19 (blog semanal)
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-10-13
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-10-13
@@ -22,6 +24,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-10-12 · desconocida · pedida 2026-09-15 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · desconocida · pedida 2026-09-23 · 0 impr.
+
+## Tanda 29 — cambios del 2026-10-19 (devueltas de la tanda enviada el 19/10 para dejar sitio al post nuevo)
+
 - [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 
