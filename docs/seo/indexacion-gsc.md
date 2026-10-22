@@ -13,17 +13,17 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 32 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 34 — cambios del 2026-10-20 (revisión a fondo: servicios en español sin indexar y nunca pedidos (o hace más de 14 días))  📨 ENVIADA 21/10/2026
+## Tanda 34 — cambios del 2026-10-20 (revisión a fondo: servicios en español sin indexar y nunca pedidos (o hace más de 14 días))  ✅ PEDIDA 21/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-21 (título en inglés, análisis diario)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-21 (título en inglés, análisis diario)
+- [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/tiroides  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
 
 ## Tanda 35
 
