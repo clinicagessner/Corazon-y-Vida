@@ -6,26 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-21; URL Inspection API, datos de hoy 2026-10-21):** 34 de 90 URLs del sitemap indexadas · 56 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar).
+**Estado (actualizado 2026-10-22; URL Inspection API, datos ANTIGUOS del 2026-10-21: antiguos (2026-10-21): --sin-fetch):** 34 de 90 URLs del sitemap indexadas · 56 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 16 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 6 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-32 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
+40 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 34 — cambios del 2026-10-20 (revisión a fondo: servicios en español sin indexar y nunca pedidos (o hace más de 14 días))  ✅ PEDIDA 21/10/2026
-
-- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-21 (título en inglés, análisis diario)
-- [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [x] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [x] https://www.clinicahispanacorazonyvida.com/services/tiroides  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [x] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [x] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-- [x] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
-
-## Tanda 35
+## Tanda 35 📨 ENVIADA 22/10/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
@@ -157,3 +145,15 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — cambiada 2026-10-04 · desconocida · pedida 2026-10-06 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+
+## Tanda 34 — cambios del 2026-10-20 (revisión a fondo: servicios en español sin indexar y nunca pedidos (o hace más de 14 días))  ✅ PEDIDA 21/10/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-10-21 (título en inglés, análisis diario)
+- [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/tiroides  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
+- [x] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — sin indexar; prioridad de la revisión a fondo 2026-10-20 (no es un cambio de texto)
