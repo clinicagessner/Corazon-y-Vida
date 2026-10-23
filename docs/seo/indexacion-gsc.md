@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 40 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 35 📨 ENVIADA 22/10/2026
+## Tanda 35 ✅ PEDIDA 22/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos  — cambiada 2026-10-04 · desconocida · pedida 2026-10-05 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/drenaje-abscesos  — cambiada 2026-10-04 · desconocida · pedida 2026-10-05 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 
 ## Tanda 36
 
