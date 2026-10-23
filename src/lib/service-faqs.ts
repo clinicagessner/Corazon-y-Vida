@@ -223,7 +223,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Qué métodos anticonceptivos puedo empezar en la clínica?",
-        "answer": "Las pastillas anticonceptivas y la inyección trimestral se inician aquí el mismo día. Para implante o dispositivo intrauterino le damos la orientación y la referencia al centro que los coloca."
+        "answer": "Las pastillas anticonceptivas y la inyección trimestral se inician aquí el mismo día. Sobre el implante o el dispositivo intrauterino también le damos orientación."
       },
       {
         "question": "¿Necesito un Papanicolaou antes de empezar anticonceptivos?",
@@ -237,7 +237,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "Which contraceptive methods can I start at the clinic?",
-        "answer": "Birth control pills and the quarterly injection are started here the same day. For the implant or an intrauterine device we provide guidance and a referral to the center that places them."
+        "answer": "Birth control pills and the quarterly injection are started here the same day. For the implant or an intrauterine device we also provide guidance."
       },
       {
         "question": "Do I need a Pap test before starting contraception?",
@@ -287,7 +287,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Un PSA alto significa que tengo cáncer de próstata?",
-        "answer": "No necesariamente. El PSA también sube con el crecimiento benigno de la próstata, la infección o el ejercicio reciente. Se repite y se valora con la edad; si persiste alto, se refiere al urólogo."
+        "answer": "No necesariamente. El PSA también sube con el crecimiento benigno de la próstata, la infección o el ejercicio reciente. Se repite y se valora con la edad."
       },
       {
         "question": "¿Puedo pedir solo una prueba en lugar del chequeo completo?",
@@ -301,7 +301,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Does a high PSA mean I have prostate cancer?",
-        "answer": "Not necessarily. PSA also rises with benign prostate growth, infection or recent exercise. It is repeated and weighed against your age; if it stays high, you are referred to a urologist."
+        "answer": "Not necessarily. PSA also rises with benign prostate growth, infection or recent exercise. It is repeated and weighed against your age."
       },
       {
         "question": "Can I ask for a single test instead of the full checkup?",
