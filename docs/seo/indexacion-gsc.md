@@ -6,23 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-23; URL Inspection API, datos ANTIGUOS del 2026-10-21: antiguos (2026-10-21): --sin-fetch):** 34 de 90 URLs del sitemap indexadas · 56 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar).
+**Estado (actualizado 2026-10-24; URL Inspection API, datos ANTIGUOS del 2026-10-21: antiguos (2026-10-21): --sin-fetch):** 34 de 90 URLs del sitemap indexadas · 56 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-47 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
+53 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-25).
 <!-- /tandas:auto -->
 
-## Tanda 36 ✅ PEDIDA 24/10/2026
-
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · desconocida · pedida 2026-10-05 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
-
-## Tanda 37 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología))
+## Tanda 37 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 24/10/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23
 - [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23
@@ -163,3 +154,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+
+## Tanda 36 ✅ PEDIDA 24/10/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · desconocida · pedida 2026-10-05 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
