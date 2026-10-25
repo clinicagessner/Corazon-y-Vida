@@ -13,14 +13,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
 <!-- /tandas:auto -->
 
-## Tanda 37 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) 📨 ENVIADA 25/10/2026 (aplazada del 24/10 por el usuario)
+## Tanda 37 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · rastreada sin indexar · pedida 2026-10-11 · 6 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · rastreada sin indexar · pedida 2026-10-11 · 6 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
