@@ -6,21 +6,13 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-25; URL Inspection API, datos ANTIGUOS del 2026-10-21: antiguos (2026-10-21): --sin-fetch):** 34 de 90 URLs del sitemap indexadas · 56 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar).
+**Estado (actualizado 2026-10-26; URL Inspection API, datos de hoy 2026-10-26):** 34 de 90 URLs del sitemap indexadas · 56 sin indexar (32 desconocida · 22 descubierta sin indexar · 2 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
+56 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-27).
+Nada pendiente: todas las URLs están indexadas y Google ya rastreó los cambios.
 <!-- /tandas:auto -->
-
-## Tanda 37 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
-
-- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23
-- [x] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · rastreada sin indexar · pedida 2026-10-11 · 6 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -166,3 +158,12 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-09-23 · 0 impr.
+
+## Tanda 37 — cambios del 2026-10-23 (regla Ads = referencia (urología/ginecología)) ✅ PEDIDA 25/10/2026 (aplazada del 24/10 por el usuario)
+
+- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-09-16 · rastreada 2026-07-07 · rastreada sin indexar · pedida 2026-10-11 · 6 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-11 · 0 impr.
