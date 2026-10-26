@@ -21,6 +21,11 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 
 ## Historial (tandas pedidas)
 
+## Tanda 38 — cambios del 2026-10-26 (post del blog semanal)  📨 ENVIADA 26/10/2026
+
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-10-26
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-10-26
+
 ## Tanda 1 — cambios del 2026-10-04 (título de la home, urinarias, suturas, abscesos, estacionamiento): se puede pedir HOY  ✅ PEDIDA 05/10/2026
 
 - [x] https://www.clinicahispanacorazonyvida.com  — no estaba en las tandas
