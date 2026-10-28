@@ -13,10 +13,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 55 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
 <!-- /tandas:auto -->
 
-## Tanda 39 📨 ENVIADA 27/10/2026
-- [ ] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-12 · rastreada 2026-08-11 · rastreada sin indexar · pedida 2026-10-13 · 17 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
+## Tanda 39 ✅ PEDIDA 28/10/2026
+- [x] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-12 · rastreada 2026-08-11 · rastreada sin indexar · pedida 2026-10-13 · 17 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
