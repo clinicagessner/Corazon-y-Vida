@@ -6,17 +6,13 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-10-27; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 34 de 92 URLs del sitemap indexadas · 58 sin indexar (32 desconocida · 22 descubierta sin indexar · 2 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-10-28; URL Inspection API, datos ANTIGUOS del 2026-10-26: antiguos (2026-10-26): --sin-fetch):** 34 de 92 URLs del sitemap indexadas · 58 sin indexar (32 desconocida · 22 descubierta sin indexar · 2 rastreada sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-55 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
+58 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-10-30).
+Nada pendiente: todas las URLs están indexadas y Google ya rastreó los cambios.
 <!-- /tandas:auto -->
-
-## Tanda 39 ✅ PEDIDA 28/10/2026
-- [x] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-12 · rastreada 2026-08-11 · rastreada sin indexar · pedida 2026-10-13 · 17 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -176,3 +172,9 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 
 - [x] https://www.clinicahispanacorazonyvida.com/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-10-26
 - [x] https://www.clinicahispanacorazonyvida.com/en/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-10-26
+
+## Tanda 39 ✅ PEDIDA 28/10/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services  — cambiada 2026-10-12 · rastreada 2026-08-11 · rastreada sin indexar · pedida 2026-10-13 · 17 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-12 · desconocida · pedida 2026-10-13 · 0 impr.
