@@ -13,16 +13,16 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 50 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-01).
 <!-- /tandas:auto -->
 
-## Tanda 40  📨 ENVIADA 30/10/2026
+## Tanda 40  ✅ PEDIDA 30/10/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-10-15 · desconocida · pedida 2026-10-16 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-16 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
