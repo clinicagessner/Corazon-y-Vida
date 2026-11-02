@@ -15,6 +15,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 41  📨 ENVIADA 02/11/2026
 
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · post del blog semanal
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · post del blog semanal
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-10-18 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-12 · desconocida · pedida 2026-10-18 · 0 impr.
@@ -26,8 +28,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 42
 
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · sin datos de inspección · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · sin datos de inspección · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
