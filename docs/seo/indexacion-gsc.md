@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 47 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-03).
 <!-- /tandas:auto -->
 
-## Tanda 41  📨 ENVIADA 02/11/2026
+## Tanda 41  ✅ PEDIDA 02/11/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · post del blog semanal
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · post del blog semanal
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-10-18 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-12 · desconocida · pedida 2026-10-18 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · post del blog semanal
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · post del blog semanal
+- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-18 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-10-18 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-12 · desconocida · pedida 2026-10-18 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-10-19 · 0 impr.
 
 ## Tanda 42
 
