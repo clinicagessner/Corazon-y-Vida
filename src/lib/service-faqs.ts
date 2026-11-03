@@ -673,7 +673,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Puedo recibir un suero vitaminado sin consulta médica?",
-        "answer": "No. Antes de aplicarlo el médico revisa su historial, medicamentos, alergias y signos vitales para elegir el suero y la dosis adecuados y descartar condiciones en las que no conviene."
+        "answer": "No. Antes de aplicarlo el médico revisa su historial, medicamentos, alergias y signos vitales para confirmar que el suero es adecuado, fijar la dosis y descartar condiciones en las que no conviene."
       },
       {
         "question": "¿Cuánto tarda la aplicación del suero?",
@@ -681,13 +681,13 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿El suero vitaminado cura el cansancio?",
-        "answer": "Alivia la deshidratación y repone vitaminas, pero no trata la causa de un cansancio persistente. Si dura semanas, conviene un análisis de sangre para revisar tiroides, anemia, azúcar y B12."
+        "answer": "Repone la vitamina B12, pero no trata la causa de un cansancio persistente. Si dura semanas, conviene un análisis de sangre para revisar tiroides, anemia, azúcar y B12."
       }
     ],
     "faqsEn": [
       {
         "question": "Can I get an IV vitamin drip without a medical consultation?",
-        "answer": "No. Before giving it, the provider reviews your history, medications, allergies and vital signs to choose the right drip and dose and rule out conditions where it is not advisable."
+        "answer": "No. Before giving it, the provider reviews your history, medications, allergies and vital signs to confirm the drip is right for you, set the dose and rule out conditions where it is not advisable."
       },
       {
         "question": "How long does the infusion take?",
@@ -695,7 +695,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Does an IV vitamin drip cure fatigue?",
-        "answer": "It relieves dehydration and replaces vitamins, but it does not treat the cause of persistent fatigue. If it lasts weeks, a blood test to check thyroid, anemia, sugar and B12 is advisable."
+        "answer": "It replaces vitamin B12, but it does not treat the cause of persistent fatigue. If it lasts weeks, a blood test to check thyroid, anemia, sugar and B12 is advisable."
       }
     ]
   },

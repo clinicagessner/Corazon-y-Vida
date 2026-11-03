@@ -60,7 +60,7 @@ Beef, liver, chicken, fish, eggs, milk and cheese. Fortified cereals and plant m
 |---|---|
 | Pills or drops | Mild deficiency with good absorption, or prevention on a vegetarian diet |
 | Intramuscular injection | Confirmed deficiency, neurological symptoms, absorption problems, or when a fast replacement is needed |
-| IV vitamin drip with B12 | When the provider decides to combine it with other nutrients and hydration after reviewing your test |
+| Vitamin B12 IV drip | When the provider decides to give it through a vein after reviewing your test |
 
 The injection bypasses the stomach, which is why it works even with absorption problems. It is not an energy booster for everyone: if your level is normal, it adds no benefit, and the money is better spent finding the real cause of the fatigue.
 

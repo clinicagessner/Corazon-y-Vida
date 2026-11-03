@@ -61,7 +61,7 @@ Carne de res, hígado, pollo, pescado, huevo, leche y queso. Los cereales y las 
 |---|---|
 | Pastillas o gotas | Deficiencia leve con buena absorción, o prevención en dietas vegetarianas |
 | Inyección intramuscular | Deficiencia confirmada, síntomas neurológicos, problemas de absorción o cuando se quiere reponer rápido |
-| Suero vitaminado con B12 | Cuando el médico decide combinarla con otros nutrientes e hidratación, tras revisar su análisis |
+| Suero vitaminado de B12 | Cuando el médico decide aplicarla por vena, tras revisar su análisis |
 
 La inyección salta el estómago, por eso funciona aunque haya problemas de absorción. No es un energizante para cualquiera: si su nivel es normal, no aporta beneficio y el dinero está mejor invertido en buscar la causa real del cansancio.
 
