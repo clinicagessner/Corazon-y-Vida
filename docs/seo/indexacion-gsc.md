@@ -20,7 +20,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-02
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-02
 
-## Tanda 44
+## Tanda 45 — cambios del 2026-11-02 (anuncios = referencia)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-02
+- [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-02
+
+## Tanda 46
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
