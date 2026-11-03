@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 46 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-04).
 <!-- /tandas:auto -->
 
-## Tanda 43 — cambios del 2026-11-02 (sueros solo B12 (orden de red))  📨 ENVIADA 03/11/2026
+## Tanda 43 — cambios del 2026-11-02 (sueros solo B12 (orden de red))  ✅ PEDIDA 03/11/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-11-02
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-02
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-02
-- [ ] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-02
-- [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-02
-- [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — cambiada 2026-09-16 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-02
+- [x] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — cambiada 2026-09-16 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
 
 ## Tanda 46
 
