@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 46 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-05).
 <!-- /tandas:auto -->
 
-## Tanda 44  📨 ENVIADA 04/11/2026
+## Tanda 44  📨 ENVIADA 04/11/2026  ✅ PEDIDA 05/11/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — cambiada 2026-10-04 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — cambiada 2026-10-04 · desconocida · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — cambiada 2026-10-04 · desconocida · pedida 2026-10-21 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-10-21 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — cambiada 2026-10-04 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — cambiada 2026-10-04 · desconocida · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-20 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/suturas-heridas  — cambiada 2026-10-04 · desconocida · pedida 2026-10-21 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-10-21 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-21 · 0 impr.
 
 ## Tanda 45
 
