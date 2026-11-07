@@ -1,9 +1,9 @@
 ---
 slug: "electrocardiograma-que-es-como-se-hace-cuando-se-pide"
 title: "Electrocardiograma: qué es, cómo se hace y cuándo se pide"
-metaTitle: "Electrocardiograma (EKG): qué es y cuándo se pide"
+metaTitle: "Electrocardiograma (EKG): qué es y si se hace en ayunas"
 relatedServices: ["electrocardiograma", "condiciones-cronicas", "salud-hombre", "examen-fisico-escolar"]
-description: "Qué registra un electrocardiograma (EKG), cómo es el estudio paso a paso, por qué motivos se pide, qué no puede detectar y cómo prepararse en Pasadena."
+description: "¿El electrocardiograma se hace en ayunas? No hace falta ayuno. Qué registra un EKG, cómo es el estudio paso a paso y por qué se pide, en Pasadena."
 date: "2026-10-26"
 dateModified: "2026-10-26"
 author: "Clínica Hispana Corazón y Vida"
