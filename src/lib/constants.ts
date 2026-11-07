@@ -287,7 +287,7 @@ export const SERVICES: Service[] = [
     "category": "salud-mujer",
     "keywords": [
       "ginecologia en pasadena",
-      "ginecologo pasadena español",
+      "clinica para la mujer pasadena",
       "papanicolaou pasadena",
       "cultivo vaginal pasadena",
       "infeccion vaginal tratamiento pasadena"
