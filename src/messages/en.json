@@ -208,7 +208,7 @@
   "chronicCare": {
     "badge": "Ongoing Care",
     "title": "Diabetes & Hypertension Management in Pasadena",
-    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. Same-day lab results, medication adjustments, and patient education in Spanish.",
+    "subtitle": "Comprehensive monitoring and treatment program for diabetes, hypertension, high cholesterol, and thyroid conditions. On-site lab, medication adjustments, and patient education in Spanish.",
     "conditionsTitle": "Conditions we manage",
     "conditions": {
       "diabetes": "Diabetes",
@@ -218,7 +218,7 @@
     },
     "featuresTitle": "Why manage it with us?",
     "features": {
-      "lab": "Same-day lab results",
+      "lab": "On-site laboratory",
       "followup": "Continuous medical follow-up",
       "spanish": "100% Spanish-speaking care",
       "walkin": "No appointment needed"

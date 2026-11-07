@@ -1,6 +1,6 @@
 ---
 slug: "laboratorio-clinico-houston-analisis-sangre"
-title: "Clinical Laboratory in Pasadena: Blood Tests with Same-Day Results"
+title: "Clinical Laboratory in Pasadena: Blood Tests with Fast Results"
 metaTitle: "Clinical Laboratory in Pasadena: Blood Tests"
 relatedServices: ["examenes-sangre", "examen-heces", "enfermedades-transmision-sexual", "tiroides"]
 description: "Which blood and urine tests we run in Pasadena TX, how to prepare (fasting, water, medications), what the most common results mean and when to order them."
@@ -14,7 +14,7 @@ readTime: 5
 keywords:
   - "clinical laboratory Pasadena"
   - "blood test Pasadena"
-  - "same day lab results Pasadena"
+  - "walk-in lab Pasadena"
   - "blood work Pasadena TX"
   - "affordable lab tests Pasadena"
 ---

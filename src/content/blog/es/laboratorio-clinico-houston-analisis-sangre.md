@@ -16,7 +16,7 @@ keywords:
   - "análisis sangre Pasadena"
   - "prueba glucosa Pasadena TX"
   - "examen colesterol Pasadena"
-  - "resultados mismo día Pasadena"
+  - "laboratorio sin cita Pasadena"
 ---
 
 Un análisis de sangre responde en minutos preguntas que los síntomas tardan meses en mostrar: si el azúcar está alto, si el colesterol daña las arterias, si la tiroides trabaja bien o si una infección explica el cansancio. En el laboratorio de Clínica Hispana Corazón y Vida, en Pasadena, tomamos la muestra sin cita y explicamos el resultado en español.
