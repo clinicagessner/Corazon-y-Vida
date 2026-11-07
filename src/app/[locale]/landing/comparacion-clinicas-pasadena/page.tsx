@@ -104,7 +104,7 @@ const copy = {
       },
       {
         q: "¿Tienen laboratorio en la clínica?",
-        a: "Sí, contamos con laboratorio clínico en sitio. La mayoría de pruebas (glucosa, colesterol, A1C, tiroides, embarazo) tienen resultados el mismo día.",
+        a: "Sí, contamos con laboratorio clínico en sitio. Tomamos la muestra aquí (glucosa, colesterol, A1C, tiroides, embarazo) y le explicamos los resultados en español cuando están listos.",
       },
       {
         q: "¿Dónde están ubicados?",
@@ -182,7 +182,7 @@ const copy = {
       },
       {
         q: "Do you have a laboratory on-site?",
-        a: "Yes, we have an on-site clinical laboratory. Most tests (glucose, cholesterol, A1C, thyroid, pregnancy) have same-day results.",
+        a: "Yes, we have an on-site clinical laboratory. We take the sample here (glucose, cholesterol, A1C, thyroid, pregnancy) and explain the results in Spanish when they are ready.",
       },
       {
         q: "Where are you located?",
