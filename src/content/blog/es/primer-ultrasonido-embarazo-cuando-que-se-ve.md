@@ -3,7 +3,7 @@ slug: "primer-ultrasonido-embarazo-cuando-que-se-ve"
 title: "Primer ultrasonido del embarazo: cuándo y qué se ve"
 metaTitle: "Primer ultrasonido de embarazo: cuántas semanas y qué se ve"
 relatedServices: ["ultrasonido", "prueba-embarazo", "ginecologia", "condiciones-cronicas"]
-description: "¿A las cuántas semanas se hace el primer ultrasonido de embarazo? Qué suele verse de la semana 5 a la 9, por qué a veces aún no se ve el latido y cómo es en Pasadena."
+description: "¿A las cuántas semanas se hace el primer ultrasonido de embarazo? Qué suele verse de la semana 5 a la 9 y por qué a veces aún no se ve el latido."
 date: "2026-10-19"
 dateModified: "2026-10-19"
 author: "Clínica Hispana Corazón y Vida"
