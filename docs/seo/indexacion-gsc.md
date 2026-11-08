@@ -6,28 +6,19 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-07; URL Inspection API, datos de hoy 2026-11-07):** 39 de 94 URLs del sitemap indexadas · 55 sin indexar (43 descubierta sin indexar · 11 desconocida · 1 rastreada sin indexar).
+**Estado (actualizado 2026-11-08; URL Inspection API, datos ANTIGUOS del 2026-11-07: antiguos (2026-11-07): --sin-fetch):** 39 de 94 URLs del sitemap indexadas · 55 sin indexar (43 descubierta sin indexar · 11 desconocida · 1 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 7 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-48 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-08).
+48 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-11).
 <!-- /tandas:auto -->
 
-## Tanda 46 — cambios del 2026-11-07 (análisis diario: laboratorio sin plazo de mismo día y títulos de 2 posts)  📨 ENVIADA 07/11/2026  ✅ PEDIDA 07/11/2026
+## Tanda 47  📨 ENVIADA 08/11/2026
 
-- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-07
-- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-07
-- [x] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-07
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-07
-- [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-11-07
-- [x] https://www.clinicahispanacorazonyvida.com/blog/primer-ultrasonido-embarazo-cuando-que-se-ve  — cambiada 2026-11-07 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 1042 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-07 · rastreada 2026-10-26 · indexada · pedida 2026-10-26 · 516 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-11-07 · desconocida · pedida 2026-10-25 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
-
-## Tanda 47
-
+- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-10-24 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
@@ -259,3 +250,16 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-22 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · desconocida · pedida 2026-10-22 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-10-22 · 0 impr.
+
+## Tanda 46 — cambios del 2026-11-07 (análisis diario: laboratorio sin plazo de mismo día y títulos de 2 posts)  📨 ENVIADA 07/11/2026  ✅ PEDIDA 07/11/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-07
+- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-07
+- [x] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-07
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-07
+- [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-11-07
+- [x] https://www.clinicahispanacorazonyvida.com/blog/primer-ultrasonido-embarazo-cuando-que-se-ve  — cambiada 2026-11-07 · rastreada 2026-10-19 · indexada · pedida 2026-10-19 · 1042 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-07 · rastreada 2026-10-26 · indexada · pedida 2026-10-26 · 516 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-11-07 · desconocida · pedida 2026-10-25 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
