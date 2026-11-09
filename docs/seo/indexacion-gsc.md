@@ -13,15 +13,15 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 48 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-11).
 <!-- /tandas:auto -->
 
-## Tanda 47  📨 ENVIADA 08/11/2026
+## Tanda 47  📨 ENVIADA 08/11/2026  ✅ PEDIDA 08/11/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-10-24 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-10-25 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-10-24 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
