@@ -21,6 +21,11 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 
 ## Historial (tandas pedidas)
 
+## Tanda 48 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026
+
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
+
 ## Tanda 1 — cambios del 2026-10-04 (título de la home, urinarias, suturas, abscesos, estacionamiento): se puede pedir HOY  ✅ PEDIDA 05/10/2026
 
 - [x] https://www.clinicahispanacorazonyvida.com  — no estaba en las tandas
