@@ -6,13 +6,22 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-09; URL Inspection API, datos de hoy 2026-11-09):** 39 de 94 URLs del sitemap indexadas · 55 sin indexar (31 desconocida · 23 descubierta sin indexar · 1 rastreada sin indexar).
+**Estado (actualizado 2026-11-10; URL Inspection API, datos ANTIGUOS del 2026-11-09: antiguos (2026-11-09): --sin-fetch):** 39 de 96 URLs del sitemap indexadas · 57 sin indexar (31 desconocida · 23 descubierta sin indexar · 2 sin datos · 1 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 55 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-11).
-Nada pendiente: todas las URLs están indexadas y Google ya rastreó los cambios.
 <!-- /tandas:auto -->
+
+## Tanda 48 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026
+
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
+
+## Tanda 49 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)
+
+- [ ] https://www.clinicahispanacorazonyvida.com  — cambiada 2026-11-10
+- [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-10
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -20,11 +29,6 @@ Nada pendiente: todas las URLs están indexadas y Google ya rastreó los cambios
 poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día por propiedad.
 
 ## Historial (tandas pedidas)
-
-## Tanda 48 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026
-
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
 
 ## Tanda 1 — cambios del 2026-10-04 (título de la home, urinarias, suturas, abscesos, estacionamiento): se puede pedir HOY  ✅ PEDIDA 05/10/2026
 
