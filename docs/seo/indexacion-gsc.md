@@ -10,15 +10,10 @@ Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvid
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 0 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-55 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-11).
+57 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-11).
 <!-- /tandas:auto -->
 
-## Tanda 48 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026  ✅ PEDIDA 10/11/2026
-
-- [x] https://www.clinicahispanacorazonyvida.com/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
-
-## Tanda 49 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)
+## Tanda 49 — cambios del 2026-11-10 (quitar superlativos aprobados 2026-11-09)  📨 ENVIADA 10/11/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com  — cambiada 2026-11-10
 - [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-10
@@ -273,3 +268,8 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-09-15 · desconocida · pedida 2026-10-24 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-10-24 · 0 impr.
+
+## Tanda 48 — cambios del 2026-11-09 (post del blog semanal)  📨 ENVIADA 09/11/2026  ✅ PEDIDA 10/11/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09
