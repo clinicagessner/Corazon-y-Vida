@@ -24,6 +24,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-30 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-10-15 · descubierta sin indexar · pedida 2026-10-30 · 0 impr.
 
+## Tanda 51 — cambios del 2026-11-14 (YouTube en el footer de toda la web)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/es  — cambiada 2026-11-14
+
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
 **Ronda 2 (preparada 2026-09-25) — NO PEDIR ANTES DEL 2026-10-07.** Las tandas 2-7 de la ronda 1 se pidieron hasta el 23-sep y Google tarda 1-2 semanas en procesarlas: repetirlas antes gasta cupo sin acelerar nada. Diagnóstico 2026-09-25: los 29 servicios (es+en) siguen sin rastrear (`lastCrawlTime` vacío) pero técnicamente están bien (200, `index, follow`, canónica propia, en el sitemap). El 7-oct, volver a bajar el estado y quitar de aquí lo que ya esté indexado. La ronda 1 (7 tandas, 69 URLs, 15-23 sep) está en `indexacion-gsc-ronda1-2026-09.md`; esta solo lleva lo que Google sigue sin indexar. **Este archivo es la fuente de verdad del progreso.** Al pedir una tanda, marcar sus casillas y
