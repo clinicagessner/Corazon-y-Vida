@@ -13,13 +13,13 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 52 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-16).
 <!-- /tandas:auto -->
 
-## Tanda 52 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir; cuota superada en el reintento: quedan 5)  📨 ENVIADA 15/11/2026
+## Tanda 52 — cambios del 2026-11-15 (error de GSC al pedirlas el 14/11: repetir; cuota superada en el reintento: quedan 5)  📨 ENVIADA 15/11/2026  ✅ PEDIDA 15/11/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-11-15
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-11-15
-- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-11-15
-- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-11-15
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-11-15
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-11-15
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-11-15
+- [x] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-11-15
+- [x] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-11-15
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-11-15
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
