@@ -13,23 +13,30 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 46 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-17).
 <!-- /tandas:auto -->
 
-## Tanda 53  📨 ENVIADA 16/11/2026
+## Tanda 53  📨 ENVIADA 16/11/2026  ✅ PEDIDA 16/11/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/prueba-embarazo-cuando-hacerla-negativa-que-sigue  — cambiada 2026-11-16 (post del blog semanal)
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/prueba-embarazo-cuando-hacerla-negativa-que-sigue  — cambiada 2026-11-16 (post del blog semanal)
-- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-10-12 · rastreada 2026-07-07 · rastreada sin indexar · pedida 2026-10-13 · 7 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · rastreada 2026-11-02 · rastreada sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/blog/prueba-embarazo-cuando-hacerla-negativa-que-sigue  — cambiada 2026-11-16 (post del blog semanal)
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/prueba-embarazo-cuando-hacerla-negativa-que-sigue  — cambiada 2026-11-16 (post del blog semanal)
+- [x] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-10-12 · rastreada 2026-07-07 · rastreada sin indexar · pedida 2026-10-13 · 7 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · rastreada 2026-11-02 · rastreada sin indexar · pedida 2026-11-02 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
 
 ## Tanda 54 — cambios del 2026-11-16 (devueltas de la tanda enviada el 16/11/2026 para dejar sitio al post nuevo)
 
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-11-16
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-11-16
+
+## Tanda 55 — cambios del 2026-11-17 (cuota superada el 16/11)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-11-17
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-11-17
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-11-17
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-17
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
