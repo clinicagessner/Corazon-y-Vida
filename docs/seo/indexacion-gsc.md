@@ -15,6 +15,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 53  📨 ENVIADA 16/11/2026
 
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/prueba-embarazo-cuando-hacerla-negativa-que-sigue  — cambiada 2026-11-16 (post del blog semanal)
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/prueba-embarazo-cuando-hacerla-negativa-que-sigue  — cambiada 2026-11-16 (post del blog semanal)
 - [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-tuberculosis  — cambiada 2026-10-12 · rastreada 2026-07-07 · rastreada sin indexar · pedida 2026-10-13 · 7 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · rastreada 2026-11-02 · rastreada sin indexar · pedida 2026-11-02 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
@@ -23,8 +25,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-02 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-10-12 · desconocida · pedida 2026-11-02 · 0 impr.
+
+## Tanda 54 — cambios del 2026-11-16 (devueltas de la tanda enviada el 16/11/2026 para dejar sitio al post nuevo)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-11-16
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-11-16
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
