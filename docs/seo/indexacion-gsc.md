@@ -13,18 +13,18 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 46 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-18).
 <!-- /tandas:auto -->
 
-## Tanda 55 — cambios del 2026-11-17 (cuota superada el 16/11)  📨 ENVIADA 17/11/2026
+## Tanda 55 — cambios del 2026-11-17 (cuota superada el 16/11)  📨 ENVIADA 17/11/2026  ✅ PEDIDA 17/11/2026
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-11-17
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-11-17
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-11-17
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-17
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-11-16
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-11-16
-- [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-11-03 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-11-03 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — cambiada 2026-09-16 · descubierta sin indexar · pedida 2026-11-03 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-11-03 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-11-17
+- [x] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-11-17
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-11-17
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-17
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-11-16
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-11-16
+- [x] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-11-03 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-11-03 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — cambiada 2026-09-16 · descubierta sin indexar · pedida 2026-11-03 · 0 impr.
+- [x] https://www.clinicahispanacorazonyvida.com/services/curacion-heridas  — cambiada 2026-09-15 · desconocida · pedida 2026-11-03 · 0 impr.
 
 ## Tanda 56
 
