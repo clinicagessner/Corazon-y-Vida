@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-18; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 40 de 98 URLs del sitemap indexadas · 58 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-19; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 40 de 98 URLs del sitemap indexadas · 58 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 11 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 1 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
 47 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-20).
 <!-- /tandas:auto -->
 
-## Tanda 56  📨 ENVIADA 18/11/2026
+## Tanda 56  📨 ENVIADA 19/11/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/services/drenaje-abscesos  — cambiada 2026-10-04 · desconocida · pedida 2026-11-04 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-transmision-sexual  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-04 · 0 impr.
