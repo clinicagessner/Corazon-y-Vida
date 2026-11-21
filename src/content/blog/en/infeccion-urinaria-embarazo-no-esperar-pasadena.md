@@ -64,7 +64,7 @@ Ask your OB now which hospital to use if something goes wrong; in the second hal
 
 ## What the visit looks like when you're expecting
 
-When you check in, tell the front desk you're pregnant and how many weeks along you are. If you're not sure and your period is late, a [pregnancy test](/services/prueba-embarazo) comes first, because the answer changes the treatment options. Then comes the urine part: at the [urinary infection visit](/services/infecciones-urinarias) you give a midstream sample, we do the urine test at the clinic, and if there is an infection, treatment is prescribed the same day, chosen by the clinic's medical team from the options that are safe for your pregnancy and for how far along you are.
+When you check in, tell the front desk you're pregnant and how many weeks along you are. If you're not sure and your period is late, a [pregnancy test](/services/prueba-embarazo) comes first, because the answer changes the treatment options. Then comes the urine part: at the [urinary infection visit](/services/infecciones-urinarias) you give a midstream sample, we do the urine test at the clinic, and if there is an infection, treatment is prescribed, chosen by the clinic's medical team from the options that are safe for your pregnancy and for how far along you are.
 
 During pregnancy it usually makes sense to send a urine culture as well, one of the clinic's [lab tests](/services/examenes-sangre). That result takes a few days and confirms the bacteria respond to the treatment chosen; if they don't, you'll get a call to adjust it. Once you finish treatment, a repeat culture to make sure the urine is clear is common, so ask when to come back for it.
 

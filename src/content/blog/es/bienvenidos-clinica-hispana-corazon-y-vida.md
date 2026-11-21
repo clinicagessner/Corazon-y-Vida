@@ -23,7 +23,7 @@ Si es la primera vez que piensa venir a Clínica Hispana Corazón y Vida, esta g
 
 ## ¿Qué es Clínica Hispana Corazón y Vida?
 
-Somos una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100 % en español, también en inglés. Abrimos los siete días de la semana: todos los días de 9 AM a 9 PM. No pedimos seguro médico; cada servicio tiene un precio directo que conoce antes de pasar con el médico.
+Somos una clínica médica familiar en Pasadena, Texas, que atiende sin cita previa y 100 % en español, también en inglés. Abrimos los siete días de la semana: todos los días de 9 AM a 9 PM. No pedimos seguro médico; cada servicio tiene un precio directo que conoce antes de pasar con el equipo médico.
 
 ## ¿Necesito cita?
 
@@ -43,7 +43,7 @@ No necesita número de seguro social ni comprobante de domicilio para atenderse.
 
 1. **Recepción.** Registra sus datos y le informamos el precio del servicio que busca.
 2. **Signos vitales.** Presión, pulso, peso y temperatura.
-3. **Consulta.** El médico escucha su motivo, revisa y explica el diagnóstico en español, sin prisa.
+3. **Consulta.** El equipo médico escucha su motivo, revisa y explica el diagnóstico en español, sin prisa.
 4. **Pruebas en el mismo lugar.** Si hacen falta análisis, ultrasonido o electrocardiograma, se hacen aquí; se le informa el costo antes.
 5. **Plan.** Sale con las indicaciones por escrito y la fecha de su siguiente control; si necesita medicamento, la receta se envía de forma electrónica a la farmacia que usted elija.
 
@@ -63,7 +63,7 @@ El precio se informa antes de la consulta y de cada prueba adicional. Se paga al
 
 ## ¿Qué pasa después de la visita?
 
-Si su caso requiere seguimiento, le damos la fecha del siguiente control y puede volver sin cita. Si necesita un especialista o un estudio que no hacemos, le indicamos a dónde ir y le entregamos su historial. Sus resultados y su información se manejan bajo las normas de privacidad HIPAA.
+Si su caso requiere seguimiento, le damos la fecha del siguiente control y puede volver sin cita. Si necesita un estudio que no hacemos, le indicamos a dónde ir y le entregamos su historial; y cuando el resultado lo requiere, le damos referencia al especialista. Sus resultados y su información se manejan bajo las normas de privacidad HIPAA.
 
 ## ¿Dónde estamos y cómo llego?
 

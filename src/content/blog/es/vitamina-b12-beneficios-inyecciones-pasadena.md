@@ -38,7 +38,7 @@ Los síntomas más frecuentes son:
 - Lengua roja o dolorida, llagas en la boca.
 - Problemas de equilibrio al caminar.
 
-La única forma de confirmarlo es una prueba de sangre. En general, un nivel por debajo de 200 pg/mL se considera deficiencia y entre 200 y 300 pg/mL es una zona límite que el médico interpreta con los síntomas y otros análisis, como el hemograma.
+La única forma de confirmarlo es una prueba de sangre. En general, un nivel por debajo de 200 pg/mL se considera deficiencia y entre 200 y 300 pg/mL es una zona límite que el equipo médico interpreta con los síntomas y otros análisis, como el hemograma.
 
 ## ¿Quién tiene más riesgo?
 
@@ -61,13 +61,13 @@ Carne de res, hígado, pollo, pescado, huevo, leche y queso. Los cereales y las 
 |---|---|
 | Pastillas o gotas | Deficiencia leve con buena absorción, o prevención en dietas vegetarianas |
 | Inyección intramuscular | Deficiencia confirmada, síntomas neurológicos, problemas de absorción o cuando se quiere reponer rápido |
-| Suero vitaminado de B12 | Cuando el médico decide aplicarla por vena, tras revisar su análisis |
+| Suero vitaminado de B12 | Cuando el equipo médico decide aplicarla por vena, tras revisar su análisis |
 
 La inyección salta el estómago, por eso funciona aunque haya problemas de absorción. No es un energizante para cualquiera: si su nivel es normal, no aporta beneficio y el dinero está mejor invertido en buscar la causa real del cansancio.
 
 ## ¿Cada cuánto se repone?
 
-Con deficiencia confirmada, el esquema habitual empieza con varias inyecciones cercanas en el tiempo y sigue con una dosis de mantenimiento, con frecuencia mensual, mientras persista la causa. El médico define el esquema según su nivel, sus síntomas y si la causa se puede corregir. Se repite el análisis a las semanas para comprobar la respuesta.
+Con deficiencia confirmada, el esquema habitual empieza con varias inyecciones cercanas en el tiempo y sigue con una dosis de mantenimiento, con frecuencia mensual, mientras persista la causa. El equipo médico define el esquema según su nivel, sus síntomas y si la causa se puede corregir. Se repite el análisis a las semanas para comprobar la respuesta.
 
 ## ¿Qué pasa en la visita en Pasadena?
 

@@ -20,11 +20,11 @@ keywords:
   - "tarjeta médica CDL Pasadena"
 ---
 
-Si maneja un camión, un autobús o cualquier vehículo comercial que cruce líneas estatales, la ley federal le pide una tarjeta médica vigente. En Clínica Hispana Corazón y Vida, en Pasadena, hacemos ese examen sin cita y en español. Esta guía explica, punto por punto, qué va a pasar en la consulta y cómo llegar preparado para salir con su certificado el mismo día.
+Si maneja un camión, un autobús o cualquier vehículo comercial que cruce líneas estatales, la ley federal le pide una tarjeta médica vigente. En Clínica Hispana Corazón y Vida, en Pasadena, hacemos ese examen sin cita y en español. Esta guía explica, punto por punto, qué va a pasar en la consulta y cómo llegar preparado para que la consulta sea rápida.
 
 ## ¿Para qué sirve el examen DOT?
 
-El examen físico DOT confirma que un conductor comercial puede manejar con seguridad. Lo exige la FMCSA (Administración Federal de Seguridad de Autotransportes) y solo puede firmarlo un examinador médico inscrito en su Registro Nacional. Al aprobarlo, el examinador emite el certificado médico (formulario MCSA-5876), que usted debe llevar consigo y entregar en copia al Departamento de Seguridad Pública de Texas (DPS) para mantener activa su licencia CDL.
+El examen físico DOT confirma que un conductor comercial puede manejar con seguridad. Lo exige la FMCSA (Administración Federal de Seguridad de Autotransportes). Al aprobarlo, el examinador emite el certificado médico (formulario MCSA-5876), que usted debe llevar consigo y entregar en copia al Departamento de Seguridad Pública de Texas (DPS) para mantener activa su licencia CDL.
 
 ## ¿Qué revisa el examinador en Pasadena?
 
@@ -78,7 +78,7 @@ El examen DOT se paga directo, sin seguro, en efectivo o con tarjeta. Llame al (
 
 **¿Puedo renovar aquí una tarjeta emitida en otra clínica?** Sí. Solo necesita cumplir los requisitos del día del examen.
 
-**¿El resultado es inmediato?** Si aprueba, sale con el certificado impreso en la misma visita.
+**¿Qué pasa si aprueba?** Sale con el certificado médico impreso.
 
 **¿Hacen la prueba de drogas DOT?** Ofrecemos [pruebas de alcohol y drogas](/services/examen-alcohol-drogas) por separado; confirme con su empleador qué panel le piden.
 

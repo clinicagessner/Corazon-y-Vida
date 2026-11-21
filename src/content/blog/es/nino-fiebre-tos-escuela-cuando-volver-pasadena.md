@@ -72,7 +72,7 @@ No todo resfriado necesita consulta, pero estas señales sí merecen que el equi
 - Un compañero de salón o un hermano con influenza o estreptococo confirmados.
 - Niños con asma, diabetes u otra condición crónica, en quienes una gripe se complica con más facilidad.
 
-No conviene esperar al fin de semana para traerlo: si resulta ser influenza, el antiviral ayuda más cuando el niño lo empieza en los primeros dos días de síntomas, y el hisopado nasal se analiza ahí mismo en unos minutos, mientras ustedes esperan.
+No conviene esperar al fin de semana para traerlo: si resulta ser influenza, el antiviral ayuda más cuando el niño lo empieza en los primeros dos días de síntomas, y el hisopado nasal se analiza ahí mismo, mientras ustedes esperan.
 
 ## Cuándo ir a urgencias o llamar al 911
 

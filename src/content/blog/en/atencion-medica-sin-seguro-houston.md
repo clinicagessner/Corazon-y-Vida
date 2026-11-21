@@ -34,7 +34,7 @@ Yes. Our clinic does not ask for insurance, a policy number or a referral. You p
 - [Vaccines](/services/vacunas), IV vitamin drips, wound care and minor surgery.
 - Treatment of urinary, respiratory and sexually transmitted infections.
 
-If your case needs a specialist or a study we do not perform here, we tell you plainly and point you in the right direction.
+If your case needs a study we do not perform here, we tell you plainly and point you in the right direction; and when results call for it, we give you a specialist referral.
 
 ## How do I know what I will pay?
 

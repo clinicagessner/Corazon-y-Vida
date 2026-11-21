@@ -19,7 +19,7 @@ keywords:
   - "laboratorio sin cita Pasadena"
 ---
 
-Un análisis de sangre responde en minutos preguntas que los síntomas tardan meses en mostrar: si el azúcar está alto, si el colesterol daña las arterias, si la tiroides trabaja bien o si una infección explica el cansancio. En el laboratorio de Clínica Hispana Corazón y Vida, en Pasadena, tomamos la muestra sin cita y explicamos el resultado en español.
+Un análisis de sangre responde preguntas que los síntomas tardan meses en mostrar: si el azúcar está alto, si el colesterol daña las arterias, si la tiroides trabaja bien o si una infección explica el cansancio. En el laboratorio de Clínica Hispana Corazón y Vida, en Pasadena, tomamos la muestra sin cita y explicamos el resultado en español.
 
 ## ¿Qué pruebas puedo hacerme?
 
@@ -43,11 +43,11 @@ Depende de la prueba:
 | Prueba | Ayuno |
 |---|---|
 | Glucosa en ayunas | Sí, 8 a 12 horas |
-| Perfil de lípidos | Preferible 9 a 12 horas; el médico puede pedirla sin ayuno |
+| Perfil de lípidos | Preferible 9 a 12 horas; el equipo médico puede pedirla sin ayuno |
 | A1c, tiroides, CBC, PSA, infecciones | No hace falta |
 | Orina | No; traiga la primera orina de la mañana si es posible |
 
-Durante el ayuno puede beber agua. Tome sus medicamentos como siempre salvo que el médico indique lo contrario, y díganos qué toma, porque algunos alteran los resultados.
+Durante el ayuno puede beber agua. Tome sus medicamentos como siempre salvo que el equipo médico indique lo contrario, y díganos qué toma, porque algunos alteran los resultados.
 
 ## ¿Cuándo me conviene hacerme análisis?
 

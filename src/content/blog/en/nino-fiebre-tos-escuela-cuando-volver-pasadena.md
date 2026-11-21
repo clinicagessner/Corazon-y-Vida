@@ -72,7 +72,7 @@ Not every cold needs a visit, but these signs are worth having the medical team 
 - A classmate or sibling with confirmed flu or strep.
 - Kids with asthma, diabetes or another chronic condition, since flu complicates more easily for them.
 
-Coming in early has a practical upside: flu antivirals work best when started in the first two days of symptoms, and the rapid test is run right at the clinic with results in minutes.
+Coming in early has a practical upside: flu antivirals work best when started in the first two days of symptoms, and the rapid test is run right at the clinic.
 
 ## When to go to the ER or call 911
 

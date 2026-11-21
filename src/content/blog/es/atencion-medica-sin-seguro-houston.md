@@ -23,7 +23,7 @@ En Pasadena y el sureste de Houston, muchas familias trabajan sin seguro médico
 
 ## ¿Puedo ir al médico sin seguro?
 
-Sí. En nuestra clínica no pedimos seguro, número de póliza ni referido. Usted paga el servicio que recibe, en efectivo o con tarjeta, y conoce el precio antes de pasar con el médico. Atendemos sin cita todos los días de 9 AM a 9 PM, en 918 W Southmore Ave, Suite 180.
+Sí. En nuestra clínica no pedimos seguro, número de póliza ni referido. Usted paga el servicio que recibe, en efectivo o con tarjeta, y conoce el precio antes de pasar con el equipo médico. Atendemos sin cita todos los días de 9 AM a 9 PM, en 918 W Southmore Ave, Suite 180.
 
 ## ¿Qué servicios puedo recibir pagando directo?
 
@@ -34,11 +34,11 @@ Sí. En nuestra clínica no pedimos seguro, número de póliza ni referido. Uste
 - [Vacunas](/services/vacunas), sueros vitaminados, curación de heridas y cirugías menores.
 - Tratamiento de infecciones urinarias, respiratorias y de transmisión sexual.
 
-Si su caso necesita un especialista o un estudio que no hacemos aquí, se lo decimos con claridad y le orientamos hacia dónde ir.
+Si su caso necesita un estudio que no hacemos aquí, se lo decimos con claridad y le orientamos hacia dónde ir; y cuando el resultado lo requiere, le damos referencia al especialista.
 
 ## ¿Cómo sé cuánto voy a pagar?
 
-Pregunte el precio en recepción o por WhatsApp al (346) 646-2974 antes de la consulta. Si el médico recomienda una prueba o un tratamiento adicional, se le informa el costo antes de hacerlo. Nadie sale con una cuenta sorpresa.
+Pregunte el precio en recepción o por WhatsApp al (346) 646-2974 antes de la consulta. Si el equipo médico recomienda una prueba o un tratamiento adicional, se le informa el costo antes de hacerlo. Nadie sale con una cuenta sorpresa.
 
 ## ¿Clínica o sala de emergencias?
 

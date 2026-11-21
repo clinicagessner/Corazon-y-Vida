@@ -17,7 +17,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Me pueden recetar los medicamentos para la diabetes o la presión?",
-        "answer": "Sí. El médico inicia o ajusta el tratamiento según sus análisis y le entrega la receta. Cuando existe la opción, se receta el genérico para que el medicamento le cueste menos en la farmacia."
+        "answer": "Sí. El equipo médico inicia o ajusta el tratamiento según sus análisis y le entrega la receta. Cuando existe la opción, se receta el genérico para que el medicamento le cueste menos en la farmacia."
       },
       {
         "question": "¿Con qué frecuencia necesito análisis si tengo diabetes?",
@@ -43,7 +43,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Necesito ayuno para la prueba de tiroides?",
-        "answer": "No. La TSH y la T4 se pueden tomar a cualquier hora. Si ya toma levotiroxina, tómela como siempre y díganos la dosis; el médico lo tendrá en cuenta al interpretar el resultado."
+        "answer": "No. La TSH y la T4 se pueden tomar a cualquier hora. Si ya toma levotiroxina, tómela como siempre y díganos la dosis; el equipo médico lo tendrá en cuenta al interpretar el resultado."
       },
       {
         "question": "¿Cada cuánto se repite el análisis si tomo medicamento para la tiroides?",
@@ -51,7 +51,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Puedo tratarme aquí si tengo hipertiroidismo o un nódulo?",
-        "answer": "Hacemos el diagnóstico y el análisis inicial, y lo referimos a un endocrinólogo para el tratamiento específico. Mientras tanto seguimos su presión, pulso y síntomas en la clínica."
+        "answer": "Hacemos el diagnóstico y el análisis inicial, y le explicamos el siguiente paso del tratamiento. Mientras tanto seguimos su presión, pulso y síntomas en la clínica."
       }
     ],
     "faqsEn": [
@@ -65,7 +65,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Can I be treated here if I have hyperthyroidism or a nodule?",
-        "answer": "We make the diagnosis and run the initial tests, and refer you to an endocrinologist for the specific treatment. Meanwhile we follow your blood pressure, pulse and symptoms at the clinic."
+        "answer": "We make the diagnosis and run the initial tests, and explain the next step in your treatment. Meanwhile we follow your blood pressure, pulse and symptoms at the clinic."
       }
     ]
   },
@@ -73,7 +73,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Hacen pruebas de alergia en la clínica?",
-        "answer": "Evaluamos los síntomas y los desencadenantes en la consulta y tratamos las alergias comunes. Cuando hacen falta pruebas cutáneas o de sangre específicas, se lo indicamos y lo referimos a un especialista."
+        "answer": "Evaluamos los síntomas y los desencadenantes en la consulta y tratamos las alergias comunes. Cuando hacen falta pruebas cutáneas o de sangre específicas, se lo indicamos y le explicamos el siguiente paso."
       },
       {
         "question": "¿Cómo sé si es alergia o resfriado?",
@@ -87,7 +87,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "Do you do allergy testing at the clinic?",
-        "answer": "We evaluate symptoms and triggers at the visit and treat common allergies. When specific skin or blood tests are needed, we tell you and refer you to a specialist."
+        "answer": "We evaluate symptoms and triggers at the visit and treat common allergies. When specific skin or blood tests are needed, we tell you and explain the next step."
       },
       {
         "question": "How do I know if it is an allergy or a cold?",
@@ -103,7 +103,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Cuánto tarda el resultado de la prueba de flu o COVID?",
-        "answer": "Las pruebas rápidas se procesan en la clínica y el resultado está listo en la misma visita, normalmente en unos 15 minutos, así que el diagnóstico y el tratamiento se indican el mismo día."
+        "answer": "Las pruebas rápidas se procesan en la clínica, así que el diagnóstico y el tratamiento se indican en la consulta."
       },
       {
         "question": "¿Me dan nota médica para el trabajo o la escuela?",
@@ -117,7 +117,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "How long does the flu or COVID test result take?",
-        "answer": "Rapid tests are processed at the clinic and the result is ready in the same visit, usually within about 15 minutes, so the diagnosis and treatment are given the same day."
+        "answer": "Rapid tests are processed at the clinic, so the diagnosis and treatment are given at the visit."
       },
       {
         "question": "Do you give a medical note for work or school?",
@@ -291,7 +291,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Puedo pedir solo una prueba en lugar del chequeo completo?",
-        "answer": "Sí. Puede solicitar una prueba concreta, como el PSA o la glucosa, y conocer su precio antes. El médico le dirá si conviene añadir alguna otra según sus síntomas o antecedentes."
+        "answer": "Sí. Puede solicitar una prueba concreta, como el PSA o la glucosa, y conocer su precio antes. El equipo médico le dirá si conviene añadir alguna otra según sus síntomas o antecedentes."
       }
     ],
     "faqsEn": [
@@ -317,7 +317,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Necesito orden médica para hacerme análisis de sangre?",
-        "answer": "No. Puede pedir directamente la prueba o el panel que necesita, o pasar con el médico para que la elija con usted según sus síntomas. En ambos casos conoce el precio antes."
+        "answer": "No. Puede pedir directamente la prueba o el panel que necesita, o pasar con el equipo médico para que la elija con usted según sus síntomas. En ambos casos conoce el precio antes."
       },
       {
         "question": "¿Me explican el resultado o solo me entregan el papel?",
@@ -347,11 +347,11 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Cuándo hace falta un urocultivo además del examen de orina?",
-        "answer": "Cuando la infección se repite, no mejora con el primer antibiótico, hay embarazo, diabetes o fiebre, o el médico sospecha que llegó al riñón. Identifica la bacteria y el antibiótico adecuado."
+        "answer": "Cuando la infección se repite, no mejora con el primer antibiótico, hay embarazo, diabetes o fiebre, o el equipo médico sospecha que llegó al riñón. Identifica la bacteria y el antibiótico adecuado."
       },
       {
         "question": "¿Puedo tomar el antibiótico que me sobró de otra vez?",
-        "answer": "No. Puede no ser el correcto para esta bacteria, enmascarar el resultado del cultivo y generar resistencia. Traiga el nombre de lo que tomó antes y el médico decide el tratamiento."
+        "answer": "No. Puede no ser el correcto para esta bacteria, enmascarar el resultado del cultivo y generar resistencia. Traiga el nombre de lo que tomó antes y el equipo médico decide el tratamiento."
       }
     ],
     "faqsEn": [
@@ -381,7 +381,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Toda la familia debe tratarse si salen parásitos?",
-        "answer": "Con frecuencia sí, sobre todo con oxiuros o giardia, que se contagian entre convivientes. El médico le indica quiénes deben tratarse y cómo lavar ropa de cama y manos para evitar la reinfección."
+        "answer": "Con frecuencia sí, sobre todo con oxiuros o giardia, que se contagian entre convivientes. El equipo médico le indica quiénes deben tratarse y cómo lavar ropa de cama y manos para evitar la reinfección."
       }
     ],
     "faqsEn": [
@@ -403,7 +403,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿La prueba de estreptococo duele?",
-        "answer": "No duele; el hisopo roza el fondo de la garganta unos segundos y puede provocar arcadas breves. En niños pequeños se hace rápido y con el padre presente. El resultado está en minutos."
+        "answer": "No duele; el hisopo roza el fondo de la garganta unos segundos y puede provocar arcadas breves. En niños pequeños se hace rápido y con el padre presente. El resultado sale rápido."
       },
       {
         "question": "Si la prueba rápida sale negativa, ¿ya descarto el estreptococo?",
@@ -417,7 +417,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqsEn": [
       {
         "question": "Does the strep test hurt?",
-        "answer": "It does not hurt; the swab brushes the back of the throat for a few seconds and may cause brief gagging. In small children it is done quickly with the parent present. The result is ready in minutes."
+        "answer": "It does not hurt; the swab brushes the back of the throat for a few seconds and may cause brief gagging. In small children it is done quickly with the parent present. The result comes back quickly."
       },
       {
         "question": "If the rapid test is negative, is strep ruled out?",
@@ -501,7 +501,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Cuánto tarda el resultado de la prueba de drogas?",
-        "answer": "Las pruebas rápidas en la clínica dan resultado en minutos. Los paneles que van a laboratorio externo, sobre todo con cadena de custodia, tardan algunos días; le indicamos el plazo al recolectar la muestra."
+        "answer": "Las pruebas rápidas en la clínica dan un resultado rápido. Los paneles que van a laboratorio externo, sobre todo con cadena de custodia, tardan algunos días; le indicamos el plazo al recolectar la muestra."
       }
     ],
     "faqsEn": [
@@ -515,7 +515,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "How long does the drug test result take?",
-        "answer": "Rapid tests at the clinic give a result in minutes. Panels sent to an outside laboratory, especially with chain of custody, take a few days; we tell you the turnaround when the sample is collected."
+        "answer": "Rapid tests at the clinic give a fast result. Panels sent to an outside laboratory, especially with chain of custody, take a few days; we tell you the turnaround when the sample is collected."
       }
     ]
   },
@@ -527,11 +527,11 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "¿Un electrocardiograma normal descarta problemas del corazón?",
-        "answer": "No del todo. Registra solo unos segundos en reposo, así que una arritmia intermitente o una obstrucción sin síntomas pueden no verse. Si hay dudas, el médico indica estudios adicionales."
+        "answer": "No del todo. Registra solo unos segundos en reposo, así que una arritmia intermitente o una obstrucción sin síntomas pueden no verse. Si hay dudas, el equipo médico indica estudios adicionales."
       },
       {
         "question": "¿Sirve el EKG para un examen de trabajo o preoperatorio?",
-        "answer": "Sí. Se lo entregamos impreso con la interpretación del médico el mismo día para presentarlo a su empleador, en un examen DOT cuando lo piden o antes de una cirugía."
+        "answer": "Sí. Se lo entregamos impreso con la interpretación del equipo médico para presentarlo a su empleador, en un examen DOT cuando lo piden o antes de una cirugía."
       }
     ],
     "faqsEn": [
@@ -545,7 +545,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
       },
       {
         "question": "Is the EKG valid for a work or pre-surgery exam?",
-        "answer": "Yes. We hand it to you printed with the provider's interpretation the same day to present to your employer, for a DOT physical when required or before surgery."
+        "answer": "Yes. We hand it to you printed with the provider's interpretation to present to your employer, for a DOT physical when required or before surgery."
       }
     ]
   },
@@ -553,15 +553,15 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Necesito orden médica para hacerme un ultrasonido?",
-        "answer": "No. Puede venir directamente y el médico de la clínica lo indica tras una consulta breve, o traer la orden de otro médico. En ambos casos conoce el precio antes del estudio."
+        "answer": "No. Puede venir directamente y el equipo médico de la clínica lo indica tras una consulta breve, o traer la orden de otro médico. En ambos casos conoce el precio antes del estudio."
       },
       {
         "question": "¿Cómo debo prepararme para el ultrasonido abdominal?",
         "answer": "Con ayuno de seis a ocho horas, solo agua, para que la vesícula se vea llena y sin gas intestinal. Tome sus medicamentos como siempre y avise si tiene diabetes para programarlo temprano."
       },
       {
-        "question": "¿Me entregan las imágenes y el informe el mismo día?",
-        "answer": "Sí. El médico revisa el estudio con usted al terminar y le entrega el informe por escrito. Si algo necesita seguimiento o un estudio especializado, se lo indica en ese momento."
+        "question": "¿Me entregan las imágenes y el informe?",
+        "answer": "Sí. El equipo médico revisa el estudio con usted al terminar y le entrega el informe por escrito. Si algo necesita seguimiento o un estudio especializado, se lo indica en ese momento."
       }
     ],
     "faqsEn": [
@@ -574,7 +574,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
         "answer": "Fast six to eight hours, water only, so the gallbladder is full and there is little intestinal gas. Take your medications as usual and tell us if you have diabetes so we schedule it early."
       },
       {
-        "question": "Do I get the images and report the same day?",
+        "question": "Do I get the images and report?",
         "answer": "Yes. The provider reviews the study with you when it ends and hands you the written report. If anything needs follow-up or a specialized study, you are told at that moment."
       }
     ]
@@ -673,7 +673,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Puedo recibir un suero vitaminado sin consulta médica?",
-        "answer": "No. Antes de aplicarlo el médico revisa su historial, medicamentos, alergias y signos vitales para confirmar que el suero es adecuado, fijar la dosis y descartar condiciones en las que no conviene."
+        "answer": "No. Antes de aplicarlo el equipo médico revisa su historial, medicamentos, alergias y signos vitales para confirmar que el suero es adecuado, fijar la dosis y descartar condiciones en las que no conviene."
       },
       {
         "question": "¿Cuánto tarda la aplicación del suero?",
@@ -763,7 +763,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿Puedo hacerme la cirugía menor el mismo día de la consulta?",
-        "answer": "En la mayoría de los casos sí: el médico evalúa la lesión, le explica el procedimiento y el precio, y si está de acuerdo se realiza en la misma visita. Traiga la lista de medicamentos y avise si toma anticoagulantes."
+        "answer": "En la mayoría de los casos sí: el equipo médico evalúa la lesión, le explica el procedimiento y el precio, y si está de acuerdo se realiza en la misma visita. Traiga la lista de medicamentos y avise si toma anticoagulantes."
       },
       {
         "question": "¿Mandan el lunar a analizar después de quitarlo?",
@@ -853,7 +853,7 @@ export const SERVICE_FAQS: Record<string, ServiceFAQs> = {
     "faqs": [
       {
         "question": "¿La clínica tiene farmacia?",
-        "answer": "No. Al terminar su consulta, el médico envía la receta de forma electrónica a la farmacia que usted prefiera, cerca de su casa o de su trabajo, y usted la recoge allí cuando le quede mejor."
+        "answer": "No. Al terminar su consulta, el equipo médico envía la receta de forma electrónica a la farmacia que usted prefiera, cerca de su casa o de su trabajo, y usted la recoge allí cuando le quede mejor."
       },
       {
         "question": "¿A qué farmacia pueden enviar mi receta?",

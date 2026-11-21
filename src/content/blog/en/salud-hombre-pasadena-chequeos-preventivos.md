@@ -60,7 +60,7 @@ An [electrocardiogram](/services/electrocardiograma) checks your heart's rhythm 
 - **High blood pressure (hypertension):** the most common "silent disease" among Hispanic men; uncontrolled, it damages the heart, kidneys, and brain
 - **Type 2 diabetes:** we detect prediabetes and diabetes with glucose testing and provide [chronic condition follow-up](/services/condiciones-cronicas) in Spanish
 - **High cholesterol and triglycerides:** direct risk factors for heart attack and stroke
-- **Urinary tract infections:** same-day diagnosis and [UTI treatment](/services/infecciones-urinarias)
+- **Urinary tract infections:** diagnosis and [UTI treatment](/services/infecciones-urinarias)
 - **Sexually transmitted diseases:** confidential [STD testing](/services/enfermedades-transmision-sexual) with treatment and guidance
 
 ## Recommended Exams by Age

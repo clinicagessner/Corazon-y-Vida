@@ -20,11 +20,11 @@ keywords:
   - "CDL medical card Pasadena"
 ---
 
-If you drive a truck, a bus or any commercial vehicle across state lines, federal law requires a valid medical card. At Clínica Hispana Corazón y Vida in Pasadena we do that exam without an appointment and in Spanish. This guide walks through what happens in the visit and how to arrive prepared so you leave with your certificate the same day.
+If you drive a truck, a bus or any commercial vehicle across state lines, federal law requires a valid medical card. At Clínica Hispana Corazón y Vida in Pasadena we do that exam without an appointment and in Spanish. This guide walks through what happens in the visit and how to arrive prepared so the visit goes quickly.
 
 ## What is the DOT physical for?
 
-The DOT physical confirms that a commercial driver can operate safely. It is required by the FMCSA (Federal Motor Carrier Safety Administration) and can only be signed by a medical examiner listed on its National Registry. When you pass, the examiner issues the Medical Examiner's Certificate (form MCSA-5876), which you must carry and submit in copy to the Texas Department of Public Safety (DPS) to keep your CDL active.
+The DOT physical confirms that a commercial driver can operate safely. It is required by the FMCSA (Federal Motor Carrier Safety Administration). When you pass, the examiner issues the Medical Examiner's Certificate (form MCSA-5876), which you must carry and submit in copy to the Texas Department of Public Safety (DPS) to keep your CDL active.
 
 ## What does the examiner check in Pasadena?
 
@@ -78,7 +78,7 @@ The DOT physical is self-pay, no insurance needed, in cash or by card. Call (832
 
 **Can I renew a card issued by another clinic here?** Yes. You only need to meet the requirements on the day of the exam.
 
-**Is the result immediate?** If you pass, you leave with the printed certificate in the same visit.
+**What happens if you pass?** You leave with the printed medical certificate.
 
 **Do you do the DOT drug test?** We offer [alcohol and drug testing](/services/examen-alcohol-drogas) separately; check with your employer which panel they require.
 

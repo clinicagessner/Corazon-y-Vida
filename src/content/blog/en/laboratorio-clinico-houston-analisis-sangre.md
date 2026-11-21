@@ -19,7 +19,7 @@ keywords:
   - "affordable lab tests Pasadena"
 ---
 
-A blood test answers in minutes the questions that symptoms take months to reveal: whether sugar is high, whether cholesterol is damaging the arteries, whether the thyroid is working well or whether an infection explains the fatigue. At the lab of Clínica Hispana Corazón y Vida in Pasadena we draw the sample without an appointment and explain the result in Spanish.
+A blood test answers the questions that symptoms take months to reveal: whether sugar is high, whether cholesterol is damaging the arteries, whether the thyroid is working well or whether an infection explains the fatigue. At the lab of Clínica Hispana Corazón y Vida in Pasadena we draw the sample without an appointment and explain the result in Spanish.
 
 ## Which tests can I get?
 

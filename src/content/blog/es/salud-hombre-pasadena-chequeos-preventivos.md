@@ -60,7 +60,7 @@ El [electrocardiograma](/services/electrocardiograma) revisa el ritmo y la activ
 - **Presión arterial alta (hipertensión):** la "enfermedad silenciosa" más común en hombres hispanos; sin control daña corazón, riñones y cerebro
 - **Diabetes tipo 2:** detectamos prediabetes y diabetes con análisis de glucosa y damos [seguimiento de condiciones crónicas](/services/condiciones-cronicas) en español
 - **Colesterol y triglicéridos altos:** factores de riesgo directo de infarto y derrame cerebral
-- **Infecciones urinarias:** diagnóstico y [tratamiento de infecciones urinarias](/services/infecciones-urinarias) el mismo día
+- **Infecciones urinarias:** diagnóstico y [tratamiento de infecciones urinarias](/services/infecciones-urinarias)
 - **Enfermedades de transmisión sexual:** [pruebas de ETS](/services/enfermedades-transmision-sexual) confidenciales, con tratamiento y orientación
 
 ## Exámenes Recomendados por Edad

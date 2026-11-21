@@ -63,7 +63,7 @@ The price is stated before the visit and before each additional test. You pay wh
 
 ## What happens after the visit?
 
-If your case needs follow-up, we give you the date of the next check and you can come back without an appointment. If you need a specialist or a study we do not perform, we tell you where to go and hand you your records. Your results and information are handled under HIPAA privacy rules.
+If your case needs follow-up, we give you the date of the next check and you can come back without an appointment. If you need a study we do not perform, we tell you where to go and hand you your records; and when results call for it, we give you a specialist referral. Your results and information are handled under HIPAA privacy rules.
 
 ## Where are we and how do I get there?
 

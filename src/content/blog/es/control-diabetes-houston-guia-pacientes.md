@@ -36,7 +36,7 @@ La prediabetes no da molestias, pero es la señal para actuar: con cambios de al
 
 - **Glucosa en ayunas:** la meta habitual está entre 80 y 130 mg/dL.
 - **Glucosa dos horas después de comer:** por debajo de 180 mg/dL.
-- **A1c:** por debajo del 7 % para la mayoría de los adultos; el médico ajusta la meta según edad y otras enfermedades.
+- **A1c:** por debajo del 7 % para la mayoría de los adultos; el equipo médico ajusta la meta según edad y otras enfermedades.
 - **Presión arterial y colesterol:** la diabetes daña las arterias, así que se controlan juntos.
 
 Anote sus mediciones con la hora y lo que comió. Ese registro vale más que cualquier explicación en la consulta.

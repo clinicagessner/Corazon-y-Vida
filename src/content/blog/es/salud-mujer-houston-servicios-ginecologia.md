@@ -16,7 +16,6 @@ keywords:
   - "Papanicolaou Pasadena"
   - "salud mujer hispana"
   - "examen pélvico Pasadena"
-  - "ginecólogo hispano Pasadena TX"
 ---
 
 Muchas mujeres de Pasadena posponen la consulta ginecológica por falta de tiempo, por el idioma o porque "no sienten nada". Sin embargo, los problemas que más preocupan, como el cáncer de cuello uterino o las infecciones, se detectan mejor cuando todavía no dan síntomas. En Clínica Hispana Corazón y Vida la consulta es en español, sin cita y sin seguro. Aquí explicamos qué esperar.
@@ -31,7 +30,7 @@ Las guías actuales en Estados Unidos recomiendan:
 | 30 a 65 años | Papanicolaou cada 3 años, o prueba de VPH cada 5 años |
 | Mayores de 65 | Se puede suspender si los resultados previos fueron normales |
 
-Si tuvo un resultado alterado, el médico acorta el intervalo. La prueba toma pocos minutos y no requiere preparación especial; evite relaciones, duchas vaginales y óvulos 48 horas antes.
+Si tuvo un resultado alterado, el equipo médico acorta el intervalo. La prueba toma pocos minutos y no requiere preparación especial; evite relaciones, duchas vaginales y óvulos 48 horas antes.
 
 ## ¿Qué incluye la consulta de la mujer?
 

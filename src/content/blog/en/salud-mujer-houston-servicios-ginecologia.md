@@ -15,7 +15,6 @@ keywords:
   - "gynecology Pasadena"
   - "Pap smear Pasadena"
   - "women's health Pasadena TX"
-  - "Spanish speaking gynecologist Pasadena"
   - "pelvic exam Pasadena"
 ---
 
