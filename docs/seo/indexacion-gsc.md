@@ -13,6 +13,82 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 43 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-22).
 <!-- /tandas:auto -->
 
+## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-hombre-pasadena-chequeos-preventivos  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-21
+
+## Tanda 60 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/salud-hombre-pasadena-chequeos-preventivos  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — cambiada 2026-11-21
+
+## Tanda 61 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/condiciones-cronicas  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/farmacia  — cambiada 2026-11-21
+
+## Tanda 62 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/infecciones-urinarias  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-strep  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/tiroides  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ultrasonido  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/alergias  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/cirugias-menores  — cambiada 2026-11-21
+
+## Tanda 63 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/services/condiciones-cronicas  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-alcohol-drogas  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/extraccion-implantes  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/farmacia  — cambiada 2026-11-21
+
+## Tanda 64 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/infecciones-urinarias  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-embarazo  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/prueba-strep  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/salud-hombre  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-11-21
+
 ## Tanda 57  📨 ENVIADA 21/11/2026  ✅ PEDIDA 21/11/2026
 
 - [x] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-11-07 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
@@ -28,10 +104,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 58
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-11-07 · desconocida · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-10-23 · desconocida · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
