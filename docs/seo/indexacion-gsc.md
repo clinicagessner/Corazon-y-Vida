@@ -6,15 +6,16 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-20; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 40 de 98 URLs del sitemap indexadas · 58 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-21; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 40 de 98 URLs del sitemap indexadas · 58 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar · 2 sin datos).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 11 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 15 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-47 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-21).
+43 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-22).
 <!-- /tandas:auto -->
 
-## Tanda 57
+## Tanda 57  📨 ENVIADA 21/11/2026
 
+- [ ] https://www.clinicahispanacorazonyvida.com/services/ginecologia  — cambiada 2026-11-07 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/alergias  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/cirugias-menores  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
@@ -24,11 +25,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
 
 ## Tanda 58
 
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/ginecologia  — cambiada 2026-11-07 · desconocida · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/prueba-embarazo  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/salud-hombre  — cambiada 2026-10-23 · desconocida · pedida 2026-11-07 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/sueros-vitaminados  — cambiada 2026-11-03 · desconocida · pedida 2026-11-03 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
