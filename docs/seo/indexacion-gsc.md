@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-22; URL Inspection API, datos ANTIGUOS del 2026-11-16: antiguos (2026-11-16): --sin-fetch):** 40 de 98 URLs del sitemap indexadas · 58 sin indexar (34 desconocida · 20 descubierta sin indexar · 2 rastreada sin indexar · 2 sin datos).
+**Estado (actualizado 2026-11-23; URL Inspection API, datos de hoy 2026-11-23):** 65 de 98 URLs del sitemap indexadas · 33 sin indexar (18 descubierta sin indexar · 13 desconocida · 2 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-16 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-25).
+6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-25).
 <!-- /tandas:auto -->
 
-## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)  📨 ENVIADA 22/11/2026
+## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)  📨 ENVIADA 23/11/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
@@ -91,10 +91,9 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 65
 
-- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23 · desconocida · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · desconocida · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · desconocida · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
