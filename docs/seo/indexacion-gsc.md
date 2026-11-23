@@ -15,6 +15,8 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)  📨 ENVIADA 23/11/2026
 
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/prostatitis-dolor-pelvico-fiebre-pasadena  — cambiada 2026-11-23 (post del blog semanal)
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/prostatitis-dolor-pelvico-fiebre-pasadena  — cambiada 2026-11-23 (post del blog semanal)
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-21
@@ -23,8 +25,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-hombre-pasadena-chequeos-preventivos  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-21
 
 ## Tanda 60 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
 
@@ -88,6 +88,11 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/sueros-vitaminados  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-11-21
+
+## Tanda 66 — cambios del 2026-11-23 (devueltas de la tanda 59 por el post del blog semanal)
+
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-23
 
 ## Tanda 65
 
