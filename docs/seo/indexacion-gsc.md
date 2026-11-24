@@ -6,7 +6,7 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-23; URL Inspection API, datos de hoy 2026-11-23):** 65 de 98 URLs del sitemap indexadas · 33 sin indexar (18 descubierta sin indexar · 13 desconocida · 2 rastreada sin indexar).
+**Estado (actualizado 2026-11-24; URL Inspection API, datos de hoy 2026-11-24):** 65 de 100 URLs del sitemap indexadas · 35 sin indexar (22 descubierta sin indexar · 11 desconocida · 2 rastreada sin indexar).
 
 **Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
@@ -85,11 +85,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-11-21
 
-## Tanda 66 — cambios del 2026-11-23 (devueltas de la tanda 59 por el post del blog semanal)
-
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-23
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-23
-
 ## Tanda 67 — cambios del 2026-11-24 (análisis diario: frases de los anuncios en la home, EKG en ayunas, DOT y keyword sin §9)  📨 ENVIADA 24/11/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-24
@@ -100,12 +95,14 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-24
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-11-24
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-23
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-23
 
-## Tanda 65
+## Tanda 68
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · desconocida · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · desconocida · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-11-08 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
