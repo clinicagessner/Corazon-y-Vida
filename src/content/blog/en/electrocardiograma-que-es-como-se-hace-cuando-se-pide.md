@@ -5,7 +5,7 @@ metaTitle: "EKG Explained: What It Is, How It's Done, When It's Ordered"
 relatedServices: ["electrocardiograma", "condiciones-cronicas", "salud-hombre", "examen-fisico-escolar"]
 description: "What an electrocardiogram (EKG) records, how the test goes step by step, why it gets ordered, what it can't detect and how to prepare for it in Pasadena."
 date: "2026-10-26"
-dateModified: "2026-10-26"
+dateModified: "2026-11-24"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/electrocardiograma.webp"
 featured: false
@@ -20,6 +20,10 @@ keywords:
 ---
 
 Don Aurelio was handed a sheet of paper with three handwritten letters on it: EKG. He needed it before gallbladder surgery, and the first thing he asked at the front desk was whether there would be a needle involved or whether he had to skip breakfast. Neither. The electrocardiogram is one of the simplest tests in medicine and also one of the least explained: people hear the name, see the squiggly lines on paper and walk out without knowing what was being looked for or what turned up. This guide tries to fill that gap.
+
+## Do you need to fast before an EKG?
+
+No. You don't have to fast for an electrocardiogram: you can eat breakfast and take your medications like any other day, and Don Aurelio could have come in with his morning coffee. The exception is when the same visit also includes a blood test for glucose or cholesterol; those do call for 8 to 12 hours without food, but because of the lab work, not the EKG.
 
 ## Your heart has wiring too
 
@@ -43,7 +47,7 @@ Knowing what's coming takes away most of the nerves, and nerves, oddly enough, c
 4. While it records, stay still, don't talk and breathe normally. Shivering from a chilly room, crossing your legs or laughing all add "noise" to the line.
 5. The stickers come off and you're done. According to the clinic's [electrocardiogram](/services/electrocardiograma) page, the whole process takes under ten minutes.
 
-There's no fasting and nothing to stop beforehand. What does help: skip lotion or oil on your chest that day and bring a written list of your medications, because some of them change how the tracing looks.
+There's also nothing to stop on your own beforehand. What does help: skip lotion or oil on your chest that day and bring a written list of your medications, because some of them change how the tracing looks.
 
 ## Why it gets ordered: common reasons and what each one looks for
 

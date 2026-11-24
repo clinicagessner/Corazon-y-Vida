@@ -5,7 +5,7 @@ metaTitle: "Electrocardiograma (EKG): qué es y si se hace en ayunas"
 relatedServices: ["electrocardiograma", "condiciones-cronicas", "salud-hombre", "examen-fisico-escolar"]
 description: "¿El electrocardiograma se hace en ayunas? No hace falta ayuno. Qué registra un EKG, cómo es el estudio paso a paso y por qué se pide, en Pasadena."
 date: "2026-10-26"
-dateModified: "2026-10-26"
+dateModified: "2026-11-24"
 author: "Clínica Hispana Corazón y Vida"
 image: "/images/services/electrocardiograma.webp"
 featured: false
@@ -20,6 +20,10 @@ keywords:
 ---
 
 A Don Aurelio le entregaron una hoja con tres letras escritas a mano: EKG. Se la pidieron antes de una operación de la vesícula, y lo primero que preguntó en recepción fue si le iban a poner una inyección o si tenía que venir sin desayunar. Ni una cosa ni la otra. El electrocardiograma es uno de los estudios más sencillos que existen, pero también uno de los peor explicados: la gente lo escucha nombrar, ve las rayitas en el papel y se queda sin saber qué buscaban ni qué encontraron. Esta guía intenta llenar ese hueco.
+
+## ¿El electrocardiograma se hace en ayunas?
+
+No. Para un electrocardiograma no hay que ir en ayunas: puede desayunar y tomar sus medicinas como cualquier otro día, y Don Aurelio pudo llegar con su café de la mañana. La excepción llega cuando en esa misma visita también le piden análisis de sangre de glucosa o de colesterol; esos sí llevan de 8 a 12 horas sin comer, pero por el laboratorio, no por el EKG.
 
 ## El corazón también tiene cableado
 
@@ -43,7 +47,7 @@ Saber lo que viene quita buena parte de los nervios, y los nervios, curiosamente
 4. Durante el registro hay que quedarse quieto, sin hablar y respirando con normalidad. Temblar de frío, cruzar las piernas o reírse mete "ruido" en la línea.
 5. Se retiran los parches y listo. Según la página de [electrocardiograma](/services/electrocardiograma) de la clínica, todo toma menos de diez minutos.
 
-No hace falta ayuno ni suspender nada. Lo que sí ayuda: no ponerse cremas ni aceites en el pecho ese día y llevar anotados los medicamentos que toma, porque algunos cambian el aspecto del trazo.
+Tampoco hace falta suspender nada por su cuenta. Lo que sí ayuda: no ponerse cremas ni aceites en el pecho ese día y llevar anotados los medicamentos que toma, porque algunos cambian el aspecto del trazo.
 
 ## Por qué se pide: motivos frecuentes y qué se busca en cada uno
 
