@@ -13,11 +13,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-25).
 <!-- /tandas:auto -->
 
-## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)  📨 ENVIADA 23/11/2026
+## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
 
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/prostatitis-dolor-pelvico-fiebre-pasadena  — cambiada 2026-11-23 (post del blog semanal)
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/prostatitis-dolor-pelvico-fiebre-pasadena  — cambiada 2026-11-23 (post del blog semanal)
-- [ ] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/control-diabetes-houston-guia-pacientes  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
@@ -28,7 +27,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 ## Tanda 60 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-11-21
@@ -45,7 +43,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/electrocardiograma  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/enfermedades-respiratorias  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-heces  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-sangre  — cambiada 2026-11-21
@@ -71,7 +68,6 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/electrocardiograma  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/enfermedades-respiratorias  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-alcohol-drogas  — cambiada 2026-11-21
-- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-fisico-escolar  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examen-heces  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-sangre  — cambiada 2026-11-21
@@ -93,6 +89,17 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-23
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-23
+
+## Tanda 67 — cambios del 2026-11-24 (análisis diario: frases de los anuncios en la home, EKG en ayunas, DOT y keyword sin §9)  📨 ENVIADA 24/11/2026
+
+- [ ] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-11-24
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-24
 
 ## Tanda 65
 
