@@ -15,7 +15,7 @@ keywords:
   - "médico sin seguro Pasadena"
   - "clínica sin seguro Pasadena TX"
   - "atención médica accesible Pasadena"
-  - "doctor barato Pasadena"
+  - "consulta médica sin seguro Pasadena"
   - "healthcare no insurance Pasadena"
 ---
 

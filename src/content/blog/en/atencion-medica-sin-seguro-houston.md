@@ -15,7 +15,7 @@ keywords:
   - "doctor without insurance Pasadena"
   - "affordable healthcare Pasadena"
   - "no insurance clinic Pasadena"
-  - "cheap doctor Pasadena TX"
+  - "doctor visit without insurance Pasadena TX"
   - "uninsured medical care Pasadena"
 ---
 
