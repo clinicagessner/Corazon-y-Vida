@@ -6,14 +6,14 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-24; URL Inspection API, datos de hoy 2026-11-24):** 65 de 100 URLs del sitemap indexadas · 35 sin indexar (22 descubierta sin indexar · 11 desconocida · 2 rastreada sin indexar).
+**Estado (actualizado 2026-11-25; URL Inspection API, datos ANTIGUOS del 2026-11-24: antiguos (2026-11-24): --sin-fetch):** 65 de 100 URLs del sitemap indexadas · 35 sin indexar (22 descubierta sin indexar · 11 desconocida · 2 rastreada sin indexar).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 3 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-25).
+6 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-30).
 <!-- /tandas:auto -->
 
-## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
+## Tanda 59 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)  📨 ENVIADA 25/11/2026
 
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/prostatitis-dolor-pelvico-fiebre-pasadena  — cambiada 2026-11-23 (post del blog semanal)
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/prostatitis-dolor-pelvico-fiebre-pasadena  — cambiada 2026-11-23 (post del blog semanal)
@@ -24,10 +24,10 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/nino-fiebre-tos-escuela-cuando-volver-pasadena  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/blog/salud-hombre-pasadena-chequeos-preventivos  — cambiada 2026-11-21
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
 
 ## Tanda 60 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/bienvenidos-clinica-hispana-corazon-y-vida  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-21
@@ -85,24 +85,12 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-11-21
 
-## Tanda 67 — cambios del 2026-11-24 (análisis diario: frases de los anuncios en la home, EKG en ayunas, DOT y keyword sin §9)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
-
-- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-24
-- [x] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-23
-- [x] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-23
-
 ## Tanda 68
 
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · desconocida · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-11 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
 
@@ -442,3 +430,16 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-alcohol-drogas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-fisico-escolar  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-06 · 0 impr.
 - [x] https://www.clinicahispanacorazonyvida.com/en/services/extraccion-implantes  — cambiada 2026-09-15 · desconocida · pedida 2026-11-06 · 0 impr.
+
+## Tanda 67 — cambios del 2026-11-24 (análisis diario: frases de los anuncios en la home, EKG en ayunas, DOT y keyword sin §9)  📨 ENVIADA 24/11/2026  ✅ PEDIDA 24/11/2026
+
+- [x] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/electrocardiograma-que-es-como-se-hace-cuando-se-pide  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/en/blog/atencion-medica-sin-seguro-houston  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/services/examen-dot  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/en/services/examen-dot  — cambiada 2026-11-24
+- [x] https://www.clinicahispanacorazonyvida.com/blog/salud-mujer-houston-servicios-ginecologia  — cambiada 2026-11-23
+- [x] https://www.clinicahispanacorazonyvida.com/blog/vitamina-b12-beneficios-inyecciones-pasadena  — cambiada 2026-11-23
