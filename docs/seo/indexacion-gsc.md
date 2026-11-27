@@ -6,14 +6,15 @@ poner `✅ PEDIDA dd/mm/aaaa` en su encabezado. Límite: 10 peticiones al día p
 Propiedad: `https://www.clinicahispanacorazonyvida.com/`, cuenta **chcorazonyvida@gmail.com**.
 
 <!-- tandas:auto -->
-**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-11-24: antiguos (2026-11-24): --sin-fetch):** 65 de 100 URLs del sitemap indexadas · 35 sin indexar (22 descubierta sin indexar · 11 desconocida · 2 rastreada sin indexar).
+**Estado (actualizado 2026-11-27; URL Inspection API, datos ANTIGUOS del 2026-09-30: antiguos (2026-09-30): --sin-fetch):** 30 de 100 URLs del sitemap indexadas · 70 sin indexar (41 descubierta sin indexar · 16 sin datos · 13 desconocida).
 
-**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 4 no indexadas no pedidas en los últimos 14 días.
+**Orden** (`playbook/toolkit/indexacion-tandas.py`): primero las 0 páginas cambiadas en git después del último rastreo de Google y no pedidas desde el cambio; después las 11 no indexadas no pedidas en los últimos 14 días.
 Español antes que inglés y, a igualdad, más impresiones primero. Las indexadas sin cambios no entran; las tandas fijas (`📨 ENVIADA`, "cambios del …") van primero tal cual y las `✅ PEDIDA` pasan al historial.
-8 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-30).
+19 no indexadas pedidas hace menos de 14 días quedan fuera hasta que se cumpla el plazo (la primera vuelve el 2026-11-30).
 <!-- /tandas:auto -->
 
 ## Tanda 60 — cambios del 2026-11-21 (limpieza §9: equipo médico, sin plazos ni especialidades)  📨 ENVIADA 27/11/2026
+
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/examen-dot-cdl-camioneros-houston  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/infeccion-urinaria-embarazo-no-esperar-pasadena  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/en/blog/laboratorio-clinico-houston-analisis-sangre  — cambiada 2026-11-21
@@ -71,11 +72,30 @@ Español antes que inglés y, a igualdad, más impresiones primero. Las indexada
 - [ ] https://www.clinicahispanacorazonyvida.com/services/tiroides  — cambiada 2026-11-21
 - [ ] https://www.clinicahispanacorazonyvida.com/services/ultrasonido  — cambiada 2026-11-21
 
-## Tanda 68
+## Tanda 69 — cambios del 2026-11-27 (aviso I-693 pausado)
 
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · desconocida · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/examenes-inmigracion  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/examenes-inmigracion  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/guia-examen-medico-inmigracion-i693-houston  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacorazonyvida.com/  — cambiada 2026-11-27
+- [ ] https://www.clinicahispanacorazonyvida.com/en  — cambiada 2026-11-27
+
+## Tanda 70
+
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/primer-ultrasonido-embarazo-cuando-que-se-ve  — cambiada 2026-11-07 · sin datos de inspección · pedida 2026-11-07 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09 · sin datos de inspección · pedida 2026-11-09 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/services/vacunas  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-11 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/alergias-otono-ninos-estornudos-tos-noche-pasadena  — cambiada 2026-11-02 · sin datos de inspección · pedida 2026-11-02 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/primer-ultrasonido-embarazo-cuando-que-se-ve  — cambiada 2026-10-19 · sin datos de inspección · pedida 2026-10-19 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/blog/ronchas-comezon-adultos-urticaria-alimentos-estres-picaduras  — cambiada 2026-11-09 · sin datos de inspección · pedida 2026-11-09 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/anticonceptivos  — cambiada 2026-10-23 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/suturas-heridas  — cambiada 2026-10-04 · descubierta sin indexar · pedida 2026-11-07 · 0 impr.
-- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · desconocida · pedida 2026-11-08 · 0 impr.
+- [ ] https://www.clinicahispanacorazonyvida.com/en/services/unas-encarnadas  — cambiada 2026-09-15 · descubierta sin indexar · pedida 2026-11-08 · 0 impr.
+
+## Tanda 71
+
 - [ ] https://www.clinicahispanacorazonyvida.com/en/services/vacunas  — cambiada 2026-10-12 · descubierta sin indexar · pedida 2026-11-11 · 0 impr.
 
 ## Notas anteriores (texto previo del archivo, sin actualizar)
