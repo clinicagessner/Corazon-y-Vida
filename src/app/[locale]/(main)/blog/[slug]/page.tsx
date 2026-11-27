@@ -15,6 +15,8 @@ import { JsonLdFAQ, JsonLdMedicalWebPage, JsonLdMedicalClinicRef } from "@/compo
 import { Markdown } from "@/components/shared/markdown";
 import { MedicalReview } from "@/components/shared/medical-review";
 import { formatDate } from "@/lib/dates";
+import { AvisoPausaI693 } from "@/components/ui/aviso-pausa";
+import { I693_POST_SLUGS } from "@/lib/pausas";
 
 type Props = {
   params: Promise<{ locale: string; slug: string }>;
@@ -187,6 +189,9 @@ export default async function BlogPostPage({ params }: Props) {
         {/* Content Section */}
         <div className="container mx-auto px-4 py-12 md:py-16">
           <div className="max-w-3xl mx-auto">
+            {I693_POST_SLUGS.includes(post.slug) && (
+              <AvisoPausaI693 locale={locale} className="mb-8" />
+            )}
             <div className="blog-content">
               <Markdown content={post.content} />
               <MedicalReview published={post.date} updated={post.dateModified ?? post.date} />

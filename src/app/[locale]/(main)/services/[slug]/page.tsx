@@ -42,6 +42,8 @@ import { seoDescription, seoTitle } from "@/lib/seo";
 import { getLocalizedService } from "@/lib/utils";
 import { getServiceFAQs } from "@/lib/service-faqs";
 import { JsonLdBreadcrumb, JsonLdMedicalProcedure, JsonLdFAQ, JsonLdMedicalWebPage, JsonLdMedicalClinicRef } from "@/components/seo/json-ld";
+import { AvisoPausaI693 } from "@/components/ui/aviso-pausa";
+import { I693_SERVICE_SLUGS } from "@/lib/pausas";
 
 const iconMap: Record<string, React.ElementType> = {
   Stethoscope,
@@ -235,6 +237,9 @@ export default async function ServicePage({ params }: Props) {
             <div className="max-w-4xl mx-auto">
               {/* Servicios reescritos en markdown real (## preguntas); el parser
                   antiguo sigue para los que aún usan **título** + lista. */}
+              {I693_SERVICE_SLUGS.includes(rawService.slug) && (
+                <AvisoPausaI693 locale={locale} className="mb-8" />
+              )}
               {/\n## /.test(service.longDescription) ? (
                 <Markdown content={service.longDescription} />
               ) : (
